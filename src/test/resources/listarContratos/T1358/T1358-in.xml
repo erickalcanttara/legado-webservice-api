@@ -1,0 +1,32 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ListarContratosResponse xmlns="br.com.conductor.RealizeWs.CarneService">
+      <ListarContratosResult xmlns:a="br.com.conductor.RealizeWs.Carne.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:Contratos>
+          <a:ContratoCarne>
+            <a:Cartao>4745.****.****.2525</a:Cartao>
+            <a:DataContrato>2022-10-21T16:08:00</a:DataContrato>
+            <a:DataProximoVencimento i:nil="true"/>
+            <a:DataUltimoMovimento i:nil="true"/>
+            <a:DataVencimentoFinal i:nil="true"/>
+            <a:DiasAtraso i:nil="true"/>
+            <a:IdConta>8805795</a:IdConta>
+            <a:IdContratoCarne>8397167</a:IdContratoCarne>
+            <a:NumeroContrato>3809083971671</a:NumeroContrato>
+            <a:Parcela i:nil="true"/>
+            <a:Produto>CMPR</a:Produto>
+            <a:StatusDescricao>BLOQUEADO</a:StatusDescricao>
+            <a:TipoLiquidacao/>
+            <a:TipoStatus>Contestada</a:TipoStatus>
+            <a:ValorCompra>619.5000</a:ValorCompra>
+            <a:ValorEncargosTotais>181.0600</a:ValorEncargosTotais>
+            <a:ValorIOF>9.6800</a:ValorIOF>
+            <a:ValorParcelaAtualizada i:nil="true"/>
+            <a:ValorParcelaOriginal>101.2000</a:ValorParcelaOriginal>
+            <a:ValorTotalContrato>810.2400</a:ValorTotalContrato>
+          </a:ContratoCarne>
+        </a:Contratos>
+      </ListarContratosResult>
+    </ListarContratosResponse>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,9 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ListarContratosResponse xmlns="br.com.conductor.RealizeWs.CarneService">
+      <ListarContratosResult xmlns:a="br.com.conductor.RealizeWs.Carne.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:Contratos/>
+      </ListarContratosResult>
+    </ListarContratosResponse>
+  </s:Body>
+</s:Envelope>

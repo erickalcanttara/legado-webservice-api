@@ -1,0 +1,11 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <BuscarDadosAlteracaoLimitesResponse xmlns="br.com.conductor.RealizeWs.ContaService">
+      <BuscarDadosAlteracaoLimitesResult xmlns:a="br.com.conductor.RealizeWs.Conta.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:DataAlteracaoLimiteCompras>2020-09-23T23:46:00</a:DataAlteracaoLimiteCompras>
+        <a:DataAtualizacaoCadastral>2022-11-07T22:19:00</a:DataAtualizacaoCadastral>
+        <a:ValorLimiteCompras>4200.0000</a:ValorLimiteCompras>
+      </BuscarDadosAlteracaoLimitesResult>
+    </BuscarDadosAlteracaoLimitesResponse>
+  </s:Body>
+</s:Envelope>

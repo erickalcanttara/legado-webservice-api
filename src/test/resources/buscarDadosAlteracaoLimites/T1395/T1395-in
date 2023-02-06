@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <s:Fault>
+         <faultcode>s:Client</faultcode>
+         <faultstring xml:lang="pt-BR">CPF não encontrado.</faultstring>
+         <detail>
+            <CustomException z:Id="i1" xmlns="br.com.conductor.RealizeWs.Fault" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+               <CamposErroList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+               <Mensagem>CPF não encontrado.</Mensagem>
+               <TipoError>BusinessException</TipoError>
+               <Valor i:nil="true"/>
+            </CustomException>
+         </detail>
+      </s:Fault>
+   </s:Body>
+</s:Envelope>

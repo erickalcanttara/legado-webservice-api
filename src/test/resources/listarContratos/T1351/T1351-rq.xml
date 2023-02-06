@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:br="br.com.conductor.RealizeWs.CarneService" xmlns:br1="br.com.conductor.RealizeWs.Carne.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <br:ListarContratos>
+         <!--Optional:-->
+         <br:request>
+            <!--Optional:-->
+            <br1:CPF>14082926453</br1:CPF>
+            <!--Optional:-->
+            <br1:Chapa>1234</br1:Chapa>
+            <!--Optional:-->
+            <br1:Contrato>0019084138701</br1:Contrato>
+            <!--Optional:-->
+            <br1:FiltroDataFim>2023-07-27</br1:FiltroDataFim>
+            <!--Optional:-->
+            <br1:FiltroDataInicio>2017-11-01</br1:FiltroDataInicio>
+            <!--Optional:-->
+             <br1:Produto>COMPRA</br1:Produto>
+            <!--Optional:-->
+            <br1:StatusContrato>Liquidado</br1:StatusContrato>
+         </br:request>
+      </br:ListarContratos>
+   </soapenv:Body>
+</soapenv:Envelope>
