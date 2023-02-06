@@ -17,7 +17,7 @@ import java.nio.file.Paths;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class BuscarDadosAlteracaoLimites {
+public class BuscarDadosAlteracaoLimitesTest {
 
     final String PROXY_URL_CONTA = "http://internal-alb-renner-proxy-1897409209.us-east-2.elb.amazonaws.com:21634/Services/ContaService.svc";
     final String LEGADO_URL_CONTA = "http://10.75.30.52:21634/Services/ContaService.svc";

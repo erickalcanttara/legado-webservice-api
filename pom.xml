@@ -28,6 +28,18 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.31</version>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>tech.dock.qa</groupId>-->
+<!--            <artifactId>charles-data-qa-lib</artifactId>-->
+<!--        </dependency>-->
+
+
     </dependencies>
 
 </project>
