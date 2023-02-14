@@ -25,7 +25,9 @@ public class BuscarDadosAlteracaoLimitesTest {
     @DisplayName("Testes Regras de Negócio - StatusCode 200")
     @ParameterizedTest
     @CsvFileSource(resources = "/massaDeTestes/buscarDadosAlteracaoLimites/buscarDadosMassaDeTestes.csv", numLinesToSkip = 1, delimiter = ';')
-    public void BuscarDadosAlteracaoLimitesTest_SC_OK(String ReferenceTest, String CPF) throws IOException {
+    public void BuscarDadosAlteracaoLimitesTest_SC_OK(String ReferenceTest, String CPF, String id_conta) throws IOException {
+
+        System.out.println("O CPF utilizado é: " + CPF + " e o id_conta é: " + id_conta);
 
         String requestBody = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:br=\"br.com.conductor.RealizeWs.ContaService\" xmlns:br1=\"br.com.conductor.RealizeWs.Conta.Contracts\">\n" +
                 "   <soapenv:Header/>\n" +

@@ -2,30 +2,7 @@
   <s:Body>
     <ListarContratosResponse xmlns="br.com.conductor.RealizeWs.CarneService">
       <ListarContratosResult xmlns:a="br.com.conductor.RealizeWs.Carne.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-        <a:Contratos>
-          <a:ContratoCarne>
-            <a:Cartao>5443.****.****.6765</a:Cartao>
-            <a:DataContrato>2022-10-24T21:18:00</a:DataContrato>
-            <a:DataProximoVencimento i:nil="true"/>
-            <a:DataUltimoMovimento i:nil="true"/>
-            <a:DataVencimentoFinal i:nil="true"/>
-            <a:DiasAtraso i:nil="true"/>
-            <a:IdConta>1547115</a:IdConta>
-            <a:IdContratoCarne>8412642</a:IdContratoCarne>
-            <a:NumeroContrato>2349084126429</a:NumeroContrato>
-            <a:Parcela i:nil="true"/>
-            <a:Produto>CMPR</a:Produto>
-            <a:StatusDescricao>BLOQUEADO</a:StatusDescricao>
-            <a:TipoLiquidacao/>
-            <a:TipoStatus>Liquidado Acordo</a:TipoStatus>
-            <a:ValorCompra>1009.2000</a:ValorCompra>
-            <a:ValorEncargosTotais>0.0000</a:ValorEncargosTotais>
-            <a:ValorIOF>0.0000</a:ValorIOF>
-            <a:ValorParcelaAtualizada i:nil="true"/>
-            <a:ValorParcelaOriginal>201.8000</a:ValorParcelaOriginal>
-            <a:ValorTotalContrato>1009.2000</a:ValorTotalContrato>
-          </a:ContratoCarne>
-        </a:Contratos>
+        <a:Contratos/>
       </ListarContratosResult>
     </ListarContratosResponse>
   </s:Body>

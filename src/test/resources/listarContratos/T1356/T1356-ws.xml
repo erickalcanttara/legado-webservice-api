@@ -17,7 +17,7 @@
             <a:Produto>CMPR</a:Produto>
             <a:StatusDescricao>BLOQUEADO</a:StatusDescricao>
             <a:TipoLiquidacao/>
-            <a:TipoStatus>Perda</a:TipoStatus>
+            <a:TipoStatus>Liquidado Acordo</a:TipoStatus>
             <a:ValorCompra>330.7000</a:ValorCompra>
             <a:ValorEncargosTotais>0.0000</a:ValorEncargosTotais>
             <a:ValorIOF>0.0000</a:ValorIOF>
