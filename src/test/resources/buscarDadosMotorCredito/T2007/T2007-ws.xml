@@ -1,0 +1,69 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <BuscarDadosMotorCreditoResponse xmlns="br.com.conductor.RealizeWs.ContaService">
+      <BuscarDadosMotorCreditoResult xmlns:a="br.com.conductor.RealizeWs.Conta.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:BehaviorScoreAtual>98.00</a:BehaviorScoreAtual>
+        <a:CEPEmpresaConjugue i:nil="true"/>
+        <a:CEPEmpresaTitular>91410400</a:CEPEmpresaTitular>
+        <a:CEPResidencial>22765530</a:CEPResidencial>
+        <a:CPF>99412738633</a:CPF>
+        <a:CancelamentoContaCliente>2020-06-27T03:51:00</a:CancelamentoContaCliente>
+        <a:CargoTitular>1841</a:CargoTitular>
+        <a:CodigoProduto>4</a:CodigoProduto>
+        <a:ContaReativadaCliente i:nil="true"/>
+        <a:ContratosParcelamentoAbertos>0</a:ContratosParcelamentoAbertos>
+        <a:DDDCelular>11</a:DDDCelular>
+        <a:DDDTelefone>11</a:DDDTelefone>
+        <a:DataAberturaConta>2020-01-27T00:00:00</a:DataAberturaConta>
+        <a:DataAlteracaoLimiteCompra>2020-01-27T00:00:00</a:DataAlteracaoLimiteCompra>
+        <a:DataAlteracaoLimiteSaqueRapido i:nil="true"/>
+        <a:DataDesbloqueioConta>2020-01-27T16:22:59.72</a:DataDesbloqueioConta>
+        <a:DataNascimentoTitular>1930-11-18T00:00:00</a:DataNascimentoTitular>
+        <a:DataNegativaSaldoInsuficiente i:nil="true"/>
+        <a:DataSaidaBloqueioInadimplencia i:nil="true"/>
+        <a:DataSaidaCreliq i:nil="true"/>
+        <a:DataUltimaAtualizacaoCadastral>2020-05-12T00:00:00</a:DataUltimaAtualizacaoCadastral>
+        <a:DataUltimaNegativaAumentoLimiteCompra i:nil="true"/>
+        <a:DataUltimaNegativaAumentoSR i:nil="true"/>
+        <a:DataUltimaNegativaContratoSR i:nil="true"/>
+        <a:DataUltimaSaidaCanceladaCliente i:nil="true"/>
+        <a:DescricaoBehaviorAtual>RMI</a:DescricaoBehaviorAtual>
+        <a:FaixasLimites>300,0000#@#360,0000#@#450,0000#@#600,0000#@#750,0000#@#900,0000#@#1200,0000#@#1500,0000#@#1800,0000#@#2100,0000#@#2400,0000#@#2700,0000#@#3000,0000#@#3600,0000#@#4200,0000#@#4800,0000#@#5400,0000#@#6000,0000#@#7200,0000#@#9000,0000#@#12000,0000#@#15000,0000#@#18000,0000</a:FaixasLimites>
+        <a:FaixasLimitesSR i:nil="true"/>
+        <a:FlagTad_Servicos>false</a:FlagTad_Servicos>
+        <a:HistoricoCancelamentoContaCliente>0</a:HistoricoCancelamentoContaCliente>
+        <a:HistoricoContratosParcelamento>0</a:HistoricoContratosParcelamento>
+        <a:HistoricoDiasMaiorAtraso>0</a:HistoricoDiasMaiorAtraso>
+        <a:HistoricoEntradaCreliq>0</a:HistoricoEntradaCreliq>
+        <a:HistoricoPiorRating>A</a:HistoricoPiorRating>
+        <a:HistoricoReanalise>0</a:HistoricoReanalise>
+        <a:IdConta>6034091</a:IdConta>
+        <a:IdMotivoUltimaNegativaAumentoLimiteCompra>0</a:IdMotivoUltimaNegativaAumentoLimiteCompra>
+        <a:IdMotivoUltimaNegativaAumentoSR>0</a:IdMotivoUltimaNegativaAumentoSR>
+        <a:IdMotivoUltimaNegativaContratoSR>0</a:IdMotivoUltimaNegativaContratoSR>
+        <a:LimiteAtualCompra>3600.00</a:LimiteAtualCompra>
+        <a:LimiteAtualEP>360.00</a:LimiteAtualEP>
+        <a:NomeConjuge>NomeConjuge - HERLER CARLEIAL</a:NomeConjuge>
+        <a:NomeTitular>HERLER CARLEIAL</a:NomeTitular>
+        <a:NumeroCelular>38891800</a:NumeroCelular>
+        <a:NumeroTelefone>38891800</a:NumeroTelefone>
+        <a:PossuiSaqueRapidoQuitado>false</a:PossuiSaqueRapidoQuitado>
+        <a:QuantidadeDiasAtraso>0</a:QuantidadeDiasAtraso>
+        <a:RatingClienteAtual>A</a:RatingClienteAtual>
+        <a:RendaConjuge>0.00</a:RendaConjuge>
+        <a:RendaTitular>5500.50</a:RendaTitular>
+        <a:SaldoAtualCompra>0.00</a:SaldoAtualCompra>
+        <a:SaldoAtualEP>0.00</a:SaldoAtualEP>
+        <a:SaldoGlobalTotalConta>0.00</a:SaldoGlobalTotalConta>
+        <a:Sexo>F</a:Sexo>
+        <a:StatusCartaoTitular>14</a:StatusCartaoTitular>
+        <a:StatusContaTitular>14</a:StatusContaTitular>
+        <a:TaxaClienteSR>P</a:TaxaClienteSR>
+        <a:TipoOcupacao>3</a:TipoOcupacao>
+        <a:TipoProduto>EXTERNO</a:TipoProduto>
+        <a:UltimaEntradaCreliq i:nil="true"/>
+        <a:ValorRotativoAtual>0</a:ValorRotativoAtual>
+      </BuscarDadosMotorCreditoResult>
+    </BuscarDadosMotorCreditoResponse>
+  </s:Body>
+</s:Envelope>

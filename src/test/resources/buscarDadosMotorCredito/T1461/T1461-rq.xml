@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:br="br.com.conductor.RealizeWs.ContaService" xmlns:br1="br.com.conductor.RealizeWs.Conta.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <br:BuscarDadosMotorCredito>
+         <!--Optional:-->
+         <br:request>
+            <!--Optional:-->
+            <br1:CPF>99436630573</br1:CPF>
+            <!--Optional:-->
+            <br1:Chapa>R2D2</br1:Chapa>
+            <!--Optional:-->
+            <br1:TipoLimite>3</br1:TipoLimite>
+         </br:request>
+      </br:BuscarDadosMotorCredito>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,26 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultaContaClienteResponse xmlns="br.com.conductor.RealizeWs.ClienteService">
+      <ConsultaContaClienteResult xmlns:a="br.com.conductor.RealizeWs.Cliente.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99458661501</a:CPF>
+        <a:DataCadastramento>2019-06-17T11:06:00</a:DataCadastramento>
+        <a:DataNascimento>1995-05-25T00:00:00</a:DataNascimento>
+        <a:DiaVencimentoFatura>5</a:DiaVencimentoFatura>
+        <a:DiasEmAtraso>0</a:DiasEmAtraso>
+        <a:FaturaPorEmail>true</a:FaturaPorEmail>
+        <a:IdConta>5522167</a:IdConta>
+        <a:ImpressaoCarne>false</a:ImpressaoCarne>
+        <a:LojaDomicilio>RENNER 063 SH RIO PRETO</a:LojaDomicilio>
+        <a:MelhorDia>17</a:MelhorDia>
+        <a:Nome>FANGER DILVA</a:Nome>
+        <a:NumeroEstabelecimento>63</a:NumeroEstabelecimento>
+        <a:SaldoAtualFinal>0.0000</a:SaldoAtualFinal>
+        <a:SaldoCredorCarne>0</a:SaldoCredorCarne>
+        <a:SaldoCredorFatura>0</a:SaldoCredorFatura>
+        <a:StatusConta>15</a:StatusConta>
+        <a:StatusContaDescricao>Acordo Creliq</a:StatusContaDescricao>
+        <a:UltimaFaturaEnviada>E-mail</a:UltimaFaturaEnviada>
+      </ConsultaContaClienteResult>
+    </ConsultaContaClienteResponse>
+  </s:Body>
+</s:Envelope>

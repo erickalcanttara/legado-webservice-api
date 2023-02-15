@@ -141,12 +141,10 @@ public class ConsultaContaClienteTest {
 
     }
 
-
-
     @DisplayName("Testes Regras de Negócio - StatusCode 500")
     @ParameterizedTest
-    @CsvFileSource(resources = "/massaDeTestes/buscarDadosAlteracaoLimites/buscarDadosMassaDeTestes_SC_ERR.csv", numLinesToSkip = 1, delimiter = ';')
-    public void ConsultaContaCliente_SC_INT_ERR(String ReferenceTest, String CPF, String Chapa) throws IOException {
+    @CsvFileSource(resources = "/massaDeTestes/consultaContaCliente/consultaContaClienteMassaDeTestesSC_500.csv", numLinesToSkip = 1, delimiter = ';')
+    public void ConsultaContaCliente_SC_INT_ERR(String ReferenceTest, String CPF, String Chapa, String id_conta, String descricaoStatus) throws IOException, ParserConfigurationException, SAXException {
 
         String requestBody = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:br=\"br.com.conductor.RealizeWs.ClienteService\" xmlns:br1=\"br.com.conductor.RealizeWs.Cliente.Contracts\">\n" +
                 "   <soapenv:Header/>\n" +
@@ -183,6 +181,7 @@ public class ConsultaContaClienteTest {
                         response();
 
         int statusCodeProxy = proxyResponse.statusCode();
+        long timeResponsesProxy = proxyResponse.getTime();
 
         File testDirList = new File("src/test/resources/" + "/consultaContaCliente/");
         if (!testDirList.exists()){
@@ -216,15 +215,16 @@ public class ConsultaContaClienteTest {
                         log().uri().
                         log().headers().
                         log().body().
-                when().
+               when().
                         post(LEGADO_URL_CLIENTE).
-                then().
+               then().
                         log().status().
                         statusCode(HttpStatus.SC_INTERNAL_SERVER_ERROR).
                         extract().
                         response();
 
         int statusCodeLegado = legadoResponse.statusCode();
+        long timeResponsesLegado = legadoResponse.getTime();
 
         FileWriter file2 = new FileWriter("src/test/resources/consultaContaCliente/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
         file2.write(legadoResponse.prettyPrint());
@@ -233,7 +233,10 @@ public class ConsultaContaClienteTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/consultaContaCliente/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
+
+        // Essa verificação não é feita aqui, pois as mensangens dos responses mudaram e estão documentadas.
+        // A ação de verirficação se dá apenas para o statusCode que deve ser o mesmo.
+        /*long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
         System.out.println("O result é: " + result);
         if (result == -1){
@@ -241,10 +244,12 @@ public class ConsultaContaClienteTest {
         } else {
             System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
             System.out.println("A linha com a primeira diferença é: " + result);
-        }
+        }*/
 
         assertEquals(statusCodeLegado, statusCodeProxy);
-        assertEquals(-1, result);
+        //assertEquals(-1, result);
+
+        System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
 
     }
 

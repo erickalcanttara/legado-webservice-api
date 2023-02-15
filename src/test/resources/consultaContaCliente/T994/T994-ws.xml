@@ -1,0 +1,26 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultaContaClienteResponse xmlns="br.com.conductor.RealizeWs.ClienteService">
+      <ConsultaContaClienteResult xmlns:a="br.com.conductor.RealizeWs.Cliente.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99436630573</a:CPF>
+        <a:DataCadastramento>2019-09-30T20:30:00</a:DataCadastramento>
+        <a:DataNascimento>1975-07-05T00:00:00</a:DataNascimento>
+        <a:DiaVencimentoFatura>5</a:DiaVencimentoFatura>
+        <a:DiasEmAtraso>0</a:DiasEmAtraso>
+        <a:FaturaPorEmail>true</a:FaturaPorEmail>
+        <a:IdConta>5520545</a:IdConta>
+        <a:ImpressaoCarne>true</a:ImpressaoCarne>
+        <a:LojaDomicilio>Lojas Renner-308- MOXUARA SHOPPING</a:LojaDomicilio>
+        <a:MelhorDia>17</a:MelhorDia>
+        <a:Nome>JACLEUDO CARPINA</a:Nome>
+        <a:NumeroEstabelecimento>308</a:NumeroEstabelecimento>
+        <a:SaldoAtualFinal>0.0000</a:SaldoAtualFinal>
+        <a:SaldoCredorCarne>0</a:SaldoCredorCarne>
+        <a:SaldoCredorFatura>0</a:SaldoCredorFatura>
+        <a:StatusConta>7</a:StatusConta>
+        <a:StatusContaDescricao>Bloqueio S2</a:StatusContaDescricao>
+        <a:UltimaFaturaEnviada>E-mail</a:UltimaFaturaEnviada>
+      </ConsultaContaClienteResult>
+    </ConsultaContaClienteResponse>
+  </s:Body>
+</s:Envelope>

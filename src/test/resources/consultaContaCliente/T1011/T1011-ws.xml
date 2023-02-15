@@ -1,0 +1,26 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultaContaClienteResponse xmlns="br.com.conductor.RealizeWs.ClienteService">
+      <ConsultaContaClienteResult xmlns:a="br.com.conductor.RealizeWs.Cliente.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99301201658</a:CPF>
+        <a:DataCadastramento>2021-07-10T15:52:00</a:DataCadastramento>
+        <a:DataNascimento>1964-11-07T00:00:00</a:DataNascimento>
+        <a:DiaVencimentoFatura>8</a:DiaVencimentoFatura>
+        <a:DiasEmAtraso>6</a:DiasEmAtraso>
+        <a:FaturaPorEmail>true</a:FaturaPorEmail>
+        <a:IdConta>7187912</a:IdConta>
+        <a:ImpressaoCarne>true</a:ImpressaoCarne>
+        <a:LojaDomicilio>RENNER 103 SH PIRACICABA</a:LojaDomicilio>
+        <a:MelhorDia>23</a:MelhorDia>
+        <a:Nome>CLEIDEJANE BATOS</a:Nome>
+        <a:NumeroEstabelecimento>103</a:NumeroEstabelecimento>
+        <a:SaldoAtualFinal>908.0900</a:SaldoAtualFinal>
+        <a:SaldoCredorCarne>0</a:SaldoCredorCarne>
+        <a:SaldoCredorFatura>0</a:SaldoCredorFatura>
+        <a:StatusConta>104</a:StatusConta>
+        <a:StatusContaDescricao>Refinanciamento</a:StatusContaDescricao>
+        <a:UltimaFaturaEnviada>E-mail</a:UltimaFaturaEnviada>
+      </ConsultaContaClienteResult>
+    </ConsultaContaClienteResponse>
+  </s:Body>
+</s:Envelope>

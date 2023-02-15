@@ -1,0 +1,26 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultaContaClienteResponse xmlns="br.com.conductor.RealizeWs.ClienteService">
+      <ConsultaContaClienteResult xmlns:a="br.com.conductor.RealizeWs.Cliente.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99412385536</a:CPF>
+        <a:DataCadastramento>2020-01-29T18:26:00</a:DataCadastramento>
+        <a:DataNascimento>1993-11-14T00:00:00</a:DataNascimento>
+        <a:DiaVencimentoFatura>25</a:DiaVencimentoFatura>
+        <a:DiasEmAtraso>477</a:DiasEmAtraso>
+        <a:FaturaPorEmail>true</a:FaturaPorEmail>
+        <a:IdConta>6091822</a:IdConta>
+        <a:ImpressaoCarne>false</a:ImpressaoCarne>
+        <a:LojaDomicilio>Lojas Renner - 457 - SHOPPING VALINHOS</a:LojaDomicilio>
+        <a:MelhorDia>10</a:MelhorDia>
+        <a:Nome>JIULIENE BATISTADEMELO</a:Nome>
+        <a:NumeroEstabelecimento>457</a:NumeroEstabelecimento>
+        <a:SaldoAtualFinal>15.3200</a:SaldoAtualFinal>
+        <a:SaldoCredorCarne>0</a:SaldoCredorCarne>
+        <a:SaldoCredorFatura>0</a:SaldoCredorFatura>
+        <a:StatusConta>9</a:StatusConta>
+        <a:StatusContaDescricao>Perda</a:StatusContaDescricao>
+        <a:UltimaFaturaEnviada>E-mail</a:UltimaFaturaEnviada>
+      </ConsultaContaClienteResult>
+    </ConsultaContaClienteResponse>
+  </s:Body>
+</s:Envelope>

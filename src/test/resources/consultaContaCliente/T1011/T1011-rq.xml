@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:br="br.com.conductor.RealizeWs.ClienteService" xmlns:br1="br.com.conductor.RealizeWs.Cliente.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <br:ConsultaContaCliente>
+         <!--Optional:-->
+         <br:request>
+            <!--Optional:-->
+            <br1:CPF>99301201658</br1:CPF>
+            <!--Optional:-->
+            <br1:Chapa>R2D2</br1:Chapa>
+         </br:request>
+      </br:ConsultaContaCliente>
+   </soapenv:Body>
+</soapenv:Envelope>

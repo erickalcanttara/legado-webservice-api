@@ -1,0 +1,26 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultaContaClienteResponse xmlns="br.com.conductor.RealizeWs.ClienteService">
+      <ConsultaContaClienteResult xmlns:a="br.com.conductor.RealizeWs.Cliente.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>51064995268</a:CPF>
+        <a:DataCadastramento>2015-08-07T13:02:00</a:DataCadastramento>
+        <a:DataNascimento>1973-11-17T00:00:00</a:DataNascimento>
+        <a:DiaVencimentoFatura>20</a:DiaVencimentoFatura>
+        <a:DiasEmAtraso>0</a:DiasEmAtraso>
+        <a:FaturaPorEmail>true</a:FaturaPorEmail>
+        <a:IdConta>2555021</a:IdConta>
+        <a:ImpressaoCarne>true</a:ImpressaoCarne>
+        <a:LojaDomicilio>RENNER 079 SH BOURBON SAO LEOPOLDO</a:LojaDomicilio>
+        <a:MelhorDia>7</a:MelhorDia>
+        <a:Nome>ARIVANILZA ROGRIDES</a:Nome>
+        <a:NumeroEstabelecimento>79</a:NumeroEstabelecimento>
+        <a:SaldoAtualFinal>-12.9000</a:SaldoAtualFinal>
+        <a:SaldoCredorCarne>0</a:SaldoCredorCarne>
+        <a:SaldoCredorFatura>0</a:SaldoCredorFatura>
+        <a:StatusConta>12</a:StatusConta>
+        <a:StatusContaDescricao>Normal - Estocada</a:StatusContaDescricao>
+        <a:UltimaFaturaEnviada>E-mail</a:UltimaFaturaEnviada>
+      </ConsultaContaClienteResult>
+    </ConsultaContaClienteResponse>
+  </s:Body>
+</s:Envelope>

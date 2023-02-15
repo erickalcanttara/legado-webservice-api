@@ -1,0 +1,26 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultaContaClienteResponse xmlns="br.com.conductor.RealizeWs.ClienteService">
+      <ConsultaContaClienteResult xmlns:a="br.com.conductor.RealizeWs.Cliente.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99061262488</a:CPF>
+        <a:DataCadastramento>2022-11-23T21:26:00</a:DataCadastramento>
+        <a:DataNascimento>1986-12-27T00:00:00</a:DataNascimento>
+        <a:DiaVencimentoFatura>15</a:DiaVencimentoFatura>
+        <a:DiasEmAtraso>0</a:DiasEmAtraso>
+        <a:FaturaPorEmail>true</a:FaturaPorEmail>
+        <a:IdConta>10201071</a:IdConta>
+        <a:ImpressaoCarne>true</a:ImpressaoCarne>
+        <a:LojaDomicilio>Lojas Renner S.A - 899 LOJA VIRTUAL</a:LojaDomicilio>
+        <a:MelhorDia>28</a:MelhorDia>
+        <a:Nome>ELISVANDO CASCAES</a:Nome>
+        <a:NumeroEstabelecimento>899</a:NumeroEstabelecimento>
+        <a:SaldoAtualFinal>459.6900</a:SaldoAtualFinal>
+        <a:SaldoCredorCarne>0</a:SaldoCredorCarne>
+        <a:SaldoCredorFatura>0</a:SaldoCredorFatura>
+        <a:StatusConta>27</a:StatusConta>
+        <a:StatusContaDescricao>Bloqueada Acordo</a:StatusContaDescricao>
+        <a:UltimaFaturaEnviada>E-mail</a:UltimaFaturaEnviada>
+      </ConsultaContaClienteResult>
+    </ConsultaContaClienteResponse>
+  </s:Body>
+</s:Envelope>
