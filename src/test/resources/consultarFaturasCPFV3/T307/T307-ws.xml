@@ -1,0 +1,472 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99236867286</a:CPF>
+        <a:CartaoPagamento>9990900008182404</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>55.98</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>429.64</a:ComprasDebitos>
+                  <a:Creditos>424.68</a:Creditos>
+                  <a:Pagamentos>260.00</a:Pagamentos>
+                  <a:SaldoAnterior>255.04</a:SaldoAnterior>
+                  <a:Total>424.68</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>MÍNIMO PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>424.68</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0755</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0755</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>2.02</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOLIVRE MARYSMODA</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOLIVRE MARYSMODA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2531</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>207.98</a:ValorDebito>
+                    <a:ValorDestino>40.0500</a:ValorDestino>
+                    <a:ValorOrigem>207.9800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOLIVRE MARYSMODA</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOLIVRE MARYSMODA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2531</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.19</a:ValorDebito>
+                    <a:ValorDestino>11.0900</a:ValorDestino>
+                    <a:ValorOrigem>57.1900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0755</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>260.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4770</a:Cotacao>
+                    <a:Data>2022-12-14</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG RONIDEALMEIDA Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG RONIDEALMEIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2531</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>35.45</a:ValorDebito>
+                    <a:ValorDestino>13.5300</a:ValorDestino>
+                    <a:ValorOrigem>70.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5182</a:Cotacao>
+                    <a:Data>2022-12-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG RTOPCONFECCOES Parc.2/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG RTOPCONFECCOES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/4</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2531</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>71.25</a:ValorDebito>
+                    <a:ValorDestino>54.4900</a:ValorDestino>
+                    <a:ValorOrigem>285.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4143</a:Cotacao>
+                    <a:Data>2022-10-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - VINDI        DLK Parc.4/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>VINDI        DLK</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.4/5</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0755</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>42.76</a:ValorDebito>
+                    <a:ValorDestino>213.8000</a:ValorDestino>
+                    <a:ValorOrigem>213.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-25T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>100.3400</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 50885.101019 7 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>158.11</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>5.0300</b:ValorIof>
+                    <b:ValorParcela>65.6800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>591.1200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.52</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>3.5000</b:ValorIof>
+                    <b:ValorParcela>81.7600</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>490.5600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>524.46</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>4</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>2.5700</b:ValorIof>
+                    <b:ValorParcela>107.3800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>429.5200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>446.35</a:ComprasDebitos>
+                  <a:Creditos>346.01</a:Creditos>
+                  <a:Pagamentos>525.02</a:Pagamentos>
+                  <a:SaldoAnterior>424.68</a:SaldoAnterior>
+                  <a:Total>346.01</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>346.01</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>AVAL EMERG. CRÉDITO</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>AVAL EMERG. CRÉDITO</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0755</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0755</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOLIVRE MARYSMODA</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOLIVRE MARYSMODA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2531</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>52.00</a:ValorDebito>
+                    <a:ValorDestino>10.2600</a:ValorDestino>
+                    <a:ValorOrigem>52.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2991</a:Cotacao>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MP NEOENERGIABAC Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MP NEOENERGIABAC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2531</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>42.77</a:ValorDebito>
+                    <a:ValorDestino>16.8300</a:ValorDestino>
+                    <a:ValorOrigem>85.5300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0755</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>100.34</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Credito de Refinanciamento Saldo Financiado</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Credito de Refinanciamento Saldo Financiado</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0755</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>324.34</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Parcelamento da Fatura 15.99% Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Parcelamento da Fatura 15.99% - Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0755</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>100.34</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5182</a:Cotacao>
+                    <a:Data>2022-12-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG RTOPCONFECCOES Parc.3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG RTOPCONFECCOES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/4</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2531</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>71.25</a:ValorDebito>
+                    <a:ValorDestino>54.4900</a:ValorDestino>
+                    <a:ValorOrigem>285.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4143</a:Cotacao>
+                    <a:Data>2022-10-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - VINDI        DLK Parc.5/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>VINDI        DLK</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.5/5</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0755</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>42.76</a:ValorDebito>
+                    <a:ValorDestino>213.8000</a:ValorDestino>
+                    <a:ValorOrigem>213.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>214.35</a:ComprasDebitos>
+                  <a:Creditos>214.35</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>214.35</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - MP NEOENERGIABAC         OSASCO       BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MP NEOENERGIABAC         OSASCO       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2531</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>42.76</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Refinanciamento Com Juros -   Parc. 3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Refinanciamento Com Juros - Parc. 3/6</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0755</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>100.34</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-13</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PAG RTOPCONFECCOES       SALVADOR     BR Parc. 4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG RTOPCONFECCOES       SALVADOR     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/4</a:DescricaoLancamento>
+                    <a:Nome>SILVERIO TOSCANO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2531</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>71.25</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.2531</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

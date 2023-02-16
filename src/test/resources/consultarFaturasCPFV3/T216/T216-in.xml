@@ -1,0 +1,516 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>14495987810</a:CPF>
+        <a:CartaoPagamento>9990900002848739</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>77.57</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>658.80</a:ComprasDebitos>
+                  <a:Creditos>658.80</a:Creditos>
+                  <a:Pagamentos>535.85</a:Pagamentos>
+                  <a:SaldoAnterior>535.85</a:SaldoAnterior>
+                  <a:Total>658.80</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>658.80</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6631</a:Cotacao>
+                    <a:Data>2023-01-05</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - FAZENDA SOROCABA</a:Descricao>
+                    <a:DescricaoEstabelecimento>FAZENDA SOROCABA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>84.70</a:ValorDebito>
+                    <a:ValorDestino>15.5500</a:ValorDestino>
+                    <a:ValorOrigem>84.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - AUTO POSTO CAJATI LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>AUTO POSTO CAJATI LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>102.63</a:ValorDebito>
+                    <a:ValorDestino>19.4500</a:ValorDestino>
+                    <a:ValorOrigem>102.6300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MAGMAXX SUPERMERCADOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAGMAXX SUPERMERCADOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.96</a:ValorDebito>
+                    <a:ValorDestino>7.1900</a:ValorDestino>
+                    <a:ValorOrigem>37.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - EXPLOSAO 007</a:Descricao>
+                    <a:DescricaoEstabelecimento>EXPLOSAO 007</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>20.00</a:ValorDebito>
+                    <a:ValorDestino>3.7900</a:ValorDestino>
+                    <a:ValorOrigem>20.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - POSTO REGISTRO</a:Descricao>
+                    <a:DescricaoEstabelecimento>POSTO REGISTRO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>75.20</a:ValorDebito>
+                    <a:ValorDestino>14.3400</a:ValorDestino>
+                    <a:ValorOrigem>75.2000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>535.85</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - SUPERMERCADO GALERA</a:Descricao>
+                    <a:DescricaoEstabelecimento>SUPERMERCADO GALERA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>144.57</a:ValorDebito>
+                    <a:ValorDestino>28.0500</a:ValorDestino>
+                    <a:ValorOrigem>144.5700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3158</a:Cotacao>
+                    <a:Data>2022-06-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PEDRO AUGUSTO VIEIRA - Parc.7/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>PEDRO AUGUSTO VIEIRA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.7/10</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>42.07</a:ValorDebito>
+                    <a:ValorDestino>420.7000</a:ValorDestino>
+                    <a:ValorOrigem>420.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>4.9788</a:Cotacao>
+                    <a:Data>2022-06-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAULA APARECIDA DA SI - Parc.8/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAULA APARECIDA DA SI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.8/10</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.15</a:ValorDebito>
+                    <a:ValorDestino>77.3800</a:ValorDestino>
+                    <a:ValorOrigem>371.5500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2108</a:Cotacao>
+                    <a:Data>2022-04-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - MOTO FORTY DISTRIBUID - Parc.9/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>MOTO FORTY DISTRIBUID</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.9/12</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>101.53</a:ValorDebito>
+                    <a:ValorDestino>1218.3600</a:ValorDestino>
+                    <a:ValorOrigem>1218.3600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-26T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>658.8000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112226 04129.901015 1 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>46.34</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>527.18</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>8.5500</b:ValorIof>
+                    <b:ValorParcela>54.8800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>823.2000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.64</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>6.7200</b:ValorIof>
+                    <b:ValorParcela>58.5700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>702.8400</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.16</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>5.0300</b:ValorIof>
+                    <b:ValorParcela>65.7700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>591.9300</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.52</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>3.5000</b:ValorIof>
+                    <b:ValorParcela>81.8800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>491.2800</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>346.52</a:ComprasDebitos>
+                  <a:Creditos>346.52</a:Creditos>
+                  <a:Pagamentos>658.80</a:Pagamentos>
+                  <a:SaldoAnterior>658.80</a:SaldoAnterior>
+                  <a:Total>346.52</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>346.52</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>658.80</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - DROGARIA SABRINA</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIA SABRINA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>47.49</a:ValorDebito>
+                    <a:ValorDestino>9.1300</a:ValorDestino>
+                    <a:ValorOrigem>47.4900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - DOMINGUES E DOMINGUES</a:Descricao>
+                    <a:DescricaoEstabelecimento>DOMINGUES E DOMINGUES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.32</a:ValorDebito>
+                    <a:ValorDestino>9.4800</a:ValorDestino>
+                    <a:ValorOrigem>49.3200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - JR RODRIGUES E MARCATT</a:Descricao>
+                    <a:DescricaoEstabelecimento>JR RODRIGUES E MARCATT</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.97</a:ValorDebito>
+                    <a:ValorDestino>10.9700</a:ValorDestino>
+                    <a:ValorOrigem>55.9700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3158</a:Cotacao>
+                    <a:Data>2022-06-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PEDRO AUGUSTO VIEIRA - Parc.8/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>PEDRO AUGUSTO VIEIRA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.8/10</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>42.07</a:ValorDebito>
+                    <a:ValorDestino>420.7000</a:ValorDestino>
+                    <a:ValorOrigem>420.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>4.9788</a:Cotacao>
+                    <a:Data>2022-06-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAULA APARECIDA DA SI - Parc.9/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAULA APARECIDA DA SI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.9/10</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.15</a:ValorDebito>
+                    <a:ValorDestino>77.3800</a:ValorDestino>
+                    <a:ValorOrigem>371.5500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2108</a:Cotacao>
+                    <a:Data>2022-04-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - MOTO FORTY DISTRIBUID - Parc.10/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>MOTO FORTY DISTRIBUID</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.10/12</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>101.53</a:ValorDebito>
+                    <a:ValorDestino>1218.3600</a:ValorDestino>
+                    <a:ValorOrigem>1218.3600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>180.75</a:ComprasDebitos>
+                  <a:Creditos>180.75</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>180.75</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-06-18</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - PEDRO AUGUSTO VIEIRA     VOTORANTIM   BR Parc. 9/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>PEDRO AUGUSTO VIEIRA     VOTORANTIM   BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 9/10</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>42.07</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-06-04</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - PAULA APARECIDA DA SI    CAJATI       BR Parc. 10/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAULA APARECIDA DA SI    CAJATI       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 10/10</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.15</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-04-30</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - MOTO FORTY DISTRIBUID    SOROCABA     BR Parc. 11/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>MOTO FORTY DISTRIBUID    SOROCABA     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 11/12</a:DescricaoLancamento>
+                    <a:Nome>GERAILDES SOARES</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>101.53</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.4958</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

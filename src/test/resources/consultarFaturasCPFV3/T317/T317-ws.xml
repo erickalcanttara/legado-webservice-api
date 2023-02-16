@@ -1,0 +1,168 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99092610062</a:CPF>
+        <a:CartaoPagamento>9990900009535294</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>6.68</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>7.00</a:ComprasDebitos>
+                  <a:Creditos>6.68</a:Creditos>
+                  <a:Pagamentos>7.32</a:Pagamentos>
+                  <a:SaldoAnterior>7.00</a:SaldoAnterior>
+                  <a:Total>6.68</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>6.68</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Bolsa Segura</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Bolsa Segura</a:DescricaoLancamento>
+                    <a:Nome>GIVARDO LECYN</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2500</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.00</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>GIVARDO LECYN</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2500</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>7.32</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-27T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>6.6800</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 17301.901017 6 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>7.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>7.00</a:ComprasDebitos>
+                  <a:Creditos>7.00</a:Creditos>
+                  <a:Pagamentos>6.68</a:Pagamentos>
+                  <a:SaldoAnterior>6.68</a:SaldoAnterior>
+                  <a:Total>7.00</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>7.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Bolsa Segura</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Bolsa Segura</a:DescricaoLancamento>
+                    <a:Nome>GIVARDO LECYN</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2500</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.00</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>GIVARDO LECYN</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2500</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>6.68</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>0</a:ComprasDebitos>
+                  <a:Creditos>0</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>0</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes/>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.2500</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,339 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>01488658013</a:CPF>
+        <a:CartaoPagamento>9990900001126920</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>7.13</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>64.57</a:ComprasDebitos>
+                  <a:Creditos>64.57</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>64.57</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>64.57</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Tarifa Mensal Alerta por SMS</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Tarifa Mensal Alerta por SMS</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>3.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.75</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 11 - LTDAParc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 11 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>59.92</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-02T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.50</a:ValorCotacao>
+                <a:ValorTotalPago>64.5700</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112226 08142.801011 1 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>32.11</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>186.75</a:ComprasDebitos>
+                  <a:Creditos>186.75</a:Creditos>
+                  <a:Pagamentos>64.57</a:Pagamentos>
+                  <a:SaldoAnterior>64.57</a:SaldoAnterior>
+                  <a:Total>186.75</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>186.75</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Multa Contratual</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Multa Contratual</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>1.29</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Tarifa Mensal Alerta por SMS</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Tarifa Mensal Alerta por SMS</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>3.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Juros de Mora</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Juros de Mora</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.02</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.40</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>64.57</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.23</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAG LASERFAST Parc.1/8</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG LASERFAST</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/8</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>108.00</a:ValorDebito>
+                    <a:ValorDestino>166.1100</a:ValorDestino>
+                    <a:ValorOrigem>864.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 11 - LTDAParc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 11 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>59.92</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>167.92</a:ComprasDebitos>
+                  <a:Creditos>167.92</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>167.92</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - PAG LASERFAST            SAO JOSE DO RBR Parc. 2/8</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG LASERFAST            SAO JOSE DO RBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/8</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>108.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Parcelado sem Juros - Estabelecimento 11 - LTDA Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 11 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado sem Juros - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>EDNEIRE CANSANCAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>59.92</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.3507</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

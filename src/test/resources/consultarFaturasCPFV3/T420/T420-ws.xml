@@ -1,0 +1,567 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>08772868929</a:CPF>
+        <a:CartaoPagamento>9990900007545322</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>28.59</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>153.32</a:ComprasDebitos>
+                  <a:Creditos>153.32</a:Creditos>
+                  <a:Pagamentos>161.51</a:Pagamentos>
+                  <a:SaldoAnterior>161.51</a:SaldoAnterior>
+                  <a:Total>153.32</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>153.32</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - POLO WEAR Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>POLO WEAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>101.99</a:ValorDebito>
+                    <a:ValorDestino>97.4900</a:ValorDestino>
+                    <a:ValorOrigem>509.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>1.74</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>161.51</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-10-23</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 376 - LTDParc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 376 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>36.60</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-02T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>153.3200</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 50329.901016 2 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>117.64</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>25.2400</b:ValorIof>
+                    <b:ValorParcela>161.9600</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2429.4000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.87</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>19.8400</b:ValorIof>
+                    <b:ValorParcela>172.8700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2074.4400</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>14.8600</b:ValorIof>
+                    <b:ValorParcela>194.1100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1746.9900</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>10.3400</b:ValorIof>
+                    <b:ValorParcela>241.6400</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1449.8400</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1022.67</a:ComprasDebitos>
+                  <a:Creditos>1022.67</a:Creditos>
+                  <a:Pagamentos>153.32</a:Pagamentos>
+                  <a:SaldoAnterior>153.32</a:SaldoAnterior>
+                  <a:Total>1022.67</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>1022.67</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Multa Contratual</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Multa Contratual</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>3.07</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Juros de Mora</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Juros de Mora</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.05</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.97</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - RESTAURANTE PREDILETA</a:Descricao>
+                    <a:DescricaoEstabelecimento>RESTAURANTE PREDILETA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.00</a:ValorDebito>
+                    <a:ValorDestino>2.9700</a:ValorDestino>
+                    <a:ValorOrigem>15.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAG ALLPETS</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG ALLPETS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>149.25</a:ValorDebito>
+                    <a:ValorDestino>29.5600</a:ValorDestino>
+                    <a:ValorOrigem>149.2500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - ROTA DA VILA</a:Descricao>
+                    <a:DescricaoEstabelecimento>ROTA DA VILA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>237.60</a:ValorDebito>
+                    <a:ValorDestino>47.0500</a:ValorDestino>
+                    <a:ValorOrigem>237.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - KAMILA DOCES</a:Descricao>
+                    <a:DescricaoEstabelecimento>KAMILA DOCES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.90</a:ValorDebito>
+                    <a:ValorDestino>5.9200</a:ValorDestino>
+                    <a:ValorOrigem>29.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CASA DOS COLCHOES Parc.1/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASA DOS COLCHOES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/10</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>110.00</a:ValorDebito>
+                    <a:ValorDestino>218.1800</a:ValorDestino>
+                    <a:ValorOrigem>1100.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>153.32</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - VIP HAPPY HOUR</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIP HAPPY HOUR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.00</a:ValorDebito>
+                    <a:ValorDestino>4.3400</a:ValorDestino>
+                    <a:ValorOrigem>22.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAG SOLNASCENTE</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG SOLNASCENTE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>65.35</a:ValorDebito>
+                    <a:ValorDestino>12.8900</a:ValorDestino>
+                    <a:ValorOrigem>65.3500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - ESTACIONAMENTOS CATUAI</a:Descricao>
+                    <a:DescricaoEstabelecimento>ESTACIONAMENTOS CATUAI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>10.00</a:ValorDebito>
+                    <a:ValorDestino>1.9800</a:ValorDestino>
+                    <a:ValorOrigem>10.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - KFC</a:Descricao>
+                    <a:DescricaoEstabelecimento>KFC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.60</a:ValorDebito>
+                    <a:ValorDestino>11.0000</a:ValorDestino>
+                    <a:ValorOrigem>55.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - VIP HAPPY HOUR</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIP HAPPY HOUR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.01</a:ValorDebito>
+                    <a:ValorDestino>3.3600</a:ValorDestino>
+                    <a:ValorOrigem>17.0100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAG PETZLOJAVIRTUAL</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG PETZLOJAVIRTUAL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>119.99</a:ValorDebito>
+                    <a:ValorDestino>23.6800</a:ValorDestino>
+                    <a:ValorOrigem>119.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3758</a:Cotacao>
+                    <a:Data>2023-01-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - TROPICANA EXPRESS</a:Descricao>
+                    <a:DescricaoEstabelecimento>TROPICANA EXPRESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>71.90</a:ValorDebito>
+                    <a:ValorDestino>71.9000</a:ValorDestino>
+                    <a:ValorOrigem>71.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - POLO WEAR Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>POLO WEAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>101.99</a:ValorDebito>
+                    <a:ValorDestino>97.4900</a:ValorDestino>
+                    <a:ValorOrigem>509.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>211.99</a:ComprasDebitos>
+                  <a:Creditos>211.99</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>211.99</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - CASA DOS COLCHOES        FOZ DO IGUACUBR Parc. 2/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASA DOS COLCHOES        FOZ DO IGUACUBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/10</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>110.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - POLO WEAR                FOZ DO IGUACUBR Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>POLO WEAR                FOZ DO IGUACUBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>ITAISLANE NODA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>101.99</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.5364</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

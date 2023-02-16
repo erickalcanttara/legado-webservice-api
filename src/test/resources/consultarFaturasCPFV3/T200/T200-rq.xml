@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:br="br.com.conductor.RealizeWs.FaturaService" xmlns:br1="br.com.conductor.RealizeWs.Fatura.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <br:ConsultarFaturasCPFV3>
+         <!--Optional:-->
+         <br:request>
+            <!--Optional:-->
+            <br1:CPF>99058827402</br1:CPF>
+         </br:request>
+      </br:ConsultarFaturasCPFV3>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,550 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99326856666</a:CPF>
+        <a:CartaoPagamento>9990900006915437</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>78.52</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>607.85</a:ComprasDebitos>
+                  <a:Creditos>607.85</a:Creditos>
+                  <a:Pagamentos>43.51</a:Pagamentos>
+                  <a:SaldoAnterior>43.51</a:SaldoAnterior>
+                  <a:Total>607.85</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>MÍNIMO PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>607.85</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Multa Contratual</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Multa Contratual</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.57</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Juros de Mora</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Juros de Mora</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.15</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>2.78</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>43.51</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG SAMBADENEGO</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG SAMBADENEGO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>26.95</a:ValorDebito>
+                    <a:ValorDestino>4.9800</a:ValorDestino>
+                    <a:ValorOrigem>26.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>3.22</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4839</a:Cotacao>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - POUSADABRAGA</a:Descricao>
+                    <a:DescricaoEstabelecimento>POUSADABRAGA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>10.00</a:ValorDebito>
+                    <a:ValorDestino>1.9000</a:ValorDestino>
+                    <a:ValorOrigem>10.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CARAMUJO AUTO POSTO LT</a:Descricao>
+                    <a:DescricaoEstabelecimento>CARAMUJO AUTO POSTO LT</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>202.50</a:ValorDebito>
+                    <a:ValorDestino>39.0900</a:ValorDestino>
+                    <a:ValorOrigem>202.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - AUTO POSTO MIRIAN</a:Descricao>
+                    <a:DescricaoEstabelecimento>AUTO POSTO MIRIAN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>170.00</a:ValorDebito>
+                    <a:ValorDestino>32.8200</a:ValorDestino>
+                    <a:ValorOrigem>170.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - POSTO DOM BOSCO</a:Descricao>
+                    <a:DescricaoEstabelecimento>POSTO DOM BOSCO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>178.69</a:ValorDebito>
+                    <a:ValorDestino>34.6700</a:ValorDestino>
+                    <a:ValorOrigem>178.6900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-30T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>607.4500</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 73774.501016 6 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>54.48</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>10.5000</b:ValorIof>
+                    <b:ValorParcela>67.3700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1010.5500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.64</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>8.2500</b:ValorIof>
+                    <b:ValorParcela>71.9100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>862.9200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.16</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>6.1800</b:ValorIof>
+                    <b:ValorParcela>80.7400</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>726.6600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.06</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>4.3000</b:ValorIof>
+                    <b:ValorParcela>100.5100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>603.0600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>425.00</a:ComprasDebitos>
+                  <a:Creditos>425.40</a:Creditos>
+                  <a:Pagamentos>607.45</a:Pagamentos>
+                  <a:SaldoAnterior>607.85</a:SaldoAnterior>
+                  <a:Total>425.40</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>425.40</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.07</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG MMDISTRIBUIDORAE</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MMDISTRIBUIDORAE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>70.00</a:ValorDebito>
+                    <a:ValorDestino>13.8100</a:ValorDestino>
+                    <a:ValorOrigem>70.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG MMDISTRIBUIDORAE</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MMDISTRIBUIDORAE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>48.00</a:ValorDebito>
+                    <a:ValorDestino>9.4700</a:ValorDestino>
+                    <a:ValorOrigem>48.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.21</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ESPACO DO MARCENEIRO Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>ESPACO DO MARCENEIRO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>75.00</a:ValorDebito>
+                    <a:ValorDestino>29.3600</a:ValorDestino>
+                    <a:ValorOrigem>150.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 105 - LTDParc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 105 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>79.95</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-30</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>607.45</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3993</a:Cotacao>
+                    <a:Data>2023-01-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - LIVE BURGUER</a:Descricao>
+                    <a:DescricaoEstabelecimento>LIVE BURGUER</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.00</a:ValorDebito>
+                    <a:ValorDestino>11.0000</a:ValorDestino>
+                    <a:ValorOrigem>57.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ALEMAOGOURMET</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALEMAOGOURMET</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>40.00</a:ValorDebito>
+                    <a:ValorDestino>7.6900</a:ValorDestino>
+                    <a:ValorOrigem>40.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ICE BOM SORVE</a:Descricao>
+                    <a:DescricaoEstabelecimento>ICE BOM SORVE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>41.78</a:ValorDebito>
+                    <a:ValorDestino>8.0300</a:ValorDestino>
+                    <a:ValorOrigem>41.7800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>154.95</a:ComprasDebitos>
+                  <a:Creditos>154.95</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>154.95</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - ESPACO DO MARCENEIRO     PORTO VELHO  BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>ESPACO DO MARCENEIRO     PORTO VELHO  BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>75.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Parcelado sem Juros - Estabelecimento 105 - LTD Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 105 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado sem Juros - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>CLEUSA MURICY</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>79.95</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.1823</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

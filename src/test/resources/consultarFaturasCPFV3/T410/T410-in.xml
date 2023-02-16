@@ -1,0 +1,754 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99183350683</a:CPF>
+        <a:CartaoPagamento>9990900008312876</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>370.69</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>3551.00</a:ComprasDebitos>
+                  <a:Creditos>3551.00</a:Creditos>
+                  <a:Pagamentos>2337.79</a:Pagamentos>
+                  <a:SaldoAnterior>2337.79</a:SaldoAnterior>
+                  <a:Total>3551.00</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>3551.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-14</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MUFFATO DUQUE 30</a:Descricao>
+                    <a:DescricaoEstabelecimento>MUFFATO DUQUE 30</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>308.39</a:ValorDebito>
+                    <a:ValorDestino>60.7400</a:ValorDestino>
+                    <a:ValorOrigem>308.3900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5079</a:Cotacao>
+                    <a:Data>2023-01-10</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAG CAMPOLARGOCTNBRP</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG CAMPOLARGOCTNBRP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.40</a:ValorDebito>
+                    <a:ValorDestino>10.1800</a:ValorDestino>
+                    <a:ValorOrigem>53.4000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5079</a:Cotacao>
+                    <a:Data>2023-01-10</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAG CAMPOLARGOCTNBRP</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG CAMPOLARGOCTNBRP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>44.90</a:ValorDebito>
+                    <a:ValorDestino>8.5600</a:ValorDestino>
+                    <a:ValorOrigem>44.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4963</a:Cotacao>
+                    <a:Data>2023-01-09</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - BAROLO TRATTORIA 1</a:Descricao>
+                    <a:DescricaoEstabelecimento>BAROLO TRATTORIA 1</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>294.00</a:ValorDebito>
+                    <a:ValorDestino>56.0500</a:ValorDestino>
+                    <a:ValorOrigem>294.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-08</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - DROGARIAS NISSEI</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIAS NISSEI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>68.68</a:ValorDebito>
+                    <a:ValorDestino>13.1300</a:ValorDestino>
+                    <a:ValorOrigem>68.6800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - DUQUE DOCE FESTA</a:Descricao>
+                    <a:DescricaoEstabelecimento>DUQUE DOCE FESTA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>78.00</a:ValorDebito>
+                    <a:ValorDestino>14.9100</a:ValorDestino>
+                    <a:ValorOrigem>78.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - VISCARDI</a:Descricao>
+                    <a:DescricaoEstabelecimento>VISCARDI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>162.72</a:ValorDebito>
+                    <a:ValorDestino>31.1100</a:ValorDestino>
+                    <a:ValorOrigem>162.7200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - RANCHO DOS CEREAIS</a:Descricao>
+                    <a:DescricaoEstabelecimento>RANCHO DOS CEREAIS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>131.01</a:ValorDebito>
+                    <a:ValorDestino>25.0500</a:ValorDestino>
+                    <a:ValorOrigem>131.0100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - DROGARIAS NISSEI</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIAS NISSEI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>350.56</a:ValorDebito>
+                    <a:ValorDestino>67.0200</a:ValorDestino>
+                    <a:ValorOrigem>350.5600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - RANCHO DOS CEREAIS</a:Descricao>
+                    <a:DescricaoEstabelecimento>RANCHO DOS CEREAIS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>400.00</a:ValorDebito>
+                    <a:ValorDestino>76.4700</a:ValorDestino>
+                    <a:ValorOrigem>400.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PRINCESS - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRINCESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>309.80</a:ValorDebito>
+                    <a:ValorDestino>117.2800</a:ValorDestino>
+                    <a:ValorOrigem>619.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>4.33</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MUFFATO DUQUE 30</a:Descricao>
+                    <a:DescricaoEstabelecimento>MUFFATO DUQUE 30</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>311.30</a:ValorDebito>
+                    <a:ValorDestino>58.9200</a:ValorDestino>
+                    <a:ValorOrigem>311.3000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>2337.79</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - SPORTING STREET WEAR - Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SPORTING STREET WEAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>89.98</a:ValorDebito>
+                    <a:ValorDestino>269.9400</a:ValorDestino>
+                    <a:ValorOrigem>269.9400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5326</a:Cotacao>
+                    <a:Data>2022-11-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CINDERELA CALCADOS E C - Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CINDERELA CALCADOS E C</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>206.60</a:ValorDebito>
+                    <a:ValorDestino>117.2200</a:ValorDestino>
+                    <a:ValorOrigem>619.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5326</a:Cotacao>
+                    <a:Data>2022-11-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - HOTEL PLAZA CAMBORIU - Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>HOTEL PLAZA CAMBORIU</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>566.82</a:ValorDebito>
+                    <a:ValorDestino>643.2000</a:ValorDestino>
+                    <a:ValorOrigem>3400.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4499</a:Cotacao>
+                    <a:Data>2022-08-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - LOCALIZA RAC MTZAL0 - Parc.6/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOCALIZA RAC MTZAL0</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.6/6</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>157.52</a:ValorDebito>
+                    <a:ValorDestino>183.3600</a:ValorDestino>
+                    <a:ValorOrigem>945.1200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-31T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>3551.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 39985.801016 1 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>212.94</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>49.6600</b:ValorIof>
+                    <b:ValorParcela>318.7300</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>4780.9500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.87</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>39.0400</b:ValorIof>
+                    <b:ValorParcela>340.1900</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>4082.2800</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>29.2400</b:ValorIof>
+                    <b:ValorParcela>382.0000</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>3438.0000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>20.3500</b:ValorIof>
+                    <b:ValorParcela>475.5200</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2853.1200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>2012.53</a:ComprasDebitos>
+                  <a:Creditos>2012.53</a:Creditos>
+                  <a:Pagamentos>3551.00</a:Pagamentos>
+                  <a:SaldoAnterior>3551.00</a:SaldoAnterior>
+                  <a:Total>2012.53</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>2012.53</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - BODEGA   FARIA LIMA</a:Descricao>
+                    <a:DescricaoEstabelecimento>BODEGA   FARIA LIMA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>128.79</a:ValorDebito>
+                    <a:ValorDestino>128.7900</a:ValorDestino>
+                    <a:ValorOrigem>128.7900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - SUPERMERCADO VISCARDI</a:Descricao>
+                    <a:DescricaoEstabelecimento>SUPERMERCADO VISCARDI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>76.40</a:ValorDebito>
+                    <a:ValorDestino>15.1300</a:ValorDestino>
+                    <a:ValorOrigem>76.4000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MOCASSIN CALCADOS LTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>MOCASSIN CALCADOS LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>179.90</a:ValorDebito>
+                    <a:ValorDestino>36.4200</a:ValorDestino>
+                    <a:ValorOrigem>179.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CATUAI LONDRINA - Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CATUAI LONDRINA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>43.30</a:ValorDebito>
+                    <a:ValorDestino>25.7600</a:ValorDestino>
+                    <a:ValorOrigem>129.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CATUAI LONDRINA - Parc.1/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>CATUAI LONDRINA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.1/10</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>199.90</a:ValorDebito>
+                    <a:ValorDestino>396.4900</a:ValorDestino>
+                    <a:ValorOrigem>1999.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>3551.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2791</a:Cotacao>
+                    <a:Data>2023-01-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - LEO PERFUM COM COSMETI</a:Descricao>
+                    <a:DescricaoEstabelecimento>LEO PERFUM COM COSMETI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>69.90</a:ValorDebito>
+                    <a:ValorDestino>13.8300</a:ValorDestino>
+                    <a:ValorOrigem>69.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3993</a:Cotacao>
+                    <a:Data>2023-01-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - CATUAI EXPRESS</a:Descricao>
+                    <a:DescricaoEstabelecimento>CATUAI EXPRESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.00</a:ValorDebito>
+                    <a:ValorDestino>3.4900</a:ValorDestino>
+                    <a:ValorOrigem>18.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - LUPULUS</a:Descricao>
+                    <a:DescricaoEstabelecimento>LUPULUS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>110.15</a:ValorDebito>
+                    <a:ValorDestino>21.3300</a:ValorDestino>
+                    <a:ValorOrigem>110.1500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PRINCESS - Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRINCESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>309.80</a:ValorDebito>
+                    <a:ValorDestino>117.2800</a:ValorDestino>
+                    <a:ValorOrigem>619.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - SPORTING STREET WEAR - Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SPORTING STREET WEAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>89.98</a:ValorDebito>
+                    <a:ValorDestino>269.9400</a:ValorDestino>
+                    <a:ValorOrigem>269.9400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5326</a:Cotacao>
+                    <a:Data>2022-11-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CINDERELA CALCADOS E C - Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CINDERELA CALCADOS E C</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>206.60</a:ValorDebito>
+                    <a:ValorDestino>117.2200</a:ValorDestino>
+                    <a:ValorOrigem>619.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5326</a:Cotacao>
+                    <a:Data>2022-11-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - HOTEL PLAZA CAMBORIU - Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>HOTEL PLAZA CAMBORIU</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>566.82</a:ValorDebito>
+                    <a:ValorDestino>643.2000</a:ValorDestino>
+                    <a:ValorOrigem>3400.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>810.02</a:ComprasDebitos>
+                  <a:Creditos>810.02</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>810.02</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - CATUAI LONDRINA          LONDRINA     BR Parc. 2/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>CATUAI LONDRINA          LONDRINA     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/10</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>199.90</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - CATUAI LONDRINA          LONDRINA     BR Parc. 2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CATUAI LONDRINA          LONDRINA     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/3</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>43.30</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-17</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - HOTEL PLAZA CAMBORIU     BALNEARIO CAMBR Parc. 4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>HOTEL PLAZA CAMBORIU     BALNEARIO CAMBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/6</a:DescricaoLancamento>
+                    <a:Nome>VACILDA RESENDE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>566.82</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.4719</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

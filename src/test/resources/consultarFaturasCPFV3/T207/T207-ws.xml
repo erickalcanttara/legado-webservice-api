@@ -1,0 +1,941 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99203881735</a:CPF>
+        <a:CartaoPagamento>9990900008358424</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-01-25</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>110.32</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>644.92</a:ComprasDebitos>
+                  <a:Creditos>644.92</a:Creditos>
+                  <a:Pagamentos>508.06</a:Pagamentos>
+                  <a:SaldoAnterior>508.06</a:SaldoAnterior>
+                  <a:Total>644.92</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>644.92</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Multa Contratual</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Multa Contratual</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>9.98</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Juros de Mora</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Juros de Mora</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>1.35</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 17,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 17,99%</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.34</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOPAGO DEUSPROVERA</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOPAGO DEUSPROVERA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.00</a:ValorDebito>
+                    <a:ValorDestino>2.6800</a:ValorDestino>
+                    <a:ValorOrigem>14.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PRECO BAIXO MEIO A MEI Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRECO BAIXO MEIO A MEI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>26.35</a:ValorDebito>
+                    <a:ValorDestino>9.8600</a:ValorDestino>
+                    <a:ValorOrigem>52.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - BONITO GAS Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>BONITO GAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.50</a:ValorDebito>
+                    <a:ValorDestino>21.5400</a:ValorDestino>
+                    <a:ValorOrigem>115.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MEIO A MEIO PRECO BAIX Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEIO A MEIO PRECO BAIX</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>32.63</a:ValorDebito>
+                    <a:ValorDestino>12.2200</a:ValorDestino>
+                    <a:ValorOrigem>65.2600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Pagamento Efetuado na Loja Estabelecimento 459 - LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 459 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Pagamento Efetuado na Loja</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>508.06</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>2.26</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PANIFICADORA PONTO DO P</a:Descricao>
+                    <a:DescricaoEstabelecimento>PANIFICADORA PONTO DO P</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.80</a:ValorDebito>
+                    <a:ValorDestino>1.5000</a:ValorDestino>
+                    <a:ValorOrigem>7.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG VERENAMACIELDA Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG VERENAMACIELDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>60.50</a:ValorDebito>
+                    <a:ValorDestino>23.3000</a:ValorDestino>
+                    <a:ValorOrigem>121.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-25</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PG  TON R REPRESENTA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PG  TON R REPRESENTA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>45.00</a:ValorDebito>
+                    <a:ValorDestino>8.8000</a:ValorDestino>
+                    <a:ValorOrigem>45.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG BIKECENTER201 Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG BIKECENTER201</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>88.35</a:ValorDebito>
+                    <a:ValorDestino>83.9600</a:ValorDestino>
+                    <a:ValorOrigem>441.7100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG BIKECENTER201 Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG BIKECENTER201</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>46.50</a:ValorDebito>
+                    <a:ValorDestino>17.6400</a:ValorDestino>
+                    <a:ValorOrigem>93.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4770</a:Cotacao>
+                    <a:Data>2022-12-14</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PANIFICADORA PONTO DO P</a:Descricao>
+                    <a:DescricaoEstabelecimento>PANIFICADORA PONTO DO P</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>4.80</a:ValorDebito>
+                    <a:ValorDestino>0.9200</a:ValorDestino>
+                    <a:ValorOrigem>4.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5182</a:Cotacao>
+                    <a:Data>2022-12-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PANIFICADORA PONTO DO P</a:Descricao>
+                    <a:DescricaoEstabelecimento>PANIFICADORA PONTO DO P</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>4.80</a:ValorDebito>
+                    <a:ValorDestino>0.9200</a:ValorDestino>
+                    <a:ValorOrigem>4.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5182</a:Cotacao>
+                    <a:Data>2022-12-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MEIO A MEIO PRECO BAIX Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEIO A MEIO PRECO BAIX</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.55</a:ValorDebito>
+                    <a:ValorDestino>14.3600</a:ValorDestino>
+                    <a:ValorOrigem>75.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4168</a:Cotacao>
+                    <a:Data>2022-12-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MEIO A MEIO PRECO BAIX Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEIO A MEIO PRECO BAIX</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.96</a:ValorDebito>
+                    <a:ValorDestino>10.7200</a:ValorDestino>
+                    <a:ValorOrigem>55.9200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4290</a:Cotacao>
+                    <a:Data>2022-12-08</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - CLARO MENSAL</a:Descricao>
+                    <a:DescricaoEstabelecimento>CLARO MENSAL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.99</a:ValorDebito>
+                    <a:ValorDestino>9.6400</a:ValorDestino>
+                    <a:ValorOrigem>49.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4486</a:Cotacao>
+                    <a:Data>2022-12-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MEIO A MEIO PRECO BAIX Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEIO A MEIO PRECO BAIX</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.62</a:ValorDebito>
+                    <a:ValorDestino>14.4200</a:ValorDestino>
+                    <a:ValorOrigem>75.2400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4020</a:Cotacao>
+                    <a:Data>2022-12-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MEIO A MEIO PRECO BAIX Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEIO A MEIO PRECO BAIX</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.55</a:ValorDebito>
+                    <a:ValorDestino>8.7400</a:ValorDestino>
+                    <a:ValorOrigem>45.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5052</a:Cotacao>
+                    <a:Data>2022-12-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MEIO A MEIO PRECO BAIX Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEIO A MEIO PRECO BAIX</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.10</a:ValorDebito>
+                    <a:ValorDestino>11.6100</a:ValorDestino>
+                    <a:ValorOrigem>60.2000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-01T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.39</a:ValorCotacao>
+                <a:ValorTotalPago>644.9200</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 39918.101013 1 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>120.93</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>16.8200</b:ValorIof>
+                    <b:ValorParcela>107.9400</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1619.1000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.64</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>13.2200</b:ValorIof>
+                    <b:ValorParcela>115.2100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1382.5200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>9.9000</b:ValorIof>
+                    <b:ValorParcela>129.3700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1164.3300</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.06</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>6.8900</b:ValorIof>
+                    <b:ValorParcela>161.0400</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>966.2400</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>681.58</a:ComprasDebitos>
+                  <a:Creditos>681.58</a:Creditos>
+                  <a:Pagamentos>644.92</a:Pagamentos>
+                  <a:SaldoAnterior>644.92</a:SaldoAnterior>
+                  <a:Total>681.58</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>681.58</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Multa Contratual</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Multa Contratual</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.70</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Juros de Mora</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Juros de Mora</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>1.50</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>28.59</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MATEUS SUPERMERCADOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>MATEUS SUPERMERCADOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>43.63</a:ValorDebito>
+                    <a:ValorDestino>8.6400</a:ValorDestino>
+                    <a:ValorOrigem>43.6300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MASTER PET JADERLAND</a:Descricao>
+                    <a:DescricaoEstabelecimento>MASTER PET JADERLAND</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.65</a:ValorDebito>
+                    <a:ValorDestino>3.3000</a:ValorDestino>
+                    <a:ValorOrigem>16.6500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Pagamento Efetuado na Loja Estabelecimento 459 - LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 459 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Pagamento Efetuado na Loja</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>644.92</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>2.86</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - BELLA DONNA</a:Descricao>
+                    <a:DescricaoEstabelecimento>BELLA DONNA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>38.00</a:ValorDebito>
+                    <a:ValorDestino>7.5000</a:ValorDestino>
+                    <a:ValorOrigem>38.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PRECO BAIXO MEIO A MEI</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRECO BAIXO MEIO A MEI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.63</a:ValorDebito>
+                    <a:ValorDestino>7.2900</a:ValorDestino>
+                    <a:ValorOrigem>37.6300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PRECO BAIXO MEIO A MEI Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRECO BAIXO MEIO A MEI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.98</a:ValorDebito>
+                    <a:ValorDestino>10.9900</a:ValorDestino>
+                    <a:ValorOrigem>55.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PRECO BAIXO MEIO A MEI Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRECO BAIXO MEIO A MEI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.73</a:ValorDebito>
+                    <a:ValorDestino>12.5200</a:ValorDestino>
+                    <a:ValorOrigem>63.4600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-08</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - CLARO MENSAL</a:Descricao>
+                    <a:DescricaoEstabelecimento>CLARO MENSAL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.99</a:ValorDebito>
+                    <a:ValorDestino>9.5600</a:ValorDestino>
+                    <a:ValorOrigem>49.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PRECO BAIXO MEIO A MEI Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRECO BAIXO MEIO A MEI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>26.35</a:ValorDebito>
+                    <a:ValorDestino>9.8600</a:ValorDestino>
+                    <a:ValorOrigem>52.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - BONITO GAS Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>BONITO GAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.50</a:ValorDebito>
+                    <a:ValorDestino>21.5400</a:ValorDestino>
+                    <a:ValorOrigem>115.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MEIO A MEIO PRECO BAIX Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEIO A MEIO PRECO BAIX</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>32.63</a:ValorDebito>
+                    <a:ValorDestino>12.2200</a:ValorDestino>
+                    <a:ValorOrigem>65.2600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG VERENAMACIELDA Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG VERENAMACIELDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>60.50</a:ValorDebito>
+                    <a:ValorDestino>23.3000</a:ValorDestino>
+                    <a:ValorOrigem>121.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG BIKECENTER201 Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG BIKECENTER201</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>88.34</a:ValorDebito>
+                    <a:ValorDestino>83.9600</a:ValorDestino>
+                    <a:ValorOrigem>441.7100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG BIKECENTER201 Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG BIKECENTER201</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>46.50</a:ValorDebito>
+                    <a:ValorDestino>17.6400</a:ValorDestino>
+                    <a:ValorOrigem>93.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5182</a:Cotacao>
+                    <a:Data>2022-12-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MEIO A MEIO PRECO BAIX Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEIO A MEIO PRECO BAIX</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.55</a:ValorDebito>
+                    <a:ValorDestino>14.3600</a:ValorDestino>
+                    <a:ValorOrigem>75.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4168</a:Cotacao>
+                    <a:Data>2022-12-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MEIO A MEIO PRECO BAIX Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEIO A MEIO PRECO BAIX</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.96</a:ValorDebito>
+                    <a:ValorDestino>10.7200</a:ValorDestino>
+                    <a:ValorOrigem>55.9200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.37</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>148.04</a:ComprasDebitos>
+                  <a:Creditos>148.04</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>148.04</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PRECO BAIXO MEIO A MEI   BELEM        BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRECO BAIXO MEIO A MEI   BELEM        BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.97</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PRECO BAIXO MEIO A MEI   BELEM        BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRECO BAIXO MEIO A MEI   BELEM        BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.73</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-18</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PAG BIKECENTER201        BELEM        BR Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG BIKECENTER201        BELEM        BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>VALDINETELUIZ TINE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>88.34</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.3848</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

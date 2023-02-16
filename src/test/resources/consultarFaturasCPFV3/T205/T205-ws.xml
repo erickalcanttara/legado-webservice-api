@@ -1,0 +1,601 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99225311940</a:CPF>
+        <a:CartaoPagamento>9990900008132812</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>131.23</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1195.36</a:ComprasDebitos>
+                  <a:Creditos>1195.36</a:Creditos>
+                  <a:Pagamentos>569.99</a:Pagamentos>
+                  <a:SaldoAnterior>569.99</a:SaldoAnterior>
+                  <a:Total>1195.36</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>1195.36</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - CAMARADA ADM MANAUS</a:Descricao>
+                    <a:DescricaoEstabelecimento>CAMARADA ADM MANAUS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>414.32</a:ValorDebito>
+                    <a:ValorDestino>79.2100</a:ValorDestino>
+                    <a:ValorOrigem>414.3200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>569.99</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - SHALOM FESTAS Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHALOM FESTAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>101.63</a:ValorDebito>
+                    <a:ValorDestino>39.7400</a:ValorDestino>
+                    <a:ValorOrigem>203.2500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - WORLD TENNIS Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>WORLD TENNIS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>66.03</a:ValorDebito>
+                    <a:ValorDestino>330.1500</a:ValorDestino>
+                    <a:ValorOrigem>330.1500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - TACO Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>TACO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>77.90</a:ValorDebito>
+                    <a:ValorDestino>30.2100</a:ValorDestino>
+                    <a:ValorOrigem>155.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - VIVARA MAR Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIVARA MAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>163.34</a:ValorDebito>
+                    <a:ValorDestino>95.0000</a:ValorDestino>
+                    <a:ValorOrigem>490.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5269</a:Cotacao>
+                    <a:Data>2022-11-25</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PREDIAL COMERCIO DE M Parc.2/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>PREDIAL COMERCIO DE M</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/4</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>155.65</a:ValorDebito>
+                    <a:ValorDestino>117.5000</a:ValorDestino>
+                    <a:ValorOrigem>622.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2022-10-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - INSPIRA MATERIAL DIDAT Parc.4/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>INSPIRA MATERIAL DIDAT</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.4/12</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>203.50</a:ValorDebito>
+                    <a:ValorDestino>473.0300</a:ValorDestino>
+                    <a:ValorOrigem>2442.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-02T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>1195.3600</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 40153.401019 5 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>128.60</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>21.2800</b:ValorIof>
+                    <b:ValorParcela>136.5700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2048.5500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.87</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>16.7300</b:ValorIof>
+                    <b:ValorParcela>145.7600</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1749.1200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.16</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>12.5300</b:ValorIof>
+                    <b:ValorParcela>163.6700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1473.0300</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>8.7200</b:ValorIof>
+                    <b:ValorParcela>203.7500</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1222.5000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>862.31</a:ComprasDebitos>
+                  <a:Creditos>862.31</a:Creditos>
+                  <a:Pagamentos>1195.36</a:Pagamentos>
+                  <a:SaldoAnterior>1195.36</a:SaldoAnterior>
+                  <a:Total>862.31</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>862.31</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Multa Contratual</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Multa Contratual</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.91</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Juros de Mora</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Juros de Mora</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.40</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.56</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1195.36</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>2.22</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - LOJAS LIRA Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJAS LIRA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>47.20</a:ValorDebito>
+                    <a:ValorDestino>18.6400</a:ValorDestino>
+                    <a:ValorOrigem>94.4000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - SHALOM FESTAS Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHALOM FESTAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>101.62</a:ValorDebito>
+                    <a:ValorDestino>39.7400</a:ValorDestino>
+                    <a:ValorOrigem>203.2500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - WORLD TENNIS Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>WORLD TENNIS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>66.03</a:ValorDebito>
+                    <a:ValorDestino>330.1500</a:ValorDestino>
+                    <a:ValorOrigem>330.1500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - TACO Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>TACO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>77.90</a:ValorDebito>
+                    <a:ValorDestino>30.2100</a:ValorDestino>
+                    <a:ValorOrigem>155.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - VIVARA MAR Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIVARA MAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>163.33</a:ValorDebito>
+                    <a:ValorDestino>95.0000</a:ValorDestino>
+                    <a:ValorOrigem>490.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5269</a:Cotacao>
+                    <a:Data>2022-11-25</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PREDIAL COMERCIO DE M Parc.3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>PREDIAL COMERCIO DE M</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/4</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>155.65</a:ValorDebito>
+                    <a:ValorDestino>117.5000</a:ValorDestino>
+                    <a:ValorOrigem>622.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2022-10-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - INSPIRA MATERIAL DIDAT Parc.5/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>INSPIRA MATERIAL DIDAT</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.5/12</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>203.50</a:ValorDebito>
+                    <a:ValorDestino>473.0300</a:ValorDestino>
+                    <a:ValorOrigem>2442.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>635.71</a:ComprasDebitos>
+                  <a:Creditos>635.71</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>635.71</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - LOJAS LIRA               MANAUS       BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJAS LIRA               MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>47.20</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - VIVARA MAR               MANAUS       BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIVARA MAR               MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>163.33</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - WORLD TENNIS             MANAUS       BR Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>WORLD TENNIS             MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>66.03</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-25</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PREDIAL COMERCIO DE M    MANAUS       BR Parc. 4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>PREDIAL COMERCIO DE M    MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/4</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>155.65</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-10-06</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - INSPIRA MATERIAL DIDAT   MANAUS       BR Parc. 6/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>INSPIRA MATERIAL DIDAT   MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 6/12</a:DescricaoLancamento>
+                    <a:Nome>ARMANDO BRAND?O</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>203.50</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.2468</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

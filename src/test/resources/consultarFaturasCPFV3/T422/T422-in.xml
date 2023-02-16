@@ -1,0 +1,1876 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99220762250</a:CPF>
+        <a:CartaoPagamento>9990900007890264</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>21</a:MelhorDia>
+                <a:PagamentoMinimo>258.94</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>2258.46</a:ComprasDebitos>
+                  <a:Creditos>2257.36</a:Creditos>
+                  <a:Pagamentos>1775.67</a:Pagamentos>
+                  <a:SaldoAnterior>1774.57</a:SaldoAnterior>
+                  <a:Total>2257.36</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>2257.36</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>AVAL EMERG. CRÉDITO</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>AVAL EMERG. CRÉDITO</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PICPAY</a:Descricao>
+                    <a:DescricaoEstabelecimento>PICPAY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>209.98</a:ValorDebito>
+                    <a:ValorDestino>41.2400</a:ValorDestino>
+                    <a:ValorOrigem>209.9800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99 99PAY 99PAY  PIX</a:Descricao>
+                    <a:DescricaoEstabelecimento>99 99PAY 99PAY  PIX</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>1.03</a:ValorDebito>
+                    <a:ValorDestino>0.2000</a:ValorDestino>
+                    <a:ValorOrigem>1.0300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER         TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER         TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino>2.5500</a:ValorDestino>
+                    <a:ValorOrigem>12.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 17JAN 07H49MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 17JAN 07H49MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.60</a:ValorDebito>
+                    <a:ValorDestino>1.4900</a:ValorDestino>
+                    <a:ValorOrigem>7.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 17JAN 07H36MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 17JAN 07H36MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.00</a:ValorDebito>
+                    <a:ValorDestino>2.3600</a:ValorDestino>
+                    <a:ValorOrigem>12.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PARC 103UNIFISA UNIFISAAD - Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 103UNIFISA UNIFISAAD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>102.00</a:ValorDebito>
+                    <a:ValorDestino>60.1000</a:ValorDestino>
+                    <a:ValorOrigem>306.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 17JAN 14H11MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 17JAN 14H11MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>13.60</a:ValorDebito>
+                    <a:ValorDestino>2.6700</a:ValorDestino>
+                    <a:ValorOrigem>13.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3186</a:Cotacao>
+                    <a:Data>2023-01-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99 99PAY 99PAY  BOLETO</a:Descricao>
+                    <a:DescricaoEstabelecimento>99 99PAY 99PAY  BOLETO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>196.97</a:ValorDebito>
+                    <a:ValorDestino>38.8000</a:ValorDestino>
+                    <a:ValorOrigem>196.9700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3186</a:Cotacao>
+                    <a:Data>2023-01-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99 99PAY 99PAY  BOLETO</a:Descricao>
+                    <a:DescricaoEstabelecimento>99 99PAY 99PAY  BOLETO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>122.21</a:ValorDebito>
+                    <a:ValorDestino>24.0700</a:ValorDestino>
+                    <a:ValorOrigem>122.2100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3186</a:Cotacao>
+                    <a:Data>2023-01-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 16JAN 19H35MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 16JAN 19H35MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.00</a:ValorDebito>
+                    <a:ValorDestino>1.3800</a:ValorDestino>
+                    <a:ValorOrigem>7.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3186</a:Cotacao>
+                    <a:Data>2023-01-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 16JAN 15H07MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 16JAN 15H07MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.20</a:ValorDebito>
+                    <a:ValorDestino>2.2100</a:ValorDestino>
+                    <a:ValorOrigem>11.2000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 13JAN 15H25MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 13JAN 15H25MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>4.37</a:ValorDebito>
+                    <a:ValorDestino>0.8600</a:ValorDestino>
+                    <a:ValorOrigem>4.3700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 13JAN 15H00MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 13JAN 15H00MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.60</a:ValorDebito>
+                    <a:ValorDestino>2.4900</a:ValorDestino>
+                    <a:ValorOrigem>12.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 13JAN 07H34MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 13JAN 07H34MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.00</a:ValorDebito>
+                    <a:ValorDestino>2.1700</a:ValorDestino>
+                    <a:ValorOrigem>11.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 13JAN 07H46MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 13JAN 07H46MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.30</a:ValorDebito>
+                    <a:ValorDestino>1.4400</a:ValorDestino>
+                    <a:ValorOrigem>7.3000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4095</a:Cotacao>
+                    <a:Data>2023-01-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PICPAY</a:Descricao>
+                    <a:DescricaoEstabelecimento>PICPAY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.02</a:ValorDebito>
+                    <a:ValorDestino>2.1400</a:ValorDestino>
+                    <a:ValorOrigem>11.0200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4095</a:Cotacao>
+                    <a:Data>2023-01-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 12JAN 07H53MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 12JAN 07H53MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.10</a:ValorDebito>
+                    <a:ValorDestino>1.3800</a:ValorDestino>
+                    <a:ValorOrigem>7.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4095</a:Cotacao>
+                    <a:Data>2023-01-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.94</a:ValorDebito>
+                    <a:ValorDestino>2.9000</a:ValorDestino>
+                    <a:ValorOrigem>14.9400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4095</a:Cotacao>
+                    <a:Data>2023-01-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.97</a:ValorDebito>
+                    <a:ValorDestino>3.4800</a:ValorDestino>
+                    <a:ValorOrigem>17.9700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.98</a:ValorDebito>
+                    <a:ValorDestino>2.8800</a:ValorDestino>
+                    <a:ValorOrigem>14.9800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PICPAY</a:Descricao>
+                    <a:DescricaoEstabelecimento>PICPAY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>103.94</a:ValorDebito>
+                    <a:ValorDestino>20.0000</a:ValorDestino>
+                    <a:ValorOrigem>103.9400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.95</a:ValorDebito>
+                    <a:ValorDestino>2.8800</a:ValorDestino>
+                    <a:ValorOrigem>14.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 11JAN 07H49MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 11JAN 07H49MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.10</a:ValorDebito>
+                    <a:ValorDestino>1.3700</a:ValorDestino>
+                    <a:ValorOrigem>7.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5079</a:Cotacao>
+                    <a:Data>2023-01-10</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - LJELETRONICOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>LJELETRONICOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.00</a:ValorDebito>
+                    <a:ValorDestino>10.4800</a:ValorDestino>
+                    <a:ValorOrigem>55.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5079</a:Cotacao>
+                    <a:Data>2023-01-10</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.92</a:ValorDebito>
+                    <a:ValorDestino>2.8400</a:ValorDestino>
+                    <a:ValorOrigem>14.9200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5079</a:Cotacao>
+                    <a:Data>2023-01-10</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.93</a:ValorDebito>
+                    <a:ValorDestino>2.8500</a:ValorDestino>
+                    <a:ValorOrigem>14.9300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5079</a:Cotacao>
+                    <a:Data>2023-01-10</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 10JAN 07H43MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 10JAN 07H43MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.10</a:ValorDebito>
+                    <a:ValorDestino>1.3500</a:ValorDestino>
+                    <a:ValorOrigem>7.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4963</a:Cotacao>
+                    <a:Data>2023-01-09</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.95</a:ValorDebito>
+                    <a:ValorDestino>2.4800</a:ValorDestino>
+                    <a:ValorOrigem>12.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 06JAN 07H51MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 06JAN 07H51MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>6.70</a:ValorDebito>
+                    <a:ValorDestino>1.2500</a:ValorDestino>
+                    <a:ValorOrigem>6.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PICPAY</a:Descricao>
+                    <a:DescricaoEstabelecimento>PICPAY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.83</a:ValorDebito>
+                    <a:ValorDestino>3.2200</a:ValorDestino>
+                    <a:ValorOrigem>16.8300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PICPAY</a:Descricao>
+                    <a:DescricaoEstabelecimento>PICPAY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.47</a:ValorDebito>
+                    <a:ValorDestino>3.4500</a:ValorDestino>
+                    <a:ValorOrigem>18.4700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MICROSOFT SUBSCRIPTION</a:Descricao>
+                    <a:DescricaoEstabelecimento>MICROSOFT SUBSCRIPTION</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.99</a:ValorDebito>
+                    <a:ValorDestino>5.6100</a:ValorDestino>
+                    <a:ValorOrigem>29.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6631</a:Cotacao>
+                    <a:Data>2023-01-05</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 05JAN 07H51MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 05JAN 07H51MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.30</a:ValorDebito>
+                    <a:ValorDestino>1.3500</a:ValorDestino>
+                    <a:ValorOrigem>7.3000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 04JAN 07H49MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 04JAN 07H49MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.00</a:ValorDebito>
+                    <a:ValorDestino>2.6200</a:ValorDestino>
+                    <a:ValorOrigem>14.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 0 BLUEFIT BIAGI</a:Descricao>
+                    <a:DescricaoEstabelecimento>0 BLUEFIT BIAGI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>129.90</a:ValorDebito>
+                    <a:ValorDestino>24.3300</a:ValorDestino>
+                    <a:ValorOrigem>129.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 03JAN 19H06MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 03JAN 19H06MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.60</a:ValorDebito>
+                    <a:ValorDestino>1.4400</a:ValorDestino>
+                    <a:ValorOrigem>7.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 0 BLUEFIT BIAGI</a:Descricao>
+                    <a:DescricaoEstabelecimento>0 BLUEFIT BIAGI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>129.90</a:ValorDebito>
+                    <a:ValorDestino>24.3300</a:ValorDestino>
+                    <a:ValorOrigem>129.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 03JAN 07H55MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 03JAN 07H55MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.95</a:ValorDebito>
+                    <a:ValorDestino>1.1300</a:ValorDestino>
+                    <a:ValorOrigem>5.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1774.57</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.99</a:ValorDebito>
+                    <a:ValorDestino>3.2700</a:ValorDestino>
+                    <a:ValorOrigem>16.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4839</a:Cotacao>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.91</a:ValorDebito>
+                    <a:ValorDestino>2.8500</a:ValorDestino>
+                    <a:ValorOrigem>14.9100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - AM PM COMESTIVEIS   GR</a:Descricao>
+                    <a:DescricaoEstabelecimento>AM PM COMESTIVEIS   GR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>42.57</a:ValorDebito>
+                    <a:ValorDestino>8.3200</a:ValorDestino>
+                    <a:ValorOrigem>42.5700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.98</a:ValorDebito>
+                    <a:ValorDestino>3.2900</a:ValorDestino>
+                    <a:ValorOrigem>16.9800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.96</a:ValorDebito>
+                    <a:ValorDestino>2.5100</a:ValorDestino>
+                    <a:ValorOrigem>12.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - RFL</a:Descricao>
+                    <a:DescricaoEstabelecimento>RFL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>25.86</a:ValorDebito>
+                    <a:ValorDestino>5.0600</a:ValorDestino>
+                    <a:ValorOrigem>25.8600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG PETCAMP - Parc.1/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG PETCAMP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.1/7</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>10.69</a:ValorDebito>
+                    <a:ValorDestino>74.8300</a:ValorDestino>
+                    <a:ValorOrigem>74.8300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - DROGAO SUPER FILIAL 92</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGAO SUPER FILIAL 92</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>36.10</a:ValorDebito>
+                    <a:ValorDestino>7.0600</a:ValorDestino>
+                    <a:ValorOrigem>36.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.95</a:ValorDebito>
+                    <a:ValorDestino>3.4800</a:ValorDestino>
+                    <a:ValorOrigem>17.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.95</a:ValorDebito>
+                    <a:ValorDestino>3.2900</a:ValorDestino>
+                    <a:ValorOrigem>16.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>13.69</a:ValorDebito>
+                    <a:ValorDestino>2.6500</a:ValorDestino>
+                    <a:ValorOrigem>13.6900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.91</a:ValorDebito>
+                    <a:ValorDestino>2.3100</a:ValorDestino>
+                    <a:ValorOrigem>11.9100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 22DEZ 07H54MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 22DEZ 07H54MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.60</a:ValorDebito>
+                    <a:ValorDestino>1.4700</a:ValorDestino>
+                    <a:ValorOrigem>7.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>9.99</a:ValorDebito>
+                    <a:ValorDestino>1.9400</a:ValorDestino>
+                    <a:ValorOrigem>9.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 22DEZ 11H24MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 22DEZ 11H24MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>8.00</a:ValorDebito>
+                    <a:ValorDestino>1.5500</a:ValorDestino>
+                    <a:ValorOrigem>8.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.95</a:ValorDebito>
+                    <a:ValorDestino>2.5000</a:ValorDestino>
+                    <a:ValorOrigem>12.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.91</a:ValorDebito>
+                    <a:ValorDestino>3.2600</a:ValorDestino>
+                    <a:ValorOrigem>16.9100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 21DEZ 08H07MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 21DEZ 08H07MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.60</a:ValorDebito>
+                    <a:ValorDestino>1.4700</a:ValorDestino>
+                    <a:ValorOrigem>7.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.99</a:ValorDebito>
+                    <a:ValorDestino>3.2100</a:ValorDestino>
+                    <a:ValorOrigem>16.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.95</a:ValorDebito>
+                    <a:ValorDestino>2.4500</a:ValorDestino>
+                    <a:ValorOrigem>12.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 20DEZ 07H56MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 20DEZ 07H56MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.60</a:ValorDebito>
+                    <a:ValorDestino>1.4400</a:ValorDestino>
+                    <a:ValorOrigem>7.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Credito Visa - RAPPI*VERIFICATIONS BRASI</a:Descricao>
+                    <a:DescricaoEstabelecimento>RAPPI*VERIFICATIONS BRASI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Credito Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1.10</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - RAPPI VERIFICATIONS BRASI</a:Descricao>
+                    <a:DescricaoEstabelecimento>RAPPI VERIFICATIONS BRASI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>1.10</a:ValorDebito>
+                    <a:ValorDestino>0.2100</a:ValorDestino>
+                    <a:ValorOrigem>1.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 20DEZ 12H05MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 20DEZ 12H05MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>6.70</a:ValorDebito>
+                    <a:ValorDestino>1.2700</a:ValorDestino>
+                    <a:ValorOrigem>6.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 20DEZ 12H45MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 20DEZ 12H45MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>6.90</a:ValorDebito>
+                    <a:ValorDestino>1.3000</a:ValorDestino>
+                    <a:ValorOrigem>6.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - RAPPI RAPPI BRASIL INTERM</a:Descricao>
+                    <a:DescricaoEstabelecimento>RAPPI RAPPI BRASIL INTERM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>86.68</a:ValorDebito>
+                    <a:ValorDestino>16.3900</a:ValorDestino>
+                    <a:ValorOrigem>86.6800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4913</a:Cotacao>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.90</a:ValorDebito>
+                    <a:ValorDestino>2.8300</a:ValorDestino>
+                    <a:ValorOrigem>14.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4913</a:Cotacao>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>8.99</a:ValorDebito>
+                    <a:ValorDestino>1.7100</a:ValorDestino>
+                    <a:ValorOrigem>8.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - BK BRASIL  DRIVE RIBEI</a:Descricao>
+                    <a:DescricaoEstabelecimento>BK BRASIL  DRIVE RIBEI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>26.90</a:ValorDebito>
+                    <a:ValorDestino>5.1100</a:ValorDestino>
+                    <a:ValorOrigem>26.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.96</a:ValorDebito>
+                    <a:ValorDestino>3.4000</a:ValorDestino>
+                    <a:ValorOrigem>17.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - IFOOD        IFOOD</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD        IFOOD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>79.10</a:ValorDebito>
+                    <a:ValorDestino>14.9900</a:ValorDestino>
+                    <a:ValorOrigem>79.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99  POP 16DEZ 07H31MIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>99  POP 16DEZ 07H31MIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.60</a:ValorDebito>
+                    <a:ValorDestino>1.4400</a:ValorDestino>
+                    <a:ValorOrigem>7.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - COBASI RIB PRETO SHOP</a:Descricao>
+                    <a:DescricaoEstabelecimento>COBASI RIB PRETO SHOP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>48.89</a:ValorDebito>
+                    <a:ValorDestino>9.2700</a:ValorDestino>
+                    <a:ValorOrigem>48.8900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>9.90</a:ValorDebito>
+                    <a:ValorDestino>1.8800</a:ValorDestino>
+                    <a:ValorOrigem>9.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.91</a:ValorDebito>
+                    <a:ValorDestino>2.4500</a:ValorDestino>
+                    <a:ValorOrigem>12.9100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4168</a:Cotacao>
+                    <a:Data>2022-12-10</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - SHOPEE 876198008423762 - Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOPEE 876198008423762</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.22</a:ValorDebito>
+                    <a:ValorDestino>36.6600</a:ValorDestino>
+                    <a:ValorOrigem>36.6600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3397</a:Cotacao>
+                    <a:Data>2022-11-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - ALIEXPRESS - Parc.3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALIEXPRESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/4</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>28.38</a:ValorDebito>
+                    <a:ValorDestino>22.3000</a:ValorDestino>
+                    <a:ValorOrigem>113.5200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - ALIEXPRESS - Parc.3/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALIEXPRESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/12</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.78</a:ValorDebito>
+                    <a:ValorDestino>58.5000</a:ValorDestino>
+                    <a:ValorOrigem>297.3400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - ALIEXPRESS - Parc.3/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALIEXPRESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/12</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.37</a:ValorDebito>
+                    <a:ValorDestino>220.4400</a:ValorDestino>
+                    <a:ValorOrigem>220.4400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - ALIEXPRESS - Parc.3/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALIEXPRESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/12</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>75.75</a:ValorDebito>
+                    <a:ValorDestino>909.0000</a:ValorDestino>
+                    <a:ValorOrigem>909.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-01T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>2257.3600</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 01798.001010 6 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>21</a:MelhorDia>
+                <a:PagamentoMinimo>124.45</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>527.18</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>20.9900</b:ValorIof>
+                    <b:ValorParcela>134.7000</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2020.5000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.64</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>16.5000</b:ValorIof>
+                    <b:ValorParcela>143.7600</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1725.1200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>12.3600</b:ValorIof>
+                    <b:ValorParcela>161.4300</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1452.8700</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.06</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>8.6000</b:ValorIof>
+                    <b:ValorParcela>200.9500</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1205.7000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>850.49</a:ComprasDebitos>
+                  <a:Creditos>850.49</a:Creditos>
+                  <a:Pagamentos>2257.36</a:Pagamentos>
+                  <a:SaldoAnterior>2257.36</a:SaldoAnterior>
+                  <a:Total>850.49</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>850.49</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>AVAL EMERG. CRÉDITO</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>AVAL EMERG. CRÉDITO</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - POSTO MIRANTE CASTELO</a:Descricao>
+                    <a:DescricaoEstabelecimento>POSTO MIRANTE CASTELO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.81</a:ValorDebito>
+                    <a:ValorDestino>6.7000</a:ValorDestino>
+                    <a:ValorOrigem>33.8100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - COBASI RIBPRETOMAURILI</a:Descricao>
+                    <a:DescricaoEstabelecimento>COBASI RIBPRETOMAURILI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>206.91</a:ValorDebito>
+                    <a:ValorDestino>40.9800</a:ValorDestino>
+                    <a:ValorOrigem>206.9100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 0 BLUEFIT BIAGI</a:Descricao>
+                    <a:DescricaoEstabelecimento>0 BLUEFIT BIAGI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>129.90</a:ValorDebito>
+                    <a:ValorDestino>26.3000</a:ValorDestino>
+                    <a:ValorOrigem>129.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 0 BLUEFIT BIAGI</a:Descricao>
+                    <a:DescricaoEstabelecimento>0 BLUEFIT BIAGI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>129.90</a:ValorDebito>
+                    <a:ValorDestino>26.3000</a:ValorDestino>
+                    <a:ValorOrigem>129.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>6.89</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>2257.36</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2991</a:Cotacao>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOPAGO PRIGARCIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOPAGO PRIGARCIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.00</a:ValorDebito>
+                    <a:ValorDestino>6.6900</a:ValorDestino>
+                    <a:ValorOrigem>34.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PARC 103UNIFISA UNIFISAAD - Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 103UNIFISA UNIFISAAD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>102.00</a:ValorDebito>
+                    <a:ValorDestino>60.1000</a:ValorDestino>
+                    <a:ValorOrigem>306.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG PETCAMP - Parc.2/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG PETCAMP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.2/7</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>10.69</a:ValorDebito>
+                    <a:ValorDestino>74.8300</a:ValorDestino>
+                    <a:ValorOrigem>74.8300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4168</a:Cotacao>
+                    <a:Data>2022-12-10</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - SHOPEE 876198008423762 - Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOPEE 876198008423762</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.22</a:ValorDebito>
+                    <a:ValorDestino>36.6600</a:ValorDestino>
+                    <a:ValorOrigem>36.6600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3397</a:Cotacao>
+                    <a:Data>2022-11-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - ALIEXPRESS - Parc.4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALIEXPRESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.4/4</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>28.38</a:ValorDebito>
+                    <a:ValorDestino>22.3000</a:ValorDestino>
+                    <a:ValorOrigem>113.5200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - ALIEXPRESS - Parc.4/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALIEXPRESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.4/12</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.78</a:ValorDebito>
+                    <a:ValorDestino>58.5000</a:ValorDestino>
+                    <a:ValorOrigem>297.3400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - ALIEXPRESS - Parc.4/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALIEXPRESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.4/12</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>75.75</a:ValorDebito>
+                    <a:ValorDestino>909.0000</a:ValorDestino>
+                    <a:ValorOrigem>909.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - ALIEXPRESS - Parc.4/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALIEXPRESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.4/12</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.37</a:ValorDebito>
+                    <a:ValorDestino>220.4400</a:ValorDestino>
+                    <a:ValorOrigem>220.4400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-03</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>21</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>231.59</a:ComprasDebitos>
+                  <a:Creditos>231.59</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>231.59</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PARC 103UNIFISA UNIFISAADSAO PAULO    BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 103UNIFISA UNIFISAADSAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>102.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PAG PETCAMP              CAMPINAS     BR Parc. 3/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG PETCAMP              CAMPINAS     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/7</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>10.69</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-02</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - ALIEXPRESS               SAO PAULO    BR Parc. 5/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALIEXPRESS               SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 5/12</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.78</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - ALIEXPRESS               SAO PAULO    BR Parc. 5/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALIEXPRESS               SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 5/12</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>75.75</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - ALIEXPRESS               SAO PAULO    BR Parc. 5/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALIEXPRESS               SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 5/12</a:DescricaoLancamento>
+                    <a:Nome>MANILDA IACOI</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.37</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.1592</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

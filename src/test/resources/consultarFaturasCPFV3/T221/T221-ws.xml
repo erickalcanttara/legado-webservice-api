@@ -1,0 +1,635 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>91465966749</a:CPF>
+        <a:CartaoPagamento>9990900009662576</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>53.16</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>644.73</a:ComprasDebitos>
+                  <a:Creditos>414.66</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>-230.07</a:SaldoAnterior>
+                  <a:Total>414.66</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>414.66</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - DROGARIAS PACHECO Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIAS PACHECO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.14</a:ValorDebito>
+                    <a:ValorDestino>66.4200</a:ValorDestino>
+                    <a:ValorOrigem>66.4200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4095</a:Cotacao>
+                    <a:Data>2023-01-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - BOX MINEIRO VITORIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>BOX MINEIRO VITORIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.99</a:ValorDebito>
+                    <a:ValorDestino>3.2900</a:ValorDestino>
+                    <a:ValorOrigem>16.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAG BARBARENO</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG BARBARENO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.90</a:ValorDebito>
+                    <a:ValorDestino>6.1400</a:ValorDestino>
+                    <a:ValorOrigem>31.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - HOME SUSHI HOME VITO</a:Descricao>
+                    <a:DescricaoEstabelecimento>HOME SUSHI HOME VITO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>20.00</a:ValorDebito>
+                    <a:ValorDestino>3.8500</a:ValorDestino>
+                    <a:ValorOrigem>20.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PITUCHINHUS INDUSTRIA Parc.1/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>PITUCHINHUS INDUSTRIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/6</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>142.10</a:ValorDebito>
+                    <a:ValorDestino>164.0700</a:ValorDestino>
+                    <a:ValorOrigem>852.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5079</a:Cotacao>
+                    <a:Data>2023-01-10</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CENTRO DE ATIVIDADES D Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>CENTRO DE ATIVIDADES D</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.13</a:ValorDebito>
+                    <a:ValorDestino>11.8700</a:ValorDestino>
+                    <a:ValorOrigem>62.2500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAG ACOUGUEDOCHICO</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG ACOUGUEDOCHICO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>36.90</a:ValorDebito>
+                    <a:ValorDestino>7.0500</a:ValorDestino>
+                    <a:ValorOrigem>36.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAG BENDITASALADA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG BENDITASALADA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.90</a:ValorDebito>
+                    <a:ValorDestino>5.5900</a:ValorDestino>
+                    <a:ValorOrigem>29.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - ANDRESSA VIANA BRANDAO</a:Descricao>
+                    <a:DescricaoEstabelecimento>ANDRESSA VIANA BRANDAO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.00</a:ValorDebito>
+                    <a:ValorDestino>3.4400</a:ValorDestino>
+                    <a:ValorOrigem>18.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG MILLENNIUMSTORE Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MILLENNIUMSTORE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>52.45</a:ValorDebito>
+                    <a:ValorDestino>19.6200</a:ValorDestino>
+                    <a:ValorOrigem>104.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3397</a:Cotacao>
+                    <a:Data>2022-11-05</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG BUTIQUEDACAMIS Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG BUTIQUEDACAMIS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>195.62</a:ValorDebito>
+                    <a:ValorDestino>116.9500</a:ValorDestino>
+                    <a:ValorOrigem>586.8700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-10-04</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 78 - LTDAParc.4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 78 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.4/4</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.61</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-26T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>414.6600</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 10321.501016 6 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>58.48</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.73</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>11.5500</b:ValorIof>
+                    <b:ValorParcela>74.1000</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1111.5000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.87</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>9.0800</b:ValorIof>
+                    <b:ValorParcela>79.0900</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>949.0800</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.16</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>6.8000</b:ValorIof>
+                    <b:ValorParcela>88.8100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>799.2900</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>4.7300</b:ValorIof>
+                    <b:ValorParcela>110.5600</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>663.3600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>467.91</a:ComprasDebitos>
+                  <a:Creditos>467.91</a:Creditos>
+                  <a:Pagamentos>414.66</a:Pagamentos>
+                  <a:SaldoAnterior>414.66</a:SaldoAnterior>
+                  <a:Total>467.91</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>467.91</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - CENTRAL DE AVIAMENTOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>CENTRAL DE AVIAMENTOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.95</a:ValorDebito>
+                    <a:ValorDestino>3.9500</a:ValorDestino>
+                    <a:ValorOrigem>19.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CLOSET 17 VIX Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CLOSET 17 VIX</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.66</a:ValorDebito>
+                    <a:ValorDestino>29.5100</a:ValorDestino>
+                    <a:ValorOrigem>149.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - HOME SUSHI HOME VITO</a:Descricao>
+                    <a:DescricaoEstabelecimento>HOME SUSHI HOME VITO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.00</a:ValorDebito>
+                    <a:ValorDestino>3.2400</a:ValorDestino>
+                    <a:ValorOrigem>16.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - SORVETERIA 40 SABORES</a:Descricao>
+                    <a:DescricaoEstabelecimento>SORVETERIA 40 SABORES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.00</a:ValorDebito>
+                    <a:ValorDestino>1.3900</a:ValorDestino>
+                    <a:ValorOrigem>7.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOPAGO MRDOG</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOPAGO MRDOG</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.00</a:ValorDebito>
+                    <a:ValorDestino>22.0000</a:ValorDestino>
+                    <a:ValorOrigem>22.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - D BELEM DOCARIA PORTU</a:Descricao>
+                    <a:DescricaoEstabelecimento>D BELEM DOCARIA PORTU</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>76.50</a:ValorDebito>
+                    <a:ValorDestino>15.1300</a:ValorDestino>
+                    <a:ValorOrigem>76.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - HOME SUSHI HOME VITO</a:Descricao>
+                    <a:DescricaoEstabelecimento>HOME SUSHI HOME VITO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.00</a:ValorDebito>
+                    <a:ValorDestino>3.1600</a:ValorDestino>
+                    <a:ValorOrigem>16.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>414.66</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - DROGARIAS PACHECO Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIAS PACHECO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.14</a:ValorDebito>
+                    <a:ValorDestino>66.4200</a:ValorDestino>
+                    <a:ValorOrigem>66.4200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PITUCHINHUS INDUSTRIA Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>PITUCHINHUS INDUSTRIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>142.10</a:ValorDebito>
+                    <a:ValorDestino>164.0700</a:ValorDestino>
+                    <a:ValorOrigem>852.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5079</a:Cotacao>
+                    <a:Data>2023-01-10</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CENTRO DE ATIVIDADES D Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>CENTRO DE ATIVIDADES D</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.12</a:ValorDebito>
+                    <a:ValorDestino>11.8700</a:ValorDestino>
+                    <a:ValorOrigem>62.2500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG MILLENNIUMSTORE Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MILLENNIUMSTORE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>52.45</a:ValorDebito>
+                    <a:ValorDestino>19.6200</a:ValorDestino>
+                    <a:ValorOrigem>104.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>213.91</a:ComprasDebitos>
+                  <a:Creditos>213.91</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>213.91</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - CLOSET 17 VIX            VITORIA      BR Parc. 2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CLOSET 17 VIX            VITORIA      BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/3</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.67</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - DROGARIAS PACHECO        VITORIA      BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIAS PACHECO        VITORIA      BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.14</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PITUCHINHUS INDUSTRIA    GRAMADO      BR Parc. 3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>PITUCHINHUS INDUSTRIA    GRAMADO      BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/6</a:DescricaoLancamento>
+                    <a:Nome>ADIRASI LAMENHA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>142.10</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.7306</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

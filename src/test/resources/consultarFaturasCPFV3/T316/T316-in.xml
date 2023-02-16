@@ -1,0 +1,669 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>48453480125</a:CPF>
+        <a:CartaoPagamento>9990900005525918</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>793.08</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1504.06</a:ComprasDebitos>
+                  <a:Creditos>1504.06</a:Creditos>
+                  <a:Pagamentos>1523.67</a:Pagamentos>
+                  <a:SaldoAnterior>1523.67</a:SaldoAnterior>
+                  <a:Total>1504.06</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>MÍNIMO PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>1504.06</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG HAVANNACAFE</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG HAVANNACAFE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.90</a:ValorDebito>
+                    <a:ValorDestino>4.6000</a:ValorDestino>
+                    <a:ValorOrigem>24.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - OBA HORTIFRUTI</a:Descricao>
+                    <a:DescricaoEstabelecimento>OBA HORTIFRUTI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>21.28</a:ValorDebito>
+                    <a:ValorDestino>3.9300</a:ValorDestino>
+                    <a:ValorOrigem>21.2800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CEA BSC 700 ECPC</a:Descricao>
+                    <a:DescricaoEstabelecimento>CEA BSC 700 ECPC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.99</a:ValorDebito>
+                    <a:ValorDestino>4.3600</a:ValorDestino>
+                    <a:ValorOrigem>22.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - DROGASIL 1413 - Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGASIL 1413</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>116.48</a:ValorDebito>
+                    <a:ValorDestino>349.4400</a:ValorDestino>
+                    <a:ValorOrigem>349.4400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - DROGASIL 1413</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGASIL 1413</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>70.86</a:ValorDebito>
+                    <a:ValorDestino>13.7500</a:ValorDestino>
+                    <a:ValorOrigem>70.8600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ACQIO BRASILIA GRILL</a:Descricao>
+                    <a:DescricaoEstabelecimento>ACQIO BRASILIA GRILL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.80</a:ValorDebito>
+                    <a:ValorDestino>9.6600</a:ValorDestino>
+                    <a:ValorOrigem>49.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MARIETTA E MARVIN AMER</a:Descricao>
+                    <a:DescricaoEstabelecimento>MARIETTA E MARVIN AMER</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>26.00</a:ValorDebito>
+                    <a:ValorDestino>5.0400</a:ValorDestino>
+                    <a:ValorOrigem>26.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - SHOPPING DOS COSMETICO</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOPPING DOS COSMETICO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>26.34</a:ValorDebito>
+                    <a:ValorDestino>5.1100</a:ValorDestino>
+                    <a:ValorOrigem>26.3400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Pagamento Efetuado na Loja Estabelecimento 14 - LTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 14 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Pagamento Efetuado na Loja</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1523.67</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SEPHORA IGUABRASI - Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SEPHORA IGUABRASI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.55</a:ValorDebito>
+                    <a:ValorDestino>30.3200</a:ValorDestino>
+                    <a:ValorOrigem>160.6500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-11-30</a:Data>
+                    <a:Descricao>Saque Rapido Estabelecimento 112 - LTD - Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 112 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Saque Rapido - Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>701.09</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - DROGARIA LIDER - Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIA LIDER</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>48.34</a:ValorDebito>
+                    <a:ValorDestino>17.9100</a:ValorDestino>
+                    <a:ValorOrigem>96.6900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2368</a:Cotacao>
+                    <a:Data>2022-11-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CENTAURO - Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CENTAURO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.66</a:ValorDebito>
+                    <a:ValorDestino>33.4000</a:ValorDestino>
+                    <a:ValorOrigem>169.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3990</a:Cotacao>
+                    <a:Data>2022-10-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - EPOCA COSMETICOS - Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>EPOCA COSMETICOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>43.35</a:ValorDebito>
+                    <a:ValorDestino>260.1000</a:ValorDestino>
+                    <a:ValorOrigem>260.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4257</a:Cotacao>
+                    <a:Data>2022-10-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SEPHORA IGUABRASI - Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SEPHORA IGUABRASI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.68</a:ValorDebito>
+                    <a:ValorDestino>149.0400</a:ValorDestino>
+                    <a:ValorOrigem>149.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3753</a:Cotacao>
+                    <a:Data>2022-09-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - NAKANISHI COMERCIO DE - Parc.4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>NAKANISHI COMERCIO DE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.4/4</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.95</a:ValorDebito>
+                    <a:ValorDestino>38.7800</a:ValorDestino>
+                    <a:ValorOrigem>199.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2108</a:Cotacao>
+                    <a:Data>2022-04-29</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - 5579 JJ BRASILIA IGUAT - Parc.9/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>5579 JJ BRASILIA IGUAT</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.9/10</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>129.80</a:ValorDebito>
+                    <a:ValorDestino>263.3300</a:ValorDestino>
+                    <a:ValorOrigem>1298.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-01T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>1400.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 87164.601012 7 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>177.92</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>620.31</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>16.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>12.8400</b:ValorIof>
+                    <b:ValorParcela>91.8800</b:ValorParcela>
+                    <b:ValorTac>16.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1286.3200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>620.31</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>16.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>10.4900</b:ValorIof>
+                    <b:ValorParcela>97.6700</b:ValorParcela>
+                    <b:ValorTac>16.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1074.3700</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>620.31</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>16.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>7.7400</b:ValorIof>
+                    <b:ValorParcela>108.9500</b:ValorParcela>
+                    <b:ValorTac>16.9900</b:ValorTac>
+                    <b:ValorTotalContrato>871.6000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>620.31</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>16.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>5.1600</b:ValorIof>
+                    <b:ValorParcela>134.5000</b:ValorParcela>
+                    <b:ValorTac>16.9900</b:ValorTac>
+                    <b:ValorTotalContrato>672.5000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>455.68</a:ComprasDebitos>
+                  <a:Creditos>559.74</a:Creditos>
+                  <a:Pagamentos>1400.00</a:Pagamentos>
+                  <a:SaldoAnterior>1504.06</a:SaldoAnterior>
+                  <a:Total>559.74</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>559.74</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.44</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Pagamento Efetuado na Loja Estabelecimento 112 - LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 112 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Pagamento Efetuado na Loja</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1400.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SHOPPING DOS COSMETICO - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOPPING DOS COSMETICO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>42.07</a:ValorDebito>
+                    <a:ValorDestino>16.1800</a:ValorDestino>
+                    <a:ValorOrigem>84.1400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - LJ3045 SHOP IGUATEMI D</a:Descricao>
+                    <a:DescricaoEstabelecimento>LJ3045 SHOP IGUATEMI D</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>39.00</a:ValorDebito>
+                    <a:ValorDestino>7.5000</a:ValorDestino>
+                    <a:ValorOrigem>39.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - DROGASIL 1413 - Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGASIL 1413</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>116.48</a:ValorDebito>
+                    <a:ValorDestino>349.4400</a:ValorDestino>
+                    <a:ValorOrigem>349.4400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SEPHORA IGUABRASI - Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SEPHORA IGUABRASI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.55</a:ValorDebito>
+                    <a:ValorDestino>30.3200</a:ValorDestino>
+                    <a:ValorOrigem>160.6500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3990</a:Cotacao>
+                    <a:Data>2022-10-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - EPOCA COSMETICOS - Parc.4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>EPOCA COSMETICOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.4/6</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>43.35</a:ValorDebito>
+                    <a:ValorDestino>260.1000</a:ValorDestino>
+                    <a:ValorOrigem>260.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2108</a:Cotacao>
+                    <a:Data>2022-04-29</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - 5579 JJ BRASILIA IGUAT - Parc.10/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>5579 JJ BRASILIA IGUAT</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.10/10</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>129.80</a:ValorDebito>
+                    <a:ValorDestino>263.3300</a:ValorDestino>
+                    <a:ValorOrigem>1298.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>255.45</a:ComprasDebitos>
+                  <a:Creditos>255.45</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>255.45</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-22</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - SHOPPING DOS COSMETICO   BRASILIA     BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOPPING DOS COSMETICO   BRASILIA     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>42.07</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - DROGASIL 1413            BRASILIA     BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGASIL 1413            BRASILIA     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>116.48</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-17</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - SEPHORA IGUABRASI        BRASILIA     BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SEPHORA IGUABRASI        BRASILIA     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.55</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-10-23</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - EPOCA COSMETICOS         EXTREMA      BR Parc. 5/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>EPOCA COSMETICOS         EXTREMA      BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 5/6</a:DescricaoLancamento>
+                    <a:Nome>BEKSDABRA ROZENO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>43.35</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.4932</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,889 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99154901430</a:CPF>
+        <a:CartaoPagamento>9990900008953380</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>297.09</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>2803.72</a:ComprasDebitos>
+                  <a:Creditos>2638.92</a:Creditos>
+                  <a:Pagamentos>2479.58</a:Pagamentos>
+                  <a:SaldoAnterior>2314.78</a:SaldoAnterior>
+                  <a:Total>2638.92</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>2638.92</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>AVAL EMERG. CRÉDITO</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>AVAL EMERG. CRÉDITO</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-08</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER         TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER         TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>21.90</a:ValorDebito>
+                    <a:ValorDestino>4.1900</a:ValorDestino>
+                    <a:ValorOrigem>21.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - SHOPEE BG HOME BAZAR</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOPEE BG HOME BAZAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>48.28</a:ValorDebito>
+                    <a:ValorDestino>9.0400</a:ValorDestino>
+                    <a:ValorOrigem>48.2800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - CECILIA REGINA ISAAC D</a:Descricao>
+                    <a:DescricaoEstabelecimento>CECILIA REGINA ISAAC D</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>106.26</a:ValorDebito>
+                    <a:ValorDestino>20.1100</a:ValorDestino>
+                    <a:ValorOrigem>106.2600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PIQUIRAS</a:Descricao>
+                    <a:DescricaoEstabelecimento>PIQUIRAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>40.02</a:ValorDebito>
+                    <a:ValorDestino>7.5800</a:ValorDestino>
+                    <a:ValorOrigem>40.0200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PIQUIRAS</a:Descricao>
+                    <a:DescricaoEstabelecimento>PIQUIRAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>58.01</a:ValorDebito>
+                    <a:ValorDestino>10.9800</a:ValorDestino>
+                    <a:ValorOrigem>58.0100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PPB EMPORIO MILAO PRIM</a:Descricao>
+                    <a:DescricaoEstabelecimento>PPB EMPORIO MILAO PRIM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>70.59</a:ValorDebito>
+                    <a:ValorDestino>13.6000</a:ValorDestino>
+                    <a:ValorOrigem>70.5900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UNICA DESCARTE</a:Descricao>
+                    <a:DescricaoEstabelecimento>UNICA DESCARTE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>79.45</a:ValorDebito>
+                    <a:ValorDestino>15.3100</a:ValorDestino>
+                    <a:ValorOrigem>79.4500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOLIVRE SUPORTESERVI</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOLIVRE SUPORTESERVI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>176.78</a:ValorDebito>
+                    <a:ValorDestino>34.0700</a:ValorDestino>
+                    <a:ValorOrigem>176.7800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - ATACADAO COSTA</a:Descricao>
+                    <a:DescricaoEstabelecimento>ATACADAO COSTA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>63.39</a:ValorDebito>
+                    <a:ValorDestino>12.2200</a:ValorDestino>
+                    <a:ValorOrigem>63.3900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - RED MEAT S CARNES</a:Descricao>
+                    <a:DescricaoEstabelecimento>RED MEAT S CARNES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.64</a:ValorDebito>
+                    <a:ValorDestino>10.7200</a:ValorDestino>
+                    <a:ValorOrigem>55.6400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - FRIOS CIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>FRIOS CIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.92</a:ValorDebito>
+                    <a:ValorDestino>3.6400</a:ValorDestino>
+                    <a:ValorOrigem>18.9200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOPAGO GUGALEO</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOPAGO GUGALEO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>84.72</a:ValorDebito>
+                    <a:ValorDestino>16.5600</a:ValorDestino>
+                    <a:ValorOrigem>84.7200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PPB EMPORIO MILAO PRIM</a:Descricao>
+                    <a:DescricaoEstabelecimento>PPB EMPORIO MILAO PRIM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>75.48</a:ValorDebito>
+                    <a:ValorDestino>14.5300</a:ValorDestino>
+                    <a:ValorOrigem>75.4800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - WLLIANA VIEIRA GOMES</a:Descricao>
+                    <a:DescricaoEstabelecimento>WLLIANA VIEIRA GOMES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.90</a:ValorDebito>
+                    <a:ValorDestino>11.1200</a:ValorDestino>
+                    <a:ValorOrigem>56.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - SAUDE EXPRESS</a:Descricao>
+                    <a:DescricaoEstabelecimento>SAUDE EXPRESS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>70.50</a:ValorDebito>
+                    <a:ValorDestino>13.7800</a:ValorDestino>
+                    <a:ValorOrigem>70.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - BRETAS 545</a:Descricao>
+                    <a:DescricaoEstabelecimento>BRETAS 545</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>61.50</a:ValorDebito>
+                    <a:ValorDestino>12.0200</a:ValorDestino>
+                    <a:ValorOrigem>61.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - ASSAI ATACADISTA</a:Descricao>
+                    <a:DescricaoEstabelecimento>ASSAI ATACADISTA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>128.57</a:ValorDebito>
+                    <a:ValorDestino>25.1400</a:ValorDestino>
+                    <a:ValorOrigem>128.5700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOPAGO MEGATECSOLUTI</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOPAGO MEGATECSOLUTI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>93.56</a:ValorDebito>
+                    <a:ValorDestino>18.2900</a:ValorDestino>
+                    <a:ValorOrigem>93.5600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Pagamento Efetuado na Loja Estabelecimento 101 - LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 101 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Pagamento Efetuado na Loja</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>2314.78</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - EMPORIO PRIME</a:Descricao>
+                    <a:DescricaoEstabelecimento>EMPORIO PRIME</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>216.12</a:ValorDebito>
+                    <a:ValorDestino>42.2500</a:ValorDestino>
+                    <a:ValorOrigem>216.1200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - ASSAI ATACADISTA</a:Descricao>
+                    <a:DescricaoEstabelecimento>ASSAI ATACADISTA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>148.53</a:ValorDebito>
+                    <a:ValorDestino>29.0400</a:ValorDestino>
+                    <a:ValorOrigem>148.5300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOLIVRE BRASINHA</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOLIVRE BRASINHA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>164.80</a:ValorDebito>
+                    <a:ValorDestino>32.2200</a:ValorDestino>
+                    <a:ValorOrigem>164.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - AUCA ALIMENTOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>AUCA ALIMENTOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.51</a:ValorDebito>
+                    <a:ValorDestino>6.7500</a:ValorDestino>
+                    <a:ValorOrigem>34.5100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99 99PAY 99PAY BOLETO</a:Descricao>
+                    <a:DescricaoEstabelecimento>99 99PAY 99PAY BOLETO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>248.77</a:ValorDebito>
+                    <a:ValorDestino>248.7700</a:ValorDestino>
+                    <a:ValorOrigem>248.7700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - 99 99PAY 99PAY BOLETO</a:Descricao>
+                    <a:DescricaoEstabelecimento>99 99PAY 99PAY BOLETO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>508.02</a:ValorDebito>
+                    <a:ValorDestino>508.0200</a:ValorDestino>
+                    <a:ValorOrigem>508.0200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Credito Visa Compra Vista Não Vencida Não Faturada - MERCADOLIVRE BRASINHA</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOLIVRE BRASINHA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Credito Visa Compra Vista Não Vencida Não Faturada</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>164.80</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PG  PRIME GOURMET</a:Descricao>
+                    <a:DescricaoEstabelecimento>PG  PRIME GOURMET</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>120.00</a:ValorDebito>
+                    <a:ValorDestino>23.2700</a:ValorDestino>
+                    <a:ValorOrigem>120.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.61</a:ValorDebito>
+                    <a:ValorDestino>2.9600</a:ValorDestino>
+                    <a:ValorOrigem>15.6100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-31T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>2638.9200</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 27067.701014 7 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>258.59</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>55.6200</b:ValorIof>
+                    <b:ValorParcela>356.9500</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>5354.2500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.64</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>43.7200</b:ValorIof>
+                    <b:ValorParcela>380.9900</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>4571.8800</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>32.7400</b:ValorIof>
+                    <b:ValorParcela>427.8100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>3850.2900</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>22.7800</b:ValorIof>
+                    <b:ValorParcela>532.5500</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>3195.3000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>2253.88</a:ComprasDebitos>
+                  <a:Creditos>2253.88</a:Creditos>
+                  <a:Pagamentos>2638.92</a:Pagamentos>
+                  <a:SaldoAnterior>2638.92</a:SaldoAnterior>
+                  <a:Total>2253.88</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>2253.88</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>AVAL EMERG. CRÉDITO</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>AVAL EMERG. CRÉDITO</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-05</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - SHOPEE 158156514604945</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOPEE 158156514604945</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>73.47</a:ValorDebito>
+                    <a:ValorDestino>73.4700</a:ValorDestino>
+                    <a:ValorOrigem>73.4700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - SHOPEE 602674242880013</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOPEE 602674242880013</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>45.02</a:ValorDebito>
+                    <a:ValorDestino>8.9200</a:ValorDestino>
+                    <a:ValorOrigem>45.0200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOLIVRE MAFDISTRIBUI</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOLIVRE MAFDISTRIBUI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>296.37</a:ValorDebito>
+                    <a:ValorDestino>60.0000</a:ValorDestino>
+                    <a:ValorOrigem>296.3700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MUNDO DAS UTILIDADES</a:Descricao>
+                    <a:DescricaoEstabelecimento>MUNDO DAS UTILIDADES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>8.49</a:ValorDebito>
+                    <a:ValorDestino>1.6800</a:ValorDestino>
+                    <a:ValorOrigem>8.4900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - POSTO JABURU LTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>POSTO JABURU LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>100.00</a:ValorDebito>
+                    <a:ValorDestino>19.8300</a:ValorDestino>
+                    <a:ValorOrigem>100.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAG ERICLESWILLER</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG ERICLESWILLER</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.00</a:ValorDebito>
+                    <a:ValorDestino>3.3700</a:ValorDestino>
+                    <a:ValorOrigem>17.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - FARMACIA PLENITUDE FIL</a:Descricao>
+                    <a:DescricaoEstabelecimento>FARMACIA PLENITUDE FIL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.99</a:ValorDebito>
+                    <a:ValorDestino>2.3800</a:ValorDestino>
+                    <a:ValorOrigem>11.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - BOLOS DO CERRADO</a:Descricao>
+                    <a:DescricaoEstabelecimento>BOLOS DO CERRADO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.00</a:ValorDebito>
+                    <a:ValorDestino>6.5100</a:ValorDestino>
+                    <a:ValorOrigem>33.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOLIVRE SUPORTESERVI</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOLIVRE SUPORTESERVI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>1559.85</a:ValorDebito>
+                    <a:ValorDestino>307.7100</a:ValorDestino>
+                    <a:ValorOrigem>1559.8500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Pagamento Efetuado na Loja Estabelecimento 101 - LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 101 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Pagamento Efetuado na Loja</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>2638.92</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - SHOPEE 739934381824305</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOPEE 739934381824305</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>59.90</a:ValorDebito>
+                    <a:ValorDestino>11.8400</a:ValorDestino>
+                    <a:ValorOrigem>59.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3245</a:Cotacao>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.90</a:ValorDebito>
+                    <a:ValorDestino>2.3400</a:ValorDestino>
+                    <a:ValorOrigem>11.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>0.00</a:ComprasDebitos>
+                  <a:Creditos>0.00</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>0.00</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes/>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,618 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99456875229</a:CPF>
+        <a:CartaoPagamento>9990900005445690</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>391.34</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1135.18</a:ComprasDebitos>
+                  <a:Creditos>802.52</a:Creditos>
+                  <a:Pagamentos>1740.55</a:Pagamentos>
+                  <a:SaldoAnterior>1407.89</a:SaldoAnterior>
+                  <a:Total>802.52</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>802.52</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRADICAO DA CARNE</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRADICAO DA CARNE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>82.00</a:ValorDebito>
+                    <a:ValorDestino>15.2400</a:ValorDestino>
+                    <a:ValorOrigem>82.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>332.66</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Credito de Refinanciamento Saldo Financiado</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Credito de Refinanciamento Saldo Financiado</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1075.23</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Parcelamento da Fatura 15.99% - Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Parcelamento da Fatura 15.99% - Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>332.66</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - HORTIFRUTI SALUTE</a:Descricao>
+                    <a:DescricaoEstabelecimento>HORTIFRUTI SALUTE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>45.05</a:ValorDebito>
+                    <a:ValorDestino>8.5000</a:ValorDestino>
+                    <a:ValorOrigem>45.0500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PGM - Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PGM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>132.00</a:ValorDebito>
+                    <a:ValorDestino>74.5700</a:ValorDestino>
+                    <a:ValorOrigem>396.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CONSTANCE - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONSTANCE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>50.00</a:ValorDebito>
+                    <a:ValorDestino>18.8300</a:ValorDestino>
+                    <a:ValorOrigem>100.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PADARIA DELICIAS DA VO</a:Descricao>
+                    <a:DescricaoEstabelecimento>PADARIA DELICIAS DA VO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.93</a:ValorDebito>
+                    <a:ValorDestino>3.3800</a:ValorDestino>
+                    <a:ValorOrigem>17.9300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5269</a:Cotacao>
+                    <a:Data>2022-11-26</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAG TEREZINHA - Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG TEREZINHA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>77.45</a:ValorDebito>
+                    <a:ValorDestino>28.9700</a:ValorDestino>
+                    <a:ValorOrigem>154.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - BOI CHEFE - Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>BOI CHEFE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>52.44</a:ValorDebito>
+                    <a:ValorDestino>19.4300</a:ValorDestino>
+                    <a:ValorOrigem>104.8800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-31T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>802.5200</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 86149.701012 6 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>393.37</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>19.0900</b:ValorIof>
+                    <b:ValorParcela>122.5200</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1837.8000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.87</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>15.0100</b:ValorIof>
+                    <b:ValorParcela>130.7700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1569.2400</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.16</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>11.2400</b:ValorIof>
+                    <b:ValorParcela>146.8300</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1321.4700</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>7.8200</b:ValorIof>
+                    <b:ValorParcela>182.7800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1096.6800</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>773.59</a:ComprasDebitos>
+                  <a:Creditos>773.59</a:Creditos>
+                  <a:Pagamentos>802.52</a:Pagamentos>
+                  <a:SaldoAnterior>802.52</a:SaldoAnterior>
+                  <a:Total>773.59</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>773.59</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG ROSEMARYDESOUZALI</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG ROSEMARYDESOUZALI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.80</a:ValorDebito>
+                    <a:ValorDestino>6.6700</a:ValorDestino>
+                    <a:ValorOrigem>33.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - RIACHUELO 195 - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIACHUELO 195</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>44.95</a:ValorDebito>
+                    <a:ValorDestino>17.7400</a:ValorDestino>
+                    <a:ValorOrigem>89.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG LEITURACONTAGEM</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG LEITURACONTAGEM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.90</a:ValorDebito>
+                    <a:ValorDestino>6.6900</a:ValorDestino>
+                    <a:ValorOrigem>33.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - BIG BOA FESTA - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>BIG BOA FESTA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>79.96</a:ValorDebito>
+                    <a:ValorDestino>31.8100</a:ValorDestino>
+                    <a:ValorOrigem>159.9200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - BIG CONTAGEM</a:Descricao>
+                    <a:DescricaoEstabelecimento>BIG CONTAGEM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>10.00</a:ValorDebito>
+                    <a:ValorDestino>1.9900</a:ValorDestino>
+                    <a:ValorOrigem>10.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - SUPERMERCADO CASTELAO</a:Descricao>
+                    <a:DescricaoEstabelecimento>SUPERMERCADO CASTELAO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.87</a:ValorDebito>
+                    <a:ValorDestino>5.8900</a:ValorDestino>
+                    <a:ValorOrigem>29.8700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - LOJAS AMERICANAS 167</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJAS AMERICANAS 167</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.99</a:ValorDebito>
+                    <a:ValorDestino>1.5900</a:ValorDestino>
+                    <a:ValorOrigem>7.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.47</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>802.52</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Parcelamento da Fatura 15.99% - Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Parcelamento da Fatura 15.99% - Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>332.66</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PGM - Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PGM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>132.00</a:ValorDebito>
+                    <a:ValorDestino>74.5700</a:ValorDestino>
+                    <a:ValorOrigem>396.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CONSTANCE - Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONSTANCE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>50.00</a:ValorDebito>
+                    <a:ValorDestino>18.8300</a:ValorDestino>
+                    <a:ValorOrigem>100.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>589.57</a:ComprasDebitos>
+                  <a:Creditos>589.57</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>589.57</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - RIACHUELO 195            CONTAGEM     BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIACHUELO 195            CONTAGEM     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>44.95</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - BIG BOA FESTA            CONTAGEM     BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>BIG BOA FESTA            CONTAGEM     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>79.96</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Refinanciamento Com Juros -   Parc. 4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Refinanciamento Com Juros - Parc. 4/6</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>332.66</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - PGM                      CONTAGEM     BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PGM                      CONTAGEM     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>VALERCIA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>132.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.3731</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

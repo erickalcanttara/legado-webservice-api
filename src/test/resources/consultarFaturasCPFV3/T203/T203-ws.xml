@@ -1,0 +1,1274 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99528083480</a:CPF>
+        <a:CartaoPagamento>9990900004487341</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>254.61</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>3433.29</a:ComprasDebitos>
+                  <a:Creditos>2429.23</a:Creditos>
+                  <a:Pagamentos>3437.71</a:Pagamentos>
+                  <a:SaldoAnterior>2433.65</a:SaldoAnterior>
+                  <a:Total>2429.23</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>2429.23</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD IFOOD EXP</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD IFOOD EXP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>130.96</a:ValorDebito>
+                    <a:ValorDestino>25.6200</a:ValorDestino>
+                    <a:ValorOrigem>130.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - SUP CERCADAO</a:Descricao>
+                    <a:DescricaoEstabelecimento>SUP CERCADAO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>191.31</a:ValorDebito>
+                    <a:ValorDestino>37.4300</a:ValorDestino>
+                    <a:ValorOrigem>191.3100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD DIA SUPER</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD DIA SUPER</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>131.38</a:ValorDebito>
+                    <a:ValorDestino>25.7000</a:ValorDestino>
+                    <a:ValorOrigem>131.3800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>Credito MasterCard Comp Vista Não Venc Não Faturada - IFOOD   IFD DIA SUPER</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD DIA SUPER</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Credito MasterCard Comp Vista Não Venc Não Faturada</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>131.38</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino>25.7000</a:ValorDestino>
+                    <a:ValorOrigem>131.3800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-14</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG MARINEIDEBRITODAS</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MARINEIDEBRITODAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>90.00</a:ValorDebito>
+                    <a:ValorDestino>17.6100</a:ValorDestino>
+                    <a:ValorOrigem>90.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-14</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD DIA SUPER</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD DIA SUPER</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>167.12</a:ValorDebito>
+                    <a:ValorDestino>32.6900</a:ValorDestino>
+                    <a:ValorOrigem>167.1200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-14</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PG  TON JANIZETE MAR</a:Descricao>
+                    <a:DescricaoEstabelecimento>PG  TON JANIZETE MAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.00</a:ValorDebito>
+                    <a:ValorDestino>2.3500</a:ValorDestino>
+                    <a:ValorOrigem>12.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-14</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PG  TON JANIZETE MAR</a:Descricao>
+                    <a:DescricaoEstabelecimento>PG  TON JANIZETE MAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.50</a:ValorDebito>
+                    <a:ValorDestino>2.4500</a:ValorDestino>
+                    <a:ValorOrigem>12.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.96</a:ValorDebito>
+                    <a:ValorDestino>9.6900</a:ValorDestino>
+                    <a:ValorOrigem>49.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - LOS BROTHERS DISTRIBUI</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOS BROTHERS DISTRIBUI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>66.69</a:ValorDebito>
+                    <a:ValorDestino>13.0500</a:ValorDestino>
+                    <a:ValorOrigem>66.6900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4095</a:Cotacao>
+                    <a:Data>2023-01-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD DENGO CHO</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD DENGO CHO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>157.29</a:ValorDebito>
+                    <a:ValorDestino>30.1900</a:ValorDestino>
+                    <a:ValorOrigem>157.2900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4095</a:Cotacao>
+                    <a:Data>2023-01-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD EXTRA SAN</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD EXTRA SAN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>168.67</a:ValorDebito>
+                    <a:ValorDestino>32.3700</a:ValorDestino>
+                    <a:ValorOrigem>168.6700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4095</a:Cotacao>
+                    <a:Data>2023-01-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - RAPPI RAPPI BRASIL INT</a:Descricao>
+                    <a:DescricaoEstabelecimento>RAPPI RAPPI BRASIL INT</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>400.27</a:ValorDebito>
+                    <a:ValorDestino>400.2700</a:ValorDestino>
+                    <a:ValorOrigem>400.2700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD PAO DE AC</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD PAO DE AC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>294.79</a:ValorDebito>
+                    <a:ValorDestino>56.5800</a:ValorDestino>
+                    <a:ValorOrigem>294.7900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD EXTRA SAN</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD EXTRA SAN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>295.11</a:ValorDebito>
+                    <a:ValorDestino>56.2800</a:ValorDestino>
+                    <a:ValorOrigem>295.1100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Credito MasterCard Comp Vista Não Venc Não Faturada - IFOOD   IFD PAO DE AC</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD PAO DE AC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Credito MasterCard Comp Vista Não Venc Não Faturada</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>294.79</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino>56.5800</a:ValorDestino>
+                    <a:ValorOrigem>294.7900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Credito MasterCard Comp Vista Não Venc Não Faturada - IFOOD   IFD EXTRA SAN</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD EXTRA SAN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Credito MasterCard Comp Vista Não Venc Não Faturada</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>295.11</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino>56.2800</a:ValorDestino>
+                    <a:ValorOrigem>295.1100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5079</a:Cotacao>
+                    <a:Data>2023-01-10</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD EXTRA SAN</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD EXTRA SAN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>282.78</a:ValorDebito>
+                    <a:ValorDestino>53.6800</a:ValorDestino>
+                    <a:ValorOrigem>282.7800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5079</a:Cotacao>
+                    <a:Data>2023-01-10</a:Data>
+                    <a:Descricao>Credito MasterCard Comp Vista Não Venc Não Faturada - IFOOD   IFD EXTRA SAN</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD EXTRA SAN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Credito MasterCard Comp Vista Não Venc Não Faturada</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>282.78</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino>53.6800</a:ValorDestino>
+                    <a:ValorOrigem>282.7800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - SAMS</a:Descricao>
+                    <a:DescricaoEstabelecimento>SAMS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>75.00</a:ValorDebito>
+                    <a:ValorDestino>13.8500</a:ValorDestino>
+                    <a:ValorOrigem>75.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>46.53</a:ValorDebito>
+                    <a:ValorDestino>8.5900</a:ValorDestino>
+                    <a:ValorOrigem>46.5300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4839</a:Cotacao>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.92</a:ValorDebito>
+                    <a:ValorDestino>2.4600</a:ValorDestino>
+                    <a:ValorOrigem>12.9200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4839</a:Cotacao>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.95</a:ValorDebito>
+                    <a:ValorDestino>9.4700</a:ValorDestino>
+                    <a:ValorOrigem>49.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4839</a:Cotacao>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.99</a:ValorDebito>
+                    <a:ValorDestino>3.2400</a:ValorDestino>
+                    <a:ValorOrigem>16.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>9.94</a:ValorDebito>
+                    <a:ValorDestino>1.9000</a:ValorDestino>
+                    <a:ValorOrigem>9.9400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - AMERICANAS   CARREFOUR Parc.1/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>AMERICANAS   CARREFOUR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/7</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>172.22</a:ValorDebito>
+                    <a:ValorDestino>232.2100</a:ValorDestino>
+                    <a:ValorOrigem>1205.4800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>2000.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER  TRIP HELP UBER C</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER  TRIP HELP UBER C</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>70.49</a:ValorDebito>
+                    <a:ValorDestino>13.3000</a:ValorDestino>
+                    <a:ValorOrigem>70.4900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>433.65</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - BELISSIMA 10 Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>BELISSIMA 10</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>108.00</a:ValorDebito>
+                    <a:ValorDestino>40.0100</a:ValorDestino>
+                    <a:ValorOrigem>216.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SUP CERCADAO Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>SUP CERCADAO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>214.43</a:ValorDebito>
+                    <a:ValorDestino>79.4400</a:ValorDestino>
+                    <a:ValorOrigem>428.8600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - MLP     MAGAZINELUIZA Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>MLP     MAGAZINELUIZA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>52.60</a:ValorDebito>
+                    <a:ValorDestino>29.2300</a:ValorDestino>
+                    <a:ValorOrigem>157.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4257</a:Cotacao>
+                    <a:Data>2022-10-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - MEGA OUTLET TABOAO LTD Parc.3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEGA OUTLET TABOAO LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/5</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.00</a:ValorDebito>
+                    <a:ValorDestino>53.5900</a:ValorDestino>
+                    <a:ValorOrigem>280.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5610</a:Cotacao>
+                    <a:Data>2022-07-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - AMAZON MARKETPLACE Parc.7/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>AMAZON MARKETPLACE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.7/10</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>84.40</a:ValorDebito>
+                    <a:ValorDestino>156.7200</a:ValorDestino>
+                    <a:ValorOrigem>844.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-30T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>4629.2300</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.000447 87341.701016 3 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>2591.29</a:ComprasDebitos>
+                  <a:Creditos>-54.32</a:Creditos>
+                  <a:Pagamentos>5074.84</a:Pagamentos>
+                  <a:SaldoAnterior>2429.23</a:SaldoAnterior>
+                  <a:Total>-54.32</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>-54.32</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>AVAL EMERG. CRÉDITO</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>AVAL EMERG. CRÉDITO</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>28.07</a:ValorDebito>
+                    <a:ValorDestino>5.5400</a:ValorDestino>
+                    <a:ValorOrigem>28.0700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.69</a:ValorDebito>
+                    <a:ValorDestino>6.1100</a:ValorDestino>
+                    <a:ValorOrigem>30.6900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.92</a:ValorDebito>
+                    <a:ValorDestino>3.1400</a:ValorDestino>
+                    <a:ValorOrigem>15.9200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-30</a:Data>
+                    <a:Descricao>Compra a Vista Estabelecimento 706 - LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 706 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>133.07</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-30</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>200.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD MINI EXTR</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD MINI EXTR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>112.99</a:ValorDebito>
+                    <a:ValorDestino>22.2400</a:ValorDestino>
+                    <a:ValorOrigem>112.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD        IFOOD</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD        IFOOD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>137.44</a:ValorDebito>
+                    <a:ValorDestino>27.0600</a:ValorDestino>
+                    <a:ValorOrigem>137.4400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER  TRIP HELP UBER C</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER  TRIP HELP UBER C</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>20.78</a:ValorDebito>
+                    <a:ValorDestino>4.0900</a:ValorDestino>
+                    <a:ValorOrigem>20.7800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 706 - LTDParc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 706 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.38</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - BERLINF AUTO POSTO JOL</a:Descricao>
+                    <a:DescricaoEstabelecimento>BERLINF AUTO POSTO JOL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>200.00</a:ValorDebito>
+                    <a:ValorDestino>39.3000</a:ValorDestino>
+                    <a:ValorOrigem>200.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.61</a:ValorDebito>
+                    <a:ValorDestino>6.8000</a:ValorDestino>
+                    <a:ValorOrigem>34.6100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1000.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>2329.23</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-24</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>100.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD        IFOOD</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD        IFOOD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>244.93</a:ValorDebito>
+                    <a:ValorDestino>47.0900</a:ValorDestino>
+                    <a:ValorOrigem>244.9300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD DIA SUPER</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD DIA SUPER</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>200.68</a:ValorDebito>
+                    <a:ValorDestino>38.5800</a:ValorDestino>
+                    <a:ValorOrigem>200.6800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Credito MasterCard Comp Vista Não Venc Não Faturada - IFOOD        IFOOD</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD        IFOOD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Credito MasterCard Comp Vista Não Venc Não Faturada</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>244.93</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino>47.0900</a:ValorDestino>
+                    <a:ValorOrigem>244.9300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Credito MasterCard Comp Vista Não Venc Não Faturada - IFOOD   IFD DIA SUPER</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD DIA SUPER</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Credito MasterCard Comp Vista Não Venc Não Faturada</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>200.68</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino>38.5800</a:ValorDestino>
+                    <a:ValorOrigem>200.6800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>6.81</a:ValorDebito>
+                    <a:ValorDestino>1.3100</a:ValorDestino>
+                    <a:ValorOrigem>6.8100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - FLASH FOTO STUDIO Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>FLASH FOTO STUDIO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>80.00</a:ValorDebito>
+                    <a:ValorDestino>30.7600</a:ValorDestino>
+                    <a:ValorOrigem>160.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>45.26</a:ValorDebito>
+                    <a:ValorDestino>8.7000</a:ValorDestino>
+                    <a:ValorOrigem>45.2600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TENNESSEE HEITOR PENTE</a:Descricao>
+                    <a:DescricaoEstabelecimento>TENNESSEE HEITOR PENTE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>719.79</a:ValorDebito>
+                    <a:ValorDestino>138.6300</a:ValorDestino>
+                    <a:ValorOrigem>719.7900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD CARREFOUR</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD CARREFOUR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>135.76</a:ValorDebito>
+                    <a:ValorDestino>26.1500</a:ValorDestino>
+                    <a:ValorOrigem>135.7600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1000.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - AMERICANAS   CARREFOUR Parc.2/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>AMERICANAS   CARREFOUR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/7</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>172.21</a:ValorDebito>
+                    <a:ValorDestino>232.2100</a:ValorDestino>
+                    <a:ValorOrigem>1205.4800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - MLP     MAGAZINELUIZA Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>MLP     MAGAZINELUIZA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>52.60</a:ValorDebito>
+                    <a:ValorDestino>29.2300</a:ValorDestino>
+                    <a:ValorOrigem>157.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4257</a:Cotacao>
+                    <a:Data>2022-10-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - MEGA OUTLET TABOAO LTD Parc.4/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEGA OUTLET TABOAO LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.4/5</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.00</a:ValorDebito>
+                    <a:ValorDestino>53.5900</a:ValorDestino>
+                    <a:ValorOrigem>280.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5610</a:Cotacao>
+                    <a:Data>2022-07-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - AMAZON MARKETPLACE Parc.8/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>AMAZON MARKETPLACE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.8/10</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>84.40</a:ValorDebito>
+                    <a:ValorDestino>156.7200</a:ValorDestino>
+                    <a:ValorOrigem>844.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>448.00</a:ComprasDebitos>
+                  <a:Creditos>448.00</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>448.00</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Parcelado Sem Juros - Camicado - Estabelecimento 706 - LTD Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 706 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado Sem Juros - Camicado - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.39</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - FLASH FOTO STUDIO        SAO PAULO    BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>FLASH FOTO STUDIO        SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>80.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - AMERICANAS   CARREFOUR   SAO PAULO    BR Parc. 3/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>AMERICANAS   CARREFOUR   SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/7</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>172.21</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-10-22</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - MEGA OUTLET TABOAO LTD   TABOAO DA SERBR Parc. 5/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEGA OUTLET TABOAO LTD   TABOAO DA SERBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 5/5</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-07-12</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - AMAZON MARKETPLACE       SAO PAULO    BR Parc. 9/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>AMAZON MARKETPLACE       SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 9/10</a:DescricaoLancamento>
+                    <a:Nome>OZEAN MATOS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>84.40</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

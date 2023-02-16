@@ -1,0 +1,907 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99110365028</a:CPF>
+        <a:CartaoPagamento>9990900009633188</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>171.83</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1213.63</a:ComprasDebitos>
+                  <a:Creditos>1213.63</a:Creditos>
+                  <a:Pagamentos>575.58</a:Pagamentos>
+                  <a:SaldoAnterior>575.58</a:SaldoAnterior>
+                  <a:Total>1213.63</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>1213.63</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Multa Contratual</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Multa Contratual</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.51</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>AVAL EMERG. CRÉDITO</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>AVAL EMERG. CRÉDITO</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Juros de Mora</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Juros de Mora</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.38</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.29</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAO E CIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAO E CIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.93</a:ValorDebito>
+                    <a:ValorDestino>4.5200</a:ValorDestino>
+                    <a:ValorOrigem>22.9300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>575.58</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - LOJAS AMERICANAS 1157</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJAS AMERICANAS 1157</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.97</a:ValorDebito>
+                    <a:ValorDestino>10.5900</a:ValorDestino>
+                    <a:ValorOrigem>55.9700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - HIPER DB CIDADE NOVA</a:Descricao>
+                    <a:DescricaoEstabelecimento>HIPER DB CIDADE NOVA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>41.42</a:ValorDebito>
+                    <a:ValorDestino>7.8400</a:ValorDestino>
+                    <a:ValorOrigem>41.4200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4839</a:Cotacao>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - ESPACO GASTRONOMICO</a:Descricao>
+                    <a:DescricaoEstabelecimento>ESPACO GASTRONOMICO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.80</a:ValorDebito>
+                    <a:ValorDestino>7.2300</a:ValorDestino>
+                    <a:ValorOrigem>37.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAG NAIARAROCHADE</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG NAIARAROCHADE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>71.00</a:ValorDebito>
+                    <a:ValorDestino>13.8800</a:ValorDestino>
+                    <a:ValorOrigem>71.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - ECOPOSTO</a:Descricao>
+                    <a:DescricaoEstabelecimento>ECOPOSTO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>100.00</a:ValorDebito>
+                    <a:ValorDestino>19.5500</a:ValorDestino>
+                    <a:ValorOrigem>100.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 113 - LTDParc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 113 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.60</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - AREZZO Parc.1/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>AREZZO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/4</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>109.95</a:ValorDebito>
+                    <a:ValorDestino>85.9800</a:ValorDestino>
+                    <a:ValorOrigem>439.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG SMOKDCIAUAD Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG SMOKDCIAUAD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>127.50</a:ValorDebito>
+                    <a:ValorDestino>49.8500</a:ValorDestino>
+                    <a:ValorOrigem>255.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - SUPER DB RIO NEGRO</a:Descricao>
+                    <a:DescricaoEstabelecimento>SUPER DB RIO NEGRO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.93</a:ValorDebito>
+                    <a:ValorDestino>10.8400</a:ValorDestino>
+                    <a:ValorOrigem>55.9300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PBKIDS BRINQUEDOS LTDA Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PBKIDS BRINQUEDOS LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>90.00</a:ValorDebito>
+                    <a:ValorDestino>450.0000</a:ValorDestino>
+                    <a:ValorOrigem>450.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4913</a:Cotacao>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - RB BOLSAS E ACESSORIOS Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>RB BOLSAS E ACESSORIOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>75.00</a:ValorDebito>
+                    <a:ValorDestino>28.5100</a:ValorDestino>
+                    <a:ValorOrigem>150.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4913</a:Cotacao>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG MANDYSTORES Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MANDYSTORES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>46.68</a:ValorDebito>
+                    <a:ValorDestino>140.0400</a:ValorDestino>
+                    <a:ValorOrigem>140.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-11-02</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 50 - LTDAParc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 50 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>66.63</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5117</a:Cotacao>
+                    <a:Data>2022-10-28</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - COMEPI MANAUARA SHOPPI Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>COMEPI MANAUARA SHOPPI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>60.85</a:ValorDebito>
+                    <a:ValorDestino>34.7600</a:ValorDestino>
+                    <a:ValorOrigem>182.5500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-10-28</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 113 - LTDParc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 113 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.30</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4257</a:Cotacao>
+                    <a:Data>2022-10-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CEA MAS 690 ECPC Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CEA MAS 690 ECPC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>86.00</a:ValorDebito>
+                    <a:ValorDestino>258.0000</a:ValorDestino>
+                    <a:ValorOrigem>258.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-01T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>1213.6300</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 11495.001015 7 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>126.49</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>22.5200</b:ValorIof>
+                    <b:ValorParcela>144.5000</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2167.5000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.64</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>17.7000</b:ValorIof>
+                    <b:ValorParcela>154.2300</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1850.7600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>13.2600</b:ValorIof>
+                    <b:ValorParcela>173.1800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1558.6200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>9.2200</b:ValorIof>
+                    <b:ValorParcela>215.5800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1293.4800</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>912.39</a:ComprasDebitos>
+                  <a:Creditos>912.39</a:Creditos>
+                  <a:Pagamentos>1213.63</a:Pagamentos>
+                  <a:SaldoAnterior>1213.63</a:SaldoAnterior>
+                  <a:Total>912.39</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>912.39</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>AVAL EMERG. CRÉDITO</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>AVAL EMERG. CRÉDITO</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>2.28</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1213.63</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - ROSILENE SANTOS DA S</a:Descricao>
+                    <a:DescricaoEstabelecimento>ROSILENE SANTOS DA S</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.00</a:ValorDebito>
+                    <a:ValorDestino>10.8700</a:ValorDestino>
+                    <a:ValorOrigem>55.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - USAFLEX Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>USAFLEX</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>75.00</a:ValorDebito>
+                    <a:ValorDestino>29.6600</a:ValorDestino>
+                    <a:ValorOrigem>149.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3993</a:Cotacao>
+                    <a:Data>2023-01-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - SABOR DA CASA</a:Descricao>
+                    <a:DescricaoEstabelecimento>SABOR DA CASA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>47.28</a:ValorDebito>
+                    <a:ValorDestino>9.1600</a:ValorDestino>
+                    <a:ValorOrigem>47.2800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - ESPACO GASTRONOMICO</a:Descricao>
+                    <a:DescricaoEstabelecimento>ESPACO GASTRONOMICO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.09</a:ValorDebito>
+                    <a:ValorDestino>10.8600</a:ValorDestino>
+                    <a:ValorOrigem>56.0900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - ECOPOSTO</a:Descricao>
+                    <a:DescricaoEstabelecimento>ECOPOSTO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>70.00</a:ValorDebito>
+                    <a:ValorDestino>13.5500</a:ValorDestino>
+                    <a:ValorOrigem>70.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - ASSAI ATACADISTA Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>ASSAI ATACADISTA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>64.12</a:ValorDebito>
+                    <a:ValorDestino>24.8400</a:ValorDestino>
+                    <a:ValorOrigem>128.2400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - AREZZO Parc.2/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>AREZZO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/4</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>109.95</a:ValorDebito>
+                    <a:ValorDestino>85.9800</a:ValorDestino>
+                    <a:ValorOrigem>439.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG SMOKDCIAUAD Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG SMOKDCIAUAD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>127.50</a:ValorDebito>
+                    <a:ValorDestino>49.8500</a:ValorDestino>
+                    <a:ValorOrigem>255.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 113 - LTDParc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 113 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.60</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PBKIDS BRINQUEDOS LTDA Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PBKIDS BRINQUEDOS LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>90.00</a:ValorDebito>
+                    <a:ValorDestino>450.0000</a:ValorDestino>
+                    <a:ValorOrigem>450.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4913</a:Cotacao>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG MANDYSTORES Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MANDYSTORES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>46.68</a:ValorDebito>
+                    <a:ValorDestino>140.0400</a:ValorDestino>
+                    <a:ValorOrigem>140.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4913</a:Cotacao>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - RB BOLSAS E ACESSORIOS Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>RB BOLSAS E ACESSORIOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>75.00</a:ValorDebito>
+                    <a:ValorDestino>28.5100</a:ValorDestino>
+                    <a:ValorOrigem>150.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>442.34</a:ComprasDebitos>
+                  <a:Creditos>442.34</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>442.34</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - USAFLEX                  MANAUS       BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>USAFLEX                  MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>74.99</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - ASSAI ATACADISTA         MANAUS       BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>ASSAI ATACADISTA         MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>64.12</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcelado sem Juros - Estabelecimento 113 - LTD Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 113 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado sem Juros - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.60</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - AREZZO                   MANAUS       BR Parc. 3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>AREZZO                   MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/4</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>109.95</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PBKIDS BRINQUEDOS LTDA   MANAUS       BR Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PBKIDS BRINQUEDOS LTDA   MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>90.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PAG MANDYSTORES          MANAUS       BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MANDYSTORES          MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>46.68</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

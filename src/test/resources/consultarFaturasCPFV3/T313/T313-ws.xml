@@ -1,0 +1,1145 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99456478653</a:CPF>
+        <a:CartaoPagamento>9990900005250914</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>566.29</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>2213.54</a:ComprasDebitos>
+                  <a:Creditos>2496.75</a:Creditos>
+                  <a:Pagamentos>1519.13</a:Pagamentos>
+                  <a:SaldoAnterior>1802.34</a:SaldoAnterior>
+                  <a:Total>2496.75</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>MÍNIMO PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>2496.75</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.59</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>64.93</a:ValorDebito>
+                    <a:ValorDestino>12.7900</a:ValorDestino>
+                    <a:ValorOrigem>64.9300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - UBER  TRIP HELP UBER COM</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER  TRIP HELP UBER COM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>74.95</a:ValorDebito>
+                    <a:ValorDestino>14.7600</a:ValorDestino>
+                    <a:ValorOrigem>74.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAG VILLAGEMALLRIOSTH</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG VILLAGEMALLRIOSTH</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>158.80</a:ValorDebito>
+                    <a:ValorDestino>31.2800</a:ValorDestino>
+                    <a:ValorOrigem>158.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PP           INGRESSOS Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PP           INGRESSOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.34</a:ValorDebito>
+                    <a:ValorDestino>17.3300</a:ValorDestino>
+                    <a:ValorOrigem>88.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - FRONTERA</a:Descricao>
+                    <a:DescricaoEstabelecimento>FRONTERA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>126.70</a:ValorDebito>
+                    <a:ValorDestino>24.9600</a:ValorDestino>
+                    <a:ValorOrigem>126.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - VIN DONACHICASLINGUE Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIN DONACHICASLINGUE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>92.37</a:ValorDebito>
+                    <a:ValorDestino>461.8500</a:ValorDestino>
+                    <a:ValorOrigem>461.8500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4963</a:Cotacao>
+                    <a:Data>2023-01-09</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - APPLE COM BILL</a:Descricao>
+                    <a:DescricaoEstabelecimento>APPLE COM BILL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.90</a:ValorDebito>
+                    <a:ValorDestino>5.3200</a:ValorDestino>
+                    <a:ValorOrigem>27.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-08</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - EBW SHEIN Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.09</a:ValorDebito>
+                    <a:ValorDestino>22.0600</a:ValorDestino>
+                    <a:ValorOrigem>115.3700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - VIVIAN FESTAS Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIVIAN FESTAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.95</a:ValorDebito>
+                    <a:ValorDestino>13.3600</a:ValorDestino>
+                    <a:ValorOrigem>69.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - APPLE COM BILL</a:Descricao>
+                    <a:DescricaoEstabelecimento>APPLE COM BILL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.90</a:ValorDebito>
+                    <a:ValorDestino>2.4700</a:ValorDestino>
+                    <a:ValorOrigem>12.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADO CAMPEAO DO LAU</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADO CAMPEAO DO LAU</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>46.13</a:ValorDebito>
+                    <a:ValorDestino>8.6300</a:ValorDestino>
+                    <a:ValorOrigem>46.1300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - RIO SUL</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIO SUL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>38.20</a:ValorDebito>
+                    <a:ValorDestino>7.3000</a:ValorDestino>
+                    <a:ValorOrigem>38.2000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - EBW SHEIN Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.28</a:ValorDebito>
+                    <a:ValorDestino>29.3000</a:ValorDestino>
+                    <a:ValorOrigem>156.4800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1502.34</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - VEM K V II COMERCIO</a:Descricao>
+                    <a:DescricaoEstabelecimento>VEM K V II COMERCIO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>64.43</a:ValorDebito>
+                    <a:ValorDestino>12.6000</a:ValorDestino>
+                    <a:ValorOrigem>64.4300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - VC ESTILOSA</a:Descricao>
+                    <a:DescricaoEstabelecimento>VC ESTILOSA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>60.00</a:ValorDebito>
+                    <a:ValorDestino>11.7300</a:ValorDestino>
+                    <a:ValorOrigem>60.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - NETFLIX.COM</a:Descricao>
+                    <a:DescricaoEstabelecimento>NETFLIX.COM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>25.90</a:ValorDebito>
+                    <a:ValorDestino>4.9900</a:ValorDestino>
+                    <a:ValorOrigem>25.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4047</a:Cotacao>
+                    <a:Data>2022-12-05</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MJ FOZ   MCG   MA Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MJ FOZ   MCG   MA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>72.50</a:ValorDebito>
+                    <a:ValorDestino>28.0900</a:ValorDestino>
+                    <a:ValorOrigem>145.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4020</a:Cotacao>
+                    <a:Data>2022-12-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - DROGARIAS PACHECO Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIAS PACHECO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.79</a:ValorDebito>
+                    <a:ValorDestino>33.7000</a:ValorDestino>
+                    <a:ValorOrigem>173.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5193</a:Cotacao>
+                    <a:Data>2022-11-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - REDLEY Parc.2/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>REDLEY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/4</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>109.50</a:ValorDebito>
+                    <a:ValorDestino>82.9700</a:ValorDestino>
+                    <a:ValorOrigem>438.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5943</a:Cotacao>
+                    <a:Data>2022-11-29</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MARIA ARIANA SOUZA DE Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>MARIA ARIANA SOUZA DE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>125.00</a:ValorDebito>
+                    <a:ValorDestino>46.7600</a:ValorDestino>
+                    <a:ValorOrigem>250.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - ACQUA BRASIL SPA Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>ACQUA BRASIL SPA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>333.33</a:ValorDebito>
+                    <a:ValorDestino>187.8000</a:ValorDestino>
+                    <a:ValorOrigem>1000.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3397</a:Cotacao>
+                    <a:Data>2022-11-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG SULAMARIAMARCINA Parc.3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG SULAMARIAMARCINA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/4</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>72.45</a:ValorDebito>
+                    <a:ValorDestino>56.9300</a:ValorDestino>
+                    <a:ValorOrigem>289.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - BAGAGGIO Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>BAGAGGIO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>125.75</a:ValorDebito>
+                    <a:ValorDestino>144.6600</a:ValorDestino>
+                    <a:ValorOrigem>754.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4455</a:Cotacao>
+                    <a:Data>2022-09-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - EBW          SHEIN Parc.4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW          SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.4/4</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.6571</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>52.35</a:ValorDebito>
+                    <a:ValorDestino>40.5900</a:ValorDestino>
+                    <a:ValorOrigem>209.4100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-09-12</a:Data>
+                    <a:Descricao>Credito Visa - EBW*SHEIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW*SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Credito Visa</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>16.79</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4235</a:Cotacao>
+                    <a:Data>2022-09-10</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - EBW SHEIN Parc.5/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.5/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.6571</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>50.55</a:ValorDebito>
+                    <a:ValorDestino>49.2000</a:ValorDestino>
+                    <a:ValorOrigem>252.7600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3058</a:Cotacao>
+                    <a:Data>2022-08-15</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - LOCALIZA RAC ACBHZ0 Parc.6/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOCALIZA RAC ACBHZ0</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.6/6</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0688</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>63.93</a:ValorDebito>
+                    <a:ValorDestino>383.5800</a:ValorDestino>
+                    <a:ValorOrigem>383.5800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3166</a:Cotacao>
+                    <a:Data>2022-08-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CASA E VIDEO 327 Parc.6/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASA E VIDEO 327</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.6/6</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0688</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.68</a:ValorDebito>
+                    <a:ValorDestino>226.0800</a:ValorDestino>
+                    <a:ValorOrigem>226.0800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4245</a:Cotacao>
+                    <a:Data>2022-08-08</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - LOCALIZA RAC ACDCX0 Parc.6/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOCALIZA RAC ACDCX0</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.6/6</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0688</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>58.26</a:ValorDebito>
+                    <a:ValorDestino>349.5600</a:ValorDestino>
+                    <a:ValorOrigem>349.5600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1160</a:Cotacao>
+                    <a:Data>2022-05-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CLK GRUPO PROMOVE Parc.8/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>CLK GRUPO PROMOVE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.8/10</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0688</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>97.00</a:ValorDebito>
+                    <a:ValorDestino>199.9600</a:ValorDestino>
+                    <a:ValorOrigem>970.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-01T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>1996.7500</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 56935.401010 8 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>720.11</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>620.31</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>16.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>39.3900</b:ValorIof>
+                    <b:ValorParcela>282.0200</b:ValorParcela>
+                    <b:ValorTac>16.9900</b:ValorTac>
+                    <b:ValorTotalContrato>3948.2800</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>620.31</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>16.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>32.1900</b:ValorIof>
+                    <b:ValorParcela>299.7900</b:ValorParcela>
+                    <b:ValorTac>16.9900</b:ValorTac>
+                    <b:ValorTotalContrato>3297.6900</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>620.31</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>16.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>23.7600</b:ValorIof>
+                    <b:ValorParcela>334.4200</b:ValorParcela>
+                    <b:ValorTac>16.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2675.3600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>620.31</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>16.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>15.8400</b:ValorIof>
+                    <b:ValorParcela>412.8300</b:ValorParcela>
+                    <b:ValorTac>16.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2064.1500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1218.07</a:ComprasDebitos>
+                  <a:Creditos>1718.07</a:Creditos>
+                  <a:Pagamentos>1996.75</a:Pagamentos>
+                  <a:SaldoAnterior>2496.75</a:SaldoAnterior>
+                  <a:Total>1718.07</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>1718.07</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>88.63</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG BROTHERS Parc.1/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG BROTHERS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/6</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>125.00</a:ValorDebito>
+                    <a:ValorDestino>148.7600</a:ValorDestino>
+                    <a:ValorOrigem>750.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.61</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>500.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1496.75</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PP           INGRESSOS Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PP           INGRESSOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.33</a:ValorDebito>
+                    <a:ValorDestino>17.3300</a:ValorDestino>
+                    <a:ValorOrigem>88.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - VIN DONACHICASLINGUE Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIN DONACHICASLINGUE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>92.37</a:ValorDebito>
+                    <a:ValorDestino>461.8500</a:ValorDestino>
+                    <a:ValorOrigem>461.8500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-08</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - EBW SHEIN Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.07</a:ValorDebito>
+                    <a:ValorDestino>22.0600</a:ValorDestino>
+                    <a:ValorOrigem>115.3700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - VIVIAN FESTAS Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIVIAN FESTAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.95</a:ValorDebito>
+                    <a:ValorDestino>13.3600</a:ValorDestino>
+                    <a:ValorOrigem>69.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - EBW SHEIN Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.30</a:ValorDebito>
+                    <a:ValorDestino>29.3000</a:ValorDestino>
+                    <a:ValorOrigem>156.4800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4020</a:Cotacao>
+                    <a:Data>2022-12-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - DROGARIAS PACHECO Parc.3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIAS PACHECO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.79</a:ValorDebito>
+                    <a:ValorDestino>33.7000</a:ValorDestino>
+                    <a:ValorOrigem>173.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5193</a:Cotacao>
+                    <a:Data>2022-11-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - REDLEY Parc.3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>REDLEY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/4</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>109.50</a:ValorDebito>
+                    <a:ValorDestino>82.9700</a:ValorDestino>
+                    <a:ValorOrigem>438.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - ACQUA BRASIL SPA Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>ACQUA BRASIL SPA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>333.33</a:ValorDebito>
+                    <a:ValorDestino>187.8000</a:ValorDestino>
+                    <a:ValorOrigem>1000.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3397</a:Cotacao>
+                    <a:Data>2022-11-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PAG SULAMARIAMARCINA Parc.4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG SULAMARIAMARCINA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.4/4</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>72.45</a:ValorDebito>
+                    <a:ValorDestino>56.9300</a:ValorDestino>
+                    <a:ValorOrigem>289.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - BAGAGGIO Parc.4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>BAGAGGIO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.4/6</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>125.75</a:ValorDebito>
+                    <a:ValorDestino>144.6600</a:ValorDestino>
+                    <a:ValorOrigem>754.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1160</a:Cotacao>
+                    <a:Data>2022-05-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CLK GRUPO PROMOVE Parc.9/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>CLK GRUPO PROMOVE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.9/10</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0688</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>97.00</a:ValorDebito>
+                    <a:ValorDestino>199.9600</a:ValorDestino>
+                    <a:ValorOrigem>970.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>668.11</a:ComprasDebitos>
+                  <a:Creditos>668.11</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>668.11</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PAG BROTHERS             DUQUE DE CAXIBR Parc. 2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG BROTHERS             DUQUE DE CAXIBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/6</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>125.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PP           INGRESSOS   SAO PAULO    BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PP           INGRESSOS   SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.33</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - VIN DONACHICASLINGUE     RIO DE JANEIRBR Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIN DONACHICASLINGUE     RIO DE JANEIRBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>92.37</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-08</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - EBW SHEIN                CURITIBA     BR Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN                CURITIBA     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.07</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - EBW SHEIN                CURITIBA     BR Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN                CURITIBA     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1490</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.30</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-02</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - DROGARIAS PACHECO        DUQUE DE CAXIBR Parc. 4/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIAS PACHECO        DUQUE DE CAXIBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/5</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.79</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-30</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - REDLEY                   DUQUE DE CAXIBR Parc. 4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>REDLEY                   DUQUE DE CAXIBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/4</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>109.50</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - BAGAGGIO                 DUQUE DE CAXIBR Parc. 5/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>BAGAGGIO                 DUQUE DE CAXIBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 5/6</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>125.75</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-05-21</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - CLK GRUPO PROMOVE        RIO DE JANEIRBR Parc. 10/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>CLK GRUPO PROMOVE        RIO DE JANEIRBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 10/10</a:DescricaoLancamento>
+                    <a:Nome>TAIUINA BATISTADEMELO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0688</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>97.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.1574</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

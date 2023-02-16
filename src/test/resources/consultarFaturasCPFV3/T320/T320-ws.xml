@@ -1,0 +1,703 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99233202941</a:CPF>
+        <a:CartaoPagamento>9990900007818522</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>63.81</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>521.18</a:ComprasDebitos>
+                  <a:Creditos>521.18</a:Creditos>
+                  <a:Pagamentos>528.92</a:Pagamentos>
+                  <a:SaldoAnterior>528.92</a:SaldoAnterior>
+                  <a:Total>521.18</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>521.18</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - RESTAURANTE E BOTECO D</a:Descricao>
+                    <a:DescricaoEstabelecimento>RESTAURANTE E BOTECO D</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.00</a:ValorDebito>
+                    <a:ValorDestino>4.3500</a:ValorDestino>
+                    <a:ValorOrigem>23.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PG  LARA LANCHES LARA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PG  LARA LANCHES LARA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.00</a:ValorDebito>
+                    <a:ValorDestino>18.0000</a:ValorDestino>
+                    <a:ValorOrigem>18.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - AUTOPOSTO MOTA CUNHA</a:Descricao>
+                    <a:DescricaoEstabelecimento>AUTOPOSTO MOTA CUNHA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>76.05</a:ValorDebito>
+                    <a:ValorDestino>14.6400</a:ValorDestino>
+                    <a:ValorOrigem>76.0500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - FATIMA DA CONCEICAO MACHA</a:Descricao>
+                    <a:DescricaoEstabelecimento>FATIMA DA CONCEICAO MACHA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.60</a:ValorDebito>
+                    <a:ValorDestino>3.2000</a:ValorDestino>
+                    <a:ValorOrigem>16.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADO JW</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADO JW</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.58</a:ValorDebito>
+                    <a:ValorDestino>2.8100</a:ValorDestino>
+                    <a:ValorOrigem>14.5800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOPAGO ANDREBAR</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOPAGO ANDREBAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.00</a:ValorDebito>
+                    <a:ValorDestino>12.0000</a:ValorDestino>
+                    <a:ValorOrigem>12.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PG  LARA LANCHES LARA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PG  LARA LANCHES LARA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.00</a:ValorDebito>
+                    <a:ValorDestino>23.0000</a:ValorDestino>
+                    <a:ValorOrigem>23.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADINHO CAMPOS NOVO</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADINHO CAMPOS NOVO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>118.15</a:ValorDebito>
+                    <a:ValorDestino>23.1000</a:ValorDestino>
+                    <a:ValorOrigem>118.1500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PADARIA GONCALVES</a:Descricao>
+                    <a:DescricaoEstabelecimento>PADARIA GONCALVES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.00</a:ValorDebito>
+                    <a:ValorDestino>3.3000</a:ValorDestino>
+                    <a:ValorOrigem>17.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - LUCINEIA M F M SAMPAIO</a:Descricao>
+                    <a:DescricaoEstabelecimento>LUCINEIA M F M SAMPAIO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>38.00</a:ValorDebito>
+                    <a:ValorDestino>7.3700</a:ValorDestino>
+                    <a:ValorOrigem>38.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PG  LARA LANCHES LARA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PG  LARA LANCHES LARA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.00</a:ValorDebito>
+                    <a:ValorDestino>4.4600</a:ValorDestino>
+                    <a:ValorOrigem>23.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PADARIA DO CELSO</a:Descricao>
+                    <a:DescricaoEstabelecimento>PADARIA DO CELSO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>9.00</a:ValorDebito>
+                    <a:ValorDestino>1.7500</a:ValorDestino>
+                    <a:ValorOrigem>9.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PADARIA DO CELSO</a:Descricao>
+                    <a:DescricaoEstabelecimento>PADARIA DO CELSO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>9.00</a:ValorDebito>
+                    <a:ValorDestino>1.7500</a:ValorDestino>
+                    <a:ValorOrigem>9.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PARC 102MERCADOPAGO OCM Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 102MERCADOPAGO OCM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.82</a:ValorDebito>
+                    <a:ValorDestino>20.8700</a:ValorDestino>
+                    <a:ValorOrigem>107.6400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>528.92</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3738</a:Cotacao>
+                    <a:Data>2022-09-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CASAS BAHIA Parc.4/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASAS BAHIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.4/7</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.99</a:ValorDebito>
+                    <a:ValorDestino>77.7800</a:ValorDestino>
+                    <a:ValorOrigem>398.9400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-20T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>521.1800</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 44421.701010 1 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>60.57</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>12.0600</b:ValorIof>
+                    <b:ValorParcela>77.4100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1161.1500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.87</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>9.4800</b:ValorIof>
+                    <b:ValorParcela>82.6300</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>991.5600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>7.1000</b:ValorIof>
+                    <b:ValorParcela>92.7800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>835.0200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>4.9400</b:ValorIof>
+                    <b:ValorParcela>115.5000</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>693.0000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>488.81</a:ComprasDebitos>
+                  <a:Creditos>488.81</a:Creditos>
+                  <a:Pagamentos>521.18</a:Pagamentos>
+                  <a:SaldoAnterior>521.18</a:SaldoAnterior>
+                  <a:Total>488.81</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>488.81</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOPAGO BOMBAR</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOPAGO BOMBAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.50</a:ValorDebito>
+                    <a:ValorDestino>3.1400</a:ValorDestino>
+                    <a:ValorOrigem>15.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2991</a:Cotacao>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - PAG OLIVEIRAESILVA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG OLIVEIRAESILVA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>38.50</a:ValorDebito>
+                    <a:ValorDestino>7.5800</a:ValorDestino>
+                    <a:ValorOrigem>38.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2791</a:Cotacao>
+                    <a:Data>2023-01-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - G SANTOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>G SANTOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.25</a:ValorDebito>
+                    <a:ValorDestino>2.2300</a:ValorDestino>
+                    <a:ValorOrigem>11.2500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - LUCIMARA FREDIANI 284</a:Descricao>
+                    <a:DescricaoEstabelecimento>LUCIMARA FREDIANI 284</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.00</a:ValorDebito>
+                    <a:ValorDestino>2.7700</a:ValorDestino>
+                    <a:ValorOrigem>14.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - BAR DA ELIZETE</a:Descricao>
+                    <a:DescricaoEstabelecimento>BAR DA ELIZETE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>32.00</a:ValorDebito>
+                    <a:ValorDestino>6.3300</a:ValorDestino>
+                    <a:ValorOrigem>32.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADOPAGO BOMBAR</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOPAGO BOMBAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>38.00</a:ValorDebito>
+                    <a:ValorDestino>7.5000</a:ValorDestino>
+                    <a:ValorOrigem>38.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCEARIA DO ODILON</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCEARIA DO ODILON</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>25.00</a:ValorDebito>
+                    <a:ValorDestino>4.8400</a:ValorDestino>
+                    <a:ValorOrigem>25.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - AUTO POSTO LENNO LTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>AUTO POSTO LENNO LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.75</a:ValorDebito>
+                    <a:ValorDestino>11.1800</a:ValorDestino>
+                    <a:ValorOrigem>57.7500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - MERCADO COSTA  RIBEIRO</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADO COSTA  RIBEIRO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.73</a:ValorDebito>
+                    <a:ValorDestino>7.3100</a:ValorDestino>
+                    <a:ValorOrigem>37.7300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - CASA DE CARNES BOA VIST</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASA DE CARNES BOA VIST</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>60.28</a:ValorDebito>
+                    <a:ValorDestino>11.6700</a:ValorDestino>
+                    <a:ValorOrigem>60.2800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - EDLEUZA MARIA DE SOUZ</a:Descricao>
+                    <a:DescricaoEstabelecimento>EDLEUZA MARIA DE SOUZ</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>35.00</a:ValorDebito>
+                    <a:ValorDestino>6.7800</a:ValorDestino>
+                    <a:ValorOrigem>35.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>521.18</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PARC 102MERCADOPAGO OCM Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 102MERCADOPAGO OCM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.82</a:ValorDebito>
+                    <a:ValorDestino>20.8700</a:ValorDestino>
+                    <a:ValorOrigem>107.6400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3738</a:Cotacao>
+                    <a:Data>2022-09-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CASAS BAHIA Parc.5/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASAS BAHIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.5/7</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.99</a:ValorDebito>
+                    <a:ValorDestino>77.7800</a:ValorDestino>
+                    <a:ValorOrigem>398.9400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>56.99</a:ComprasDebitos>
+                  <a:Creditos>56.99</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>56.99</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-09-23</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - CASAS BAHIA              SAO JOSE DOS BR Parc. 6/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASAS BAHIA              SAO JOSE DOS BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 6/7</a:DescricaoLancamento>
+                    <a:Nome>OCINEIDE GILIS</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.99</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.2887</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

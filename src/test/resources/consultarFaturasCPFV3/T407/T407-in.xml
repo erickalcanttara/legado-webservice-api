@@ -1,0 +1,1094 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99423508456</a:CPF>
+        <a:CartaoPagamento>9990900005847461</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>220.19</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1869.90</a:ComprasDebitos>
+                  <a:Creditos>1869.90</a:Creditos>
+                  <a:Pagamentos>2188.75</a:Pagamentos>
+                  <a:SaldoAnterior>2188.75</a:SaldoAnterior>
+                  <a:Total>1869.90</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>1869.90</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>AVAL EMERG. CRÉDITO</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>AVAL EMERG. CRÉDITO</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ANKTUS TURISMO - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>ANKTUS TURISMO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>350.00</a:ValorDebito>
+                    <a:ValorDestino>136.9200</a:ValorDestino>
+                    <a:ValorOrigem>700.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6631</a:Cotacao>
+                    <a:Data>2023-01-05</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CHAMA SUPERMERCADOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>CHAMA SUPERMERCADOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>58.33</a:ValorDebito>
+                    <a:ValorDestino>10.7700</a:ValorDestino>
+                    <a:ValorOrigem>58.3300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CHAMA SUPERMERCADOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>CHAMA SUPERMERCADOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>285.24</a:ValorDebito>
+                    <a:ValorDestino>54.0500</a:ValorDestino>
+                    <a:ValorOrigem>285.2400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4839</a:Cotacao>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SONHO GAUCHO MATERIAIS - Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SONHO GAUCHO MATERIAIS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.98</a:ValorDebito>
+                    <a:ValorDestino>149.9400</a:ValorDestino>
+                    <a:ValorOrigem>149.9400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GIMBA</a:Descricao>
+                    <a:DescricaoEstabelecimento>GIMBA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>20.17</a:ValorDebito>
+                    <a:ValorDestino>3.9100</a:ValorDestino>
+                    <a:ValorOrigem>20.1700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Pagamento Efetuado na Loja Estabelecimento 454 - LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 454 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Pagamento Efetuado na Loja</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>2188.75</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - RIACHUELO</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIACHUELO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>259.70</a:ValorDebito>
+                    <a:ValorDestino>50.3900</a:ValorDestino>
+                    <a:ValorOrigem>259.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TANGARA</a:Descricao>
+                    <a:DescricaoEstabelecimento>TANGARA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.90</a:ValorDebito>
+                    <a:ValorDestino>3.2800</a:ValorDestino>
+                    <a:ValorOrigem>16.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - RTL ALIMENTOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>RTL ALIMENTOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>32.91</a:ValorDebito>
+                    <a:ValorDestino>6.3400</a:ValorDestino>
+                    <a:ValorOrigem>32.9100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG JOSEDEBRITOSOUSA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG JOSEDEBRITOSOUSA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>80.00</a:ValorDebito>
+                    <a:ValorDestino>15.4000</a:ValorDestino>
+                    <a:ValorOrigem>80.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - HL CHOPERIA DO JUIZ LT</a:Descricao>
+                    <a:DescricaoEstabelecimento>HL CHOPERIA DO JUIZ LT</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>70.00</a:ValorDebito>
+                    <a:ValorDestino>13.4700</a:ValorDestino>
+                    <a:ValorOrigem>70.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - RIACHUELO</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIACHUELO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.90</a:ValorDebito>
+                    <a:ValorDestino>9.6100</a:ValorDestino>
+                    <a:ValorOrigem>49.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - BILLENS</a:Descricao>
+                    <a:DescricaoEstabelecimento>BILLENS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.00</a:ValorDebito>
+                    <a:ValorDestino>9.2100</a:ValorDestino>
+                    <a:ValorOrigem>49.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - 99APP        99APP</a:Descricao>
+                    <a:DescricaoEstabelecimento>99APP        99APP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.11</a:ValorDebito>
+                    <a:ValorDestino>5.6600</a:ValorDestino>
+                    <a:ValorOrigem>30.1100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - 99APP        99APP</a:Descricao>
+                    <a:DescricaoEstabelecimento>99APP        99APP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>21.51</a:ValorDebito>
+                    <a:ValorDestino>4.1000</a:ValorDestino>
+                    <a:ValorOrigem>21.5100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 238 - LTD - Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 238 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4826</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>143.92</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5383</a:Cotacao>
+                    <a:Data>2022-11-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - VIA LASER DEPILACAO - Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIA LASER DEPILACAO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4826</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.00</a:ValorDebito>
+                    <a:ValorDestino>1.8700</a:ValorDestino>
+                    <a:ValorOrigem>10.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5180</a:Cotacao>
+                    <a:Data>2022-11-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - RIACHUELO - Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIACHUELO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4826</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>86.60</a:ValorDebito>
+                    <a:ValorDestino>48.7300</a:ValorDestino>
+                    <a:ValorOrigem>259.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2022-10-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ATLANTA ACESSORIOS - Parc.4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>ATLANTA ACESSORIOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.4/4</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4826</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>223.74</a:ValorDebito>
+                    <a:ValorDestino>172.4300</a:ValorDestino>
+                    <a:ValorOrigem>894.9800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-21T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>1869.9000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 85234.001015 7 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>191.40</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>44.3500</b:ValorIof>
+                    <b:ValorParcela>284.6100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>4269.1500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.87</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>34.8600</b:ValorIof>
+                    <b:ValorParcela>303.7800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>3645.3600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>26.1100</b:ValorIof>
+                    <b:ValorParcela>341.1100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>3069.9900</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>18.1700</b:ValorIof>
+                    <b:ValorParcela>424.6200</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2547.7200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1797.10</a:ComprasDebitos>
+                  <a:Creditos>1797.10</a:Creditos>
+                  <a:Pagamentos>1869.90</a:Pagamentos>
+                  <a:SaldoAnterior>1869.90</a:SaldoAnterior>
+                  <a:Total>1797.10</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>1797.10</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ANKTUS TURISMOS - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>ANKTUS TURISMOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>175.00</a:ValorDebito>
+                    <a:ValorDestino>69.0500</a:ValorDestino>
+                    <a:ValorOrigem>350.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CASTELAO 2 - Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASTELAO 2</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>127.66</a:ValorDebito>
+                    <a:ValorDestino>75.5600</a:ValorDestino>
+                    <a:ValorOrigem>383.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SPA ESTRELA PET - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>SPA ESTRELA PET</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.45</a:ValorDebito>
+                    <a:ValorDestino>22.8600</a:ValorDestino>
+                    <a:ValorOrigem>114.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - MUDAR MOVEIS - Parc.1/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>MUDAR MOVEIS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/6</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>70.00</a:ValorDebito>
+                    <a:ValorDestino>82.7900</a:ValorDestino>
+                    <a:ValorOrigem>420.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - VIA LASER DEPILACAO</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIA LASER DEPILACAO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>124.03</a:ValorDebito>
+                    <a:ValorDestino>23.8500</a:ValorDestino>
+                    <a:ValorOrigem>124.0300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - VIA LASER DEPILACAO - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIA LASER DEPILACAO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.00</a:ValorDebito>
+                    <a:ValorDestino>1.9200</a:ValorDestino>
+                    <a:ValorOrigem>10.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CAFE CREME</a:Descricao>
+                    <a:DescricaoEstabelecimento>CAFE CREME</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>123.95</a:ValorDebito>
+                    <a:ValorDestino>23.8300</a:ValorDestino>
+                    <a:ValorOrigem>123.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG MEPAYFINANCIAL</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MEPAYFINANCIAL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>60.00</a:ValorDebito>
+                    <a:ValorDestino>11.5400</a:ValorDestino>
+                    <a:ValorOrigem>60.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - SS  GRANDE SP</a:Descricao>
+                    <a:DescricaoEstabelecimento>SS  GRANDE SP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.19</a:ValorDebito>
+                    <a:ValorDestino>2.1500</a:ValorDestino>
+                    <a:ValorOrigem>11.1900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - SHOPPING PAULISTA</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOPPING PAULISTA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>36.40</a:ValorDebito>
+                    <a:ValorDestino>7.0000</a:ValorDestino>
+                    <a:ValorOrigem>36.4000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Pagamento Efetuado na Loja Estabelecimento 454 - LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 454 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Pagamento Efetuado na Loja</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1869.90</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - BISCOITE PATIO PTA</a:Descricao>
+                    <a:DescricaoEstabelecimento>BISCOITE PATIO PTA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>6.50</a:ValorDebito>
+                    <a:ValorDestino>1.2500</a:ValorDestino>
+                    <a:ValorOrigem>6.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - RIACHUELO</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIACHUELO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>35.90</a:ValorDebito>
+                    <a:ValorDestino>6.9000</a:ValorDestino>
+                    <a:ValorOrigem>35.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GRILL OLARIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>GRILL OLARIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>42.52</a:ValorDebito>
+                    <a:ValorDestino>8.1700</a:ValorDestino>
+                    <a:ValorOrigem>42.5200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - STAR 207 SHOPPING PATI</a:Descricao>
+                    <a:DescricaoEstabelecimento>STAR 207 SHOPPING PATI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>46.50</a:ValorDebito>
+                    <a:ValorDestino>8.9600</a:ValorDestino>
+                    <a:ValorOrigem>46.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - VIA LASER DEPILACAO - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIA LASER DEPILACAO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.00</a:ValorDebito>
+                    <a:ValorDestino>1.9300</a:ValorDestino>
+                    <a:ValorOrigem>10.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - VIA LASER DEPILACAO</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIA LASER DEPILACAO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>139.90</a:ValorDebito>
+                    <a:ValorDestino>26.9400</a:ValorDestino>
+                    <a:ValorOrigem>139.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TREMBAO CAFE</a:Descricao>
+                    <a:DescricaoEstabelecimento>TREMBAO CAFE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.50</a:ValorDebito>
+                    <a:ValorDestino>3.0400</a:ValorDestino>
+                    <a:ValorOrigem>15.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - AM FOODS ALIMENTOS LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>AM FOODS ALIMENTOS LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.41</a:ValorDebito>
+                    <a:ValorDestino>6.1600</a:ValorDestino>
+                    <a:ValorOrigem>31.4100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ANDREZA DA COSTA FERRE</a:Descricao>
+                    <a:DescricaoEstabelecimento>ANDREZA DA COSTA FERRE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>13.00</a:ValorDebito>
+                    <a:ValorDestino>2.5000</a:ValorDestino>
+                    <a:ValorOrigem>13.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GIMBA</a:Descricao>
+                    <a:DescricaoEstabelecimento>GIMBA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.80</a:ValorDebito>
+                    <a:ValorDestino>2.2700</a:ValorDestino>
+                    <a:ValorOrigem>11.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ACIUM ELDORADO</a:Descricao>
+                    <a:DescricaoEstabelecimento>ACIUM ELDORADO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>89.00</a:ValorDebito>
+                    <a:ValorDestino>17.4400</a:ValorDestino>
+                    <a:ValorOrigem>89.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3245</a:Cotacao>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - BANCA IMPERATRIZ</a:Descricao>
+                    <a:DescricaoEstabelecimento>BANCA IMPERATRIZ</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.50</a:ValorDebito>
+                    <a:ValorDestino>2.4500</a:ValorDestino>
+                    <a:ValorOrigem>12.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ANKTUS TURISMO - Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>ANKTUS TURISMO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>350.00</a:ValorDebito>
+                    <a:ValorDestino>136.9200</a:ValorDestino>
+                    <a:ValorOrigem>700.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4839</a:Cotacao>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SONHO GAUCHO MATERIAIS - Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SONHO GAUCHO MATERIAIS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.98</a:ValorDebito>
+                    <a:ValorDestino>149.9400</a:ValorDestino>
+                    <a:ValorOrigem>149.9400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 238 - LTD - Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 238 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4826</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>143.92</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>634.02</a:ComprasDebitos>
+                  <a:Creditos>634.02</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>634.02</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - CASTELAO 2               IRECE        BR Parc. 2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASTELAO 2               IRECE        BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/3</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>127.67</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - ANKTUS TURISMOS          IRECE        BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>ANKTUS TURISMOS          IRECE        BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>175.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - SPA ESTRELA PET          IRECE        BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>SPA ESTRELA PET          IRECE        BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.45</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - MUDAR MOVEIS             IRECE        BR Parc. 2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>MUDAR MOVEIS             IRECE        BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/6</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>70.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - VIA LASER DEPILACAO      ITAJAI       BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIA LASER DEPILACAO      ITAJAI       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - VIA LASER DEPILACAO      ITAJAI       BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIA LASER DEPILACAO      ITAJAI       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - SONHO GAUCHO MATERIAIS   SAO PAULO    BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SONHO GAUCHO MATERIAIS   SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.98</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcelado Sem Juros Pula Ciclo - Estabelecimento 238 - LTD Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 238 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado Sem Juros Pula Ciclo - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>SHEILYENE CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4826</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>143.92</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.3640</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

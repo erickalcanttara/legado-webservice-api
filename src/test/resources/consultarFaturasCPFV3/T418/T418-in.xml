@@ -1,0 +1,635 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>58940944020</a:CPF>
+        <a:CartaoPagamento>9990900001385030</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>100.85</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>891.56</a:ComprasDebitos>
+                  <a:Creditos>891.56</a:Creditos>
+                  <a:Pagamentos>570.04</a:Pagamentos>
+                  <a:SaldoAnterior>570.04</a:SaldoAnterior>
+                  <a:Total>891.56</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>891.56</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-14</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - JORNAL ZERO HORA</a:Descricao>
+                    <a:DescricaoEstabelecimento>JORNAL ZERO HORA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.2384</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.90</a:ValorDebito>
+                    <a:ValorDestino>3.8900</a:ValorDestino>
+                    <a:ValorOrigem>19.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>570.04</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG AHCUCARIANOVO</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG AHCUCARIANOVO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.00</a:ValorDebito>
+                    <a:ValorDestino>9.4300</a:ValorDestino>
+                    <a:ValorOrigem>49.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CHV PRODUTOS SAUDAVEIS</a:Descricao>
+                    <a:DescricaoEstabelecimento>CHV PRODUTOS SAUDAVEIS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.50</a:ValorDebito>
+                    <a:ValorDestino>9.4300</a:ValorDestino>
+                    <a:ValorOrigem>49.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG BECKERHAUS</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG BECKERHAUS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>20.00</a:ValorDebito>
+                    <a:ValorDestino>3.8500</a:ValorDestino>
+                    <a:ValorOrigem>20.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ENSEADA DELIVERY</a:Descricao>
+                    <a:DescricaoEstabelecimento>ENSEADA DELIVERY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.70</a:ValorDebito>
+                    <a:ValorDestino>7.0900</a:ValorDestino>
+                    <a:ValorOrigem>37.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4913</a:Cotacao>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - MERCADOLIVRE MUSCLEPR - Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOLIVRE MUSCLEPR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>111.68</a:ValorDebito>
+                    <a:ValorDestino>335.0400</a:ValorDestino>
+                    <a:ValorOrigem>335.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4913</a:Cotacao>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - BELLA GULA TORTARIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>BELLA GULA TORTARIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.40</a:ValorDebito>
+                    <a:ValorDestino>5.1700</a:ValorDestino>
+                    <a:ValorOrigem>27.4000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ESSENCIA VITAL - Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>ESSENCIA VITAL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>105.00</a:ValorDebito>
+                    <a:ValorDestino>59.3100</a:ValorDestino>
+                    <a:ValorOrigem>315.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - LOVE FOR PET</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOVE FOR PET</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>84.00</a:ValorDebito>
+                    <a:ValorDestino>15.8200</a:ValorDestino>
+                    <a:ValorOrigem>84.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CINQ E UM BAR E COZLTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>CINQ E UM BAR E COZLTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>38.90</a:ValorDebito>
+                    <a:ValorDestino>7.3200</a:ValorDestino>
+                    <a:ValorOrigem>38.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - JORNAL ZERO HORA</a:Descricao>
+                    <a:DescricaoEstabelecimento>JORNAL ZERO HORA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.2384</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.90</a:ValorDebito>
+                    <a:ValorDestino>3.7400</a:ValorDestino>
+                    <a:ValorOrigem>19.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-11-22</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 12 - LTDA - Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 12 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>133.86</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - MERCADOLIVRE VESTIDAA - Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOLIVRE VESTIDAA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.2384</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>119.06</a:ValorDebito>
+                    <a:ValorDestino>67.2900</a:ValorDestino>
+                    <a:ValorOrigem>357.1800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4799</a:Cotacao>
+                    <a:Data>2022-10-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - YES BRECHO - Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>YES BRECHO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>62.67</a:ValorDebito>
+                    <a:ValorDestino>35.6600</a:ValorDestino>
+                    <a:ValorOrigem>188.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-01T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>891.5600</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 89634.701018 9 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>83.71</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>17.2800</b:ValorIof>
+                    <b:ValorParcela>110.9000</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1663.5000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.64</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>13.5800</b:ValorIof>
+                    <b:ValorParcela>118.3700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1420.4400</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.16</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>10.1700</b:ValorIof>
+                    <b:ValorParcela>132.9100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1196.1900</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.06</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>7.0800</b:ValorIof>
+                    <b:ValorParcela>165.4500</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>992.7000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>700.25</a:ComprasDebitos>
+                  <a:Creditos>700.25</a:Creditos>
+                  <a:Pagamentos>891.56</a:Pagamentos>
+                  <a:SaldoAnterior>891.56</a:SaldoAnterior>
+                  <a:Total>700.25</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>700.25</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>891.56</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>2.22</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG SIMONEFREITASDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG SIMONEFREITASDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>165.00</a:ValorDebito>
+                    <a:ValorDestino>31.7200</a:ValorDestino>
+                    <a:ValorOrigem>165.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG TAMARAVANTSIN</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG TAMARAVANTSIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>115.00</a:ValorDebito>
+                    <a:ValorDestino>22.1100</a:ValorDestino>
+                    <a:ValorOrigem>115.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAG FORMULABICHOS - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG FORMULABICHOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>54.50</a:ValorDebito>
+                    <a:ValorDestino>21.3600</a:ValorDestino>
+                    <a:ValorOrigem>109.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4913</a:Cotacao>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - MERCADOLIVRE MUSCLEPR - Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOLIVRE MUSCLEPR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>111.68</a:ValorDebito>
+                    <a:ValorDestino>335.0400</a:ValorDestino>
+                    <a:ValorOrigem>335.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ESSENCIA VITAL - Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>ESSENCIA VITAL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>105.00</a:ValorDebito>
+                    <a:ValorDestino>59.3100</a:ValorDestino>
+                    <a:ValorOrigem>315.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-11-22</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 12 - LTDA - Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 12 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>133.86</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>405.04</a:ComprasDebitos>
+                  <a:Creditos>405.04</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>405.04</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - PAG FORMULABICHOS        NOVO HAMBURGOBR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG FORMULABICHOS        NOVO HAMBURGOBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>54.50</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - MERCADOLIVRE MUSCLEPR    OSASCO       BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADOLIVRE MUSCLEPR    OSASCO       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>111.68</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - ESSENCIA VITAL           SAO LEOPOLDO BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>ESSENCIA VITAL           SAO LEOPOLDO BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>105.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-22</a:Data>
+                    <a:Descricao>Parcelado Sem Juros Pula Ciclo - Estabelecimento 12 - LTDA Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 12 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado Sem Juros Pula Ciclo - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>GISLEIDE ROTONDARO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>133.86</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.5046</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

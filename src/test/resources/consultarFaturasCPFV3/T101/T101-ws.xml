@@ -1,0 +1,669 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>02228178799</a:CPF>
+        <a:CartaoPagamento>9990900003688417</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>633.94</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1059.48</a:ComprasDebitos>
+                  <a:Creditos>1059.48</a:Creditos>
+                  <a:Pagamentos>3222.82</a:Pagamentos>
+                  <a:SaldoAnterior>3222.82</a:SaldoAnterior>
+                  <a:Total>1059.48</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>1059.48</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>8.20</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CASA DO GRAO Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASA DO GRAO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>43.10</a:ValorDebito>
+                    <a:ValorDestino>16.4300</a:ValorDestino>
+                    <a:ValorOrigem>86.1900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CASAFRUTI</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASAFRUTI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>72.03</a:ValorDebito>
+                    <a:ValorDestino>13.8800</a:ValorDestino>
+                    <a:ValorOrigem>72.0300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ANGELA DE VASCONCELLO</a:Descricao>
+                    <a:DescricaoEstabelecimento>ANGELA DE VASCONCELLO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.00</a:ValorDebito>
+                    <a:ValorDestino>2.3300</a:ValorDestino>
+                    <a:ValorOrigem>12.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ANGELA DE VASCONCELLO</a:Descricao>
+                    <a:DescricaoEstabelecimento>ANGELA DE VASCONCELLO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>35.00</a:ValorDebito>
+                    <a:ValorDestino>6.7900</a:ValorDestino>
+                    <a:ValorOrigem>35.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ANGELA DE VASCONCELLO</a:Descricao>
+                    <a:DescricaoEstabelecimento>ANGELA DE VASCONCELLO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.00</a:ValorDebito>
+                    <a:ValorDestino>4.6600</a:ValorDestino>
+                    <a:ValorOrigem>24.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PLANETA SONHO Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PLANETA SONHO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.33</a:ValorDebito>
+                    <a:ValorDestino>30.4700</a:ValorDestino>
+                    <a:ValorOrigem>159.9700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAG SUNHOUSE Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG SUNHOUSE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>84.50</a:ValorDebito>
+                    <a:ValorDestino>32.1900</a:ValorDestino>
+                    <a:ValorOrigem>169.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Pagamento Efetuado na Loja Estabelecimento 216 - LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 216 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Pagamento Efetuado na Loja</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1500.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG MINISOIPANEMA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MINISOIPANEMA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>59.96</a:ValorDebito>
+                    <a:ValorDestino>11.2700</a:ValorDestino>
+                    <a:ValorOrigem>59.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAG MAKEDOISAIAS Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MAKEDOISAIAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.50</a:ValorDebito>
+                    <a:ValorDestino>20.1200</a:ValorDestino>
+                    <a:ValorOrigem>107.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>PARCELA DE FATURA ROTATIVO 16.99% Parc.1/8</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>PARCELA DE FATURA ROTATIVO 16.99% - Parc.1/8</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>416.30</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Credito de Refinanciamento Saldo Financiado</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Credito de Refinanciamento Saldo Financiado</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1722.82</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-10-25</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 216 - LTDParc.3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 216 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.3/4</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>35.40</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-05-27</a:Data>
+                    <a:Descricao>Parcelamento da Fatura 12.49% Parc.9/12</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Parcelamento da Fatura 12.49% - Parc.9/12</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>149.17</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-21T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>1059.4800</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 97671.501019 1 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>618.04</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>22.4900</b:ValorIof>
+                    <b:ValorParcela>144.3100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2164.6500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.64</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>17.6700</b:ValorIof>
+                    <b:ValorParcela>154.0300</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1848.3600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>13.2400</b:ValorIof>
+                    <b:ValorParcela>172.9600</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1556.6400</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>9.2100</b:ValorIof>
+                    <b:ValorParcela>215.3000</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1291.8000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>911.21</a:ComprasDebitos>
+                  <a:Creditos>911.21</a:Creditos>
+                  <a:Pagamentos>1059.48</a:Pagamentos>
+                  <a:SaldoAnterior>1059.48</a:SaldoAnterior>
+                  <a:Total>911.21</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>911.21</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Bolsa Segura</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Bolsa Segura</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.00</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Pagamento Efetuado na Loja Estabelecimento 60 - LTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 60 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Pagamento Efetuado na Loja</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1059.48</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CASA DO GRAO Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASA DO GRAO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>43.09</a:ValorDebito>
+                    <a:ValorDestino>16.4300</a:ValorDestino>
+                    <a:ValorOrigem>86.1900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PLANETA SONHO Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PLANETA SONHO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.32</a:ValorDebito>
+                    <a:ValorDestino>30.4700</a:ValorDestino>
+                    <a:ValorOrigem>159.9700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAG SUNHOUSE Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG SUNHOUSE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>84.50</a:ValorDebito>
+                    <a:ValorDestino>32.1900</a:ValorDestino>
+                    <a:ValorOrigem>169.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 216 - LTDParc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 216 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.94</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAG MAKEDOISAIAS Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MAKEDOISAIAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.50</a:ValorDebito>
+                    <a:ValorDestino>20.1200</a:ValorDestino>
+                    <a:ValorOrigem>107.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>PARCELA DE FATURA ROTATIVO 16.99% Parc.2/8</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>PARCELA DE FATURA ROTATIVO 16.99% - Parc.2/8</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>416.30</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-10-25</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 216 - LTDParc.4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 216 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.4/4</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>35.40</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-05-27</a:Data>
+                    <a:Descricao>Parcelamento da Fatura 12.49% Parc.10/12</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Parcelamento da Fatura 12.49% - Parc.10/12</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>149.17</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>674.73</a:ComprasDebitos>
+                  <a:Creditos>674.73</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>674.73</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - PLANETA SONHO            RIO DE JANEIRBR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PLANETA SONHO            RIO DE JANEIRBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.32</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Parcelado Sem Juros Pula Ciclo - Estabelecimento 216 - LTD Parc. 2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 216 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado Sem Juros Pula Ciclo - Parc. 2/5</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.94</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>PARCELAMENTO DE FATURA ROTATIVO -   Parc. 3/8</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>PARCELAMENTO DE FATURA ROTATIVO - Parc. 3/8</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>416.30</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-05-27</a:Data>
+                    <a:Descricao>Refinanciamento Com Juros -   Parc. 11/12</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Refinanciamento Com Juros - Parc. 11/12</a:DescricaoLancamento>
+                    <a:Nome>GLEISSEANY RUSSAS</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0726</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>149.17</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.4280</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

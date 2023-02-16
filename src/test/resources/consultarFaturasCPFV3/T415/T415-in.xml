@@ -1,0 +1,1043 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99362004119</a:CPF>
+        <a:CartaoPagamento>9990900006477003</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>189.57</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1279.42</a:ComprasDebitos>
+                  <a:Creditos>1279.42</a:Creditos>
+                  <a:Pagamentos>947.60</a:Pagamentos>
+                  <a:SaldoAnterior>947.60</a:SaldoAnterior>
+                  <a:Total>1279.42</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>1279.42</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Multa Contratual</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Multa Contratual</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.95</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Juros de Mora</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Juros de Mora</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>0.63</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>AVAL EMERG. CRÉDITO</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>AVAL EMERG. CRÉDITO</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.00</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3186</a:Cotacao>
+                    <a:Data>2023-01-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - EBW SONYPLAYSTATN</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SONYPLAYSTATN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>60.13</a:ValorDebito>
+                    <a:ValorDestino>11.7600</a:ValorDestino>
+                    <a:ValorOrigem>60.1300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-08</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAYU         DIRECTVGO</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAYU         DIRECTVGO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>84.80</a:ValorDebito>
+                    <a:ValorDestino>15.9500</a:ValorDestino>
+                    <a:ValorOrigem>84.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - DM  NINTENDO</a:Descricao>
+                    <a:DescricaoEstabelecimento>DM  NINTENDO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>9.24</a:ValorDebito>
+                    <a:ValorDestino>1.7100</a:ValorDestino>
+                    <a:ValorOrigem>9.2400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6631</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GOOGLE YOUTUBE</a:Descricao>
+                    <a:DescricaoEstabelecimento>GOOGLE YOUTUBE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>4.99</a:ValorDebito>
+                    <a:ValorDestino>4.9900</a:ValorDestino>
+                    <a:ValorOrigem>4.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - DL      GOOGLE FUNIMAT</a:Descricao>
+                    <a:DescricaoEstabelecimento>DL      GOOGLE FUNIMAT</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.90</a:ValorDebito>
+                    <a:ValorDestino>4.5700</a:ValorDestino>
+                    <a:ValorOrigem>24.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GOOGLE YOUTUBE</a:Descricao>
+                    <a:DescricaoEstabelecimento>GOOGLE YOUTUBE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>6.12</a:ValorDebito>
+                    <a:ValorDestino>1.1500</a:ValorDestino>
+                    <a:ValorOrigem>6.1200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GOOGLE ELLATION</a:Descricao>
+                    <a:DescricaoEstabelecimento>GOOGLE ELLATION</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.99</a:ValorDebito>
+                    <a:ValorDestino>2.8100</a:ValorDestino>
+                    <a:ValorOrigem>14.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>947.60</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - APPLE COM BILL</a:Descricao>
+                    <a:DescricaoEstabelecimento>APPLE COM BILL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.90</a:ValorDebito>
+                    <a:ValorDestino>2.8200</a:ValorDestino>
+                    <a:ValorOrigem>14.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - EBW SONYPLAYSTATN</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SONYPLAYSTATN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>4.52</a:ValorDebito>
+                    <a:ValorDestino>0.8500</a:ValorDestino>
+                    <a:ValorOrigem>4.5200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2023-01-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GOOGLE STARZ</a:Descricao>
+                    <a:DescricaoEstabelecimento>GOOGLE STARZ</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.90</a:ValorDebito>
+                    <a:ValorDestino>2.8200</a:ValorDestino>
+                    <a:ValorOrigem>14.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2023-01-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAYU         DIRECTVGO</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAYU         DIRECTVGO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.90</a:ValorDebito>
+                    <a:ValorDestino>9.4600</a:ValorDestino>
+                    <a:ValorOrigem>49.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2023-01-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GOOGLE YOUTUBE</a:Descricao>
+                    <a:DescricaoEstabelecimento>GOOGLE YOUTUBE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>2.99</a:ValorDebito>
+                    <a:ValorDestino>2.9900</a:ValorDestino>
+                    <a:ValorOrigem>2.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - STAR PLUS</a:Descricao>
+                    <a:DescricaoEstabelecimento>STAR PLUS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.57</a:ValorDebito>
+                    <a:ValorDestino>4.3000</a:ValorDestino>
+                    <a:ValorOrigem>22.5700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFD CAVANHAS PERIMETRA</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFD CAVANHAS PERIMETRA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>44.89</a:ValorDebito>
+                    <a:ValorDestino>8.6700</a:ValorDestino>
+                    <a:ValorOrigem>44.8900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PETLOVE ORDER21430358 - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PETLOVE ORDER21430358</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>77.40</a:ValorDebito>
+                    <a:ValorDestino>29.8800</a:ValorDestino>
+                    <a:ValorOrigem>154.7900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFD MARMITEX FIT BIO</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFD MARMITEX FIT BIO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>48.50</a:ValorDebito>
+                    <a:ValorDestino>9.1200</a:ValorDestino>
+                    <a:ValorOrigem>48.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFD ESPETINHO DO PAULI</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFD ESPETINHO DO PAULI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>86.00</a:ValorDebito>
+                    <a:ValorDestino>16.3800</a:ValorDestino>
+                    <a:ValorOrigem>86.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - INGRESSO COM</a:Descricao>
+                    <a:DescricaoEstabelecimento>INGRESSO COM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>118.58</a:ValorDebito>
+                    <a:ValorDestino>22.3800</a:ValorDestino>
+                    <a:ValorOrigem>118.5800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFD REFEICOES DELIVERY</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFD REFEICOES DELIVERY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>41.98</a:ValorDebito>
+                    <a:ValorDestino>41.9800</a:ValorDestino>
+                    <a:ValorOrigem>41.9800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PANVEL  705</a:Descricao>
+                    <a:DescricaoEstabelecimento>PANVEL  705</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>179.02</a:ValorDebito>
+                    <a:ValorDestino>33.7100</a:ValorDestino>
+                    <a:ValorOrigem>179.0200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4020</a:Cotacao>
+                    <a:Data>2022-12-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PRODUTOS GLOBO - Parc.2/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRODUTOS GLOBO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/12</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.90</a:ValorDebito>
+                    <a:ValorDestino>133.2200</a:ValorDestino>
+                    <a:ValorOrigem>694.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4499</a:Cotacao>
+                    <a:Data>2022-08-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - KABUM - Parc.6/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>KABUM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.6/10</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>178.95</a:ValorDebito>
+                    <a:ValorDestino>342.1000</a:ValorDestino>
+                    <a:ValorOrigem>1789.5400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5610</a:Cotacao>
+                    <a:Data>2022-07-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - AMAZON MARKETPLACE - Parc.7/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>AMAZON MARKETPLACE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.7/10</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>62.78</a:ValorDebito>
+                    <a:ValorDestino>627.8000</a:ValorDestino>
+                    <a:ValorOrigem>627.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-01T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>1279.4200</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 69381.001010 1 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>132.94</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>23.7800</b:ValorIof>
+                    <b:ValorParcela>152.5900</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2288.8500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.87</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>18.6900</b:ValorIof>
+                    <b:ValorParcela>162.8700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1954.4400</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>14.0000</b:ValorIof>
+                    <b:ValorParcela>182.8800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1645.9200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>9.7400</b:ValorIof>
+                    <b:ValorParcela>227.6600</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1365.9600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>963.50</a:ComprasDebitos>
+                  <a:Creditos>963.50</a:Creditos>
+                  <a:Pagamentos>1279.42</a:Pagamentos>
+                  <a:SaldoAnterior>1279.42</a:SaldoAnterior>
+                  <a:Total>963.50</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>963.50</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>AVAL EMERG. CRÉDITO</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>AVAL EMERG. CRÉDITO</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFD ACAI DA LU</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFD ACAI DA LU</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>48.00</a:ValorDebito>
+                    <a:ValorDestino>48.0000</a:ValorDestino>
+                    <a:ValorOrigem>48.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - APPLE COM BILL</a:Descricao>
+                    <a:DescricaoEstabelecimento>APPLE COM BILL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.90</a:ValorDebito>
+                    <a:ValorDestino>2.9400</a:ValorDestino>
+                    <a:ValorOrigem>14.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAYU         DIRECTVGO</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAYU         DIRECTVGO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>49.90</a:ValorDebito>
+                    <a:ValorDestino>9.8400</a:ValorDestino>
+                    <a:ValorOrigem>49.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2744</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GOOGLE YOUTUBE</a:Descricao>
+                    <a:DescricaoEstabelecimento>GOOGLE YOUTUBE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>2.99</a:ValorDebito>
+                    <a:ValorDestino>2.9900</a:ValorDestino>
+                    <a:ValorOrigem>2.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>3.76</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GOOGLE STARZ</a:Descricao>
+                    <a:DescricaoEstabelecimento>GOOGLE STARZ</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.90</a:ValorDebito>
+                    <a:ValorDestino>2.9200</a:ValorDestino>
+                    <a:ValorOrigem>14.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GOOGLE SUPERCELL</a:Descricao>
+                    <a:DescricaoEstabelecimento>GOOGLE SUPERCELL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.48</a:ValorDebito>
+                    <a:ValorDestino>4.4000</a:ValorDestino>
+                    <a:ValorOrigem>22.4800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1279.42</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2991</a:Cotacao>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PETLOVE ORDER10916588 - Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PETLOVE ORDER10916588</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>106.11</a:ValorDebito>
+                    <a:ValorDestino>41.5300</a:ValorDestino>
+                    <a:ValorOrigem>212.2200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFD ACAI DA LU</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFD ACAI DA LU</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>60.99</a:ValorDebito>
+                    <a:ValorDestino>12.0100</a:ValorDestino>
+                    <a:ValorOrigem>60.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - STAR PLUS</a:Descricao>
+                    <a:DescricaoEstabelecimento>STAR PLUS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.57</a:ValorDebito>
+                    <a:ValorDestino>4.4400</a:ValorDestino>
+                    <a:ValorOrigem>22.5700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3993</a:Cotacao>
+                    <a:Data>2023-01-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFD JORDANA RIEFEL DA</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFD JORDANA RIEFEL DA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>61.00</a:ValorDebito>
+                    <a:ValorDestino>11.7800</a:ValorDestino>
+                    <a:ValorOrigem>61.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFD ESPETINHO DO PAULI</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFD ESPETINHO DO PAULI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>86.00</a:ValorDebito>
+                    <a:ValorDestino>16.5300</a:ValorDestino>
+                    <a:ValorOrigem>86.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFD ACAI DA LU</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFD ACAI DA LU</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>55.99</a:ValorDebito>
+                    <a:ValorDestino>10.7800</a:ValorDestino>
+                    <a:ValorOrigem>55.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PETLOVE ORDER21430358 - Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PETLOVE ORDER21430358</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>77.39</a:ValorDebito>
+                    <a:ValorDestino>29.8800</a:ValorDestino>
+                    <a:ValorOrigem>154.7900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4020</a:Cotacao>
+                    <a:Data>2022-12-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PRODUTOS GLOBO - Parc.3/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRODUTOS GLOBO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.3/12</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.90</a:ValorDebito>
+                    <a:ValorDestino>133.2200</a:ValorDestino>
+                    <a:ValorOrigem>694.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4499</a:Cotacao>
+                    <a:Data>2022-08-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - KABUM - Parc.7/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>KABUM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.7/10</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>178.95</a:ValorDebito>
+                    <a:ValorDestino>342.1000</a:ValorDestino>
+                    <a:ValorOrigem>1789.5400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5610</a:Cotacao>
+                    <a:Data>2022-07-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - AMAZON MARKETPLACE - Parc.8/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>AMAZON MARKETPLACE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.8/10</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>62.78</a:ValorDebito>
+                    <a:ValorDestino>627.8000</a:ValorDestino>
+                    <a:ValorOrigem>627.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>405.74</a:ComprasDebitos>
+                  <a:Creditos>405.74</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>405.74</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - PETLOVE ORDER10916588    SAO PAULO    BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>PETLOVE ORDER10916588    SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>106.11</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-02</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - PRODUTOS GLOBO           RIO DE JANEIRBR Parc. 4/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRODUTOS GLOBO           RIO DE JANEIRBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 4/12</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.90</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-08-07</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - KABUM                    LIMEIRA      BR Parc. 8/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>KABUM                    LIMEIRA      BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 8/10</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>178.95</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-07-12</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - AMAZON MARKETPLACE       SAO PAULO    BR Parc. 9/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>AMAZON MARKETPLACE       SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 9/10</a:DescricaoLancamento>
+                    <a:Nome>TERLIANE BATAZAR</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>62.78</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.9158</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,805 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>30016720210</a:CPF>
+        <a:CartaoPagamento>9990900001038675</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>129.01</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1173.15</a:ComprasDebitos>
+                  <a:Creditos>1173.15</a:Creditos>
+                  <a:Pagamentos>1258.45</a:Pagamentos>
+                  <a:SaldoAnterior>1258.45</a:SaldoAnterior>
+                  <a:Total>1173.15</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>1173.15</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - SUPERMERCADO BEM BARAT</a:Descricao>
+                    <a:DescricaoEstabelecimento>SUPERMERCADO BEM BARAT</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.94</a:ValorDebito>
+                    <a:ValorDestino>5.8600</a:ValorDestino>
+                    <a:ValorOrigem>29.9400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CAPPTA  MINI BOX JARDI Parc.1/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>CAPPTA  MINI BOX JARDI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/4</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>44.62</a:ValorDebito>
+                    <a:ValorDestino>178.4800</a:ValorDestino>
+                    <a:ValorOrigem>178.4800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - DROGARIA MAIS POPULAR</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIA MAIS POPULAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>38.00</a:ValorDebito>
+                    <a:ValorDestino>7.0600</a:ValorDestino>
+                    <a:ValorOrigem>38.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1258.45</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - BLUMENAU TEXTIL Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>BLUMENAU TEXTIL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>76.68</a:ValorDebito>
+                    <a:ValorDestino>230.0400</a:ValorDestino>
+                    <a:ValorOrigem>230.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CAROLA MULTIMARCAS Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CAROLA MULTIMARCAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>32.68</a:ValorDebito>
+                    <a:ValorDestino>98.0400</a:ValorDestino>
+                    <a:ValorOrigem>98.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - QUARTETTO SUPERMERCADO</a:Descricao>
+                    <a:DescricaoEstabelecimento>QUARTETTO SUPERMERCADO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>107.96</a:ValorDebito>
+                    <a:ValorDestino>20.8000</a:ValorDestino>
+                    <a:ValorOrigem>107.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4168</a:Cotacao>
+                    <a:Data>2022-12-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - FORMOSA SUPERM E MAGAZ Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>FORMOSA SUPERM E MAGAZ</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>40.12</a:ValorDebito>
+                    <a:ValorDestino>37.9100</a:ValorDestino>
+                    <a:ValorOrigem>200.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4168</a:Cotacao>
+                    <a:Data>2022-12-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SAITO COMERCIO DE COMB Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SAITO COMERCIO DE COMB</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>83.33</a:ValorDebito>
+                    <a:ValorDestino>47.2400</a:ValorDestino>
+                    <a:ValorOrigem>250.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4047</a:Cotacao>
+                    <a:Data>2022-12-05</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LARISSA MODAS Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>LARISSA MODAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>45.00</a:ValorDebito>
+                    <a:ValorDestino>17.3000</a:ValorDestino>
+                    <a:ValorOrigem>90.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4020</a:Cotacao>
+                    <a:Data>2022-12-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ECONOMICO COMERCIO DE Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>ECONOMICO COMERCIO DE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>38.47</a:ValorDebito>
+                    <a:ValorDestino>14.7900</a:ValorDestino>
+                    <a:ValorOrigem>76.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5193</a:Cotacao>
+                    <a:Data>2022-11-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAG OTICAANABRISA Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG OTICAANABRISA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>130.00</a:ValorDebito>
+                    <a:ValorDestino>123.0800</a:ValorDestino>
+                    <a:ValorOrigem>650.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ECONOMICO COMERCIO DE Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>ECONOMICO COMERCIO DE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>36.91</a:ValorDebito>
+                    <a:ValorDestino>13.6700</a:ValorDestino>
+                    <a:ValorOrigem>73.8200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5180</a:Cotacao>
+                    <a:Data>2022-11-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PG  TON VANIA SUELY Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PG  TON VANIA SUELY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>46.67</a:ValorDebito>
+                    <a:ValorDestino>26.2600</a:ValorDestino>
+                    <a:ValorOrigem>140.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2915</a:Cotacao>
+                    <a:Data>2022-11-08</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - MAGAZINE BELO LAR Parc.3/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAGAZINE BELO LAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/10</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>130.00</a:ValorDebito>
+                    <a:ValorDestino>255.4600</a:ValorDestino>
+                    <a:ValorOrigem>1300.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3838</a:Cotacao>
+                    <a:Data>2022-08-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAG MAGAZINETORRATORR Parc.5/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MAGAZINETORRATORR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.5/10</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>20.08</a:ValorDebito>
+                    <a:ValorDestino>200.8000</a:ValorDestino>
+                    <a:ValorOrigem>200.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>4.9313</a:Cotacao>
+                    <a:Data>2022-04-09</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - NOVO MUNDO AMAZONIA 41 Parc.10/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>NOVO MUNDO AMAZONIA 41</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.10/10</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>89.60</a:ValorDebito>
+                    <a:ValorDestino>188.4500</a:ValorDestino>
+                    <a:ValorOrigem>896.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>4.9313</a:Cotacao>
+                    <a:Data>2022-04-08</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LISTO   RT VEICULOS Parc.10/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>LISTO   RT VEICULOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.10/10</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>170.10</a:ValorDebito>
+                    <a:ValorDestino>357.7700</a:ValorDestino>
+                    <a:ValorOrigem>1701.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-01T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>1173.1500</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112226 01827.001015 1 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>80.07</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>16.8700</b:ValorIof>
+                    <b:ValorParcela>108.2900</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1624.3500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.87</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>13.2600</b:ValorIof>
+                    <b:ValorParcela>115.5900</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1387.0800</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>9.9300</b:ValorIof>
+                    <b:ValorParcela>129.7900</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1168.1100</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>6.9100</b:ValorIof>
+                    <b:ValorParcela>161.5700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>969.4200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>683.79</a:ComprasDebitos>
+                  <a:Creditos>683.79</a:Creditos>
+                  <a:Pagamentos>1173.15</a:Pagamentos>
+                  <a:SaldoAnterior>1173.15</a:SaldoAnterior>
+                  <a:Total>683.79</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>683.79</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1173.15</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2791</a:Cotacao>
+                    <a:Data>2023-01-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ECONOMICO COMERCIO DE Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>ECONOMICO COMERCIO DE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>67.73</a:ValorDebito>
+                    <a:ValorDestino>26.6700</a:ValorDestino>
+                    <a:ValorOrigem>135.4600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - QUARTETTO SUPERMERCADO</a:Descricao>
+                    <a:DescricaoEstabelecimento>QUARTETTO SUPERMERCADO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>45.56</a:ValorDebito>
+                    <a:ValorDestino>8.7600</a:ValorDestino>
+                    <a:ValorOrigem>45.5600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CAPPTA  MINI BOX JARDI Parc.2/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>CAPPTA  MINI BOX JARDI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/4</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>44.62</a:ValorDebito>
+                    <a:ValorDestino>178.4800</a:ValorDestino>
+                    <a:ValorOrigem>178.4800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - BLUMENAU TEXTIL Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>BLUMENAU TEXTIL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>76.68</a:ValorDebito>
+                    <a:ValorDestino>230.0400</a:ValorDestino>
+                    <a:ValorOrigem>230.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CAROLA MULTIMARCAS Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CAROLA MULTIMARCAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>32.68</a:ValorDebito>
+                    <a:ValorDestino>98.0400</a:ValorDestino>
+                    <a:ValorOrigem>98.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4168</a:Cotacao>
+                    <a:Data>2022-12-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SAITO COMERCIO DE COMB Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SAITO COMERCIO DE COMB</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>83.33</a:ValorDebito>
+                    <a:ValorDestino>47.2400</a:ValorDestino>
+                    <a:ValorOrigem>250.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4168</a:Cotacao>
+                    <a:Data>2022-12-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - FORMOSA SUPERM E MAGAZ Parc.3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>FORMOSA SUPERM E MAGAZ</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/5</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>40.12</a:ValorDebito>
+                    <a:ValorDestino>37.9100</a:ValorDestino>
+                    <a:ValorOrigem>200.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5193</a:Cotacao>
+                    <a:Data>2022-11-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAG OTICAANABRISA Parc.3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG OTICAANABRISA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/5</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>130.00</a:ValorDebito>
+                    <a:ValorDestino>123.0800</a:ValorDestino>
+                    <a:ValorOrigem>650.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2915</a:Cotacao>
+                    <a:Data>2022-11-08</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - MAGAZINE BELO LAR Parc.4/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAGAZINE BELO LAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.4/10</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>130.00</a:ValorDebito>
+                    <a:ValorDestino>255.4600</a:ValorDestino>
+                    <a:ValorOrigem>1300.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3838</a:Cotacao>
+                    <a:Data>2022-08-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - PAG MAGAZINETORRATORR Parc.6/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MAGAZINETORRATORR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.6/10</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>20.08</a:ValorDebito>
+                    <a:ValorDestino>200.8000</a:ValorDestino>
+                    <a:ValorOrigem>200.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>541.91</a:ComprasDebitos>
+                  <a:Creditos>541.91</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>541.91</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-30</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - ECONOMICO COMERCIO DE    BELEM        BR Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>ECONOMICO COMERCIO DE    BELEM        BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>67.73</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - CAPPTA  MINI BOX JARDI   LUZIMANGUES  BR Parc. 3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>CAPPTA  MINI BOX JARDI   LUZIMANGUES  BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/4</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>44.62</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - BLUMENAU TEXTIL          PALMAS       BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>BLUMENAU TEXTIL          PALMAS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>76.68</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - CAROLA MULTIMARCAS       PARAISO DO TOBR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CAROLA MULTIMARCAS       PARAISO DO TOBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>32.68</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-12</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - FORMOSA SUPERM E MAGAZ   BELEM        BR Parc. 4/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>FORMOSA SUPERM E MAGAZ   BELEM        BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 4/5</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>40.12</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-30</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - PAG OTICAANABRISA        BELEM        BR Parc. 4/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG OTICAANABRISA        BELEM        BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 4/5</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>130.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-08</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - MAGAZINE BELO LAR        BELEM        BR Parc. 5/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAGAZINE BELO LAR        BELEM        BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 5/10</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>130.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-08-20</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - PAG MAGAZINETORRATORR    BELEM        BR Parc. 7/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG MAGAZINETORRATORR    BELEM        BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 7/10</a:DescricaoLancamento>
+                    <a:Nome>NEIJLA ROCH</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>20.08</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.3661</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

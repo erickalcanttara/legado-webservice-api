@@ -1,0 +1,1332 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99350254115</a:CPF>
+        <a:CartaoPagamento>9990900006686655</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>183.36</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1724.15</a:ComprasDebitos>
+                  <a:Creditos>1716.65</a:Creditos>
+                  <a:Pagamentos>1303.53</a:Pagamentos>
+                  <a:SaldoAnterior>1296.03</a:SaldoAnterior>
+                  <a:Total>1716.65</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>1716.65</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4834</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.91</a:ValorDebito>
+                    <a:ValorDestino>2.9200</a:ValorDestino>
+                    <a:ValorOrigem>14.9100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-14</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD YOKAN SUS</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD YOKAN SUS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>80.90</a:ValorDebito>
+                    <a:ValorDestino>80.9000</a:ValorDestino>
+                    <a:ValorOrigem>80.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD ATELIE CL</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD ATELIE CL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>41.90</a:ValorDebito>
+                    <a:ValorDestino>8.1300</a:ValorDestino>
+                    <a:ValorOrigem>41.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD MOLEKAS R</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD MOLEKAS R</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.79</a:ValorDebito>
+                    <a:ValorDestino>4.4200</a:ValorDestino>
+                    <a:ValorOrigem>22.7900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4095</a:Cotacao>
+                    <a:Data>2023-01-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.96</a:ValorDebito>
+                    <a:ValorDestino>2.8700</a:ValorDestino>
+                    <a:ValorOrigem>14.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.65</a:ValorDebito>
+                    <a:ValorDestino>3.2000</a:ValorDestino>
+                    <a:ValorOrigem>16.6500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5079</a:Cotacao>
+                    <a:Data>2023-01-10</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - RECARGA BILH UNICO</a:Descricao>
+                    <a:DescricaoEstabelecimento>RECARGA BILH UNICO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>100.00</a:ValorDebito>
+                    <a:ValorDestino>18.9800</a:ValorDestino>
+                    <a:ValorOrigem>100.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MINIPRECOLAPA</a:Descricao>
+                    <a:DescricaoEstabelecimento>MINIPRECOLAPA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.97</a:ValorDebito>
+                    <a:ValorDestino>3.5000</a:ValorDestino>
+                    <a:ValorOrigem>18.9700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-06</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG QUINTALBURGER375</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG QUINTALBURGER375</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>135.50</a:ValorDebito>
+                    <a:ValorDestino>25.4800</a:ValorDestino>
+                    <a:ValorOrigem>135.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.48</a:ValorDebito>
+                    <a:ValorDestino>4.1300</a:ValorDestino>
+                    <a:ValorOrigem>22.4800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>10.97</a:ValorDebito>
+                    <a:ValorDestino>2.0600</a:ValorDestino>
+                    <a:ValorOrigem>10.9700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD MCDONALDS</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD MCDONALDS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.98</a:ValorDebito>
+                    <a:ValorDestino>5.3000</a:ValorDestino>
+                    <a:ValorOrigem>27.9800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Credito MasterCard Compra Vista Vencida - IFOOD   IFD MCDONALDS</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD MCDONALDS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Credito MasterCard Compra Vista Vencida</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4834</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>7.50</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2023-01-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MERCADO VIZINHOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADO VIZINHOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.50</a:ValorDebito>
+                    <a:ValorDestino>3.7000</a:ValorDestino>
+                    <a:ValorOrigem>19.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - I M M</a:Descricao>
+                    <a:DescricaoEstabelecimento>I M M</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.00</a:ValorDebito>
+                    <a:ValorDestino>10.6100</a:ValorDestino>
+                    <a:ValorOrigem>56.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4839</a:Cotacao>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ATELIE CLARA AZEVEDO</a:Descricao>
+                    <a:DescricaoEstabelecimento>ATELIE CLARA AZEVEDO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.00</a:ValorDebito>
+                    <a:ValorDestino>5.8800</a:ValorDestino>
+                    <a:ValorOrigem>31.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4839</a:Cotacao>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.90</a:ValorDebito>
+                    <a:ValorDestino>3.2000</a:ValorDestino>
+                    <a:ValorOrigem>16.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4839</a:Cotacao>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - RECARGA BILH UNICO</a:Descricao>
+                    <a:DescricaoEstabelecimento>RECARGA BILH UNICO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>50.00</a:ValorDebito>
+                    <a:ValorDestino>9.4800</a:ValorDestino>
+                    <a:ValorOrigem>50.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD MAKUYA SU</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD MAKUYA SU</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.93</a:ValorDebito>
+                    <a:ValorDestino>5.4200</a:ValorDestino>
+                    <a:ValorOrigem>27.9300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-25</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - HORTIFRUTI</a:Descricao>
+                    <a:DescricaoEstabelecimento>HORTIFRUTI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>40.00</a:ValorDebito>
+                    <a:ValorDestino>7.7600</a:ValorDestino>
+                    <a:ValorOrigem>40.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MERCADO VIZINHOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADO VIZINHOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>44.48</a:ValorDebito>
+                    <a:ValorDestino>8.6300</a:ValorDestino>
+                    <a:ValorOrigem>44.4800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4834</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1296.03</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.98</a:ValorDebito>
+                    <a:ValorDestino>2.3100</a:ValorDestino>
+                    <a:ValorOrigem>11.9800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - FLIZ GASTRONOMIA LTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>FLIZ GASTRONOMIA LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>50.00</a:ValorDebito>
+                    <a:ValorDestino>9.6300</a:ValorDestino>
+                    <a:ValorOrigem>50.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>13.92</a:ValorDebito>
+                    <a:ValorDestino>2.6800</a:ValorDestino>
+                    <a:ValorOrigem>13.9200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ZAZULE ARICANDUVA</a:Descricao>
+                    <a:DescricaoEstabelecimento>ZAZULE ARICANDUVA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>50.00</a:ValorDebito>
+                    <a:ValorDestino>9.6200</a:ValorDestino>
+                    <a:ValorOrigem>50.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - L OCCITANE AU BRESIL Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>L OCCITANE AU BRESIL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>59.95</a:ValorDebito>
+                    <a:ValorDestino>23.0800</a:ValorDestino>
+                    <a:ValorOrigem>119.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4913</a:Cotacao>
+                    <a:Data>2022-12-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>13.93</a:ValorDebito>
+                    <a:ValorDestino>2.6300</a:ValorDestino>
+                    <a:ValorOrigem>13.9300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-18</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - RIACHUELO 232</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIACHUELO 232</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>129.80</a:ValorDebito>
+                    <a:ValorDestino>24.5000</a:ValorDestino>
+                    <a:ValorOrigem>129.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-18</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.90</a:ValorDebito>
+                    <a:ValorDestino>3.7600</a:ValorDestino>
+                    <a:ValorOrigem>19.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-18</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.97</a:ValorDebito>
+                    <a:ValorDestino>5.2800</a:ValorDestino>
+                    <a:ValorOrigem>27.9700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD        IFOOD</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD        IFOOD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.29</a:ValorDebito>
+                    <a:ValorDestino>7.0400</a:ValorDestino>
+                    <a:ValorOrigem>37.2900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFOODCLUBE</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFOODCLUBE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.25</a:ValorDebito>
+                    <a:ValorDestino>0.9900</a:ValorDestino>
+                    <a:ValorOrigem>5.2500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>21.98</a:ValorDebito>
+                    <a:ValorDestino>4.1400</a:ValorDestino>
+                    <a:ValorOrigem>21.9800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>28.07</a:ValorDebito>
+                    <a:ValorDestino>28.0700</a:ValorDestino>
+                    <a:ValorOrigem>28.0700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - RECARGA BILH UNICO</a:Descricao>
+                    <a:DescricaoEstabelecimento>RECARGA BILH UNICO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>75.00</a:ValorDebito>
+                    <a:ValorDestino>14.1100</a:ValorDestino>
+                    <a:ValorOrigem>75.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MARISA 586</a:Descricao>
+                    <a:DescricaoEstabelecimento>MARISA 586</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>79.99</a:ValorDebito>
+                    <a:ValorDestino>15.0600</a:ValorDestino>
+                    <a:ValorOrigem>79.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4770</a:Cotacao>
+                    <a:Data>2022-12-14</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.95</a:ValorDebito>
+                    <a:ValorDestino>2.2500</a:ValorDestino>
+                    <a:ValorOrigem>11.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4168</a:Cotacao>
+                    <a:Data>2022-12-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.97</a:ValorDebito>
+                    <a:ValorDestino>2.8600</a:ValorDestino>
+                    <a:ValorOrigem>14.9700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4168</a:Cotacao>
+                    <a:Data>2022-12-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MERCADO VIZINHOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCADO VIZINHOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>41.16</a:ValorDebito>
+                    <a:ValorDestino>7.7800</a:ValorDestino>
+                    <a:ValorOrigem>41.1600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5466</a:Cotacao>
+                    <a:Data>2022-11-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - HNA*OBOTICARIO Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>HNA*OBOTICARIO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.98</a:ValorDebito>
+                    <a:ValorDestino>289.9000</a:ValorDestino>
+                    <a:ValorOrigem>289.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5372</a:Cotacao>
+                    <a:Data>2022-10-27</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - BC SURF WEAR LTDA Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>BC SURF WEAR LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>86.68</a:ValorDebito>
+                    <a:ValorDestino>260.0400</a:ValorDestino>
+                    <a:ValorOrigem>260.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-04-06</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTDParc.10/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.10/10</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.86</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-03-17</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTDParc.10/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.10/10</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>45.71</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-03T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.39</a:ValorCotacao>
+                <a:ValorTotalPago>1716.6500</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 69323.301015 4 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>115.88</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>527.18</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>13.0000</b:ValorIof>
+                    <b:ValorParcela>83.4600</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1251.9000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.64</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>10.2200</b:ValorIof>
+                    <b:ValorParcela>89.0800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1068.9600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.16</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>7.6600</b:ValorIof>
+                    <b:ValorParcela>100.0200</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>900.1800</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.06</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>5.3300</b:ValorIof>
+                    <b:ValorParcela>124.5100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>747.0600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>526.97</a:ComprasDebitos>
+                  <a:Creditos>526.97</a:Creditos>
+                  <a:Pagamentos>1716.65</a:Pagamentos>
+                  <a:SaldoAnterior>1716.65</a:SaldoAnterior>
+                  <a:Total>526.97</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>526.97</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Multa Contratual</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Multa Contratual</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4834</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.33</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4834</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Juros de Mora</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Juros de Mora</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4834</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>1.14</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4834</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>21.74</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.4834</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1716.65</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2991</a:Cotacao>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CREAMBERRY</a:Descricao>
+                    <a:DescricaoEstabelecimento>CREAMBERRY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>20.69</a:ValorDebito>
+                    <a:ValorDestino>4.0500</a:ValorDestino>
+                    <a:ValorOrigem>20.6900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD PIZZARIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD PIZZARIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>35.99</a:ValorDebito>
+                    <a:ValorDestino>7.0900</a:ValorDestino>
+                    <a:ValorOrigem>35.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - DAFITI  4571415506</a:Descricao>
+                    <a:DescricaoEstabelecimento>DAFITI  4571415506</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>92.98</a:ValorDebito>
+                    <a:ValorDestino>18.2700</a:ValorDestino>
+                    <a:ValorOrigem>92.9800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ROCHA DOCES LTDA ME</a:Descricao>
+                    <a:DescricaoEstabelecimento>ROCHA DOCES LTDA ME</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>4.50</a:ValorDebito>
+                    <a:ValorDestino>0.8800</a:ValorDestino>
+                    <a:ValorOrigem>4.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAPELARIA ITAPEL</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAPELARIA ITAPEL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>13.50</a:ValorDebito>
+                    <a:ValorDestino>2.6500</a:ValorDestino>
+                    <a:ValorOrigem>13.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD IFOODCOM</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD IFOODCOM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.25</a:ValorDebito>
+                    <a:ValorDestino>1.0300</a:ValorDestino>
+                    <a:ValorOrigem>5.2500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - IFOOD   IFD SUBWAY FR</a:Descricao>
+                    <a:DescricaoEstabelecimento>IFOOD   IFD SUBWAY FR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>48.80</a:ValorDebito>
+                    <a:ValorDestino>9.5500</a:ValorDestino>
+                    <a:ValorOrigem>48.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ROCHA DOCES LTDA ME</a:Descricao>
+                    <a:DescricaoEstabelecimento>ROCHA DOCES LTDA ME</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.00</a:ValorDebito>
+                    <a:ValorDestino>4.3000</a:ValorDestino>
+                    <a:ValorOrigem>22.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3758</a:Cotacao>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TULIO DOS SANTOS PATTO</a:Descricao>
+                    <a:DescricaoEstabelecimento>TULIO DOS SANTOS PATTO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>20.00</a:ValorDebito>
+                    <a:ValorDestino>3.8600</a:ValorDestino>
+                    <a:ValorOrigem>20.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3758</a:Cotacao>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - VIAOESTE</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIAOESTE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.40</a:ValorDebito>
+                    <a:ValorDestino>1.0400</a:ValorDestino>
+                    <a:ValorOrigem>5.4000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3758</a:Cotacao>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - VIAOESTE</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIAOESTE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.40</a:ValorDebito>
+                    <a:ValorDestino>1.0600</a:ValorDestino>
+                    <a:ValorOrigem>5.4000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3758</a:Cotacao>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - RODOANEL</a:Descricao>
+                    <a:DescricaoEstabelecimento>RODOANEL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>2.80</a:ValorDebito>
+                    <a:ValorDestino>0.5400</a:ValorDestino>
+                    <a:ValorOrigem>2.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3758</a:Cotacao>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - VIAOESTE</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIAOESTE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.60</a:ValorDebito>
+                    <a:ValorDestino>2.2400</a:ValorDestino>
+                    <a:ValorOrigem>11.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3993</a:Cotacao>
+                    <a:Data>2023-01-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ROSANGELA F OYAKAWA</a:Descricao>
+                    <a:DescricaoEstabelecimento>ROSANGELA F OYAKAWA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.00</a:ValorDebito>
+                    <a:ValorDestino>3.4700</a:ValorDestino>
+                    <a:ValorOrigem>18.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3993</a:Cotacao>
+                    <a:Data>2023-01-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GARAPAMARCHE</a:Descricao>
+                    <a:DescricaoEstabelecimento>GARAPAMARCHE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.00</a:ValorDebito>
+                    <a:ValorDestino>1.3500</a:ValorDestino>
+                    <a:ValorOrigem>7.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.97</a:ValorDebito>
+                    <a:ValorDestino>2.5400</a:ValorDestino>
+                    <a:ValorOrigem>12.9700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UBER    UBER    TRIP</a:Descricao>
+                    <a:DescricaoEstabelecimento>UBER    UBER    TRIP</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.96</a:ValorDebito>
+                    <a:ValorDestino>2.3000</a:ValorDestino>
+                    <a:ValorOrigem>11.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - L OCCITANE AU BRESIL Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>L OCCITANE AU BRESIL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>59.95</a:ValorDebito>
+                    <a:ValorDestino>23.0800</a:ValorDestino>
+                    <a:ValorOrigem>119.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5466</a:Cotacao>
+                    <a:Data>2022-11-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - HNA*OBOTICARIO Parc.3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>HNA*OBOTICARIO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/5</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.98</a:ValorDebito>
+                    <a:ValorDestino>289.9000</a:ValorDestino>
+                    <a:ValorOrigem>289.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>57.98</a:ComprasDebitos>
+                  <a:Creditos>57.98</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>57.98</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-23</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - HNA*OBOTICARIO           SAO PAULO    BR Parc. 4/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>HNA*OBOTICARIO           SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 4/5</a:DescricaoLancamento>
+                    <a:Nome>VANEUSA CARLEIAL</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.98</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.0086</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

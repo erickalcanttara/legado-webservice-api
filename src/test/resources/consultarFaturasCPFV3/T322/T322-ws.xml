@@ -1,0 +1,1264 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>98986805553</a:CPF>
+        <a:CartaoPagamento>9990900008693351</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>193.62</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1820.43</a:ComprasDebitos>
+                  <a:Creditos>1819.26</a:Creditos>
+                  <a:Pagamentos>1452.00</a:Pagamentos>
+                  <a:SaldoAnterior>1450.83</a:SaldoAnterior>
+                  <a:Total>1819.26</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>1819.26</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 87 - LTDAParc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 87 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>110.12</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - IRMAOS ARAUJO</a:Descricao>
+                    <a:DescricaoEstabelecimento>IRMAOS ARAUJO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.00</a:ValorDebito>
+                    <a:ValorDestino>2.8100</a:ValorDestino>
+                    <a:ValorOrigem>15.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - IRMAOS ARAUJO Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>IRMAOS ARAUJO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>78.26</a:ValorDebito>
+                    <a:ValorDestino>74.0700</a:ValorDestino>
+                    <a:ValorOrigem>391.3000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - LUIZ ALBERTO DOS SANTOS S Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>LUIZ ALBERTO DOS SANTOS S</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>21.00</a:ValorDebito>
+                    <a:ValorDestino>8.0900</a:ValorDestino>
+                    <a:ValorOrigem>42.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - E DE CASA MAT CONST Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>E DE CASA MAT CONST</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>68.95</a:ValorDebito>
+                    <a:ValorDestino>40.4400</a:ValorDestino>
+                    <a:ValorOrigem>206.8500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1452.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - FELIPE BARBOSA SANTOS 862 Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>FELIPE BARBOSA SANTOS 862</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>93.34</a:ValorDebito>
+                    <a:ValorDestino>54.2900</a:ValorDestino>
+                    <a:ValorOrigem>280.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - HNA OBOTICARIO Parc.1/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>HNA OBOTICARIO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/4</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.95</a:ValorDebito>
+                    <a:ValorDestino>26.3300</a:ValorDestino>
+                    <a:ValorOrigem>135.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - A SEMPRE VIVA Parc.1/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>A SEMPRE VIVA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/7</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>101.58</a:ValorDebito>
+                    <a:ValorDestino>137.8500</a:ValorDestino>
+                    <a:ValorOrigem>711.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MAIS BELA Parc.1/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAIS BELA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.60</a:ValorDebito>
+                    <a:ValorDestino>20.3600</a:ValorDestino>
+                    <a:ValorOrigem>105.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - WWW ELO7 Parc.1/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>WWW ELO7</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.1/4</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>32.89</a:ValorDebito>
+                    <a:ValorDestino>131.5600</a:ValorDestino>
+                    <a:ValorOrigem>131.5600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4290</a:Cotacao>
+                    <a:Data>2022-12-08</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - EBW SHEIN Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>94.96</a:ValorDebito>
+                    <a:ValorDestino>109.9200</a:ValorDestino>
+                    <a:ValorOrigem>569.7400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4486</a:Cotacao>
+                    <a:Data>2022-12-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - EBW SHEIN Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.02</a:ValorDebito>
+                    <a:ValorDestino>65.5700</a:ValorDestino>
+                    <a:ValorOrigem>342.1500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4486</a:Cotacao>
+                    <a:Data>2022-12-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MAIS BELA Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAIS BELA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>65.95</a:ValorDebito>
+                    <a:ValorDestino>75.8400</a:ValorDestino>
+                    <a:ValorOrigem>395.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4555</a:Cotacao>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - WWW ELO7 Parc.2/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>WWW ELO7</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/12</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.95</a:ValorDebito>
+                    <a:ValorDestino>71.3600</a:ValorDestino>
+                    <a:ValorOrigem>371.4300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4555</a:Cotacao>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - WWW ELO7 Parc.2/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>WWW ELO7</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/12</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.96</a:ValorDebito>
+                    <a:ValorDestino>287.5200</a:ValorDestino>
+                    <a:ValorOrigem>287.5200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5193</a:Cotacao>
+                    <a:Data>2022-11-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PONTO DAS FESTAS Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PONTO DAS FESTAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>110.32</a:ValorDebito>
+                    <a:ValorDestino>62.6900</a:ValorDestino>
+                    <a:ValorOrigem>330.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5269</a:Cotacao>
+                    <a:Data>2022-11-25</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - A SEMPRE VIVA Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>A SEMPRE VIVA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>278.33</a:ValorDebito>
+                    <a:ValorDestino>315.1800</a:ValorDestino>
+                    <a:ValorOrigem>1670.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5466</a:Cotacao>
+                    <a:Data>2022-11-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MAIS BELA Parc.2/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAIS BELA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/4</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.95</a:ValorDebito>
+                    <a:ValorDestino>21.1600</a:ValorDestino>
+                    <a:ValorOrigem>111.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6081</a:Cotacao>
+                    <a:Data>2022-11-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - EBW SHEIN Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>50.18</a:ValorDebito>
+                    <a:ValorDestino>301.0800</a:ValorDestino>
+                    <a:ValorOrigem>301.0800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - A CASA COM VAREJI Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>A CASA COM VAREJI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>26.42</a:ValorDebito>
+                    <a:ValorDestino>24.5000</a:ValorDestino>
+                    <a:ValorOrigem>132.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - GISELE FLORES Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>GISELE FLORES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>188.68</a:ValorDebito>
+                    <a:ValorDestino>566.0400</a:ValorDestino>
+                    <a:ValorOrigem>566.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2915</a:Cotacao>
+                    <a:Data>2022-11-08</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PONTO DAS FESTAS Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PONTO DAS FESTAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>197.37</a:ValorDebito>
+                    <a:ValorDestino>117.2900</a:ValorDestino>
+                    <a:ValorOrigem>592.1200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-10-08</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 398 - LTDParc.4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 398 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.4/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>82.66</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-01T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>1820.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 35575.301011 4 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>172.42</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>39.6600</b:ValorIof>
+                    <b:ValorParcela>254.5500</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>3818.2500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.64</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>31.1800</b:ValorIof>
+                    <b:ValorParcela>271.6900</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>3260.2800</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>23.3500</b:ValorIof>
+                    <b:ValorParcela>305.0800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2745.7200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>16.2500</b:ValorIof>
+                    <b:ValorParcela>379.7700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2278.6200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1608.04</a:ComprasDebitos>
+                  <a:Creditos>1607.30</a:Creditos>
+                  <a:Pagamentos>1820.00</a:Pagamentos>
+                  <a:SaldoAnterior>1819.26</a:SaldoAnterior>
+                  <a:Total>1607.30</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>1607.30</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1820.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 87 - LTDAParc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 87 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>110.12</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - IRMAOS ARAUJO Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>IRMAOS ARAUJO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>78.26</a:ValorDebito>
+                    <a:ValorDestino>74.0700</a:ValorDestino>
+                    <a:ValorOrigem>391.3000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - LUIZ ALBERTO DOS SANTOS S Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>LUIZ ALBERTO DOS SANTOS S</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>21.00</a:ValorDebito>
+                    <a:ValorDestino>8.0900</a:ValorDestino>
+                    <a:ValorOrigem>42.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3941</a:Cotacao>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - E DE CASA MAT CONST Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>E DE CASA MAT CONST</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>68.95</a:ValorDebito>
+                    <a:ValorDestino>40.4400</a:ValorDestino>
+                    <a:ValorOrigem>206.8500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - FELIPE BARBOSA SANTOS 862 Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>FELIPE BARBOSA SANTOS 862</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>93.33</a:ValorDebito>
+                    <a:ValorDestino>54.2900</a:ValorDestino>
+                    <a:ValorOrigem>280.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - A SEMPRE VIVA Parc.2/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>A SEMPRE VIVA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/7</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>101.57</a:ValorDebito>
+                    <a:ValorDestino>137.8500</a:ValorDestino>
+                    <a:ValorOrigem>711.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - HNA OBOTICARIO Parc.2/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>HNA OBOTICARIO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/4</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.95</a:ValorDebito>
+                    <a:ValorDestino>26.3300</a:ValorDestino>
+                    <a:ValorOrigem>135.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4518</a:Cotacao>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MAIS BELA Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAIS BELA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.60</a:ValorDebito>
+                    <a:ValorDestino>20.3600</a:ValorDestino>
+                    <a:ValorOrigem>105.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - WWW ELO7 Parc.2/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>WWW ELO7</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.2/4</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>32.89</a:ValorDebito>
+                    <a:ValorDestino>131.5600</a:ValorDestino>
+                    <a:ValorOrigem>131.5600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4290</a:Cotacao>
+                    <a:Data>2022-12-08</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - EBW SHEIN Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>94.96</a:ValorDebito>
+                    <a:ValorDestino>109.9200</a:ValorDestino>
+                    <a:ValorOrigem>569.7400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4486</a:Cotacao>
+                    <a:Data>2022-12-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - EBW SHEIN Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.02</a:ValorDebito>
+                    <a:ValorDestino>65.5700</a:ValorDestino>
+                    <a:ValorOrigem>342.1500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4486</a:Cotacao>
+                    <a:Data>2022-12-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MAIS BELA Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAIS BELA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>65.95</a:ValorDebito>
+                    <a:ValorDestino>75.8400</a:ValorDestino>
+                    <a:ValorOrigem>395.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4555</a:Cotacao>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - WWW ELO7 Parc.3/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>WWW ELO7</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/12</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.96</a:ValorDebito>
+                    <a:ValorDestino>287.5200</a:ValorDestino>
+                    <a:ValorOrigem>287.5200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4555</a:Cotacao>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - WWW ELO7 Parc.3/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>WWW ELO7</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/12</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.95</a:ValorDebito>
+                    <a:ValorDestino>71.3600</a:ValorDestino>
+                    <a:ValorOrigem>371.4300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5193</a:Cotacao>
+                    <a:Data>2022-11-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PONTO DAS FESTAS Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>PONTO DAS FESTAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>110.32</a:ValorDebito>
+                    <a:ValorDestino>62.6900</a:ValorDestino>
+                    <a:ValorOrigem>330.9600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5269</a:Cotacao>
+                    <a:Data>2022-11-25</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - A SEMPRE VIVA Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>A SEMPRE VIVA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>278.33</a:ValorDebito>
+                    <a:ValorDestino>315.1800</a:ValorDestino>
+                    <a:ValorOrigem>1670.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6081</a:Cotacao>
+                    <a:Data>2022-11-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - EBW SHEIN Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>50.18</a:ValorDebito>
+                    <a:ValorDestino>301.0800</a:ValorDestino>
+                    <a:ValorOrigem>301.0800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5466</a:Cotacao>
+                    <a:Data>2022-11-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - MAIS BELA Parc.3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAIS BELA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/4</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.95</a:ValorDebito>
+                    <a:ValorDestino>21.1600</a:ValorDestino>
+                    <a:ValorOrigem>111.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - GISELE FLORES Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>GISELE FLORES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>188.68</a:ValorDebito>
+                    <a:ValorDestino>566.0400</a:ValorDestino>
+                    <a:ValorOrigem>566.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - A CASA COM VAREJI Parc.3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>A CASA COM VAREJI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa -  Parc.3/5</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>26.42</a:ValorDebito>
+                    <a:ValorDestino>24.5000</a:ValorDestino>
+                    <a:ValorOrigem>132.1000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-10-08</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 398 - LTDParc.5/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 398 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.5/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>82.66</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1275.05</a:ComprasDebitos>
+                  <a:Creditos>1275.05</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>1275.05</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Parcelado sem Juros - Estabelecimento 87 - LTDA Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 87 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado sem Juros - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>110.12</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - IRMAOS ARAUJO            CASTRO ALVES BR Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>IRMAOS ARAUJO            CASTRO ALVES BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>78.26</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-27</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - E DE CASA MAT CONST      CASTRO ALVES BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>E DE CASA MAT CONST      CASTRO ALVES BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>68.95</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - FELIPE BARBOSA SANTOS 862CASTRO ALVES BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>FELIPE BARBOSA SANTOS 862CASTRO ALVES BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>93.33</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - A SEMPRE VIVA            CASTRO ALVES BR Parc. 3/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>A SEMPRE VIVA            CASTRO ALVES BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/7</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>101.57</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - HNA OBOTICARIO           CASTRO ALVES BR Parc. 3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>HNA OBOTICARIO           CASTRO ALVES BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/4</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.95</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - MAIS BELA                CASTRO ALVES BR Parc. 3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAIS BELA                CASTRO ALVES BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.60</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - WWW ELO7                 JUIZ DE FORA BR Parc. 3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>WWW ELO7                 JUIZ DE FORA BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/4</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>32.89</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-08</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - EBW SHEIN                CURITIBA     BR Parc. 4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN                CURITIBA     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>94.96</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-07</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - EBW SHEIN                CURITIBA     BR Parc. 4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN                CURITIBA     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.02</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-07</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - MAIS BELA                CASTRO ALVES BR Parc. 4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAIS BELA                CASTRO ALVES BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>65.95</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - WWW ELO7                 PARNAMIRIM   BR Parc. 4/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>WWW ELO7                 PARNAMIRIM   BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/12</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.95</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - WWW ELO7                 CAMOCIM DE SABR Parc. 4/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>WWW ELO7                 CAMOCIM DE SABR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/12</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.96</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-25</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - A SEMPRE VIVA            CASTRO ALVES BR Parc. 4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>A SEMPRE VIVA            CASTRO ALVES BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>278.33</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-23</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - MAIS BELA                CASTRO ALVES BR Parc. 4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>MAIS BELA                CASTRO ALVES BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/4</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.95</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-23</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - EBW SHEIN                CURITIBA     BR Parc. 4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>EBW SHEIN                CURITIBA     BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>50.18</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-18</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - A CASA COM VAREJI        CASTRO ALVES BR Parc. 4/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>A CASA COM VAREJI        CASTRO ALVES BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/5</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>26.42</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-10-08</a:Data>
+                    <a:Descricao>Parcelado Sem Juros - Camicado - Estabelecimento 398 - LTD Parc. 6/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 398 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado Sem Juros - Camicado - Parc. 6/6</a:DescricaoLancamento>
+                    <a:Nome>NADIVA BLASCO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>82.66</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.9356</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

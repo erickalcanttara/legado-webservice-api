@@ -1,0 +1,934 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>05232729870</a:CPF>
+        <a:CartaoPagamento>9990900002590674</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>1562.06</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1924.27</a:ComprasDebitos>
+                  <a:Creditos>1919.91</a:Creditos>
+                  <a:Pagamentos>2016.16</a:Pagamentos>
+                  <a:SaldoAnterior>2011.80</a:SaldoAnterior>
+                  <a:Total>1919.91</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO ABAIXO DO MÍNIMO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>1919.91</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CARREFOUR CASA VERDE - Parc.1/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>CARREFOUR CASA VERDE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/12</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>129.37</a:ValorDebito>
+                    <a:ValorDestino>291.9800</a:ValorDestino>
+                    <a:ValorOrigem>1552.4400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Credito de Refinanciamento Saldo Financiado</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Credito de Refinanciamento Saldo Financiado</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1532.81</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>PARCELA DE FATURA ROTATIVO 16.99% - Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>PARCELA DE FATURA ROTATIVO 16.99% - Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>483.35</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>3.05</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>483.35</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-11-15</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.2/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.2/7</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.41</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5180</a:Cotacao>
+                    <a:Data>2022-11-13</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ILLONGE - Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>ILLONGE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>63.00</a:ValorDebito>
+                    <a:ValorDestino>35.4500</a:ValorDestino>
+                    <a:ValorOrigem>189.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CEA WPS 270 ECPC - Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CEA WPS 270 ECPC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.34</a:ValorDebito>
+                    <a:ValorDestino>160.0200</a:ValorDestino>
+                    <a:ValorOrigem>160.0200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>PARCELA DE FATURA ROTATIVO 14.99% - Parc.3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>PARCELA DE FATURA ROTATIVO 14.99% - Parc.3/5</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>507.77</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-10-28</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.3/4</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.98</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-08-31</a:Data>
+                    <a:Descricao>PARCELA DE FATURA ROTATIVO 14.99% - Parc.5/8</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>PARCELA DE FATURA ROTATIVO 14.99% - Parc.5/8</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>515.14</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-08-26</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.5/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.5/7</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.27</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-07-21</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.6/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.6/7</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.84</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-07-11</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.7/9</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.7/9</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.77</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-06-04</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.8/8</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.8/8</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-01T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>453.6400</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 73337.501016 9 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>2035.20</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>2995.80</a:ComprasDebitos>
+                  <a:Creditos>2542.16</a:Creditos>
+                  <a:Pagamentos>2373.55</a:Pagamentos>
+                  <a:SaldoAnterior>1919.91</a:SaldoAnterior>
+                  <a:Total>2542.16</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>2542.16</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>28.79</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>453.64</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Credito de Refinanciamento Saldo Financiado</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Credito de Refinanciamento Saldo Financiado</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1466.27</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.98</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Parcelamento da Fatura 15.99% - Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Parcelamento da Fatura 15.99% - Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>453.64</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - VIN TUDOVETPRODUTOSV</a:Descricao>
+                    <a:DescricaoEstabelecimento>VIN TUDOVETPRODUTOSV</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>59.63</a:ValorDebito>
+                    <a:ValorDestino>11.6700</a:ValorDestino>
+                    <a:ValorOrigem>59.6300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2991</a:Cotacao>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ICOMM        OQVESTIR - Parc.1/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>ICOMM        OQVESTIR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.1/5</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.76</a:ValorDebito>
+                    <a:ValorDestino>56.5200</a:ValorDestino>
+                    <a:ValorOrigem>288.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2791</a:Cotacao>
+                    <a:Data>2023-01-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - HORTISABOR</a:Descricao>
+                    <a:DescricaoEstabelecimento>HORTISABOR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.79</a:ValorDebito>
+                    <a:ValorDestino>3.7000</a:ValorDestino>
+                    <a:ValorOrigem>18.7900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TO GET CONVENIENCIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>TO GET CONVENIENCIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.50</a:ValorDebito>
+                    <a:ValorDestino>4.6300</a:ValorDestino>
+                    <a:ValorOrigem>23.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - SONDA AGUA BRANCA</a:Descricao>
+                    <a:DescricaoEstabelecimento>SONDA AGUA BRANCA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.38</a:ValorDebito>
+                    <a:ValorDestino>11.3000</a:ValorDestino>
+                    <a:ValorOrigem>57.3800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TO GET CONVENIENCIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>TO GET CONVENIENCIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.50</a:ValorDebito>
+                    <a:ValorDestino>4.6200</a:ValorDestino>
+                    <a:ValorOrigem>23.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - CARREFOUR CASA VERDE - Parc.2/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>CARREFOUR CASA VERDE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard - Parc.2/12</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>129.37</a:ValorDebito>
+                    <a:ValorDestino>291.9800</a:ValorDestino>
+                    <a:ValorOrigem>1552.4400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>PARCELA DE FATURA ROTATIVO 16.99% - Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>PARCELA DE FATURA ROTATIVO 16.99% - Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>483.35</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.30</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-11-15</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.3/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.3/7</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.41</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>PARCELA DE FATURA ROTATIVO 14.99% - Parc.4/5</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>PARCELA DE FATURA ROTATIVO 14.99% - Parc.4/5</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>507.77</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-10-28</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.4/4</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.98</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-08-31</a:Data>
+                    <a:Descricao>PARCELA DE FATURA ROTATIVO 14.99% - Parc.6/8</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>PARCELA DE FATURA ROTATIVO 14.99% - Parc.6/8</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>515.14</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-08-26</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.6/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.6/7</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.27</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-07-21</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.7/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.7/7</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.84</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-07-11</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 281 - LTD - Parc.8/9</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.8/9</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.77</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>2292.56</a:ComprasDebitos>
+                  <a:Creditos>2292.56</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>2292.56</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Parcelado Sem Juros Web - Estabelecimento 281 - LTD Parc. 2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado Sem Juros Web - Parc. 2/5</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>28.78</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Refinanciamento Com Juros -   Parc. 3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Refinanciamento Com Juros - Parc. 3/6</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>453.64</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - ICOMM        OQVESTIR    SAO PAULO    BR Parc. 2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>ICOMM        OQVESTIR    SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/5</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>57.76</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - CARREFOUR CASA VERDE     SAO PAULO    BR Parc. 3/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>CARREFOUR CASA VERDE     SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/12</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>129.37</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>PARCELAMENTO DE FATURA ROTATIVO -   Parc. 3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>PARCELAMENTO DE FATURA ROTATIVO - Parc. 3/5</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>483.35</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-21</a:Data>
+                    <a:Descricao>Parc. Sem Juros Web Pula Ciclo - Estabelecimento 281 - LTD Parc. 2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parc. Sem Juros Web Pula Ciclo - Parc. 2/3</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.30</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-15</a:Data>
+                    <a:Descricao>Parc. Sem Juros Web Pula Ciclo - Estabelecimento 281 - LTD Parc. 4/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parc. Sem Juros Web Pula Ciclo - Parc. 4/7</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>31.41</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>PARCELAMENTO DE FATURA ROTATIVO -   Parc. 5/5</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>PARCELAMENTO DE FATURA ROTATIVO - Parc. 5/5</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>507.77</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-08-31</a:Data>
+                    <a:Descricao>PARCELAMENTO DE FATURA ROTATIVO -   Parc. 7/8</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>PARCELAMENTO DE FATURA ROTATIVO - Parc. 7/8</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>515.14</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-08-26</a:Data>
+                    <a:Descricao>Parcelado Sem Juros Web - Estabelecimento 281 - LTD Parc. 7/7</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado Sem Juros Web - Parc. 7/7</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.27</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-07-11</a:Data>
+                    <a:Descricao>Parcelado Sem Juros Web - Estabelecimento 281 - LTD Parc. 9/9</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 281 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado Sem Juros Web - Parc. 9/9</a:DescricaoLancamento>
+                    <a:Nome>JOSIALBA ESTENHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.77</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.7501</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

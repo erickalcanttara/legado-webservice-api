@@ -1,0 +1,533 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99072067681</a:CPF>
+        <a:CartaoPagamento>9990900009640775</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>255.33</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>2436.40</a:ComprasDebitos>
+                  <a:Creditos>2436.40</a:Creditos>
+                  <a:Pagamentos>1505.45</a:Pagamentos>
+                  <a:SaldoAnterior>1505.45</a:SaldoAnterior>
+                  <a:Total>2436.40</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>MÍNIMO PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>2436.40</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - CAITA HOTEIS</a:Descricao>
+                    <a:DescricaoEstabelecimento>CAITA HOTEIS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>195.00</a:ValorDebito>
+                    <a:ValorDestino>38.4100</a:ValorDestino>
+                    <a:ValorOrigem>195.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - AIRBNB PAGAM AIRBNB   HMF</a:Descricao>
+                    <a:DescricaoEstabelecimento>AIRBNB PAGAM AIRBNB   HMF</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>1002.22</a:ValorDebito>
+                    <a:ValorDestino>187.6800</a:ValorDestino>
+                    <a:ValorOrigem>1002.2200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros Visa - AIRBNB PAGAM AIRBNB   HMY</a:Descricao>
+                    <a:DescricaoEstabelecimento>AIRBNB PAGAM AIRBNB   HMY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros Visa</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>240.54</a:ValorDebito>
+                    <a:ValorDestino>45.5300</a:ValorDestino>
+                    <a:ValorOrigem>240.5400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-29</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1505.45</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5943</a:Cotacao>
+                    <a:Data>2022-11-29</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PARC 105AIRBNB PAGAM AIRB - Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 105AIRBNB PAGAM AIRB</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>254.53</a:ValorDebito>
+                    <a:ValorDestino>238.0200</a:ValorDestino>
+                    <a:ValorOrigem>1272.6700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2368</a:Cotacao>
+                    <a:Data>2022-11-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - LOCALIZA RAC AAFLN1 - Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOCALIZA RAC AAFLN1</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>249.99</a:ValorDebito>
+                    <a:ValorDestino>1499.9400</a:ValorDestino>
+                    <a:ValorOrigem>1499.9400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - CEA BNO 553 ECPC - Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>CEA BNO 553 ECPC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>123.98</a:ValorDebito>
+                    <a:ValorDestino>73.1800</a:ValorDestino>
+                    <a:ValorOrigem>371.9500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5117</a:Cotacao>
+                    <a:Data>2022-10-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PARC 104GOL LINHAS A MCXS - Parc.3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 104GOL LINHAS A MCXS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/4</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>144.31</a:ValorDebito>
+                    <a:ValorDestino>109.3400</a:ValorDestino>
+                    <a:ValorOrigem>577.2400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5117</a:Cotacao>
+                    <a:Data>2022-10-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PARC 105GOL LINHAS A KJMJ - Parc.3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 105GOL LINHAS A KJMJ</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/5</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>156.15</a:ValorDebito>
+                    <a:ValorDestino>780.7500</a:ValorDestino>
+                    <a:ValorOrigem>780.7500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-10-28</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 478 - LTD - Parc.3/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 478 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.3/10</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.69</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-01T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>1971.9700</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 12895.101017 7 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>645.91</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>620.31</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>16.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>32.5800</b:ValorIof>
+                    <b:ValorParcela>233.3200</b:ValorParcela>
+                    <b:ValorTac>16.9900</b:ValorTac>
+                    <b:ValorTotalContrato>3266.4800</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>620.31</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>16.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>26.6400</b:ValorIof>
+                    <b:ValorParcela>248.0300</b:ValorParcela>
+                    <b:ValorTac>16.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2728.3300</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>620.31</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>16.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>19.6500</b:ValorIof>
+                    <b:ValorParcela>276.6700</b:ValorParcela>
+                    <b:ValorTac>16.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2213.3600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>620.31</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>16.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>13.1100</b:ValorIof>
+                    <b:ValorParcela>341.5500</b:ValorParcela>
+                    <b:ValorTac>16.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1707.7500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>956.98</a:ComprasDebitos>
+                  <a:Creditos>1421.41</a:Creditos>
+                  <a:Pagamentos>1971.97</a:Pagamentos>
+                  <a:SaldoAnterior>2436.40</a:SaldoAnterior>
+                  <a:Total>1421.41</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>1421.41</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>Encargos de Refinanciamento 18,99%</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Encargos de Refinanciamento 18,99%</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>82.32</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1971.97</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5943</a:Cotacao>
+                    <a:Data>2022-11-29</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PARC 105AIRBNB PAGAM AIRB - Parc.3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 105AIRBNB PAGAM AIRB</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.3/5</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>254.53</a:ValorDebito>
+                    <a:ValorDestino>238.0200</a:ValorDestino>
+                    <a:ValorOrigem>1272.6700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2368</a:Cotacao>
+                    <a:Data>2022-11-07</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - LOCALIZA RAC AAFLN1 - Parc.4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOCALIZA RAC AAFLN1</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.4/6</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>249.99</a:ValorDebito>
+                    <a:ValorDestino>1499.9400</a:ValorDestino>
+                    <a:ValorOrigem>1499.9400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5117</a:Cotacao>
+                    <a:Data>2022-10-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PARC 104GOL LINHAS A MCXS - Parc.4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 104GOL LINHAS A MCXS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.4/4</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>144.31</a:ValorDebito>
+                    <a:ValorDestino>109.3400</a:ValorDestino>
+                    <a:ValorOrigem>577.2400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5117</a:Cotacao>
+                    <a:Data>2022-10-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista Visa - PARC 105GOL LINHAS A KJMJ - Parc.4/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 105GOL LINHAS A KJMJ</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.4/5</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>156.15</a:ValorDebito>
+                    <a:ValorDestino>780.7500</a:ValorDestino>
+                    <a:ValorOrigem>780.7500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-10-28</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 478 - LTD - Parc.4/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 478 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.4/10</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.69</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>717.36</a:ComprasDebitos>
+                  <a:Creditos>717.36</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>717.36</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-29</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PARC 105AIRBNB PAGAM AIRBSAO PAULO    BR Parc. 4/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 105AIRBNB PAGAM AIRBSAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 4/5</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>254.53</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-07</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - LOCALIZA RAC AAFLN1      FLORIANOPOLISBR Parc. 5/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOCALIZA RAC AAFLN1      FLORIANOPOLISBR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 5/6</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>249.99</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-10-30</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - PARC 105GOL LINHAS A KJMJSAO PAULO    BR Parc. 5/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>PARC 105GOL LINHAS A KJMJSAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 5/5</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>156.15</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-10-28</a:Data>
+                    <a:Descricao>Parcelado sem Juros - Estabelecimento 478 - LTD Parc. 5/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 478 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado sem Juros - Parc. 5/10</a:DescricaoLancamento>
+                    <a:Nome>ELSANIRA DONOFRE</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.69</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>4745.XXXX.XXXX.7430</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

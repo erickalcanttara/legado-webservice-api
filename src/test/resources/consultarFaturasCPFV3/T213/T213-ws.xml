@@ -1,0 +1,1383 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99470260350</a:CPF>
+        <a:CartaoPagamento>9990900005309396</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>134.33</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>1226.38</a:ComprasDebitos>
+                  <a:Creditos>1226.38</a:Creditos>
+                  <a:Pagamentos>823.15</a:Pagamentos>
+                  <a:SaldoAnterior>823.15</a:SaldoAnterior>
+                  <a:Total>1226.38</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>1226.38</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.1/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>41.05</a:ValorDebito>
+                    <a:ValorDestino>45.2200</a:ValorDestino>
+                    <a:ValorOrigem>246.3000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - BRUNO FINOTTI DE OLIVE</a:Descricao>
+                    <a:DescricaoEstabelecimento>BRUNO FINOTTI DE OLIVE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>100.00</a:ValorDebito>
+                    <a:ValorDestino>18.7800</a:ValorDestino>
+                    <a:ValorOrigem>100.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - SUPER DB CACHOEIRINHA</a:Descricao>
+                    <a:DescricaoEstabelecimento>SUPER DB CACHOEIRINHA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.99</a:ValorDebito>
+                    <a:ValorDestino>7.0600</a:ValorDestino>
+                    <a:ValorOrigem>37.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - DROGARIAS SANTO REMEDI Parc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIAS SANTO REMEDI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.14</a:ValorDebito>
+                    <a:ValorDestino>10.0900</a:ValorDestino>
+                    <a:ValorOrigem>54.2700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MEDEIROS BOLOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>MEDEIROS BOLOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>80.00</a:ValorDebito>
+                    <a:ValorDestino>15.1600</a:ValorDestino>
+                    <a:ValorOrigem>80.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ATACADAO 188 AS</a:Descricao>
+                    <a:DescricaoEstabelecimento>ATACADAO 188 AS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>44.16</a:ValorDebito>
+                    <a:ValorDestino>8.3700</a:ValorDestino>
+                    <a:ValorOrigem>44.1600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Pagamento Efetuado na Loja Estabelecimento 325 - LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 325 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Pagamento Efetuado na Loja</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>823.15</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - STUDIO Z Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>STUDIO Z</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.01</a:ValorDebito>
+                    <a:ValorDestino>90.0300</a:ValorDestino>
+                    <a:ValorOrigem>90.0300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LLAHO STORE MULTIMARCA Parc.1/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LLAHO STORE MULTIMARCA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.34</a:ValorDebito>
+                    <a:ValorDestino>38.8000</a:ValorDestino>
+                    <a:ValorOrigem>199.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SHOP DO PE Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOP DO PE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>36.64</a:ValorDebito>
+                    <a:ValorDestino>21.1700</a:ValorDestino>
+                    <a:ValorOrigem>109.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - RIMA MAGAZINE LTDA Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIMA MAGAZINE LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>40.00</a:ValorDebito>
+                    <a:ValorDestino>22.5600</a:ValorDestino>
+                    <a:ValorOrigem>120.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SHOP DA MAQUIAGEM Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOP DA MAQUIAGEM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.50</a:ValorDebito>
+                    <a:ValorDestino>30.1800</a:ValorDestino>
+                    <a:ValorOrigem>160.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-18</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG TORRAMANAUS</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG TORRAMANAUS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.98</a:ValorDebito>
+                    <a:ValorDestino>5.6600</a:ValorDestino>
+                    <a:ValorOrigem>29.9800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - RIMA MAGAZINE LTDA Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIMA MAGAZINE LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>66.68</a:ValorDebito>
+                    <a:ValorDestino>200.0400</a:ValorDestino>
+                    <a:ValorOrigem>200.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CASA DOS FRIOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>CASA DOS FRIOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>48.50</a:ValorDebito>
+                    <a:ValorDestino>9.1500</a:ValorDestino>
+                    <a:ValorOrigem>48.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - BAIANO 17 Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>BAIANO 17</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.24</a:ValorDebito>
+                    <a:ValorDestino>21.0800</a:ValorDestino>
+                    <a:ValorOrigem>111.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4555</a:Cotacao>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>69.53</a:ValorDebito>
+                    <a:ValorDestino>79.3900</a:ValorDestino>
+                    <a:ValorOrigem>417.1800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4555</a:Cotacao>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>39.89</a:ValorDebito>
+                    <a:ValorDestino>22.7800</a:ValorDestino>
+                    <a:ValorOrigem>119.6800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5052</a:Cotacao>
+                    <a:Data>2022-12-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>35.79</a:ValorDebito>
+                    <a:ValorDestino>214.7400</a:ValorDestino>
+                    <a:ValorOrigem>214.7400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - H R MATERIAIS Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>H R MATERIAIS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>50.00</a:ValorDebito>
+                    <a:ValorDestino>18.5200</a:ValorDestino>
+                    <a:ValorOrigem>100.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - VENTO NORTE Parc.2/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>VENTO NORTE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/5</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>39.00</a:ValorDebito>
+                    <a:ValorDestino>36.1200</a:ValorDestino>
+                    <a:ValorOrigem>195.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5180</a:Cotacao>
+                    <a:Data>2022-11-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.46</a:ValorDebito>
+                    <a:ValorDestino>104.7600</a:ValorDestino>
+                    <a:ValorOrigem>104.7600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3554</a:Cotacao>
+                    <a:Data>2022-11-03</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>21.68</a:ValorDebito>
+                    <a:ValorDestino>65.0400</a:ValorDestino>
+                    <a:ValorOrigem>65.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>89.42</a:ValorDebito>
+                    <a:ValorDestino>101.0700</a:ValorDestino>
+                    <a:ValorOrigem>536.5300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5117</a:Cotacao>
+                    <a:Data>2022-10-29</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - A P A COMERCIO DE MOVE Parc.3/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>A P A COMERCIO DE MOVE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/10</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.90</a:ValorDebito>
+                    <a:ValorDestino>56.2900</a:ValorDestino>
+                    <a:ValorOrigem>299.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4257</a:Cotacao>
+                    <a:Data>2022-10-21</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - FARMA AVENIDA Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>FARMA AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>46.90</a:ValorDebito>
+                    <a:ValorDestino>26.9300</a:ValorDestino>
+                    <a:ValorOrigem>140.7100</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2022-10-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - FARMA AVENIDA Parc.4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>FARMA AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.4/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.30</a:ValorDebito>
+                    <a:ValorDestino>181.8000</a:ValorDestino>
+                    <a:ValorOrigem>181.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4954</a:Cotacao>
+                    <a:Data>2022-08-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL EDUCANDOS Parc.6/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL EDUCANDOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.6/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.29</a:ValorDebito>
+                    <a:ValorDestino>42.4400</a:ValorDestino>
+                    <a:ValorOrigem>223.7500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-31T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>1226.3800</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 86277.901012 8 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>131.42</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>24.2400</b:ValorIof>
+                    <b:ValorParcela>155.5600</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>2333.4000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.64</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>19.0500</b:ValorIof>
+                    <b:ValorParcela>166.0300</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1992.3600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.39</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>14.2700</b:ValorIof>
+                    <b:ValorParcela>186.4400</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1677.9600</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>9.9300</b:ValorIof>
+                    <b:ValorParcela>232.0800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>1392.4800</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>982.23</a:ComprasDebitos>
+                  <a:Creditos>982.23</a:Creditos>
+                  <a:Pagamentos>1226.38</a:Pagamentos>
+                  <a:SaldoAnterior>1226.38</a:SaldoAnterior>
+                  <a:Total>982.23</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>982.23</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>AVAL EMERG. CRÉDITO</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>AVAL EMERG. CRÉDITO</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>23.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - AGUAS DE MANAUS Parc.1/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>AGUAS DE MANAUS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/10</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>28.08</a:ValorDebito>
+                    <a:ValorDestino>54.9500</a:ValorDestino>
+                    <a:ValorOrigem>280.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Pagamento Efetuado na Loja Estabelecimento 325 - LTD</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 325 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Pagamento Efetuado na Loja</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>1226.38</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - LOJA BEMOL EDUCANDOS</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL EDUCANDOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>34.79</a:ValorDebito>
+                    <a:ValorDestino>6.8100</a:ValorDestino>
+                    <a:ValorOrigem>34.7900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3993</a:Cotacao>
+                    <a:Data>2023-01-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONTA VIVO</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONTA VIVO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>39.85</a:ValorDebito>
+                    <a:ValorDestino>7.6900</a:ValorDestino>
+                    <a:ValorOrigem>39.8500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONTA VIVO</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONTA VIVO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>50.75</a:ValorDebito>
+                    <a:ValorDestino>9.7600</a:ValorDestino>
+                    <a:ValorOrigem>50.7500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2939</a:Cotacao>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SUPERMERCADO BARATAO D Parc.1/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SUPERMERCADO BARATAO D</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.1/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.12</a:ValorDebito>
+                    <a:ValorDestino>17.4000</a:ValorDestino>
+                    <a:ValorOrigem>90.3600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5903</a:Cotacao>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>41.05</a:ValorDebito>
+                    <a:ValorDestino>45.2200</a:ValorDestino>
+                    <a:ValorOrigem>246.3000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - DROGARIAS SANTO REMEDI Parc.2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIAS SANTO REMEDI</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/2</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>27.13</a:ValorDebito>
+                    <a:ValorDestino>10.0900</a:ValorDestino>
+                    <a:ValorOrigem>54.2700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - STUDIO Z Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>STUDIO Z</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.01</a:ValorDebito>
+                    <a:ValorDestino>90.0300</a:ValorDestino>
+                    <a:ValorOrigem>90.0300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcela de Compra Estabelecimento 325 - LTDParc.1/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 325 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de Compra - Parc.1/2</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>44.90</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LLAHO STORE MULTIMARCA Parc.2/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LLAHO STORE MULTIMARCA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.33</a:ValorDebito>
+                    <a:ValorDestino>38.8000</a:ValorDestino>
+                    <a:ValorOrigem>199.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4106</a:Cotacao>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SHOP DO PE Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOP DO PE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>36.63</a:ValorDebito>
+                    <a:ValorDestino>21.1700</a:ValorDestino>
+                    <a:ValorOrigem>109.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - RIMA MAGAZINE LTDA Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIMA MAGAZINE LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>40.00</a:ValorDebito>
+                    <a:ValorDestino>22.5600</a:ValorDestino>
+                    <a:ValorOrigem>120.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - SHOP DA MAQUIAGEM Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOP DA MAQUIAGEM</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.50</a:ValorDebito>
+                    <a:ValorDestino>30.1800</a:ValorDestino>
+                    <a:ValorOrigem>160.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-18</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - RIMA MAGAZINE LTDA Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIMA MAGAZINE LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>66.68</a:ValorDebito>
+                    <a:ValorDestino>200.0400</a:ValorDestino>
+                    <a:ValorOrigem>200.0400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-17</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - BAIANO 17 Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>BAIANO 17</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.23</a:ValorDebito>
+                    <a:ValorDestino>21.0800</a:ValorDestino>
+                    <a:ValorOrigem>111.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4555</a:Cotacao>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>69.53</a:ValorDebito>
+                    <a:ValorDestino>79.3900</a:ValorDestino>
+                    <a:ValorOrigem>417.1800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4555</a:Cotacao>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>39.89</a:ValorDebito>
+                    <a:ValorDestino>22.7800</a:ValorDestino>
+                    <a:ValorOrigem>119.6800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5052</a:Cotacao>
+                    <a:Data>2022-12-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>35.79</a:ValorDebito>
+                    <a:ValorDestino>214.7400</a:ValorDestino>
+                    <a:ValorOrigem>214.7400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6835</a:Cotacao>
+                    <a:Data>2022-11-19</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - VENTO NORTE Parc.3/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>VENTO NORTE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/5</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>39.00</a:ValorDebito>
+                    <a:ValorDestino>36.1200</a:ValorDestino>
+                    <a:ValorOrigem>195.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5180</a:Cotacao>
+                    <a:Data>2022-11-12</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.4/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.46</a:ValorDebito>
+                    <a:ValorDestino>104.7600</a:ValorDestino>
+                    <a:ValorOrigem>104.7600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4667</a:Cotacao>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - LOJA BEMOL AVENIDA Parc.4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.4/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>89.42</a:ValorDebito>
+                    <a:ValorDestino>101.0700</a:ValorDestino>
+                    <a:ValorOrigem>536.5300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5117</a:Cotacao>
+                    <a:Data>2022-10-29</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - A P A COMERCIO DE MOVE Parc.4/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>A P A COMERCIO DE MOVE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.4/10</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.90</a:ValorDebito>
+                    <a:ValorDestino>56.2900</a:ValorDestino>
+                    <a:ValorOrigem>299.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2022-10-06</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - FARMA AVENIDA Parc.5/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>FARMA AVENIDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.5/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.30</a:ValorDebito>
+                    <a:ValorDestino>181.8000</a:ValorDestino>
+                    <a:ValorOrigem>181.8000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>752.93</a:ComprasDebitos>
+                  <a:Creditos>752.93</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>752.93</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - AGUAS DE MANAUS          MANAUS       BR Parc. 2/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>AGUAS DE MANAUS          MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/10</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>28.08</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - SUPERMERCADO BARATAO D   MANAUS       BR Parc. 2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SUPERMERCADO BARATAO D   MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 2/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.12</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-01-04</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - LOJA BEMOL AVENIDA       MANAUS       BR Parc. 3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA       MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>41.05</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-30</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - STUDIO Z                 MANAUS       BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>STUDIO Z                 MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.01</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcelado Sem Juros Pula Ciclo - Estabelecimento 325 - LTD Parc. 2/2</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 325 - LTD</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado Sem Juros Pula Ciclo - Parc. 2/2</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>44.90</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-23</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - LLAHO STORE MULTIMARCA   MANAUS       BR Parc. 3/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LLAHO STORE MULTIMARCA   MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>33.33</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-22</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - SHOP DO PE               MANAUS       BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOP DO PE               MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>36.63</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - RIMA MAGAZINE LTDA       MANAUS       BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIMA MAGAZINE LTDA       MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>40.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - SHOP DA MAQUIAGEM        MANAUS       BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOP DA MAQUIAGEM        MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.50</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-18</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - RIMA MAGAZINE LTDA       MANAUS       BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>RIMA MAGAZINE LTDA       MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>66.68</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-17</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - BAIANO 17                MANAUS       BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>BAIANO 17                MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.23</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-06</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - LOJA BEMOL AVENIDA       MANAUS       BR Parc. 4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA       MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 4/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>69.53</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-01</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - LOJA BEMOL AVENIDA       MANAUS       BR Parc. 4/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA       MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 4/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>35.79</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-19</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - VENTO NORTE              MANAUS       BR Parc. 4/5</a:Descricao>
+                    <a:DescricaoEstabelecimento>VENTO NORTE              MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 4/5</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>39.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-12</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - LOJA BEMOL AVENIDA       MANAUS       BR Parc. 5/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA       MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 5/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.46</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-11-01</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - LOJA BEMOL AVENIDA       MANAUS       BR Parc. 5/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>LOJA BEMOL AVENIDA       MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 5/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>89.42</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-10-29</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - A P A COMERCIO DE MOVE   MANAUS       BR Parc. 5/10</a:Descricao>
+                    <a:DescricaoEstabelecimento>A P A COMERCIO DE MOVE   MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 5/10</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.90</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-10-06</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - FARMA AVENIDA            MANAUS       BR Parc. 6/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>FARMA AVENIDA            MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 6/6</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.30</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

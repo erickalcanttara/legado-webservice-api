@@ -1,0 +1,584 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>99516389376</a:CPF>
+        <a:CartaoPagamento>9990900004612383</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>76.83</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>623.07</a:ComprasDebitos>
+                  <a:Creditos>621.47</a:Creditos>
+                  <a:Pagamentos>785.00</a:Pagamentos>
+                  <a:SaldoAnterior>783.40</a:SaldoAnterior>
+                  <a:Total>621.47</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>621.47</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>Compra Exterior MasterCard BRL 27,00 = USD 5,28 Cotação Dólar R$ 5,3450 - WORDWALL</a:Descricao>
+                    <a:DescricaoEstabelecimento>WORDWALL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra Exterior MasterCard BRL 27,00 = USD 5,28 Cotação Dólar R$ 5,3450</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>28.22</a:ValorDebito>
+                    <a:ValorDestino>5.2800</a:ValorDestino>
+                    <a:ValorOrigem>27.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-15</a:Data>
+                    <a:Descricao>IOF Transacoes Exterior BRL 27,00 = USD 5,28 Cotação Dólar R$ 5,3450 - WORDWALL</a:Descricao>
+                    <a:DescricaoEstabelecimento>WORDWALL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>IOF Transacoes Exterior BRL 27,00 = USD 5,28 Cotação Dólar R$ 5,3450</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>1.52</a:ValorDebito>
+                    <a:ValorDestino>5.2800</a:ValorDestino>
+                    <a:ValorOrigem>27.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-14</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAYPAL  CASA D CONS</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAYPAL  CASA D CONS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>30.00</a:ValorDebito>
+                    <a:ValorDestino>5.8700</a:ValorDestino>
+                    <a:ValorOrigem>30.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5079</a:Cotacao>
+                    <a:Data>2023-01-10</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MSFBRAS MSF PAGTO DOA</a:Descricao>
+                    <a:DescricaoEstabelecimento>MSFBRAS MSF PAGTO DOA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>38.00</a:ValorDebito>
+                    <a:ValorDestino>7.2100</a:ValorDestino>
+                    <a:ValorOrigem>38.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>785.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3497</a:Cotacao>
+                    <a:Data>2022-12-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MICROSOFT SUBSCRIPTION</a:Descricao>
+                    <a:DescricaoEstabelecimento>MICROSOFT SUBSCRIPTION</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>45.00</a:ValorDebito>
+                    <a:ValorDestino>8.7300</a:ValorDestino>
+                    <a:ValorOrigem>45.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - GOOGLE GLOBO</a:Descricao>
+                    <a:DescricaoEstabelecimento>GOOGLE GLOBO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.90</a:ValorDebito>
+                    <a:ValorDestino>4.8300</a:ValorDestino>
+                    <a:ValorOrigem>24.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>Compra Exterior MasterCard BRL 27,00 = USD 5,08 Cotação Dólar R$ 5,5536 - WORDWALL</a:Descricao>
+                    <a:DescricaoEstabelecimento>WORDWALL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra Exterior MasterCard BRL 27,00 = USD 5,08 Cotação Dólar R$ 5,5536</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>28.21</a:ValorDebito>
+                    <a:ValorDestino>5.0800</a:ValorDestino>
+                    <a:ValorOrigem>27.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5536</a:Cotacao>
+                    <a:Data>2022-12-15</a:Data>
+                    <a:Descricao>IOF Transacoes Exterior BRL 27,00 = USD 5,08 Cotação Dólar R$ 5,5536 - WORDWALL</a:Descricao>
+                    <a:DescricaoEstabelecimento>WORDWALL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>IOF Transacoes Exterior BRL 27,00 = USD 5,08 Cotação Dólar R$ 5,5536</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>1.80</a:ValorDebito>
+                    <a:ValorDestino>5.0800</a:ValorDestino>
+                    <a:ValorOrigem>27.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4770</a:Cotacao>
+                    <a:Data>2022-12-14</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - HTM CLUBEDASAUDE Parc.2/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>HTM CLUBEDASAUDE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/12</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.66</a:ValorDebito>
+                    <a:ValorDestino>44.6100</a:ValorDestino>
+                    <a:ValorOrigem>235.9200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4168</a:Cotacao>
+                    <a:Data>2022-12-11</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - HTM O CABELO REV Parc.2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>HTM O CABELO REV</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.2/3</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>103.62</a:ValorDebito>
+                    <a:ValorDestino>59.3600</a:ValorDestino>
+                    <a:ValorOrigem>310.8600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3738</a:Cotacao>
+                    <a:Data>2022-09-25</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - DROGARIA CARREFOUR DAR Parc.4/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>DROGARIA CARREFOUR DAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.4/4</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>103.80</a:ValorDebito>
+                    <a:ValorDestino>80.2500</a:ValorDestino>
+                    <a:ValorOrigem>415.2200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3664</a:Cotacao>
+                    <a:Data>2022-08-02</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - R C P FARMACIA LTDA Parc.6/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>R C P FARMACIA LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.6/6</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>44.46</a:ValorDebito>
+                    <a:ValorDestino>51.6900</a:ValorDestino>
+                    <a:ValorOrigem>266.7800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4229</a:Cotacao>
+                    <a:Data>2022-07-29</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - ESPERANCA CALCADOS Parc.6/6</a:Descricao>
+                    <a:DescricaoEstabelecimento>ESPERANCA CALCADOS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.6/6</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>121.70</a:ValorDebito>
+                    <a:ValorDestino>730.2000</a:ValorDestino>
+                    <a:ValorOrigem>730.2000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3112</a:Cotacao>
+                    <a:Data>2022-05-16</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - HTM    DIETA EMO Parc.9/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>HTM    DIETA EMO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.9/12</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.19</a:ValorDebito>
+                    <a:ValorDestino>45.4400</a:ValorDestino>
+                    <a:ValorOrigem>230.2800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-02-01T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>621.4700</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 90446.301013 1 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>37.27</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.73</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>5.6400</b:ValorIof>
+                    <b:ValorParcela>36.1700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>542.5500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.64</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>4.4300</b:ValorIof>
+                    <b:ValorParcela>38.6100</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>463.3200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.16</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>3.3200</b:ValorIof>
+                    <b:ValorParcela>43.3500</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>390.1500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.52</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>2.3100</b:ValorIof>
+                    <b:ValorParcela>53.9700</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>323.8200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>228.40</a:ComprasDebitos>
+                  <a:Creditos>228.40</a:Creditos>
+                  <a:Pagamentos>621.47</a:Pagamentos>
+                  <a:SaldoAnterior>621.47</a:SaldoAnterior>
+                  <a:Total>228.40</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>228.40</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>IOF Rotativo</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>IOF Rotativo</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>3.04</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>621.47</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3758</a:Cotacao>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MICROSOFT SUBSCRIPTION</a:Descricao>
+                    <a:DescricaoEstabelecimento>MICROSOFT SUBSCRIPTION</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>45.00</a:ValorDebito>
+                    <a:ValorDestino>8.8000</a:ValorDestino>
+                    <a:ValorOrigem>45.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3993</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - DL      GOOGLE GLOBO</a:Descricao>
+                    <a:DescricaoEstabelecimento>DL      GOOGLE GLOBO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.90</a:ValorDebito>
+                    <a:ValorDestino>24.9000</a:ValorDestino>
+                    <a:ValorOrigem>24.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4770</a:Cotacao>
+                    <a:Data>2022-12-14</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - HTM CLUBEDASAUDE Parc.3/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>HTM CLUBEDASAUDE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/12</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.66</a:ValorDebito>
+                    <a:ValorDestino>44.6100</a:ValorDestino>
+                    <a:ValorOrigem>235.9200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4168</a:Cotacao>
+                    <a:Data>2022-12-11</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - HTM O CABELO REV Parc.3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>HTM O CABELO REV</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.3/3</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>103.62</a:ValorDebito>
+                    <a:ValorDestino>59.3600</a:ValorDestino>
+                    <a:ValorOrigem>310.8600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3112</a:Cotacao>
+                    <a:Data>2022-05-16</a:Data>
+                    <a:Descricao>Parcela de compra lojista MasterCard - HTM    DIETA EMO Parc.10/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>HTM    DIETA EMO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcela de compra lojista MasterCard -  Parc.10/12</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.19</a:ValorDebito>
+                    <a:ValorDestino>45.4400</a:ValorDestino>
+                    <a:ValorOrigem>230.2800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>38.85</a:ComprasDebitos>
+                  <a:Creditos>38.85</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>38.85</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-14</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - HTM CLUBEDASAUDE         SAO PAULO    BR Parc. 4/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>HTM CLUBEDASAUDE         SAO PAULO    BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 4/12</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.66</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-05-16</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - HTM    DIETA EMO         PORTO ALEGRE BR Parc. 11/12</a:Descricao>
+                    <a:DescricaoEstabelecimento>HTM    DIETA EMO         PORTO ALEGRE BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 11/12</a:DescricaoLancamento>
+                    <a:Nome>HILDAYANE ANUNCACAO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.19</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.6946</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,1518 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ConsultarFaturasCPFV3Response xmlns="br.com.conductor.RealizeWs.FaturaService">
+      <ConsultarFaturasCPFV3Result xmlns:a="br.com.conductor.RealizeWs.Fatura.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CPF>04577235994</a:CPF>
+        <a:CartaoPagamento>9990900003894871</a:CartaoPagamento>
+        <a:Cartoes>
+          <a:HistoricoFaturaCartaoV2>
+            <a:Faturas>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-02-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>65.99</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>542.96</a:ComprasDebitos>
+                  <a:Creditos>542.96</a:Creditos>
+                  <a:Pagamentos>397.84</a:Pagamentos>
+                  <a:SaldoAnterior>397.84</a:SaldoAnterior>
+                  <a:Total>542.96</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGO</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>-1</a:TipoFatura>
+                <a:TotalReais>542.96</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.1000</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3153</a:Cotacao>
+                    <a:Data>2023-01-17</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CATAO E SALOME LTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>CATAO E SALOME LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>38.67</a:ValorDebito>
+                    <a:ValorDestino>7.5400</a:ValorDestino>
+                    <a:ValorOrigem>38.6700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3186</a:Cotacao>
+                    <a:Data>2023-01-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONDOR BOA VISTA LJ49</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONDOR BOA VISTA LJ49</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>41.75</a:ValorDebito>
+                    <a:ValorDestino>8.1700</a:ValorDestino>
+                    <a:ValorOrigem>41.7500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3186</a:Cotacao>
+                    <a:Data>2023-01-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.1000</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3186</a:Cotacao>
+                    <a:Data>2023-01-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - NONO PASTELARIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>NONO PASTELARIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>13.00</a:ValorDebito>
+                    <a:ValorDestino>2.5400</a:ValorDestino>
+                    <a:ValorOrigem>13.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ZECA COFFE BAR</a:Descricao>
+                    <a:DescricaoEstabelecimento>ZECA COFFE BAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.30</a:ValorDebito>
+                    <a:ValorDestino>2.8000</a:ValorDestino>
+                    <a:ValorOrigem>14.3000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - COMERCIAL DE DOCES ARC</a:Descricao>
+                    <a:DescricaoEstabelecimento>COMERCIAL DE DOCES ARC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>9.00</a:ValorDebito>
+                    <a:ValorDestino>1.7600</a:ValorDestino>
+                    <a:ValorOrigem>9.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - POPS LANCHES</a:Descricao>
+                    <a:DescricaoEstabelecimento>POPS LANCHES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>20.00</a:ValorDebito>
+                    <a:ValorDestino>3.9100</a:ValorDestino>
+                    <a:ValorOrigem>20.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3450</a:Cotacao>
+                    <a:Data>2023-01-13</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.0900</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4095</a:Cotacao>
+                    <a:Data>2023-01-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.0800</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4095</a:Cotacao>
+                    <a:Data>2023-01-12</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONDOR BOA VISTA LJ49</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONDOR BOA VISTA LJ49</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>28.15</a:ValorDebito>
+                    <a:ValorDestino>5.4600</a:ValorDestino>
+                    <a:ValorOrigem>28.1500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.0800</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONDOR BOA VISTA LJ49</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONDOR BOA VISTA LJ49</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>21.53</a:ValorDebito>
+                    <a:ValorDestino>4.1300</a:ValorDestino>
+                    <a:ValorOrigem>21.5300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4485</a:Cotacao>
+                    <a:Data>2023-01-11</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.0700</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4963</a:Cotacao>
+                    <a:Data>2023-01-09</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONDOR NILO PECANHA LJ</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONDOR NILO PECANHA LJ</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>43.14</a:ValorDebito>
+                    <a:ValorDestino>8.1100</a:ValorDestino>
+                    <a:ValorOrigem>43.1400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.6181</a:Cotacao>
+                    <a:Data>2023-01-07</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - BW COMERCIO DE BEBIDAS</a:Descricao>
+                    <a:DescricaoEstabelecimento>BW COMERCIO DE BEBIDAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>50.90</a:ValorDebito>
+                    <a:ValorDestino>9.5700</a:ValorDestino>
+                    <a:ValorOrigem>50.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PORTAL DA PRAIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PORTAL DA PRAIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.00</a:ValorDebito>
+                    <a:ValorDestino>0.9400</a:ValorDestino>
+                    <a:ValorOrigem>5.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PIER 26 CONVENIENCIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PIER 26 CONVENIENCIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.00</a:ValorDebito>
+                    <a:ValorDestino>0.9400</a:ValorDestino>
+                    <a:ValorOrigem>5.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PONTO CERTO CONVENIENC</a:Descricao>
+                    <a:DescricaoEstabelecimento>PONTO CERTO CONVENIENC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>10.00</a:ValorDebito>
+                    <a:ValorDestino>1.8800</a:ValorDestino>
+                    <a:ValorOrigem>10.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG CLEVERSONPATRICK</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG CLEVERSONPATRICK</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.00</a:ValorDebito>
+                    <a:ValorDestino>2.2500</a:ValorDestino>
+                    <a:ValorOrigem>12.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5567</a:Cotacao>
+                    <a:Data>2023-01-03</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PIER 26 CONVENIENCIA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PIER 26 CONVENIENCIA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.00</a:ValorDebito>
+                    <a:ValorDestino>2.2500</a:ValorDestino>
+                    <a:ValorOrigem>12.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2023-01-02</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PRACA CENTRAL AUTOPOST</a:Descricao>
+                    <a:DescricaoEstabelecimento>PRACA CENTRAL AUTOPOST</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>6.00</a:ValorDebito>
+                    <a:ValorDestino>1.1300</a:ValorDestino>
+                    <a:ValorOrigem>6.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4258</a:Cotacao>
+                    <a:Data>2022-12-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - BAIA AZUL</a:Descricao>
+                    <a:DescricaoEstabelecimento>BAIA AZUL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>45.67</a:ValorDebito>
+                    <a:ValorDestino>8.6500</a:ValorDestino>
+                    <a:ValorOrigem>45.6700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4939</a:Cotacao>
+                    <a:Data>2022-12-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ELIANE V N GUERRA ME</a:Descricao>
+                    <a:DescricaoEstabelecimento>ELIANE V N GUERRA ME</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.99</a:ValorDebito>
+                    <a:ValorDestino>1.5200</a:ValorDestino>
+                    <a:ValorOrigem>7.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3940</a:Cotacao>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - BAIA AZUL</a:Descricao>
+                    <a:DescricaoEstabelecimento>BAIA AZUL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>45.99</a:ValorDebito>
+                    <a:ValorDestino>8.9200</a:ValorDestino>
+                    <a:ValorOrigem>45.9900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5280</a:Cotacao>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONDOR BOA VISTA LJ49</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONDOR BOA VISTA LJ49</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>24.87</a:ValorDebito>
+                    <a:ValorDestino>4.7400</a:ValorDestino>
+                    <a:ValorOrigem>24.8700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.5304</a:Cotacao>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CATAO E SALOME LTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>CATAO E SALOME LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>41.29</a:ValorDebito>
+                    <a:ValorDestino>7.7700</a:ValorDestino>
+                    <a:ValorOrigem>41.2900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2022-12-16</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>397.84</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento>2023-01-27T00:00:00</a:UltimoPagamento>
+                <a:ValorCotacao>5.42</a:ValorCotacao>
+                <a:ValorTotalPago>857.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor>141.78</a:CETAnualParceladoEmissor>
+                <a:DataVencimento>2023-03-01</a:DataVencimento>
+                <a:LinhaDigitavel>03399.87869 70400.112218 96385.001019 1 00000000000000</a:LinhaDigitavel>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>50.35</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno>122.71</a:ParceladoEmissorAno>
+                <a:ParceladoEmissorMes>6.90</a:ParceladoEmissorMes>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura">
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>526.96</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>15</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>9.5400</b:ValorIof>
+                    <b:ValorParcela>61.2300</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>918.4500</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>522.87</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>12</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>7.5000</b:ValorIof>
+                    <b:ValorParcela>65.3500</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>784.2000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>520.16</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>9</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>5.6200</b:ValorIof>
+                    <b:ValorParcela>73.3800</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>660.4200</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                  <b:ParcelamentoFatura>
+                    <b:CustoEfetivoTotal>521.29</b:CustoEfetivoTotal>
+                    <b:Id_RegraCampanha>0</b:Id_RegraCampanha>
+                    <b:QuantidadeParcelas>6</b:QuantidadeParcelas>
+                    <b:TaxaRefinanciamento>15.99</b:TaxaRefinanciamento>
+                    <b:ValorIof>3.9100</b:ValorIof>
+                    <b:ValorParcela>91.3500</b:ValorParcela>
+                    <b:ValorTac>15.9900</b:ValorTac>
+                    <b:ValorTotalContrato>548.1000</b:ValorTotalContrato>
+                  </b:ParcelamentoFatura>
+                </a:Parcelas>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>700.66</a:ComprasDebitos>
+                  <a:Creditos>386.62</a:Creditos>
+                  <a:Pagamentos>857.00</a:Pagamentos>
+                  <a:SaldoAnterior>542.96</a:SaldoAnterior>
+                  <a:Total>386.62</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento>PAGAMENTO PENDENTE</a:SituacaoPagamento>
+                <a:TaxaCet>783.97</a:TaxaCet>
+                <a:TipoFatura>0</a:TipoFatura>
+                <a:TotalReais>386.62</a:TotalReais>
+                <a:Transacoes>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-02-13</a:Data>
+                    <a:Descricao>ANUIDADE Int</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>ANUIDADE Int</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>12.99</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRAJANO PUB</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRAJANO PUB</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>8.00</a:ValorDebito>
+                    <a:ValorDestino>1.5800</a:ValorDestino>
+                    <a:ValorOrigem>8.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MERCEARIA FANTINATO</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERCEARIA FANTINATO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.60</a:ValorDebito>
+                    <a:ValorDestino>3.2800</a:ValorDestino>
+                    <a:ValorOrigem>16.6000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UNDEFINED</a:Descricao>
+                    <a:DescricaoEstabelecimento>UNDEFINED</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>6.00</a:ValorDebito>
+                    <a:ValorDestino>1.1800</a:ValorDestino>
+                    <a:ValorOrigem>6.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - UNDEFINED</a:Descricao>
+                    <a:DescricaoEstabelecimento>UNDEFINED</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.00</a:ValorDebito>
+                    <a:ValorDestino>2.9600</a:ValorDestino>
+                    <a:ValorOrigem>15.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRAJANO PUB</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRAJANO PUB</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>8.00</a:ValorDebito>
+                    <a:ValorDestino>1.5800</a:ValorDestino>
+                    <a:ValorOrigem>8.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG TUBASBARE</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG TUBASBARE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.00</a:ValorDebito>
+                    <a:ValorDestino>2.9600</a:ValorDestino>
+                    <a:ValorOrigem>15.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.1891</a:Cotacao>
+                    <a:Data>2023-02-04</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ZECA COFFE BAR</a:Descricao>
+                    <a:DescricaoEstabelecimento>ZECA COFFE BAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.30</a:ValorDebito>
+                    <a:ValorDestino>2.8200</a:ValorDestino>
+                    <a:ValorOrigem>14.3000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.1000</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3026</a:Cotacao>
+                    <a:Data>2023-02-01</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONDOR BOA VISTA LJ49</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONDOR BOA VISTA LJ49</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>22.28</a:ValorDebito>
+                    <a:ValorDestino>4.3900</a:ValorDestino>
+                    <a:ValorOrigem>22.2800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Compra a Vista Estabelecimento 31 - LTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>Estabelecimento 31 - LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.80</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2991</a:Cotacao>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - FESTIVAL</a:Descricao>
+                    <a:DescricaoEstabelecimento>FESTIVAL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.75</a:ValorDebito>
+                    <a:ValorDestino>3.0800</a:ValorDestino>
+                    <a:ValorOrigem>15.7500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2991</a:Cotacao>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ROCKN GRILL SHOPPING S</a:Descricao>
+                    <a:DescricaoEstabelecimento>ROCKN GRILL SHOPPING S</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>18.98</a:ValorDebito>
+                    <a:ValorDestino>3.7100</a:ValorDestino>
+                    <a:ValorOrigem>18.9800</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2991</a:Cotacao>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - MERLIN VILLAVERDE PRO</a:Descricao>
+                    <a:DescricaoEstabelecimento>MERLIN VILLAVERDE PRO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>10.00</a:ValorDebito>
+                    <a:ValorDestino>1.9600</a:ValorDestino>
+                    <a:ValorOrigem>10.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2991</a:Cotacao>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - RESTAURANTE SAKURA</a:Descricao>
+                    <a:DescricaoEstabelecimento>RESTAURANTE SAKURA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.00</a:ValorDebito>
+                    <a:ValorDestino>2.9400</a:ValorDestino>
+                    <a:ValorOrigem>15.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2991</a:Cotacao>
+                    <a:Data>2023-01-31</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG HOMOLUPULUSLTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG HOMOLUPULUSLTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.00</a:ValorDebito>
+                    <a:ValorDestino>2.9400</a:ValorDestino>
+                    <a:ValorOrigem>15.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2791</a:Cotacao>
+                    <a:Data>2023-01-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG HOMOLUPULUSLTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG HOMOLUPULUSLTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.00</a:ValorDebito>
+                    <a:ValorDestino>2.9400</a:ValorDestino>
+                    <a:ValorOrigem>15.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2791</a:Cotacao>
+                    <a:Data>2023-01-30</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ALES LANCHES</a:Descricao>
+                    <a:DescricaoEstabelecimento>ALES LANCHES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>6.00</a:ValorDebito>
+                    <a:ValorDestino>1.1800</a:ValorDestino>
+                    <a:ValorOrigem>6.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.1100</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRAJANO PUB</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRAJANO PUB</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>15.00</a:ValorDebito>
+                    <a:ValorDestino>2.9500</a:ValorDestino>
+                    <a:ValorOrigem>15.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CATAO E SALOME LTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>CATAO E SALOME LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>29.33</a:ValorDebito>
+                    <a:ValorDestino>5.7700</a:ValorDestino>
+                    <a:ValorOrigem>29.3300</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-28</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.1100</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.1100</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONDOR NILO PECANHA LJ</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONDOR NILO PECANHA LJ</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>52.19</a:ValorDebito>
+                    <a:ValorDestino>10.2700</a:ValorDestino>
+                    <a:ValorOrigem>52.1900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONDOR BOA VISTA LJ49</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONDOR BOA VISTA LJ49</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.57</a:ValorDebito>
+                    <a:ValorDestino>3.8500</a:ValorDestino>
+                    <a:ValorOrigem>19.5700</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>227.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.2983</a:Cotacao>
+                    <a:Data>2023-01-27</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - LANCHONETE DOIS CORAC</a:Descricao>
+                    <a:DescricaoEstabelecimento>LANCHONETE DOIS CORAC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>13.70</a:ValorDebito>
+                    <a:ValorDestino>2.7000</a:ValorDestino>
+                    <a:ValorOrigem>13.7000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - SANTA NO SOY</a:Descricao>
+                    <a:DescricaoEstabelecimento>SANTA NO SOY</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>10.00</a:ValorDebito>
+                    <a:ValorDestino>1.9600</a:ValorDestino>
+                    <a:ValorOrigem>10.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.1000</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ZECA COFFE BAR</a:Descricao>
+                    <a:DescricaoEstabelecimento>ZECA COFFE BAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>14.30</a:ValorDebito>
+                    <a:ValorDestino>2.8100</a:ValorDestino>
+                    <a:ValorOrigem>14.3000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - PAG TUBASBARE</a:Descricao>
+                    <a:DescricaoEstabelecimento>PAG TUBASBARE</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>16.50</a:ValorDebito>
+                    <a:ValorDestino>3.2400</a:ValorDestino>
+                    <a:ValorOrigem>16.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3077</a:Cotacao>
+                    <a:Data>2023-01-26</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - ZECA COFFE BAR</a:Descricao>
+                    <a:DescricaoEstabelecimento>ZECA COFFE BAR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.00</a:ValorDebito>
+                    <a:ValorDestino>2.1600</a:ValorDestino>
+                    <a:ValorOrigem>11.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3758</a:Cotacao>
+                    <a:Data>2023-01-25</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.0800</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3993</a:Cotacao>
+                    <a:Data>2023-01-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - VALDIR MARTINES</a:Descricao>
+                    <a:DescricaoEstabelecimento>VALDIR MARTINES</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>17.00</a:ValorDebito>
+                    <a:ValorDestino>3.2800</a:ValorDestino>
+                    <a:ValorOrigem>17.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3993</a:Cotacao>
+                    <a:Data>2023-01-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONDOR BOA VISTA LJ49</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONDOR BOA VISTA LJ49</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>13.36</a:ValorDebito>
+                    <a:ValorDestino>2.5800</a:ValorDestino>
+                    <a:ValorOrigem>13.3600</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3993</a:Cotacao>
+                    <a:Data>2023-01-24</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.0800</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONDOR BOA VISTA LJ49</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONDOR BOA VISTA LJ49</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>40.54</a:ValorDebito>
+                    <a:ValorDestino>7.8100</a:ValorDestino>
+                    <a:ValorOrigem>40.5400</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4059</a:Cotacao>
+                    <a:Data>2023-01-23</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.0800</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-22</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.0800</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - THALES WIECK</a:Descricao>
+                    <a:DescricaoEstabelecimento>THALES WIECK</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>6.00</a:ValorDebito>
+                    <a:ValorDestino>1.1500</a:ValorDestino>
+                    <a:ValorOrigem>6.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - THALES WIECK</a:Descricao>
+                    <a:DescricaoEstabelecimento>THALES WIECK</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>6.00</a:ValorDebito>
+                    <a:ValorDestino>1.1500</a:ValorDestino>
+                    <a:ValorOrigem>6.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - COSTELAO DO LARGO</a:Descricao>
+                    <a:DescricaoEstabelecimento>COSTELAO DO LARGO</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>11.00</a:ValorDebito>
+                    <a:ValorDestino>2.1100</a:ValorDestino>
+                    <a:ValorOrigem>11.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-21</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - BENEDITA A DE O LIZ</a:Descricao>
+                    <a:DescricaoEstabelecimento>BENEDITA A DE O LIZ</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>4.00</a:ValorDebito>
+                    <a:ValorDestino>0.7700</a:ValorDestino>
+                    <a:ValorOrigem>4.0000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CATAO E SALOME LTDA</a:Descricao>
+                    <a:DescricaoEstabelecimento>CATAO E SALOME LTDA</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>7.69</a:ValorDebito>
+                    <a:ValorDestino>1.4800</a:ValorDestino>
+                    <a:ValorOrigem>7.6900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONDOR BOA VISTA LJ49</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONDOR BOA VISTA LJ49</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>35.39</a:ValorDebito>
+                    <a:ValorDestino>6.8000</a:ValorDestino>
+                    <a:ValorOrigem>35.3900</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.4224</a:Cotacao>
+                    <a:Data>2023-01-20</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.0800</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao/>
+                    <a:Data>2023-01-19</a:Data>
+                    <a:Descricao>Pagamentos Validos Normais</a:Descricao>
+                    <a:DescricaoEstabelecimento/>
+                    <a:DescricaoLancamento>Pagamentos Validos Normais</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>630.00</a:ValorCredito>
+                    <a:ValorDebito>0.0</a:ValorDebito>
+                    <a:ValorDestino/>
+                    <a:ValorOrigem/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3245</a:Cotacao>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - BW COMERCIO DE BEBIDAS</a:Descricao>
+                    <a:DescricaoEstabelecimento>BW COMERCIO DE BEBIDAS</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>37.90</a:ValorDebito>
+                    <a:ValorDestino>7.4300</a:ValorDestino>
+                    <a:ValorOrigem>37.9000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3245</a:Cotacao>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - CONDOR BOA VISTA LJ49</a:Descricao>
+                    <a:DescricaoEstabelecimento>CONDOR BOA VISTA LJ49</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.55</a:ValorDebito>
+                    <a:ValorDestino>3.8300</a:ValorDestino>
+                    <a:ValorOrigem>19.5500</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3245</a:Cotacao>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - LS PAO DE QUEIJO EIREL</a:Descricao>
+                    <a:DescricaoEstabelecimento>LS PAO DE QUEIJO EIREL</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>19.50</a:ValorDebito>
+                    <a:ValorDestino>3.8200</a:ValorDestino>
+                    <a:ValorOrigem>19.5000</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3245</a:Cotacao>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.1000</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao>5.3245</a:Cotacao>
+                    <a:Data>2023-01-18</a:Data>
+                    <a:Descricao>Compra a Vista sem Juros MasterCard - TRANSP COLETIVO   FUC</a:Descricao>
+                    <a:DescricaoEstabelecimento>TRANSP COLETIVO   FUC</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Compra a Vista sem Juros MasterCard</a:DescricaoLancamento>
+                    <a:Nome>LUCIRELDA BENTINHO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
+                    <a:SimboloOrigem>BRL</a:SimboloOrigem>
+                    <a:Status>PROCESSADA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>5.62</a:ValorDebito>
+                    <a:ValorDestino>1.1000</a:ValorDestino>
+                    <a:ValorOrigem>5.6200</a:ValorOrigem>
+                  </a:HistoricoFaturasTransacao>
+                </a:Transacoes>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.30</a:ValorCotacao>
+                <a:ValorTotalPago>0.0000</a:ValorTotalPago>
+              </a:HistoricoFaturaFaturaV2>
+              <a:HistoricoFaturaFaturaV2>
+                <a:CETAnualParceladoEmissor/>
+                <a:DataVencimento>2023-04-01</a:DataVencimento>
+                <a:LinhaDigitavel i:nil="true"/>
+                <a:MelhorDia>17</a:MelhorDia>
+                <a:PagamentoMinimo>0.00</a:PagamentoMinimo>
+                <a:ParceladoEmissorAno/>
+                <a:ParceladoEmissorMes/>
+                <a:Parcelas xmlns:b="http://schemas.datacontract.org/2004/07/ConductorOrchestrator.Core.ContractObjects.Entidades.Fatura"/>
+                <a:PercentualMulta>2.00</a:PercentualMulta>
+                <a:Refinamento>18.99</a:Refinamento>
+                <a:ResumodaFatura>
+                  <a:ComprasDebitos>0.00</a:ComprasDebitos>
+                  <a:Creditos>0.00</a:Creditos>
+                  <a:Pagamentos>0.00</a:Pagamentos>
+                  <a:SaldoAnterior>0.00</a:SaldoAnterior>
+                  <a:Total>0.00</a:Total>
+                </a:ResumodaFatura>
+                <a:SituacaoPagamento i:nil="true"/>
+                <a:TaxaCet>0.00</a:TaxaCet>
+                <a:TipoFatura>1</a:TipoFatura>
+                <a:TotalReais>0.00</a:TotalReais>
+                <a:Transacoes/>
+                <a:UltimoPagamento i:nil="true"/>
+                <a:ValorCotacao>5.60</a:ValorCotacao>
+                <a:ValorTotalPago i:nil="true"/>
+              </a:HistoricoFaturaFaturaV2>
+            </a:Faturas>
+            <a:NumeroCartao>5443.XXXX.XXXX.1469</a:NumeroCartao>
+          </a:HistoricoFaturaCartaoV2>
+        </a:Cartoes>
+      </ConsultarFaturasCPFV3Result>
+    </ConsultarFaturasCPFV3Response>
+  </s:Body>
+</s:Envelope>
