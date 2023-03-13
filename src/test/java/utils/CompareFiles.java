@@ -6,6 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 public class CompareFiles {
 
+    // Método dedicado ao BuscarDadosCliente
     public static long filesCompareByLineForBuscarDadosCliente(Path path1, Path path2) throws IOException {
         try (BufferedReader bf1 = Files.newBufferedReader(path1);
              BufferedReader bf2 = Files.newBufferedReader(path2)) {
