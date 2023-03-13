@@ -84,7 +84,7 @@
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao>5.4258</a:Cotacao>
                     <a:Data>2023-01-01</a:Data>
-                    <a:Descricao>Parcela de compra lojista Visa - MLP     MAGAZINELUIZA Parc.1/10</a:Descricao>
+                    <a:Descricao>Parcela de compra lojista Visa - MLP     MAGAZINELUIZA - Parc.1/10</a:Descricao>
                     <a:DescricaoEstabelecimento>MLP     MAGAZINELUIZA</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Parcela de compra lojista Visa - Parc.1/10</a:DescricaoLancamento>
                     <a:Nome>HAMILZIA FLOR</a:Nome>
@@ -101,7 +101,7 @@
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao/>
                     <a:Data>2022-12-10</a:Data>
-                    <a:Descricao>Parcela de Compra Estabelecimento 142 - LTDParc.1/5</a:Descricao>
+                    <a:Descricao>Parcela de Compra Estabelecimento 142 - LTD - Parc.1/5</a:Descricao>
                     <a:DescricaoEstabelecimento>Estabelecimento 142 - LTD</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Parcela de Compra - Parc.1/5</a:DescricaoLancamento>
                     <a:Nome>HAMILZIA FLOR</a:Nome>

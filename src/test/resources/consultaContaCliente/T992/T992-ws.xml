@@ -6,7 +6,7 @@
         <a:DataCadastramento>2020-01-28T10:47:00</a:DataCadastramento>
         <a:DataNascimento>1999-07-16T00:00:00</a:DataNascimento>
         <a:DiaVencimentoFatura>25</a:DiaVencimentoFatura>
-        <a:DiasEmAtraso>20</a:DiasEmAtraso>
+        <a:DiasEmAtraso>36</a:DiasEmAtraso>
         <a:FaturaPorEmail>true</a:FaturaPorEmail>
         <a:IdConta>6091764</a:IdConta>
         <a:ImpressaoCarne>true</a:ImpressaoCarne>
@@ -14,7 +14,7 @@
         <a:MelhorDia>10</a:MelhorDia>
         <a:Nome>ACYR CARLEIAL</a:Nome>
         <a:NumeroEstabelecimento>436</a:NumeroEstabelecimento>
-        <a:SaldoAtualFinal>588.0100</a:SaldoAtualFinal>
+        <a:SaldoAtualFinal>764.5500</a:SaldoAtualFinal>
         <a:SaldoCredorCarne>0</a:SaldoCredorCarne>
         <a:SaldoCredorFatura>0</a:SaldoCredorFatura>
         <a:StatusConta>3</a:StatusConta>

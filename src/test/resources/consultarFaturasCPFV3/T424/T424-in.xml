@@ -572,23 +572,6 @@
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao i:nil="true"/>
                     <a:Data>2023-02-03</a:Data>
-                    <a:Descricao>Parcelado lojista - Visa 50% - Global - MP ROSANEFARIASDESOUZA   OSASCO       BR Parc. 2/3</a:Descricao>
-                    <a:DescricaoEstabelecimento>MP ROSANEFARIASDESOUZA   OSASCO       BR</a:DescricaoEstabelecimento>
-                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/3</a:DescricaoLancamento>
-                    <a:Nome>DANILLO MOURA</a:Nome>
-                    <a:NumeroCartao>4745.XXXX.XXXX.3449</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
-                    <a:SimboloOrigem i:nil="true"/>
-                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
-                    <a:Titularidade>S</a:Titularidade>
-                    <a:ValorCredito>0.0</a:ValorCredito>
-                    <a:ValorDebito>56.81</a:ValorDebito>
-                    <a:ValorDestino i:nil="true"/>
-                    <a:ValorOrigem i:nil="true"/>
-                  </a:HistoricoFaturasTransacao>
-                  <a:HistoricoFaturasTransacao>
-                    <a:Cotacao i:nil="true"/>
-                    <a:Data>2023-02-03</a:Data>
                     <a:Descricao>Parcelado lojista - Visa 50% - Global - MP ROSANEFARIASDESOUZA   OSASCO       BR Parc. 2/2</a:Descricao>
                     <a:DescricaoEstabelecimento>MP ROSANEFARIASDESOUZA   OSASCO       BR</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/2</a:DescricaoLancamento>
@@ -600,6 +583,23 @@
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>0.0</a:ValorCredito>
                     <a:ValorDebito>55.96</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2023-02-03</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - MP ROSANEFARIASDESOUZA   OSASCO       BR Parc. 2/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>MP ROSANEFARIASDESOUZA   OSASCO       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 2/3</a:DescricaoLancamento>
+                    <a:Nome>DANILLO MOURA</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.3449</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>56.81</a:ValorDebito>
                     <a:ValorDestino i:nil="true"/>
                     <a:ValorOrigem i:nil="true"/>
                   </a:HistoricoFaturasTransacao>

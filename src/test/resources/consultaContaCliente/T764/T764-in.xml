@@ -2,19 +2,19 @@
   <s:Body>
     <ConsultaContaClienteResponse xmlns="br.com.conductor.RealizeWs.ClienteService">
       <ConsultaContaClienteResult xmlns:a="br.com.conductor.RealizeWs.Cliente.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-        <a:CPF>99127913805</a:CPF>
-        <a:DataCadastramento>2022-06-14T17:47:00</a:DataCadastramento>
-        <a:DataNascimento>1992-08-06T00:00:00</a:DataNascimento>
-        <a:DiaVencimentoFatura>15</a:DiaVencimentoFatura>
-        <a:DiasEmAtraso>0</a:DiasEmAtraso>
+        <a:CPF>99412314515</a:CPF>
+        <a:DataCadastramento>2020-01-30T12:09:00</a:DataCadastramento>
+        <a:DataNascimento>1982-12-01T00:00:00</a:DataNascimento>
+        <a:DiaVencimentoFatura>25</a:DiaVencimentoFatura>
+        <a:DiasEmAtraso>5</a:DiasEmAtraso>
         <a:FaturaPorEmail>true</a:FaturaPorEmail>
-        <a:IdConta>9295157</a:IdConta>
+        <a:IdConta>6091830</a:IdConta>
         <a:ImpressaoCarne>true</a:ImpressaoCarne>
-        <a:LojaDomicilio>RENNER 130 SH PRAIA DA COSTA</a:LojaDomicilio>
-        <a:MelhorDia>28</a:MelhorDia>
-        <a:Nome>GILLANIA BATOS</a:Nome>
-        <a:NumeroEstabelecimento>130</a:NumeroEstabelecimento>
-        <a:SaldoAtualFinal>445.0500</a:SaldoAtualFinal>
+        <a:LojaDomicilio>Lojas Renner 272 Lj  Barão do Rio Branco</a:LojaDomicilio>
+        <a:MelhorDia>10</a:MelhorDia>
+        <a:Nome>EDLEUZA BATISTADEMELO</a:Nome>
+        <a:NumeroEstabelecimento>272</a:NumeroEstabelecimento>
+        <a:SaldoAtualFinal>947.2700</a:SaldoAtualFinal>
         <a:SaldoCredorCarne>0</a:SaldoCredorCarne>
         <a:SaldoCredorFatura>0</a:SaldoCredorFatura>
         <a:StatusConta>0</a:StatusConta>

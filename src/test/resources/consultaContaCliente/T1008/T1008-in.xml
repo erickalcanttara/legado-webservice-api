@@ -6,12 +6,12 @@
         <a:DataCadastramento>2023-01-02T16:38:00</a:DataCadastramento>
         <a:DataNascimento>1993-04-19T00:00:00</a:DataNascimento>
         <a:DiaVencimentoFatura>15</a:DiaVencimentoFatura>
-        <a:DiasEmAtraso>13</a:DiasEmAtraso>
+        <a:DiasEmAtraso>29</a:DiasEmAtraso>
         <a:FaturaPorEmail>true</a:FaturaPorEmail>
         <a:IdConta>10307092</a:IdConta>
         <a:ImpressaoCarne>true</a:ImpressaoCarne>
         <a:LojaDomicilio>Lojas Renner S.A - 386 BARRETO NORTH SH</a:LojaDomicilio>
-        <a:MelhorDia>28</a:MelhorDia>
+        <a:MelhorDia>31</a:MelhorDia>
         <a:Nome>EDVAM DILINHA</a:Nome>
         <a:NumeroEstabelecimento>386</a:NumeroEstabelecimento>
         <a:SaldoAtualFinal>0.0000</a:SaldoAtualFinal>

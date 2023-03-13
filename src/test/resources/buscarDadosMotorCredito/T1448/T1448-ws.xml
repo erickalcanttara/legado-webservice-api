@@ -2,7 +2,7 @@
   <s:Body>
     <BuscarDadosMotorCreditoResponse xmlns="br.com.conductor.RealizeWs.ContaService">
       <BuscarDadosMotorCreditoResult xmlns:a="br.com.conductor.RealizeWs.Conta.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-        <a:BehaviorScoreAtual>99.00</a:BehaviorScoreAtual>
+        <a:BehaviorScoreAtual>97.00</a:BehaviorScoreAtual>
         <a:CEPEmpresaConjugue i:nil="true"/>
         <a:CEPEmpresaTitular i:nil="true"/>
         <a:CEPResidencial>13660000</a:CEPResidencial>

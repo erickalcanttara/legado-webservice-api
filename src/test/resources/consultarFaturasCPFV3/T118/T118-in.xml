@@ -55,7 +55,7 @@
                     <a:DescricaoLancamento>Antecipacao juros futuro parcel rotativo</a:DescricaoLancamento>
                     <a:Nome>ZENAILDO SENCIANI</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.2611</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>

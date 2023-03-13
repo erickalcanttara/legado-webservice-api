@@ -1184,23 +1184,6 @@
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao i:nil="true"/>
                     <a:Data>2022-12-20</a:Data>
-                    <a:Descricao>Parcelado lojista - MasterCard - SHOP DA MAQUIAGEM        MANAUS       BR Parc. 3/3</a:Descricao>
-                    <a:DescricaoEstabelecimento>SHOP DA MAQUIAGEM        MANAUS       BR</a:DescricaoEstabelecimento>
-                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
-                    <a:Nome>CANIDIA VECCHIO</a:Nome>
-                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
-                    <a:SimboloOrigem i:nil="true"/>
-                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
-                    <a:Titularidade>S</a:Titularidade>
-                    <a:ValorCredito>0.0</a:ValorCredito>
-                    <a:ValorDebito>53.50</a:ValorDebito>
-                    <a:ValorDestino i:nil="true"/>
-                    <a:ValorOrigem i:nil="true"/>
-                  </a:HistoricoFaturasTransacao>
-                  <a:HistoricoFaturasTransacao>
-                    <a:Cotacao i:nil="true"/>
-                    <a:Data>2022-12-20</a:Data>
                     <a:Descricao>Parcelado lojista - MasterCard - RIMA MAGAZINE LTDA       MANAUS       BR Parc. 3/3</a:Descricao>
                     <a:DescricaoEstabelecimento>RIMA MAGAZINE LTDA       MANAUS       BR</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
@@ -1212,6 +1195,23 @@
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>0.0</a:ValorCredito>
                     <a:ValorDebito>40.00</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-20</a:Data>
+                    <a:Descricao>Parcelado lojista - MasterCard - SHOP DA MAQUIAGEM        MANAUS       BR Parc. 3/3</a:Descricao>
+                    <a:DescricaoEstabelecimento>SHOP DA MAQUIAGEM        MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - MasterCard - Parc. 3/3</a:DescricaoLancamento>
+                    <a:Nome>CANIDIA VECCHIO</a:Nome>
+                    <a:NumeroCartao>5443.XXXX.XXXX.3620</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>53.50</a:ValorDebito>
                     <a:ValorDestino i:nil="true"/>
                     <a:ValorOrigem i:nil="true"/>
                   </a:HistoricoFaturasTransacao>

@@ -99,21 +99,21 @@
                     <a:ValorOrigem>191.3100</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.3450</a:Cotacao>
                     <a:Data>2023-01-15</a:Data>
                     <a:Descricao>Credito MasterCard Comp Vista Não Venc Não Faturada - IFOOD   IFD DIA SUPER</a:Descricao>
                     <a:DescricaoEstabelecimento>IFOOD   IFD DIA SUPER</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Credito MasterCard Comp Vista Não Venc Não Faturada</a:DescricaoLancamento>
                     <a:Nome>OZEAN MATOS</a:Nome>
                     <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>131.38</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>25.7000</a:ValorDestino>
+                    <a:ValorOrigem>131.3800</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao>5.3450</a:Cotacao>
@@ -286,38 +286,38 @@
                     <a:ValorOrigem>294.7900</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4485</a:Cotacao>
                     <a:Data>2023-01-11</a:Data>
                     <a:Descricao>Credito MasterCard Comp Vista Não Venc Não Faturada - IFOOD   IFD EXTRA SAN</a:Descricao>
                     <a:DescricaoEstabelecimento>IFOOD   IFD EXTRA SAN</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Credito MasterCard Comp Vista Não Venc Não Faturada</a:DescricaoLancamento>
                     <a:Nome>OZEAN MATOS</a:Nome>
                     <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>295.11</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>56.2800</a:ValorDestino>
+                    <a:ValorOrigem>295.1100</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4485</a:Cotacao>
                     <a:Data>2023-01-11</a:Data>
                     <a:Descricao>Credito MasterCard Comp Vista Não Venc Não Faturada - IFOOD   IFD PAO DE AC</a:Descricao>
                     <a:DescricaoEstabelecimento>IFOOD   IFD PAO DE AC</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Credito MasterCard Comp Vista Não Venc Não Faturada</a:DescricaoLancamento>
                     <a:Nome>OZEAN MATOS</a:Nome>
                     <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>294.79</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>56.5800</a:ValorDestino>
+                    <a:ValorOrigem>294.7900</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao>5.4485</a:Cotacao>
@@ -337,21 +337,21 @@
                     <a:ValorOrigem>295.1100</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.5079</a:Cotacao>
                     <a:Data>2023-01-10</a:Data>
                     <a:Descricao>Credito MasterCard Comp Vista Não Venc Não Faturada - IFOOD   IFD EXTRA SAN</a:Descricao>
                     <a:DescricaoEstabelecimento>IFOOD   IFD EXTRA SAN</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Credito MasterCard Comp Vista Não Venc Não Faturada</a:DescricaoLancamento>
                     <a:Nome>OZEAN MATOS</a:Nome>
                     <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>282.78</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>53.6800</a:ValorDestino>
+                    <a:ValorOrigem>282.7800</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao>5.5079</a:Cotacao>
@@ -909,38 +909,38 @@
                     <a:ValorOrigem/>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4059</a:Cotacao>
                     <a:Data>2023-01-23</a:Data>
                     <a:Descricao>Credito MasterCard Comp Vista Não Venc Não Faturada - IFOOD   IFD DIA SUPER</a:Descricao>
                     <a:DescricaoEstabelecimento>IFOOD   IFD DIA SUPER</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Credito MasterCard Comp Vista Não Venc Não Faturada</a:DescricaoLancamento>
                     <a:Nome>OZEAN MATOS</a:Nome>
                     <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>200.68</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>38.5800</a:ValorDestino>
+                    <a:ValorOrigem>200.6800</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4059</a:Cotacao>
                     <a:Data>2023-01-23</a:Data>
                     <a:Descricao>Credito MasterCard Comp Vista Não Venc Não Faturada - IFOOD        IFOOD</a:Descricao>
                     <a:DescricaoEstabelecimento>IFOOD        IFOOD</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Credito MasterCard Comp Vista Não Venc Não Faturada</a:DescricaoLancamento>
                     <a:Nome>OZEAN MATOS</a:Nome>
                     <a:NumeroCartao>5443.XXXX.XXXX.9270</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>244.93</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>47.0900</a:ValorDestino>
+                    <a:ValorOrigem>244.9300</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao>5.4059</a:Cotacao>

@@ -4,29 +4,45 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 public class CompareFiles {
 
-    public static void main(String[] args) throws IOException {
+    public static long filesCompareByLineForBuscarDadosCliente(Path path1, Path path2) throws IOException {
+        try (BufferedReader bf1 = Files.newBufferedReader(path1);
+             BufferedReader bf2 = Files.newBufferedReader(path2)) {
 
-        Path pathFileLegado = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\consultarFaturasCPFV3\\T400\\T400-ws.xml");
-        Path pathFileProxy = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\consultarFaturasCPFV3\\T400\\T400-in.xml");
-        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
+            long lineNumber = 1;
+            String linhaLegado = "", linhaProxy = "";
+            while ((linhaLegado = bf1.readLine()) != null) {
+                linhaProxy = bf2.readLine();
 
-        System.out.println("O result é: " + result);
-        if (result == -1){
-            System.out.println("Os arquivos têm o mesmo conteúdo.");
-        } else {
-            System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
-            System.out.println("A linha com a primeira diferença é: " + result);
+                if(linhaLegado.equals(linhaProxy)) {
+                    lineNumber++;
+                }else {
+                    if (linhaProxy == null || !linhaLegado.equals(linhaProxy)) {
+                        if((linhaLegado.contains("<a:Afinidade/>") && linhaProxy.contains("<a:Afinidade i:nil=\"true\"/>"))
+                                || (linhaLegado.contains("<a:Sexo/>") && linhaProxy.contains("<a:Sexo i:nil=\"true\"/>"))
+                                || (linhaLegado.contains("<a:NomeEmpresa/>") && linhaProxy.contains("<a:NomeEmpresa i:nil=\"true\"/>"))
+                                || (linhaLegado.contains("<a:CPF/>") && linhaProxy.contains("<a:CPF i:nil=\"true\"/>"))
+                                || (linhaLegado.contains("<a:CNPJ/>") && linhaProxy.contains("<a:CNPJ i:nil=\"true\"/>"))
+                                || (linhaLegado.contains("<a:Naturalidade/>") && linhaProxy.contains("<a:Naturalidade i:nil=\"true\"/>"))
+                                || (linhaLegado.contains("<a:Pais/>") && linhaProxy.contains("<a:Pais i:nil=\"true\"/>"))
+                                || (linhaLegado.contains("<a:UF/>") && linhaProxy.contains("<a:UF i:nil=\"true\"/>"))){
+                            lineNumber++;
+                        }else{
+                            System.out.println("A linha que representa o Legado mostra: " + linhaLegado);
+                            System.out.println("A linha que representa o Proxy mostra: " + linhaProxy);
+                            return lineNumber;
+                        }
+                    }
+                }
+            }
+            if (bf2.readLine() == null) {
+                return -1;
+            }
+            else {
+                return lineNumber;
+            }
         }
-
-        assertEquals(-1, result);
-
-
     }
 
     public static long filesCompareByLine(Path path1, Path path2) throws IOException {

@@ -827,23 +827,6 @@
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao i:nil="true"/>
                     <a:Data>2022-12-24</a:Data>
-                    <a:Descricao>Parcelado lojista - Visa 50% - Global - AREZZO                   MANAUS       BR Parc. 3/4</a:Descricao>
-                    <a:DescricaoEstabelecimento>AREZZO                   MANAUS       BR</a:DescricaoEstabelecimento>
-                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/4</a:DescricaoLancamento>
-                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
-                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
-                    <a:SimboloOrigem i:nil="true"/>
-                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
-                    <a:Titularidade>S</a:Titularidade>
-                    <a:ValorCredito>0.0</a:ValorCredito>
-                    <a:ValorDebito>109.95</a:ValorDebito>
-                    <a:ValorDestino i:nil="true"/>
-                    <a:ValorOrigem i:nil="true"/>
-                  </a:HistoricoFaturasTransacao>
-                  <a:HistoricoFaturasTransacao>
-                    <a:Cotacao i:nil="true"/>
-                    <a:Data>2022-12-24</a:Data>
                     <a:Descricao>Parcelado sem Juros - Estabelecimento 113 - LTD Parc. 3/3</a:Descricao>
                     <a:DescricaoEstabelecimento>Estabelecimento 113 - LTD</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Parcelado sem Juros - Parc. 3/3</a:DescricaoLancamento>
@@ -855,6 +838,23 @@
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>0.0</a:ValorCredito>
                     <a:ValorDebito>56.60</a:ValorDebito>
+                    <a:ValorDestino i:nil="true"/>
+                    <a:ValorOrigem i:nil="true"/>
+                  </a:HistoricoFaturasTransacao>
+                  <a:HistoricoFaturasTransacao>
+                    <a:Cotacao i:nil="true"/>
+                    <a:Data>2022-12-24</a:Data>
+                    <a:Descricao>Parcelado lojista - Visa 50% - Global - AREZZO                   MANAUS       BR Parc. 3/4</a:Descricao>
+                    <a:DescricaoEstabelecimento>AREZZO                   MANAUS       BR</a:DescricaoEstabelecimento>
+                    <a:DescricaoLancamento>Parcelado lojista - Visa 50% - Global - Parc. 3/4</a:DescricaoLancamento>
+                    <a:Nome>ADIVALDA ANTONIO</a:Nome>
+                    <a:NumeroCartao>4745.XXXX.XXXX.0111</a:NumeroCartao>
+                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloOrigem i:nil="true"/>
+                    <a:Status>PARCELA DE COMPRA FUTURA</a:Status>
+                    <a:Titularidade>S</a:Titularidade>
+                    <a:ValorCredito>0.0</a:ValorCredito>
+                    <a:ValorDebito>109.95</a:ValorDebito>
                     <a:ValorDestino i:nil="true"/>
                     <a:ValorOrigem i:nil="true"/>
                   </a:HistoricoFaturasTransacao>

@@ -48,13 +48,13 @@
         <a:NumeroCelular>38891800</a:NumeroCelular>
         <a:NumeroTelefone>38891800</a:NumeroTelefone>
         <a:PossuiSaqueRapidoQuitado>true</a:PossuiSaqueRapidoQuitado>
-        <a:QuantidadeDiasAtraso>0</a:QuantidadeDiasAtraso>
+        <a:QuantidadeDiasAtraso>9</a:QuantidadeDiasAtraso>
         <a:RatingClienteAtual>A</a:RatingClienteAtual>
         <a:RendaConjuge>0.00</a:RendaConjuge>
         <a:RendaTitular>1750.50</a:RendaTitular>
-        <a:SaldoAtualCompra>460.58</a:SaldoAtualCompra>
+        <a:SaldoAtualCompra>532.46</a:SaldoAtualCompra>
         <a:SaldoAtualEP>0.00</a:SaldoAtualEP>
-        <a:SaldoGlobalTotalConta>460.58</a:SaldoGlobalTotalConta>
+        <a:SaldoGlobalTotalConta>532.46</a:SaldoGlobalTotalConta>
         <a:Sexo>M</a:Sexo>
         <a:StatusCartaoTitular>1</a:StatusCartaoTitular>
         <a:StatusContaTitular>0</a:StatusContaTitular>
@@ -62,7 +62,7 @@
         <a:TipoOcupacao>1</a:TipoOcupacao>
         <a:TipoProduto>EXTERNO</a:TipoProduto>
         <a:UltimaEntradaCreliq i:nil="true"/>
-        <a:ValorRotativoAtual>0</a:ValorRotativoAtual>
+        <a:ValorRotativoAtual>368.1600</a:ValorRotativoAtual>
       </BuscarDadosMotorCreditoResult>
     </BuscarDadosMotorCreditoResponse>
   </s:Body>

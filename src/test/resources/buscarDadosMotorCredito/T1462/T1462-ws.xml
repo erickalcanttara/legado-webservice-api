@@ -2,7 +2,7 @@
   <s:Body>
     <BuscarDadosMotorCreditoResponse xmlns="br.com.conductor.RealizeWs.ContaService">
       <BuscarDadosMotorCreditoResult xmlns:a="br.com.conductor.RealizeWs.Conta.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-        <a:BehaviorScoreAtual>74.00</a:BehaviorScoreAtual>
+        <a:BehaviorScoreAtual>61.00</a:BehaviorScoreAtual>
         <a:CEPEmpresaConjugue i:nil="true"/>
         <a:CEPEmpresaTitular>60015140</a:CEPEmpresaTitular>
         <a:CEPResidencial>60015140</a:CEPResidencial>
@@ -15,12 +15,12 @@
         <a:DDDCelular>11</a:DDDCelular>
         <a:DDDTelefone>11</a:DDDTelefone>
         <a:DataAberturaConta>2020-01-30T00:00:00</a:DataAberturaConta>
-        <a:DataAlteracaoLimiteCompra>2022-10-19T00:00:00</a:DataAlteracaoLimiteCompra>
+        <a:DataAlteracaoLimiteCompra>2023-01-26T00:00:00</a:DataAlteracaoLimiteCompra>
         <a:DataAlteracaoLimiteSaqueRapido>2021-05-19T00:00:00</a:DataAlteracaoLimiteSaqueRapido>
         <a:DataDesbloqueioConta>2021-04-16T13:41:33.7</a:DataDesbloqueioConta>
         <a:DataNascimentoTitular>1982-12-01T00:00:00</a:DataNascimentoTitular>
         <a:DataNegativaSaldoInsuficiente i:nil="true"/>
-        <a:DataSaidaBloqueioInadimplencia>2023-01-02T00:00:00</a:DataSaidaBloqueioInadimplencia>
+        <a:DataSaidaBloqueioInadimplencia i:nil="true"/>
         <a:DataSaidaCreliq i:nil="true"/>
         <a:DataUltimaAtualizacaoCadastral>2022-01-25T00:00:00</a:DataUltimaAtualizacaoCadastral>
         <a:DataUltimaNegativaAumentoLimiteCompra i:nil="true"/>
@@ -33,35 +33,35 @@
         <a:FlagTad_Servicos>false</a:FlagTad_Servicos>
         <a:HistoricoCancelamentoContaCliente>0</a:HistoricoCancelamentoContaCliente>
         <a:HistoricoContratosParcelamento>0</a:HistoricoContratosParcelamento>
-        <a:HistoricoDiasMaiorAtraso>92</a:HistoricoDiasMaiorAtraso>
-        <a:HistoricoEntradaCreliq>1</a:HistoricoEntradaCreliq>
-        <a:HistoricoPiorRating>E</a:HistoricoPiorRating>
+        <a:HistoricoDiasMaiorAtraso>0</a:HistoricoDiasMaiorAtraso>
+        <a:HistoricoEntradaCreliq>0</a:HistoricoEntradaCreliq>
+        <a:HistoricoPiorRating>A</a:HistoricoPiorRating>
         <a:HistoricoReanalise>0</a:HistoricoReanalise>
         <a:IdConta>6091830</a:IdConta>
         <a:IdMotivoUltimaNegativaAumentoLimiteCompra>0</a:IdMotivoUltimaNegativaAumentoLimiteCompra>
         <a:IdMotivoUltimaNegativaAumentoSR>0</a:IdMotivoUltimaNegativaAumentoSR>
         <a:IdMotivoUltimaNegativaContratoSR>0</a:IdMotivoUltimaNegativaContratoSR>
-        <a:LimiteAtualCompra>2700.00</a:LimiteAtualCompra>
+        <a:LimiteAtualCompra>3600.00</a:LimiteAtualCompra>
         <a:LimiteAtualEP>750.00</a:LimiteAtualEP>
         <a:NomeConjuge>NomeConjuge - EDLEUZA BATISTADEMELO</a:NomeConjuge>
         <a:NomeTitular>EDLEUZA BATISTADEMELO</a:NomeTitular>
         <a:NumeroCelular>38891800</a:NumeroCelular>
         <a:NumeroTelefone>38891800</a:NumeroTelefone>
         <a:PossuiSaqueRapidoQuitado>false</a:PossuiSaqueRapidoQuitado>
-        <a:QuantidadeDiasAtraso>106</a:QuantidadeDiasAtraso>
-        <a:RatingClienteAtual>E</a:RatingClienteAtual>
+        <a:QuantidadeDiasAtraso>0</a:QuantidadeDiasAtraso>
+        <a:RatingClienteAtual>A</a:RatingClienteAtual>
         <a:RendaConjuge>0.00</a:RendaConjuge>
         <a:RendaTitular>1200.00</a:RendaTitular>
-        <a:SaldoAtualCompra>1684.62</a:SaldoAtualCompra>
+        <a:SaldoAtualCompra>1636.09</a:SaldoAtualCompra>
         <a:SaldoAtualEP>0.00</a:SaldoAtualEP>
-        <a:SaldoGlobalTotalConta>1684.62</a:SaldoGlobalTotalConta>
+        <a:SaldoGlobalTotalConta>1636.09</a:SaldoGlobalTotalConta>
         <a:Sexo>F</a:Sexo>
         <a:StatusCartaoTitular>1</a:StatusCartaoTitular>
-        <a:StatusContaTitular>8</a:StatusContaTitular>
-        <a:TaxaClienteSR>K</a:TaxaClienteSR>
+        <a:StatusContaTitular>0</a:StatusContaTitular>
+        <a:TaxaClienteSR>F</a:TaxaClienteSR>
         <a:TipoOcupacao>3</a:TipoOcupacao>
         <a:TipoProduto>EXTERNO</a:TipoProduto>
-        <a:UltimaEntradaCreliq>2023-01-02T00:00:00</a:UltimaEntradaCreliq>
+        <a:UltimaEntradaCreliq i:nil="true"/>
         <a:ValorRotativoAtual>0</a:ValorRotativoAtual>
       </BuscarDadosMotorCreditoResult>
     </BuscarDadosMotorCreditoResponse>

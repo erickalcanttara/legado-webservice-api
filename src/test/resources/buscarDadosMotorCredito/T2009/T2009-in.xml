@@ -58,7 +58,7 @@
         <a:Sexo>F</a:Sexo>
         <a:StatusCartaoTitular>14</a:StatusCartaoTitular>
         <a:StatusContaTitular>14</a:StatusContaTitular>
-        <a:TaxaClienteSR>P</a:TaxaClienteSR>
+        <a:TaxaClienteSR>A</a:TaxaClienteSR>
         <a:TipoOcupacao>3</a:TipoOcupacao>
         <a:TipoProduto>EXTERNO</a:TipoProduto>
         <a:UltimaEntradaCreliq i:nil="true"/>

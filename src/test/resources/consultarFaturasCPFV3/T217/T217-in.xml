@@ -490,21 +490,21 @@
                     <a:ValorOrigem>508.0200</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.3497</a:Cotacao>
                     <a:Data>2022-12-26</a:Data>
                     <a:Descricao>Credito Visa Compra Vista Não Vencida Não Faturada - MERCADOLIVRE BRASINHA</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE BRASINHA</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Credito Visa Compra Vista Não Vencida Não Faturada</a:DescricaoLancamento>
                     <a:Nome>CLEILCE SANTOSFERNANDES</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.0758</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>164.80</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>32.2200</a:ValorDestino>
+                    <a:ValorOrigem>164.8000</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao>5.4106</a:Cotacao>

@@ -6,12 +6,12 @@
         <a:DataCadastramento>2022-10-25T18:59:00</a:DataCadastramento>
         <a:DataNascimento>1986-08-24T00:00:00</a:DataNascimento>
         <a:DiaVencimentoFatura>15</a:DiaVencimentoFatura>
-        <a:DiasEmAtraso>0</a:DiasEmAtraso>
+        <a:DiasEmAtraso>10</a:DiasEmAtraso>
         <a:FaturaPorEmail>true</a:FaturaPorEmail>
         <a:IdConta>9960870</a:IdConta>
         <a:ImpressaoCarne>false</a:ImpressaoCarne>
         <a:LojaDomicilio>RENNER 147 SH PRACA DA MOCA</a:LojaDomicilio>
-        <a:MelhorDia>28</a:MelhorDia>
+        <a:MelhorDia>31</a:MelhorDia>
         <a:Nome>SINVALDO FIORENCIO</a:Nome>
         <a:NumeroEstabelecimento>147</a:NumeroEstabelecimento>
         <a:SaldoAtualFinal>394.4400</a:SaldoAtualFinal>

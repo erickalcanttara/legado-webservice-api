@@ -269,21 +269,21 @@
                     <a:ValorOrigem>42.6900</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Credito Visa Compra Vista Não Vencida Não Faturada - MP COBRANCA</a:Descricao>
                     <a:DescricaoEstabelecimento>MP COBRANCA</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Credito Visa Compra Vista Não Vencida Não Faturada</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>2.62</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>0.5000</a:ValorDestino>
+                    <a:ValorOrigem>2.6200</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao>5.5280</a:Cotacao>
@@ -456,21 +456,21 @@
                     <a:ValorOrigem>84.4300</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Credito Visa Parc s/Juros Não Vencida Não Faturada - MERCADOLIVRE MERCADOLI</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE MERCADOLI</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Credito Visa Parc s/Juros Não Vencida Não Faturada</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>70.46</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>39.9700</a:ValorDestino>
+                    <a:ValorOrigem>211.3600</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao>5.4913</a:Cotacao>
@@ -576,55 +576,55 @@
                     <a:ValorOrigem/>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.3497</a:Cotacao>
                     <a:Data>2022-12-26</a:Data>
                     <a:Descricao>Créd Confiança Compra a Vista Vencida Visa - MERCADOPAGO NICASTORE</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOPAGO NICASTORE</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Compra a Vista Vencida Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>125.31</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>24.5000</a:ValorDestino>
+                    <a:ValorOrigem>125.3100</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.3497</a:Cotacao>
                     <a:Data>2022-12-26</a:Data>
                     <a:Descricao>Créd Confiança Compra a Vista Vencida Visa - MERCADOPAGO MERCADOLIVRE</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOPAGO MERCADOLIVRE</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Compra a Vista Vencida Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>87.45</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>17.1000</a:ValorDestino>
+                    <a:ValorOrigem>87.4500</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.5280</a:Cotacao>
                     <a:Data>2022-12-20</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Vencidas Visa - PARC 102MERCADOPAGO 3FCOM</a:Descricao>
                     <a:DescricaoEstabelecimento>PARC 102MERCADOPAGO 3FCOM</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>41.50</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>15.6900</a:ValorDestino>
+                    <a:ValorOrigem>82.9900</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao>5.5280</a:Cotacao>
@@ -644,276 +644,276 @@
                     <a:ValorOrigem>82.9900</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.5280</a:Cotacao>
                     <a:Data>2022-12-20</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa - PARC 102MERCADOPAGO 3FCOM</a:Descricao>
                     <a:DescricaoEstabelecimento>PARC 102MERCADOPAGO 3FCOM</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>41.49</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>15.6900</a:ValorDestino>
+                    <a:ValorOrigem>82.9900</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.5280</a:Cotacao>
                     <a:Data>2022-12-20</a:Data>
                     <a:Descricao>Créd Confiança Compra a Vista Vencida Visa - MERCADOPAGO JSSUTILIDADES</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOPAGO JSSUTILIDADES</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Compra a Vista Vencida Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>42.69</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>8.0700</a:ValorDestino>
+                    <a:ValorOrigem>42.6900</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.5280</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Compra a Vista Vencida Visa - MERCADOPAGO LEOMELO</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOPAGO LEOMELO</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Compra a Vista Vencida Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>75.61</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>75.6100</a:ValorDestino>
+                    <a:ValorOrigem>75.6100</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Vencidas Visa - MERCADOLIVRE MARIAZ</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE MARIAZ</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>42.22</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>15.9700</a:ValorDestino>
+                    <a:ValorOrigem>84.4300</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Vencidas Visa - MERCADOLIVRE TEGBOXUTI</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE TEGBOXUTI</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>92.70</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>35.0600</a:ValorDestino>
+                    <a:ValorOrigem>185.4000</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Vencidas Visa - MERCADOLIVRE SHOPUTILI</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE SHOPUTILI</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>29.02</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>10.9800</a:ValorDestino>
+                    <a:ValorOrigem>58.0400</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Vencidas Visa - MERCADOLIVRE FOODSVALE</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE FOODSVALE</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>61.57</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>184.7100</a:ValorDestino>
+                    <a:ValorOrigem>184.7100</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa - MERCADOLIVRE MERCADOLI</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE MERCADOLI</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>70.83</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>26.7900</a:ValorDestino>
+                    <a:ValorOrigem>141.6700</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa - MERCADOLIVRE DUCAM</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE DUCAM</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>61.90</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>23.4100</a:ValorDestino>
+                    <a:ValorOrigem>123.8000</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa - MERCADOLIVRE SHOPUTILI</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE SHOPUTILI</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>29.02</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>10.9800</a:ValorDestino>
+                    <a:ValorOrigem>58.0400</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa - MERCADOLIVRE TEGBOXUTI</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE TEGBOXUTI</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>92.70</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>35.0600</a:ValorDestino>
+                    <a:ValorOrigem>185.4000</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa - MERCADOLIVRE MERCADOLI</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE MERCADOLI</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>39.43</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>14.9100</a:ValorDestino>
+                    <a:ValorOrigem>78.8700</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Vencidas Visa - MERCADOLIVRE MERCADOLI</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE MERCADOLI</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>39.44</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>14.9100</a:ValorDestino>
+                    <a:ValorOrigem>78.8700</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa - MERCADOLIVRE MARIAZ</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE MARIAZ</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>42.21</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>15.9700</a:ValorDestino>
+                    <a:ValorOrigem>84.4300</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Vencidas Visa - MERCADOLIVRE DUCAM</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE DUCAM</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>61.90</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>23.4100</a:ValorDestino>
+                    <a:ValorOrigem>123.8000</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa - MERCADOLIVRE FOODSVALE</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE FOODSVALE</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Lancadas Nao Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>61.57</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>184.7100</a:ValorDestino>
+                    <a:ValorOrigem>184.7100</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao>5.4913</a:Cotacao>
@@ -984,38 +984,38 @@
                     <a:ValorOrigem>84.4300</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.4913</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Parc Lojista Vencidas Visa - MERCADOLIVRE MERCADOLI</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOLIVRE MERCADOLI</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Parc Lojista Vencidas Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>USD</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>70.84</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>26.7900</a:ValorDestino>
+                    <a:ValorOrigem>141.6700</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
-                    <a:Cotacao/>
+                    <a:Cotacao>5.5280</a:Cotacao>
                     <a:Data>2022-12-19</a:Data>
                     <a:Descricao>Créd Confiança Compra a Vista Vencida Visa - MERCADOPAGO MERCADOLIVRE</a:Descricao>
                     <a:DescricaoEstabelecimento>MERCADOPAGO MERCADOLIVRE</a:DescricaoEstabelecimento>
                     <a:DescricaoLancamento>Créd Confiança Compra a Vista Vencida Visa</a:DescricaoLancamento>
                     <a:Nome>JEORJANIA ROLIM</a:Nome>
                     <a:NumeroCartao>4745.XXXX.XXXX.3551</a:NumeroCartao>
-                    <a:SimboloDestino i:nil="true"/>
+                    <a:SimboloDestino>BRL</a:SimboloDestino>
                     <a:SimboloOrigem i:nil="true"/>
                     <a:Status>PROCESSADA</a:Status>
                     <a:Titularidade>S</a:Titularidade>
                     <a:ValorCredito>99.00</a:ValorCredito>
                     <a:ValorDebito>0.0</a:ValorDebito>
-                    <a:ValorDestino/>
-                    <a:ValorOrigem/>
+                    <a:ValorDestino>99.0000</a:ValorDestino>
+                    <a:ValorOrigem>99.0000</a:ValorOrigem>
                   </a:HistoricoFaturasTransacao>
                   <a:HistoricoFaturasTransacao>
                     <a:Cotacao>5.4913</a:Cotacao>

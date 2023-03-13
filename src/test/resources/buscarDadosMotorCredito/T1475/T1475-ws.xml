@@ -57,7 +57,7 @@
         <a:SaldoGlobalTotalConta>0.00</a:SaldoGlobalTotalConta>
         <a:Sexo>M</a:Sexo>
         <a:StatusCartaoTitular>41</a:StatusCartaoTitular>
-        <a:StatusContaTitular>27</a:StatusContaTitular>
+        <a:StatusContaTitular>0</a:StatusContaTitular>
         <a:TaxaClienteSR>J</a:TaxaClienteSR>
         <a:TipoOcupacao>1</a:TipoOcupacao>
         <a:TipoProduto>EXTERNO</a:TipoProduto>
