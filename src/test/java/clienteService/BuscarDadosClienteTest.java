@@ -1,8 +1,6 @@
 package clienteService;
 
 
-import io.restassured.path.xml.XmlPath;
-import io.restassured.path.xml.config.XmlPathConfig;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 import org.junit.jupiter.api.DisplayName;
@@ -29,7 +27,7 @@ public class BuscarDadosClienteTest {
 
     @DisplayName("Testes Regras de Negócio - StatusCode 200")
     @ParameterizedTest
-    @CsvFileSource(resources = "/massaDeTestes/buscarDadosCliente/buscarDadosClienteMassaDeTestes.csv", numLinesToSkip = 1, delimiter = ';')
+    @CsvFileSource(resources = "/massaDeTestes/buscarDadosCliente/buscarDadosClienteMassaDeTestes-1000-Accounts-5.csv", numLinesToSkip = 1, delimiter = ';')
     public void BuscarDadosClienteTest_SC_OK(String ReferenceTest, String CPF, String Chapa, String id_conta, String descricaoStatus) throws IOException, ParserConfigurationException, SAXException {
 
         String requestBody = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:br=\"br.com.conductor.RealizeWs.ClienteService\" xmlns:br1=\"br.com.conductor.RealizeWs.Cliente.Contracts\">\n" +
@@ -131,6 +129,5 @@ public class BuscarDadosClienteTest {
 
         assertEquals(statusCodeLegado, statusCodeProxy);
         assertEquals(-1, result);
-
     }
 }
