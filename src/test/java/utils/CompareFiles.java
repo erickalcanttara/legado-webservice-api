@@ -2,12 +2,19 @@ package utils;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
+
 public class CompareFiles {
 
+    /*
+        Se todas as linhas forem idênticas para ambos os arquivos, retorna-se -1L,
+        mas se houver discrepância, retorna-se o número da linha onde foi encontrada a primeira incompatibilidade.
+        Se os arquivos forem de tamanhos diferentes,
+        mas o arquivo menor corresponder às linhas correspondentes do arquivo maior, ele retornará o número de linhas do arquivo menor.
+     */
     // Métodos para todos os outros serviços
     public static long filesCompareByLine(Path path1, Path path2) throws IOException {
         try (BufferedReader bf1 = Files.newBufferedReader(path1);
@@ -22,6 +29,9 @@ public class CompareFiles {
                 String linhaProxyWithoutWhiteSpaces = StringUtils.deleteWhitespace(linhaProxy);
 
                 if (linhaProxyWithoutWhiteSpaces == null || !linhaLegadoWithoutWhiteSpaces.equals(linhaProxyWithoutWhiteSpaces)) {
+                    System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
+                    System.out.println("A linha com a primeira diferença é: " + lineNumber + "\n");
+
                     System.out.println("\nA linha que representa o Legado mostra: " + linhaLegadoWithoutWhiteSpaces);
                     System.out.println("A linha que representa o Proxy mostra: " + linhaProxyWithoutWhiteSpaces);
                     return lineNumber;
@@ -29,6 +39,7 @@ public class CompareFiles {
                 lineNumber++;
             }
             if (bf2.readLine() == null) {
+                System.out.println("\nOs arquivos têm o mesmo conteúdo.");
                 return -1;
             }
             else {
@@ -67,6 +78,10 @@ public class CompareFiles {
                         ){
                             lineNumber++;
                         }else{
+
+                            System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
+                            System.out.println("A linha com a primeira diferença é: " + lineNumber + "\n");
+
                             System.out.println("\nA linha que representa o Legado mostra: " + linhaLegadoWithoutWhiteSpaces);
                             System.out.println("A linha que representa o Proxy mostra: " + linhaProxyWithoutWhiteSpaces);
                             return lineNumber;
@@ -75,12 +90,50 @@ public class CompareFiles {
                 }
             }
             if (bf2.readLine() == null) {
+                System.out.println("Os arquivos têm o mesmo conteúdo.");
                 return -1;
             }
             else {
                 return lineNumber;
             }
         }
+    }
+
+    public static void main(String[] args) throws IOException {
+
+        Path pathOrigem = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\massaDeTestes\\buscarDadosMotorCredito\\massaTeste2.csv");
+        Path pathDestiny = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\massaDeTestes\\buscarDadosMotorCredito\\massaDeTestesBuscarDadosMotorCredito-3000lines.csv");
+
+        replicaTestBuscarDadosMotorCredito(pathOrigem, pathDestiny);
+
+    }
+    public static void replicaTestBuscarDadosMotorCredito(Path pathOrigem, Path PathDestine) throws IOException {
+        try {
+            FileReader file = new FileReader(String.valueOf(pathOrigem));
+            BufferedReader bufferedReader = new BufferedReader(file);
+
+            FileWriter fileWriter = new FileWriter(String.valueOf(PathDestine), true);
+
+            String line;
+
+            while ((line = bufferedReader.readLine()) != null) {
+                System.out.println(line);
+                String[] lineSplited = line.split(";");
+                for (int i = 0; i < 3; i++) {
+                    fileWriter.write( lineSplited[0] + getRandomNumber(0, 3003) + ";" + lineSplited[1] + ";" + lineSplited[2] + ";" + (i + 1) + ";" +
+                            lineSplited[4] + ";" + lineSplited[5] + "\n");
+                    fileWriter.flush();
+                }
+
+            }
+            file.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    public static int getRandomNumber(int min, int max) {
+        return (int) ((Math.random() * (max - min)) + min);
     }
 
 }

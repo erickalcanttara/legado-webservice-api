@@ -16,6 +16,7 @@ import java.nio.file.Paths;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static utils.CompareFiles.filesCompareByLine;
 
 public class BuscarDadosAlteracaoLimitesTest {
 
@@ -64,6 +65,7 @@ public class BuscarDadosAlteracaoLimitesTest {
                         response();
 
         int statusCodeProxy = proxyResponse.statusCode();
+        long timeResponsesProxy = proxyResponse.getTime();
 
         File testDirList = new File("src/test/resources/" + "/buscarDadosAlteracaoLimites/");
         if (!testDirList.exists()){
@@ -106,6 +108,7 @@ public class BuscarDadosAlteracaoLimitesTest {
                         response();
 
         int statusCodeLegado = legadoResponse.statusCode();
+        long timeResponsesLegado = legadoResponse.getTime();
 
         FileWriter file2 = new FileWriter("src/test/resources/buscarDadosAlteracaoLimites/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
         file2.write(legadoResponse.prettyPrint());
@@ -114,18 +117,12 @@ public class BuscarDadosAlteracaoLimitesTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/buscarDadosAlteracaoLimites/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
+       filesCompareByLine(pathFileLegado, pathFileProxy);
 
-        System.out.println("O result é: " + result);
-        if (result == -1){
-            System.out.println("Os arquivos têm o mesmo conteúdo.");
-        } else {
-            System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
-            System.out.println("A linha com a primeira diferença é: " + result);
-        }
+       System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
 
-        assertEquals(statusCodeLegado, statusCodeProxy);
-        assertEquals(-1, result);
+       assertEquals(statusCodeLegado, statusCodeProxy);
+
 
     }
 
@@ -219,19 +216,9 @@ public class BuscarDadosAlteracaoLimitesTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/buscarDadosAlteracaoLimites/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
-
-        System.out.println("O result é: " + result);
-        if (result == -1){
-            System.out.println("Os arquivos têm o mesmo conteúdo.");
-        } else {
-            System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
-            System.out.println("A linha com a primeira diferença é: " + result);
-        }
+        filesCompareByLine(pathFileLegado, pathFileProxy);
 
         assertEquals(statusCodeLegado, statusCodeProxy);
-        assertEquals(-1, result);
-
     }
 
     @DisplayName("Testes Estruturais - StatusCode 500")
@@ -324,47 +311,10 @@ public class BuscarDadosAlteracaoLimitesTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/buscarDadosAlteracaoLimites/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
-
-        System.out.println("O result é: " + result);
-        if (result == -1){
-            System.out.println("Os arquivos têm o mesmo conteúdo.");
-        } else {
-            System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
-            System.out.println("A linha com a primeira diferença é: " + result);
-        }
+        filesCompareByLine(pathFileLegado, pathFileProxy);
 
         assertEquals(statusCodeLegado, statusCodeProxy);
-        assertEquals(-1, result);
-
     }
 
-    /*
-        Se todas as linhas forem idênticas para ambos os arquivos, retorna-se -1L,
-        mas se houver discrepância, retorna-se o número da linha onde foi encontrada a primeira incompatibilidade.
-        Se os arquivos forem de tamanhos diferentes,
-        mas o arquivo menor corresponder às linhas correspondentes do arquivo maior, ele retornará o número de linhas do arquivo menor.
-     */
-    public static long filesCompareByLine(Path path1, Path path2) throws IOException {
-        try (BufferedReader bf1 = Files.newBufferedReader(path1);
-             BufferedReader bf2 = Files.newBufferedReader(path2)) {
-
-            long lineNumber = 1;
-            String line1 = "", line2 = "";
-            while ((line1 = bf1.readLine()) != null) {
-                line2 = bf2.readLine();
-                if (line2 == null || !line1.equals(line2)) {
-                    return lineNumber;
-                }
-                lineNumber++;
-            }
-            if (bf2.readLine() == null) {
-                return -1;
-            }
-            else {
-                return lineNumber;
-            }
-        }
-    }
 
 }

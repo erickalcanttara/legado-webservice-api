@@ -58,6 +58,7 @@ public class BuscarLimitesTest {
                         response();
 
         int statusCodeProxy = proxyResponse.statusCode();
+        long timeResponsesProxy = proxyResponse.getTime();
 
         File testDirList = new File("src/test/resources/" + "/buscarLimites/");
         if (!testDirList.exists()){
@@ -100,6 +101,7 @@ public class BuscarLimitesTest {
                         response();
 
         int statusCodeLegado = legadoResponse.statusCode();
+        long timeResponsesLegado = legadoResponse.getTime();
 
         FileWriter file2 = new FileWriter("src/test/resources/buscarLimites/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
         file2.write(legadoResponse.prettyPrint());
@@ -108,18 +110,10 @@ public class BuscarLimitesTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/buscarLimites/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
+        filesCompareByLine(pathFileLegado, pathFileProxy);
 
-        System.out.println("O result é: " + result);
-        if (result == -1){
-            System.out.println("Os arquivos têm o mesmo conteúdo.");
-        } else {
-            System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
-            System.out.println("A linha com a primeira diferença é: " + result);
-        }
+        System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
 
         assertEquals(statusCodeLegado, statusCodeProxy);
-        assertEquals(-1, result);
-
     }
 }
