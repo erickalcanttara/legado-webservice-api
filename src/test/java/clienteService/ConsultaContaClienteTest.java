@@ -125,12 +125,12 @@ public class ConsultaContaClienteTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/consultaContaCliente/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        filesCompareByLine(pathFileLegado, pathFileProxy);
+        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
         assertEquals(statusCodeLegado, statusCodeProxy);
 
         System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
-
+        assertEquals(-1, result);
     }
 
     @DisplayName("Testes Regras de Negócio - StatusCode 500")
@@ -225,9 +225,11 @@ public class ConsultaContaClienteTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/consultaContaCliente/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        assertEquals(statusCodeLegado, statusCodeProxy);
+        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
         System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
 
+        assertEquals(statusCodeLegado, statusCodeProxy);
+        assertEquals(-1, result);
     }
 }

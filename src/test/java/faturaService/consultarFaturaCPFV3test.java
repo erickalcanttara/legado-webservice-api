@@ -116,11 +116,12 @@ public class consultarFaturaCPFV3test {
 
         Path pathFileLegado = Paths.get("src/test/resources/consultarFaturasCPFV3/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        filesCompareByLine(pathFileLegado, pathFileProxy);
-
-        assertEquals(statusCodeLegado, statusCodeProxy);
+        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
         System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
+
+        assertEquals(statusCodeLegado, statusCodeProxy);
+        assertEquals(-1, result);
     }
 
 }

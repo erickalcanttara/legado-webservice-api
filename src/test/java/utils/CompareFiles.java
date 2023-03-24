@@ -75,10 +75,12 @@ public class CompareFiles {
                                 || (linhaLegadoWithoutWhiteSpaces.contains("<a:UF/>") && linhaProxyWithoutWhiteSpaces.contains("<a:UFi:nil=\"true\"/>"))
                                 || (linhaLegadoWithoutWhiteSpaces.contains("<a:UFNaturalidade/>") && linhaProxyWithoutWhiteSpaces.contains("<a:UFNaturalidadei:nil=\"true\"/>"))
                                 || (linhaLegadoWithoutWhiteSpaces.contains("<a:CEP/>") && linhaProxyWithoutWhiteSpaces.contains("<a:CEPi:nil=\"true\"/>"))
+                                || (linhaLegadoWithoutWhiteSpaces.contains("CPFincorreto.") && linhaProxyWithoutWhiteSpaces.contains("FormatoCPFinválido."))
+                                || (linhaLegadoWithoutWhiteSpaces.contains("CPFobrigatório") && linhaProxyWithoutWhiteSpaces.contains("FormatoCPFinválido."))
+                                || (linhaLegadoWithoutWhiteSpaces.contains("CPFnãoencontrado.") && linhaProxyWithoutWhiteSpaces.contains("FormatoCPFinválido."))
                         ){
                             lineNumber++;
                         }else{
-
                             System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
                             System.out.println("A linha com a primeira diferença é: " + lineNumber + "\n");
 

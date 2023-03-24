@@ -111,11 +111,11 @@ public class BuscarTodosLimitesTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/buscarTodosLimites/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        filesCompareByLine(pathFileLegado, pathFileProxy);
+        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
         System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
 
         assertEquals(statusCodeLegado, statusCodeProxy);
-
+        assertEquals(-1, result);
     }
 }

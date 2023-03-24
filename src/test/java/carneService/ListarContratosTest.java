@@ -23,7 +23,7 @@ import static utils.CompareFiles.filesCompareByLine;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ListarContratosTest {
 
-    final String PROXY_URL_CARNE = "http://internal-alb-renner-proxy-511841837.us-east-2.elb.amazonaws.com:21634/Services/CarneService.svc";
+    final String PROXY_URL_CARNE = "http://internal-alb-renner-proxy-1897409209.us-east-2.elb.amazonaws.com:21634/Services/CarneService.svc";
     final String LEGADO_URL_CARNE = "http://10.75.30.52:21634/Services/CarneService.svc";
 
     @Order(4)
@@ -134,16 +134,16 @@ public class ListarContratosTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/listarContratos/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        filesCompareByLine(pathFileLegado, pathFileProxy);
+        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
         System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
 
         assertEquals(statusCodeLegado, statusCodeProxy);
-
+        assertEquals(-1, result);
     }
 
     @Order(3)
-    @DisplayName("Testes Regras de Negócio - StatusCode 500")
+    @DisplayName("Testes CPF inválido - StatusCode 500")
     @ParameterizedTest
     @CsvFileSource(resources = "/massaDeTestes/listarcontratos/listarContratosMassaDeTestes_SC_ERR.csv", numLinesToSkip = 1, delimiter = ';')
     public void ListarContratosTest_SC_INT_ERR(String ReferenceTest, String CPF, String Chapa, String Contrato, String FiltroDataFim, String FiltroDataInicio,
@@ -250,11 +250,12 @@ public class ListarContratosTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/listarContratos/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        filesCompareByLine(pathFileLegado, pathFileProxy);
+        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
         System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
 
         assertEquals(statusCodeLegado, statusCodeProxy);
+        assertEquals(-1, result);
     }
 
     @Order(1)
@@ -466,11 +467,11 @@ public class ListarContratosTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/listarContratos/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        filesCompareByLine(pathFileLegado, pathFileProxy);
+        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
         System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
 
         assertEquals(statusCodeLegado, statusCodeProxy);
+        assertEquals(-1, result);
     }
-
 }

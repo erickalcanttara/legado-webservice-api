@@ -20,15 +20,15 @@ import static utils.CompareFiles.filesCompareByLine;
 
 public class BuscarDadosAlteracaoLimitesTest {
 
-    final String PROXY_URL_CONTA = "http://internal-alb-renner-proxy-1897409209.us-east-2.elb.amazonaws.com:21634/Services/ContaService.svc";
+    final String PROXY_URL_CONTA = "http://internal-alb-renner-proxy-511841837.us-east-2.elb.amazonaws.com:21634/Services/ContaService.svc";
     final String LEGADO_URL_CONTA = "http://10.75.30.52:21634/Services/ContaService.svc";
 
     @DisplayName("Testes Regras de Negócio - StatusCode 200")
     @ParameterizedTest
-    @CsvFileSource(resources = "/massaDeTestes/buscarDadosAlteracaoLimites/buscarDadosMassaDeTestes.csv", numLinesToSkip = 1, delimiter = ';')
+    @CsvFileSource(resources = "/massaDeTestes/buscarDadosAlteracaoLimites/massaDeTestesAlteracaoLimitesCorreto.csv", numLinesToSkip = 1, delimiter = ';')
     public void BuscarDadosAlteracaoLimitesTest_SC_OK(String ReferenceTest, String CPF, String id_conta) throws IOException {
 
-        System.out.println("O CPF utilizado é: " + CPF + " e o id_conta é: " + id_conta);
+        System.out.println("O CPF é: " + CPF + " e o id_conta é: " + id_conta);
 
         String requestBody = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:br=\"br.com.conductor.RealizeWs.ContaService\" xmlns:br1=\"br.com.conductor.RealizeWs.Conta.Contracts\">\n" +
                 "   <soapenv:Header/>\n" +
@@ -122,13 +122,11 @@ public class BuscarDadosAlteracaoLimitesTest {
        System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
 
        assertEquals(statusCodeLegado, statusCodeProxy);
-
-
     }
 
     @DisplayName("Testes Regras de Negócio - StatusCode 500")
     @ParameterizedTest
-    @CsvFileSource(resources = "/massaDeTestes/buscarDadosAlteracaoLimites/buscarDadosMassaDeTestes_SC_ERR.csv", numLinesToSkip = 1, delimiter = ';')
+    @CsvFileSource(resources = "/massaDeTestes/buscarDadosAlteracaoLimites/massaDeTestesAlteracaoLimites.csv", numLinesToSkip = 1, delimiter = ';')
     public void BuscarDadosAlteracaoLimites_SC_INT_ERR(String ReferenceTest, String CPF) throws IOException {
 
         String requestBody = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:br=\"br.com.conductor.RealizeWs.ContaService\" xmlns:br1=\"br.com.conductor.RealizeWs.Conta.Contracts\">\n" +
@@ -216,9 +214,10 @@ public class BuscarDadosAlteracaoLimitesTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/buscarDadosAlteracaoLimites/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        filesCompareByLine(pathFileLegado, pathFileProxy);
+        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
         assertEquals(statusCodeLegado, statusCodeProxy);
+        assertEquals(-1, result);
     }
 
     @DisplayName("Testes Estruturais - StatusCode 500")
@@ -311,9 +310,10 @@ public class BuscarDadosAlteracaoLimitesTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/buscarDadosAlteracaoLimites/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-        filesCompareByLine(pathFileLegado, pathFileProxy);
+        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
         assertEquals(statusCodeLegado, statusCodeProxy);
+        assertEquals(-1, result);
     }
 
 

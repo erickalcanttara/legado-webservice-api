@@ -1,0 +1,5 @@
+﻿ReferenteTest;CPF;Chapa;id_conta;Descricao
+ER.00001;9919130095;R2D2;8706185;Normal;11 caracteres
+ER.00002;991913024982;R2D2;8706184;Creliq;12 caracteres
+ER.00003;99.91302650;R2D2;8706183;Bloqueada Inadimplencia;Com caracter especial
+ER.00004;9919130s811;R2D2;8706182;Cancelada;com letra
