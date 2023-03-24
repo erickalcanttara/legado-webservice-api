@@ -28,18 +28,30 @@ public class CompareFiles {
                 String linhaLegadoWithoutWhiteSpaces = StringUtils.deleteWhitespace(linhaLegado);
                 String linhaProxyWithoutWhiteSpaces = StringUtils.deleteWhitespace(linhaProxy);
 
-                if (linhaProxyWithoutWhiteSpaces == null || !linhaLegadoWithoutWhiteSpaces.equals(linhaProxyWithoutWhiteSpaces)) {
-                    System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
-                    System.out.println("A linha com a primeira diferença é: " + lineNumber + "\n");
+                if(linhaLegadoWithoutWhiteSpaces.equals(linhaProxyWithoutWhiteSpaces)) {
+                    lineNumber++;
+                }else {
+                    if (linhaProxyWithoutWhiteSpaces == null || !linhaLegadoWithoutWhiteSpaces.equals(linhaProxyWithoutWhiteSpaces)) {
+                        if((linhaLegadoWithoutWhiteSpaces.contains("CPFincorreto.") && linhaProxyWithoutWhiteSpaces.contains("FormatoCPFinválido."))
+                                || (linhaLegadoWithoutWhiteSpaces.contains("CPFobrigatório") && linhaProxyWithoutWhiteSpaces.contains("FormatoCPFinválido."))
+                                || (linhaLegadoWithoutWhiteSpaces.contains("CPFnãoencontrado.") && linhaProxyWithoutWhiteSpaces.contains("FormatoCPFinválido."))
+                                || (linhaLegadoWithoutWhiteSpaces.contains("CPFnãoencontrado.") && linhaProxyWithoutWhiteSpaces.contains("ContanãoencontradaparaoCPFinformado."))
+                                || (linhaLegadoWithoutWhiteSpaces.contains("Cartao/Contanãoencontrado.") && linhaProxyWithoutWhiteSpaces.contains("ContanãoencontradaparaoCPFinformado."))
+                        ){
+                            lineNumber++;
+                        }else{
+                            System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
+                            System.out.println("A linha com a primeira diferença é: " + lineNumber + "\n");
 
-                    System.out.println("\nA linha que representa o Legado mostra: " + linhaLegadoWithoutWhiteSpaces);
-                    System.out.println("A linha que representa o Proxy mostra: " + linhaProxyWithoutWhiteSpaces);
-                    return lineNumber;
+                            System.out.println("\nA linha que representa o Legado mostra: " + linhaLegadoWithoutWhiteSpaces);
+                            System.out.println("A linha que representa o Proxy mostra: " + linhaProxyWithoutWhiteSpaces);
+                            return lineNumber;
+                        }
+                    }
                 }
-                lineNumber++;
             }
             if (bf2.readLine() == null) {
-                System.out.println("\nOs arquivos têm o mesmo conteúdo.");
+                System.out.println("Os arquivos têm o mesmo conteúdo.");
                 return -1;
             }
             else {

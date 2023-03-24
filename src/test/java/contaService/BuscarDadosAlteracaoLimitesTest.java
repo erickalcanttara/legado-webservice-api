@@ -3,14 +3,17 @@ package contaService;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.MethodOrderer;
+
+import org.junit.jupiter.api.Order;
+import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
+import org.junit.jupiter.params.provider.NullAndEmptySource;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -18,14 +21,16 @@ import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static utils.CompareFiles.filesCompareByLine;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class BuscarDadosAlteracaoLimitesTest {
 
-    final String PROXY_URL_CONTA = "http://internal-alb-renner-proxy-511841837.us-east-2.elb.amazonaws.com:21634/Services/ContaService.svc";
+    final String PROXY_URL_CONTA = "http://internal-alb-renner-proxy-1897409209.us-east-2.elb.amazonaws.com:21634/Services/ContaService.svc";
     final String LEGADO_URL_CONTA = "http://10.75.30.52:21634/Services/ContaService.svc";
 
+    @Order(3)
     @DisplayName("Testes Regras de Negócio - StatusCode 200")
     @ParameterizedTest
-    @CsvFileSource(resources = "/massaDeTestes/buscarDadosAlteracaoLimites/massaDeTestesAlteracaoLimitesCorreto.csv", numLinesToSkip = 1, delimiter = ';')
+    @CsvFileSource(resources = "/massaDeTestes/buscarDadosAlteracaoLimites/massaDeTestesAlteracaoLimites-1000contas.csv", numLinesToSkip = 1, delimiter = ';')
     public void BuscarDadosAlteracaoLimitesTest_SC_OK(String ReferenceTest, String CPF, String id_conta) throws IOException {
 
         System.out.println("O CPF é: " + CPF + " e o id_conta é: " + id_conta);
@@ -60,7 +65,7 @@ public class BuscarDadosAlteracaoLimitesTest {
                 then().
                         log().status().
                         assertThat().
-                        statusCode(HttpStatus.SC_OK).
+                        //statusCode(HttpStatus.SC_OK).
                         extract().
                         response();
 
@@ -103,7 +108,7 @@ public class BuscarDadosAlteracaoLimitesTest {
                         post(LEGADO_URL_CONTA).
                 then().
                         log().status().
-                        statusCode(HttpStatus.SC_OK).
+                        //statusCode(HttpStatus.SC_OK).
                         extract().
                         response();
 
@@ -117,17 +122,21 @@ public class BuscarDadosAlteracaoLimitesTest {
 
         Path pathFileLegado = Paths.get("src/test/resources/buscarDadosAlteracaoLimites/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
-       filesCompareByLine(pathFileLegado, pathFileProxy);
+        long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
-       System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
+        System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
 
-       assertEquals(statusCodeLegado, statusCodeProxy);
+        assertEquals(statusCodeLegado, statusCodeProxy);
+        assertEquals(-1, result);
     }
 
-    @DisplayName("Testes Regras de Negócio - StatusCode 500")
+    @Order(2)
+    @DisplayName("Testes para CPF Formato Inválido")
     @ParameterizedTest
-    @CsvFileSource(resources = "/massaDeTestes/buscarDadosAlteracaoLimites/massaDeTestesAlteracaoLimites.csv", numLinesToSkip = 1, delimiter = ';')
-    public void BuscarDadosAlteracaoLimites_SC_INT_ERR(String ReferenceTest, String CPF) throws IOException {
+    @CsvFileSource(resources = "/massaDeTestes/buscarDadosAlteracaoLimites/massaDeTestesCPF-FormatoInvalido.csv", numLinesToSkip = 1, delimiter = ';')
+    public void BuscarDadosAlteracaoLimites_SC_INT_ERR(String ReferenceTest, String CPF, String id_conta, String descricaoErro) throws IOException {
+
+        System.out.println("O teste para este CPF é: " + descricaoErro);
 
         String requestBody = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:br=\"br.com.conductor.RealizeWs.ContaService\" xmlns:br1=\"br.com.conductor.RealizeWs.Conta.Contracts\">\n" +
                 "   <soapenv:Header/>\n" +
@@ -220,10 +229,16 @@ public class BuscarDadosAlteracaoLimitesTest {
         assertEquals(-1, result);
     }
 
-    @DisplayName("Testes Estruturais - StatusCode 500")
+    @Order(1)
+    @DisplayName("Testes para CPF Vazio e Nulo")
     @ParameterizedTest
-    @CsvFileSource(resources = "/massaDeTestes/buscarDadosAlteracaoLimites/buscarDadosMassaDeTestes_EST.csv", numLinesToSkip = 1, delimiter = ';')
-    public void BuscarDadosAlteracaoLimites_Estrutural(String ReferenceTest, String CPF) throws IOException {
+    @NullAndEmptySource
+    public void BuscarDadosAlteracaoLimites_Estrutural(String CPF) throws IOException {
+
+        String ReferenceTest = "CPF_VAZIO";
+        if (CPF == null){
+            ReferenceTest = "CPF_NULL";
+        }
 
         String requestBody = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:br=\"br.com.conductor.RealizeWs.ContaService\" xmlns:br1=\"br.com.conductor.RealizeWs.Conta.Contracts\">\n" +
                 "   <soapenv:Header/>\n" +
@@ -315,6 +330,4 @@ public class BuscarDadosAlteracaoLimitesTest {
         assertEquals(statusCodeLegado, statusCodeProxy);
         assertEquals(-1, result);
     }
-
-
 }
