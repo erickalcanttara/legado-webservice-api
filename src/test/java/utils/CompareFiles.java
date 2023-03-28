@@ -25,26 +25,23 @@ public class CompareFiles {
             while ((linhaLegado = bf1.readLine()) != null) {
                 linhaProxy = bf2.readLine();
 
-                String linhaLegadoWithoutWhiteSpaces = StringUtils.deleteWhitespace(linhaLegado);
-                String linhaProxyWithoutWhiteSpaces = StringUtils.deleteWhitespace(linhaProxy);
-
-                if(linhaLegadoWithoutWhiteSpaces.equals(linhaProxyWithoutWhiteSpaces)) {
+                if(linhaLegado.equals(linhaProxy)) {
                     lineNumber++;
                 }else {
-                    if (linhaProxyWithoutWhiteSpaces == null || !linhaLegadoWithoutWhiteSpaces.equals(linhaProxyWithoutWhiteSpaces)) {
-                        if((linhaLegadoWithoutWhiteSpaces.contains("CPFincorreto.") && linhaProxyWithoutWhiteSpaces.contains("FormatoCPFinválido."))
-                                || (linhaLegadoWithoutWhiteSpaces.contains("CPFobrigatório") && linhaProxyWithoutWhiteSpaces.contains("FormatoCPFinválido."))
-                                || (linhaLegadoWithoutWhiteSpaces.contains("CPFnãoencontrado.") && linhaProxyWithoutWhiteSpaces.contains("FormatoCPFinválido."))
-                                || (linhaLegadoWithoutWhiteSpaces.contains("CPFnãoencontrado.") && linhaProxyWithoutWhiteSpaces.contains("ContanãoencontradaparaoCPFinformado."))
-                                || (linhaLegadoWithoutWhiteSpaces.contains("Cartao/Contanãoencontrado.") && linhaProxyWithoutWhiteSpaces.contains("ContanãoencontradaparaoCPFinformado."))
+                    if (linhaProxy == null || !linhaLegado.equals(linhaProxy)) {
+                        if((linhaLegado.contains("CPF incorreto.") && linhaProxy.contains("Formato CPF inválido."))
+                                || (linhaLegado.contains("CPF obrigatório") && linhaProxy.contains("Formato CPF inválido."))
+                                || (linhaLegado.contains("CPF não encontrado.") && linhaProxy.contains("Formato CPF inválido."))
+                                || (linhaLegado.contains("CPF não encontrado.") && linhaProxy.contains("Conta não encontrada parao CPF informado."))
+                                || (linhaLegado.contains("Cartao/Conta não encontrado.") && linhaProxy.contains("Conta não encontrada para o CPF informado."))
                         ){
                             lineNumber++;
                         }else{
                             System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
                             System.out.println("A linha com a primeira diferença é: " + lineNumber + "\n");
 
-                            System.out.println("\nA linha que representa o Legado mostra: " + linhaLegadoWithoutWhiteSpaces);
-                            System.out.println("A linha que representa o Proxy mostra: " + linhaProxyWithoutWhiteSpaces);
+                            System.out.println("\nA linha que representa o Legado mostra: " + linhaLegado);
+                            System.out.println("A linha que representa o Proxy mostra: " + linhaProxy);
                             return lineNumber;
                         }
                     }
@@ -113,6 +110,7 @@ public class CompareFiles {
         }
     }
 
+    // Esse método foi utilizado apenas para gerar massa para o serviço BuscarDadosMotorCredito
     public static void main(String[] args) throws IOException {
 
         Path pathOrigem = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\massaDeTestes\\buscarDadosMotorCredito\\massaTeste2.csv");
