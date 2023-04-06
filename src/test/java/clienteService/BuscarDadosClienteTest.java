@@ -74,6 +74,7 @@ public class BuscarDadosClienteTest {
 
         int statusCodeProxy = proxyResponse.statusCode();
         long timeResponsesProxy = proxyResponse.getTime();
+        String contentTypeProxy = proxyResponse.contentType();
 
         File testDirList = new File("src/test/resources/" + "/buscarDadosCliente/");
         if (!testDirList.exists()){
@@ -116,6 +117,7 @@ public class BuscarDadosClienteTest {
 
         int statusCodeLegado = legadoResponse.statusCode();
         long timeResponsesLegado = legadoResponse.getTime();
+        String contentTypeLegado = proxyResponse.contentType();
 
         FileWriter file2 = new FileWriter("src/test/resources/buscarDadosCliente/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
         file2.write(legadoResponse.prettyPrint());
@@ -128,8 +130,12 @@ public class BuscarDadosClienteTest {
 
         System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
 
+        System.out.println("ContentType Legado: " + contentTypeLegado);
+        System.out.println("ContentType Proxy: " + contentTypeProxy);
+
         assertEquals(statusCodeLegado, statusCodeProxy);
         assertEquals(-1, result);
+        assertEquals(contentTypeLegado, contentTypeProxy);
     }
 
     @Order(1)

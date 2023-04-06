@@ -6,6 +6,8 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CompareFiles {
 
@@ -25,18 +27,18 @@ public class CompareFiles {
             while ((linhaLegado = bf1.readLine()) != null) {
                 linhaProxy = bf2.readLine();
 
-                if(linhaLegado.equals(linhaProxy)) {
+                if (linhaLegado.equals(linhaProxy)) {
                     lineNumber++;
-                }else {
+                } else {
                     if (linhaProxy == null || !linhaLegado.equals(linhaProxy)) {
-                        if((linhaLegado.contains("CPF incorreto.") && linhaProxy.contains("Formato CPF inválido."))
+                        if ((linhaLegado.contains("CPF incorreto.") && linhaProxy.contains("Formato CPF inválido."))
                                 || (linhaLegado.contains("CPF obrigatório") && linhaProxy.contains("Formato CPF inválido."))
                                 || (linhaLegado.contains("CPF não encontrado.") && linhaProxy.contains("Formato CPF inválido."))
                                 || (linhaLegado.contains("CPF não encontrado.") && linhaProxy.contains("Conta não encontrada parao CPF informado."))
                                 || (linhaLegado.contains("Cartao/Conta não encontrado.") && linhaProxy.contains("Conta não encontrada para o CPF informado."))
-                        ){
+                        ) {
                             lineNumber++;
-                        }else{
+                        } else {
                             System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
                             System.out.println("A linha com a primeira diferença é: " + lineNumber + "\n");
 
@@ -50,8 +52,7 @@ public class CompareFiles {
             if (bf2.readLine() == null) {
                 System.out.println("Os arquivos têm o mesmo conteúdo.");
                 return -1;
-            }
-            else {
+            } else {
                 return lineNumber;
             }
         }
@@ -70,11 +71,11 @@ public class CompareFiles {
                 String linhaLegadoWithoutWhiteSpaces = StringUtils.deleteWhitespace(linhaLegado);
                 String linhaProxyWithoutWhiteSpaces = StringUtils.deleteWhitespace(linhaProxy);
 
-                if(linhaLegadoWithoutWhiteSpaces.equals(linhaProxyWithoutWhiteSpaces)) {
+                if (linhaLegadoWithoutWhiteSpaces.equals(linhaProxyWithoutWhiteSpaces)) {
                     lineNumber++;
-                }else {
+                } else {
                     if (linhaProxyWithoutWhiteSpaces == null || !linhaLegadoWithoutWhiteSpaces.equals(linhaProxyWithoutWhiteSpaces)) {
-                        if((linhaLegadoWithoutWhiteSpaces.contains("<a:Afinidade/>") && linhaProxyWithoutWhiteSpaces.contains("<a:Afinidadei:nil=\"true\"/>"))
+                        if ((linhaLegadoWithoutWhiteSpaces.contains("<a:Afinidade/>") && linhaProxyWithoutWhiteSpaces.contains("<a:Afinidadei:nil=\"true\"/>"))
                                 || (linhaLegadoWithoutWhiteSpaces.contains("<a:Sexo/>") && linhaProxyWithoutWhiteSpaces.contains("<a:Sexoi:nil=\"true\"/>"))
                                 || (linhaLegadoWithoutWhiteSpaces.contains("<a:NomeEmpresa/>") && linhaProxyWithoutWhiteSpaces.contains("<a:NomeEmpresai:nil=\"true\"/>"))
                                 || (linhaLegadoWithoutWhiteSpaces.contains("<a:CPF/>") && linhaProxyWithoutWhiteSpaces.contains("<a:CPFi:nil=\"true\"/>"))
@@ -87,9 +88,9 @@ public class CompareFiles {
                                 || (linhaLegadoWithoutWhiteSpaces.contains("CPFincorreto.") && linhaProxyWithoutWhiteSpaces.contains("FormatoCPFinválido."))
                                 || (linhaLegadoWithoutWhiteSpaces.contains("CPFobrigatório") && linhaProxyWithoutWhiteSpaces.contains("FormatoCPFinválido."))
                                 || (linhaLegadoWithoutWhiteSpaces.contains("CPFnãoencontrado.") && linhaProxyWithoutWhiteSpaces.contains("FormatoCPFinválido."))
-                        ){
+                        ) {
                             lineNumber++;
-                        }else{
+                        } else {
                             System.out.println("Os arquivos NÃO têm o mesmo conteúdo");
                             System.out.println("A linha com a primeira diferença é: " + lineNumber + "\n");
 
@@ -103,22 +104,12 @@ public class CompareFiles {
             if (bf2.readLine() == null) {
                 System.out.println("Os arquivos têm o mesmo conteúdo.");
                 return -1;
-            }
-            else {
+            } else {
                 return lineNumber;
             }
         }
     }
 
-    // Esse método foi utilizado apenas para gerar massa para o serviço BuscarDadosMotorCredito
-    public static void main(String[] args) throws IOException {
-
-        Path pathOrigem = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\massaDeTestes\\buscarDadosMotorCredito\\massaTeste2.csv");
-        Path pathDestiny = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\massaDeTestes\\buscarDadosMotorCredito\\massaDeTestesBuscarDadosMotorCredito-3000lines.csv");
-
-        replicaTestBuscarDadosMotorCredito(pathOrigem, pathDestiny);
-
-    }
     public static void replicaTestBuscarDadosMotorCredito(Path pathOrigem, Path PathDestine) throws IOException {
         try {
             FileReader file = new FileReader(String.valueOf(pathOrigem));
@@ -132,7 +123,7 @@ public class CompareFiles {
                 System.out.println(line);
                 String[] lineSplited = line.split(";");
                 for (int i = 0; i < 3; i++) {
-                    fileWriter.write( lineSplited[0] + getRandomNumber(0, 3003) + ";" + lineSplited[1] + ";" + lineSplited[2] + ";" + (i + 1) + ";" +
+                    fileWriter.write(lineSplited[0] + getRandomNumber(0, 3003) + ";" + lineSplited[1] + ";" + lineSplited[2] + ";" + (i + 1) + ";" +
                             lineSplited[4] + ";" + lineSplited[5] + "\n");
                     fileWriter.flush();
                 }
@@ -144,8 +135,87 @@ public class CompareFiles {
             e.printStackTrace();
         }
     }
+
     public static int getRandomNumber(int min, int max) {
         return (int) ((Math.random() * (max - min)) + min);
     }
 
+
+    // Esse método foi utilizado apenas para gerar massa para o serviço BuscarDadosMotorCredito
+    public static void main(String[] args) throws IOException {
+
+        /*Path pathOrigem = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\massaDeTestes\\buscarDadosMotorCredito\\massaTeste2.csv");
+        Path pathDestiny = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\massaDeTestes\\buscarDadosMotorCredito\\massaDeTestesBuscarDadosMotorCredito-3000lines.csv");
+
+        replicaTestBuscarDadosMotorCredito(pathOrigem, pathDestiny);*/
+
+        Path pathOrigem = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\consultarFaturasCPFV3\\T119\\T119-ws.xml");
+        Path pathDestiny = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\consultarFaturasCPFV3\\T119\\T119-in.xml");
+
+        filesCompareByLine_for_FaturaService(pathOrigem, pathDestiny);
+        //filesCompareByLineTEST_CPF(pathOrigem, pathDestiny);
+
+    }
+    public static long filesCompareByLine_for_FaturaService(Path path1, Path path2) throws IOException {
+        try (BufferedReader bf1 = Files.newBufferedReader(path1);
+             BufferedReader bf2 = Files.newBufferedReader(path2);
+             BufferedReader bf3 = Files.newBufferedReader(path2)) {
+
+            long lineNumber = 1;
+            String linhaLegado = "", linhaProxy = "";
+
+            List<String> arrayForResponseProxy = new ArrayList<>();
+            List<String> arrayForLinesLegado = new ArrayList<>();
+            while ((linhaProxy = bf2.readLine()) != null) {
+                arrayForResponseProxy.add(linhaProxy);
+            }
+            System.out.println(arrayForResponseProxy.size());
+
+            String linhaProxyIterator = "";
+            while ((linhaLegado = bf1.readLine()) != null) {
+                linhaProxyIterator = bf3.readLine();
+
+                if (linhaProxyIterator == null || !linhaLegado.equals(linhaProxyIterator)) {
+                    if ((linhaLegado.contains("<a:Descricao>") && linhaProxyIterator.contains("<a:Descricao>"))
+                            || (linhaLegado.contains("<a:DescricaoLancamento>") && linhaProxyIterator.contains("<a:DescricaoLancamento>"))){
+                        arrayForResponseProxy.remove(linhaProxyIterator);
+                        lineNumber++;
+                    }
+                    String elementOnList = findElementOnList(linhaLegado, arrayForResponseProxy, linhaProxyIterator);
+                    if(elementOnList != null){
+                        lineNumber++;
+                    } else {
+                        arrayForLinesLegado.add(elementOnList);
+                        return lineNumber;
+                    }
+                } else {
+                    arrayForResponseProxy.remove(linhaProxyIterator);
+                    lineNumber++;
+                }
+            }
+
+            System.out.println(arrayForLinesLegado.size());
+            for (int i = 0; i < arrayForLinesLegado.size(); i++) {
+                System.out.println(arrayForLinesLegado.get(i));
+            }
+            if (bf3.readLine() == null) {
+                System.out.println("Os arquivos têm o mesmo conteúdo.");
+                return -1;
+            } else {
+                return lineNumber;
+            }
+        }
+    }
+
+    private static String findElementOnList(String linhaLegado, List<String> arrayForResponseProxy, String linhaProxyIterator) {
+        String element = "";
+        for (int i = 0; i < arrayForResponseProxy.size(); i++) {
+            if (linhaLegado.equals(arrayForResponseProxy.get(i))){
+                element = arrayForResponseProxy.get(i);
+                arrayForResponseProxy.remove(linhaProxyIterator);
+            }
+        }
+        System.out.println(element);
+        return element;
+    }
 }

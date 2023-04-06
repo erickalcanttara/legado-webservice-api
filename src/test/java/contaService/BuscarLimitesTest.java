@@ -23,7 +23,8 @@ public class BuscarLimitesTest {
 
     @DisplayName("Testes Regras de Negócio - StatusCode 200")
     @ParameterizedTest
-    @CsvFileSource(resources = "/massaDeTestes/buscarTodosLimites/buscarTodosLimitesMassaDeTestes.csv", numLinesToSkip = 1, delimiter = ';')
+    @CsvFileSource(files = {"C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\massaDeTestes\\buscarTodosLimites\\buscarTodosLimitesMassaDeTestes.csv",
+            "C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\massaDeTestes\\buscarTodosLimites\\MassaDeTestes-MaisDeUmCartao.csv"}, numLinesToSkip = 1, delimiter = ';')
     public void BuscarTodosLimitesTest_SC_OK(String ReferenceTest, String CPF, String id_conta) throws IOException {
 
         String requestBody = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:br=\"br.com.conductor.RealizeWs.ContaService\" xmlns:br1=\"br.com.conductor.RealizeWs.Conta.Contracts\">\n" +
