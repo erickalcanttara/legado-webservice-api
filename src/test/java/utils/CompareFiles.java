@@ -1,6 +1,7 @@
 package utils;
 
 import org.apache.commons.lang3.StringUtils;
+import org.junit.jupiter.api.Assertions;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -8,6 +9,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CompareFiles {
 
@@ -149,73 +152,67 @@ public class CompareFiles {
 
         replicaTestBuscarDadosMotorCredito(pathOrigem, pathDestiny);*/
 
-        Path pathOrigem = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\consultarFaturasCPFV3\\T119\\T119-ws.xml");
-        Path pathDestiny = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\consultarFaturasCPFV3\\T119\\T119-in.xml");
+        Path pathOrigem = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\consultarFaturasCPFV3\\T100\\T100-ws.xml");
+        Path pathDestiny = Paths.get("C:\\Users\\erick.alcantara\\IdeaProjects\\MigracaoWSsRenner\\src\\test\\resources\\consultarFaturasCPFV3\\T100\\T100-in.xml");
 
+        System.out.println("Primeira chamada com Legado e Proxy");
         filesCompareByLine_for_FaturaService(pathOrigem, pathDestiny);
-        //filesCompareByLineTEST_CPF(pathOrigem, pathDestiny);
+
+        System.out.println("Segunda chamada com Proxy e Legado");
+        filesCompareByLine_for_FaturaService(pathDestiny, pathOrigem);
+
 
     }
     public static long filesCompareByLine_for_FaturaService(Path path1, Path path2) throws IOException {
         try (BufferedReader bf1 = Files.newBufferedReader(path1);
-             BufferedReader bf2 = Files.newBufferedReader(path2);
-             BufferedReader bf3 = Files.newBufferedReader(path2)) {
+             BufferedReader bf2 = Files.newBufferedReader(path2)) {
 
-            long lineNumber = 1;
-            String linhaLegado = "", linhaProxy = "";
+            String linhaPrimeiroArquivo = "", linhaSegundoArquivo = "";
 
-            List<String> arrayForResponseProxy = new ArrayList<>();
-            List<String> arrayForLinesLegado = new ArrayList<>();
-            while ((linhaProxy = bf2.readLine()) != null) {
-                arrayForResponseProxy.add(linhaProxy);
+            List<String> arrayPrimeiroArquivo = new ArrayList<>();
+            List<String> arraySegundoArquivo = new ArrayList<>();
+            while ((linhaPrimeiroArquivo = bf1.readLine()) != null) {
+                arrayPrimeiroArquivo.add(linhaPrimeiroArquivo);
             }
-            System.out.println(arrayForResponseProxy.size());
+            while ((linhaSegundoArquivo = bf2.readLine()) != null) {
+                arraySegundoArquivo.add(linhaSegundoArquivo);
+            }
 
-            String linhaProxyIterator = "";
-            while ((linhaLegado = bf1.readLine()) != null) {
-                linhaProxyIterator = bf3.readLine();
+            assertEquals(arrayPrimeiroArquivo.size(), arraySegundoArquivo.size(), "Os arquivos não têm o mesmo tamanho");
 
-                if (linhaProxyIterator == null || !linhaLegado.equals(linhaProxyIterator)) {
-                    if ((linhaLegado.contains("<a:Descricao>") && linhaProxyIterator.contains("<a:Descricao>"))
-                            || (linhaLegado.contains("<a:DescricaoLancamento>") && linhaProxyIterator.contains("<a:DescricaoLancamento>"))){
-                        arrayForResponseProxy.remove(linhaProxyIterator);
-                        lineNumber++;
+            System.out.println("\nO primeiro arquivo é de tamanho: "  + arrayPrimeiroArquivo.size());
+            System.out.println("O segundo arquivo é de tamanho: "  + arraySegundoArquivo.size());
+
+            for (int i = 0; i < arrayPrimeiroArquivo.size(); i++) {
+                for (int j = 0; j < arraySegundoArquivo.size(); j++) {
+                    if (arrayPrimeiroArquivo.get(i).equals(arraySegundoArquivo.get(j))){
+                        arraySegundoArquivo.remove(arraySegundoArquivo.get(j));
                     }
-                    String elementOnList = findElementOnList(linhaLegado, arrayForResponseProxy, linhaProxyIterator);
-                    if(elementOnList != null){
-                        lineNumber++;
-                    } else {
-                        arrayForLinesLegado.add(elementOnList);
-                        return lineNumber;
+                    if ((arrayPrimeiroArquivo.get(i).contains("<a:Descricao>") && arraySegundoArquivo.get(j).contains("<a:Descricao>"))
+                            || (arrayPrimeiroArquivo.get(i).contains("<a:DescricaoLancamento>") && arraySegundoArquivo.get(j).contains("<a:DescricaoLancamento>"))
+                            || (arrayPrimeiroArquivo.get(i).contains("<a:Parcelas i:nil=\"true\"") && arraySegundoArquivo.get(j).contains("<a:Parcelas"))
+                            || (arrayPrimeiroArquivo.get(i).contains("<a:Parcelas") && arraySegundoArquivo.get(j).contains("<a:Parcelas i:nil=\"true\""))
+                            || (arrayPrimeiroArquivo.get(i).contains("<a:ComprasDebitos>0</a:ComprasDebitos>") && arraySegundoArquivo.get(j).contains("<a:ComprasDebitos>0.00</a:ComprasDebitos>"))
+                            || (arrayPrimeiroArquivo.get(i).contains("<a:ComprasDebitos>0.00</a:ComprasDebitos>") && arraySegundoArquivo.get(j).contains("<a:ComprasDebitos>0</a:ComprasDebitos>"))
+                            || (arrayPrimeiroArquivo.get(i).contains("<a:Creditos>0</a:Creditos>") && arraySegundoArquivo.get(j).contains("<a:Creditos>0.00</a:Creditos>"))
+                            || (arrayPrimeiroArquivo.get(i).contains("<a:Creditos>0.00</a:Creditos>") && arraySegundoArquivo.get(j).contains("<a:Creditos>0</a:Creditos>"))
+                            || (arrayPrimeiroArquivo.get(i).contains("<a:Total>0</a:Total>") && arraySegundoArquivo.get(j).contains("<a:Total>0.00</a:Total>"))
+                            || (arrayPrimeiroArquivo.get(i).contains("<a:Total>0.00</a:Total>") && arraySegundoArquivo.get(j).contains("<a:Total>0</a:Total>"))
+                            || (arrayPrimeiroArquivo.get(i).contains("<a:NumeroCartao>") && arraySegundoArquivo.get(j).contains("<a:NumeroCartao>"))
+                    ){
+                        arraySegundoArquivo.remove(arraySegundoArquivo.get(j));
                     }
-                } else {
-                    arrayForResponseProxy.remove(linhaProxyIterator);
-                    lineNumber++;
                 }
             }
 
-            System.out.println(arrayForLinesLegado.size());
-            for (int i = 0; i < arrayForLinesLegado.size(); i++) {
-                System.out.println(arrayForLinesLegado.get(i));
-            }
-            if (bf3.readLine() == null) {
-                System.out.println("Os arquivos têm o mesmo conteúdo.");
-                return -1;
-            } else {
-                return lineNumber;
-            }
-        }
-    }
+            System.out.println("\nO primeiro arquivo ficou com tamanho: " + arrayPrimeiroArquivo.size());
+            System.out.println("O segundo arquivo ficou com tamanho: " + arraySegundoArquivo.size());
 
-    private static String findElementOnList(String linhaLegado, List<String> arrayForResponseProxy, String linhaProxyIterator) {
-        String element = "";
-        for (int i = 0; i < arrayForResponseProxy.size(); i++) {
-            if (linhaLegado.equals(arrayForResponseProxy.get(i))){
-                element = arrayForResponseProxy.get(i);
-                arrayForResponseProxy.remove(linhaProxyIterator);
+            System.out.println("As linhas que sobraram foram: ");
+            for (int i = 0; i < arraySegundoArquivo.size(); i++) {
+                System.out.println(arraySegundoArquivo.get(i));
             }
+            return arraySegundoArquivo.size();
         }
-        System.out.println(element);
-        return element;
     }
 }
