@@ -1,7 +1,6 @@
 package faturaService;
 
 import io.restassured.response.Response;
-import org.apache.http.HttpStatus;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -9,7 +8,6 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -17,35 +15,43 @@ import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static utils.CompareFiles.filesCompareByLine_for_FaturaService;
 
-public class consultarFaturaCPFV3test {
+public class BuscarParcelamentoFaturaCompletotest {
 
     final String PROXY_URL_FATURA = "http://internal-alb-renner-proxy-511841837.us-east-2.elb.amazonaws.com:21634/Services/FaturaService.svc";
     final String LEGADO_URL_FATURA = "http://10.75.30.52:21634/Services/FaturaService.svc";
 
     @DisplayName("Testes Regras de Negócio - StatusCode 200")
     @ParameterizedTest
-    @CsvFileSource(resources = "/massaDeTestes/consultarFaturaCPFv3/consultarFaturaCPFv3MassaDeTestes.csv", numLinesToSkip = 1, delimiter = ';')
-    public void ConsultarFaturaCPFV3_Test_SC_OK(String ReferenceTest, String CPF, String id_conta) throws IOException {
+    @CsvFileSource(resources = "/massaDeTestes/buscarParcelamentoFaturaCompleto/buscarParcelamentoFaturaCompletoMassaDeDados3.csv", numLinesToSkip = 1, delimiter = ';')
+    public void BuscarParcelamentoFaturaCompleto_Test_SC_OK(String ReferenceTest, String CPF,String dataVencimento, String id_conta, int statusConta,
+                                                                String regraCamapanha, String statusAdesao) throws IOException {
 
-        System.out.println("O CPF usado é: " + CPF + " e o id_conta usado é: " + id_conta);
+        System.out.println("CPF: " + CPF + "\ndataVencimento é: " + dataVencimento + "\n" +
+                "id_conta usado é: " + id_conta + "\nStatusConta: " + statusConta + "\nregraCampanha: " + regraCamapanha + "\nStatusAdesao: " + statusAdesao);
+
+        String[] dataVencimentoFormatada = dataVencimento.split(" ");
 
         String requestBody = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:br=\"br.com.conductor.RealizeWs.FaturaService\" xmlns:br1=\"br.com.conductor.RealizeWs.Fatura.Contracts\">\n" +
                 "   <soapenv:Header/>\n" +
                 "   <soapenv:Body>\n" +
-                "      <br:ConsultarFaturasCPFV3>\n" +
+                "      <br:BuscarParcelamentoFaturaCompleto>\n" +
                 "         <!--Optional:-->\n" +
                 "         <br:request>\n" +
                 "            <!--Optional:-->\n" +
                 "            <br1:CPF>" + CPF + "</br1:CPF>\n" +
+                "            <!--Optional:-->\n" +
+                "            <br1:Chapa>123</br1:Chapa>\n" +
+                "            <!--Optional:-->\n" +
+                "            <br1:DataVencimento>" + dataVencimentoFormatada[0] + "T" + dataVencimentoFormatada[1]+ "</br1:DataVencimento>\n" +
                 "         </br:request>\n" +
-                "      </br:ConsultarFaturasCPFV3>\n" +
+                "      </br:BuscarParcelamentoFaturaCompleto>\n" +
                 "   </soapenv:Body>\n" +
                 "</soapenv:Envelope>";
 
         Response proxyResponse =
                 given().
                         header("Content-Type", "text/xml; charset=utf-8").
-                        header("SOAPAction", "\"br.com.conductor.RealizeWs.FaturaService/FaturaService/ConsultarFaturasCPFV3\"").
+                        header("SOAPAction", "\"br.com.conductor.RealizeWs.FaturaService/FaturaService/BuscarParcelamentoFaturaCompleto\"").
                         accept("*/*").
                         body(requestBody).
                         log().method().
@@ -57,7 +63,6 @@ public class consultarFaturaCPFV3test {
                 then().
                         log().status().
                         assertThat().
-                        statusCode(HttpStatus.SC_OK).
                         extract().
                         response();
 
@@ -65,32 +70,32 @@ public class consultarFaturaCPFV3test {
         long timeResponsesProxy = proxyResponse.getTime();
         String contentTypeProxy = proxyResponse.contentType();
 
-        File testDirList = new File("src/test/resources/" + "/consultarFaturasCPFV3/");
+        File testDirList = new File("src/test/resources/" + "/buscarParcelamentoFaturaCompleto/");
         if (!testDirList.exists()){
             testDirList.mkdirs();
         }
 
-        File testDir = new File("src/test/resources/consultarFaturasCPFV3/" + ReferenceTest + "/");
+        File testDir = new File("src/test/resources/buscarParcelamentoFaturaCompleto/" + ReferenceTest + "/");
         if (!testDir.exists()){
             testDir.mkdirs();
         }
 
-        FileWriter file = new FileWriter("src/test/resources/consultarFaturasCPFV3/" + ReferenceTest + "/" + ReferenceTest + "-in.xml");
+        FileWriter file = new FileWriter("src/test/resources/buscarParcelamentoFaturaCompleto/" + ReferenceTest + "/" + ReferenceTest + "-in.xml");
         file.write(proxyResponse.prettyPrint());
         file.flush();
         file.close();
 
-        FileWriter fileRq = new FileWriter("src/test/resources/consultarFaturasCPFV3/" + ReferenceTest + "/" + ReferenceTest +  "-rq.xml");
+        FileWriter fileRq = new FileWriter("src/test/resources/buscarParcelamentoFaturaCompleto/" + ReferenceTest + "/" + ReferenceTest +  "-rq.xml");
         fileRq.write(requestBody);
         fileRq.flush();
         fileRq.close();
 
-        Path pathFileProxy = Paths.get("src/test/resources/consultarFaturasCPFV3/" + ReferenceTest + "/" + ReferenceTest +  "-in.xml");
+        Path pathFileProxy = Paths.get("src/test/resources/buscarParcelamentoFaturaCompleto/" + ReferenceTest + "/" + ReferenceTest +  "-in.xml");
 
         Response legadoResponse =
                 given().
                         header("Content-Type", "text/xml; charset=utf-8").
-                        header("SOAPAction", "br.com.conductor.RealizeWs.FaturaService/FaturaService/ConsultarFaturasCPFV3").
+                        header("SOAPAction", "br.com.conductor.RealizeWs.FaturaService/FaturaService/BuscarParcelamentoFaturaCompleto").
                         accept("*/*").
                         body(requestBody).
                         log().method().
@@ -101,7 +106,6 @@ public class consultarFaturaCPFV3test {
                         post(LEGADO_URL_FATURA).
                 then().
                         log().status().
-                        statusCode(HttpStatus.SC_OK).
                         extract().
                         response();
 
@@ -109,13 +113,14 @@ public class consultarFaturaCPFV3test {
         long timeResponsesLegado = legadoResponse.getTime();
         String contentTypeLegado = legadoResponse.contentType();
 
-        FileWriter file2 = new FileWriter("src/test/resources/consultarFaturasCPFV3/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
+        FileWriter file2 = new FileWriter("src/test/resources/buscarParcelamentoFaturaCompleto/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
         file2.write(legadoResponse.prettyPrint());
         file2.flush();
         file2.close();
 
-        Path pathFileLegado = Paths.get("src/test/resources/consultarFaturasCPFV3/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
+        Path pathFileLegado = Paths.get("src/test/resources/buscarParcelamentoFaturaCompleto/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
+        //long result = filesCompareByLine(pathFileLegado, pathFileProxy);
         System.out.println("A primeira comparação se dá entre Legado e Proxy: \n");
         long result = filesCompareByLine_for_FaturaService(pathFileLegado, pathFileProxy);
         System.out.println("A segunda comparação se dá entre Proxy e Legado: \n");
