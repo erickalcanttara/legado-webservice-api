@@ -1,13 +1,11 @@
-package clienteService;
-
+package contaService;
 
 import io.restassured.response.Response;
+import org.apache.http.HttpStatus;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
-import org.xml.sax.SAXException;
 
-import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -18,38 +16,37 @@ import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static utils.CompareFiles.filesCompareByLine;
 
-public class ListaProdutoPorCPFTest {
+public class ConsultaSituacaoTest {
 
-    final String PROXY_URL_CLIENTE = "http://internal-alb-renner-proxy-511841837.us-east-2.elb.amazonaws.com:21634/Services/ClienteService.svc";
-    final String LEGADO_URL_CLIENTE = "http://10.75.30.52:21634/Services/ClienteService.svc";
+    final String PROXY_URL_CONTA = "http://internal-alb-renner-proxy-511841837.us-east-2.elb.amazonaws.com:21634/Services/ContaService.svc";
+    final String LEGADO_URL_CONTA = "http://10.75.30.52:21634/Services/ContaService.svc";
 
     @DisplayName("Testes Regras de Negócio - StatusCode 200")
     @ParameterizedTest
-    @CsvFileSource(resources = "/massaDeTestes/listaProdutoPorCPF/listaProdutoPorCPFMassaDeTestes2.csv", numLinesToSkip = 1, delimiter = ';')
-    public void ListaProdutoPorCPFTest_SC_OK(String ReferenceTest, String CPF, String id_conta, String statusConta, String id_produto, String descricaoProduto) throws IOException, ParserConfigurationException, SAXException {
+    @CsvFileSource(resources = "/massaDeTestes/consultaSituacao/consultaSituacaoMassaDeTestes.csv", numLinesToSkip = 1, delimiter = ';')
+    public void ConsultaSituacao_SC_OK(String ReferenceTest, String CPF, String id_conta, String statusConta) throws IOException {
 
-        System.out.println("ReferenceTest = " + ReferenceTest + "\nCPF = " + CPF + "\nid_conta = " + id_conta + "\nstatusConta = " + statusConta +
-                "\nid_produto = " + id_produto + "\ndescricaoProduto = " + descricaoProduto);
+        System.out.println("ReferenceTest = " + ReferenceTest + "\nCPF = " + CPF + "\nid_conta = " + id_conta + "\ntatusConta = " + statusConta);
 
-        String requestBody = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:br=\"br.com.conductor.RealizeWs.ClienteService\" xmlns:br1=\"br.com.conductor.RealizeWs.Cliente.Contracts\">\n" +
+        String requestBody = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:br=\"br.com.conductor.RealizeWs.ContaService\" xmlns:br1=\"br.com.conductor.RealizeWs.Conta.Contracts\">\n" +
                 "   <soapenv:Header/>\n" +
                 "   <soapenv:Body>\n" +
-                "      <br:ListaProdutoPorCpf>\n" +
+                "      <br:ConsultaSituacao>\n" +
                 "         <!--Optional:-->\n" +
                 "         <br:request>\n" +
                 "            <!--Optional:-->\n" +
-                "            <br1:CPF>"+ CPF + "</br1:CPF>\n" +
+                "            <br1:CPF>" + CPF + "</br1:CPF>\n" +
                 "            <!--Optional:-->\n" +
                 "            <br1:Chapa>123</br1:Chapa>\n" +
                 "         </br:request>\n" +
-                "      </br:ListaProdutoPorCpf>\n" +
+                "      </br:ConsultaSituacao>\n" +
                 "   </soapenv:Body>\n" +
                 "</soapenv:Envelope>";
 
         Response proxyResponse =
                 given().
                         header("Content-Type", "text/xml; charset=utf-8").
-                        header("SOAPAction", "\"br.com.conductor.RealizeWs.ClienteService/ClienteService/ListaProdutoPorCpf\"").
+                        header("SOAPAction", "\"br.com.conductor.RealizeWs.ContaService/ContaService/ConsultaSituacao\"").
                         accept("*/*").
                         body(requestBody).
                         log().method().
@@ -57,7 +54,7 @@ public class ListaProdutoPorCPFTest {
                         log().headers().
                         log().body().
                 when().
-                        post(PROXY_URL_CLIENTE).
+                        post(PROXY_URL_CONTA).
                 then().
                         log().status().
                         assertThat().
@@ -68,32 +65,32 @@ public class ListaProdutoPorCPFTest {
         long timeResponsesProxy = proxyResponse.getTime();
         String contentTypeProxy = proxyResponse.contentType();
 
-        File testDirList = new File("src/test/resources/" + "/listaProdutoPorCPF/");
+        File testDirList = new File("src/test/resources/" + "/consultaSituacao/");
         if (!testDirList.exists()){
             testDirList.mkdirs();
         }
 
-        File testDir = new File("src/test/resources/listaProdutoPorCPF/" + ReferenceTest + "/");
+        File testDir = new File("src/test/resources/consultaSituacao/" + ReferenceTest + "/");
         if (!testDir.exists()){
             testDir.mkdirs();
         }
 
-        FileWriter file = new FileWriter("src/test/resources/listaProdutoPorCPF/" + ReferenceTest + "/" + ReferenceTest + "-in.xml");
+        FileWriter file = new FileWriter("src/test/resources/consultaSituacao/" + ReferenceTest + "/" + ReferenceTest + "-in.xml");
         file.write(proxyResponse.prettyPrint());
         file.flush();
         file.close();
 
-        FileWriter fileRq = new FileWriter("src/test/resources/listaProdutoPorCPF/" + ReferenceTest + "/" + ReferenceTest +  "-rq.xml");
+        FileWriter fileRq = new FileWriter("src/test/resources/consultaSituacao/" + ReferenceTest + "/" + ReferenceTest +  "-rq.xml");
         fileRq.write(requestBody);
         fileRq.flush();
         fileRq.close();
 
-        Path pathFileProxy = Paths.get("src/test/resources/listaProdutoPorCPF/" + ReferenceTest + "/" + ReferenceTest +  "-in.xml");
+        Path pathFileProxy = Paths.get("src/test/resources/consultaSituacao/" + ReferenceTest + "/" + ReferenceTest +  "-in.xml");
 
         Response legadoResponse =
                 given().
                         header("Content-Type", "text/xml; charset=utf-8").
-                        header("SOAPAction", "br.com.conductor.RealizeWs.ClienteService/ClienteService/ListaProdutoPorCpf").
+                        header("SOAPAction", "br.com.conductor.RealizeWs.ContaService/ContaService/ConsultaSituacao").
                         accept("*/*").
                         body(requestBody).
                         log().method().
@@ -101,7 +98,7 @@ public class ListaProdutoPorCPFTest {
                         log().headers().
                         log().body().
                 when().
-                        post(LEGADO_URL_CLIENTE).
+                        post(LEGADO_URL_CONTA).
                 then().
                         log().status().
                         extract().
@@ -111,12 +108,12 @@ public class ListaProdutoPorCPFTest {
         long timeResponsesLegado = legadoResponse.getTime();
         String contentTypeLegado = legadoResponse.contentType();
 
-        FileWriter file2 = new FileWriter("src/test/resources/listaProdutoPorCPF/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
+        FileWriter file2 = new FileWriter("src/test/resources/consultaSituacao/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
         file2.write(legadoResponse.prettyPrint());
         file2.flush();
         file2.close();
 
-        Path pathFileLegado = Paths.get("src/test/resources/listaProdutoPorCPF/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
+        Path pathFileLegado = Paths.get("src/test/resources/consultaSituacao/" + ReferenceTest + "/" + ReferenceTest +  "-ws.xml");
 
         long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
