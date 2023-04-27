@@ -120,8 +120,6 @@ public class VerificarDisponibilidadeBloqueioTempTest {
 
         long result = filesCompareByLine(pathFileLegado, pathFileProxy);
 
-        assertEquals(statusCodeLegado, statusCodeProxy);
-
         System.out.println("O tempo de respota do Proxy é: " + timeResponsesProxy + "\n" + "O tempo de resposta do Legado é: " + timeResponsesLegado);
         assertEquals(contentTypeLegado, contentTypeProxy, "As chamadas não têm o mesmo Content-Type");
         assertEquals(statusCodeLegado, statusCodeProxy, "As chamadas não têm o mesmo StatusCode");
